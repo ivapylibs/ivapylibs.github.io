@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['readme_2emd_340',['README.md',['../detector_2README_8md.html',1,'(Global Namespace)'],['../perceiver_2README_8md.html',1,'(Global Namespace)']]],
-  ['requires_2etxt_341',['requires.txt',['../requires_8txt.html',1,'']]]
+  ['onworkspace_2epy_364',['onWorkspace.py',['../onWorkspace_8py.html',1,'']]]
 ];

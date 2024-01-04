@@ -1,4 +1,4 @@
 <map id="simple" name="simple">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,72,107"/>
+<area shape="rect" id="node1" title="Simple perceiver class. Most basic implementation." alt="" coords="5,80,72,107"/>
 <area shape="rect" id="node2" title=" " alt="" coords="7,5,70,32"/>
 </map>

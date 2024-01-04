@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['setup_2epy_342',['setup.py',['../detector_2setup_8py.html',1,'(Global Namespace)'],['../perceiver_2setup_8py.html',1,'(Global Namespace)']]],
-  ['simple_2epy_343',['simple.py',['../simple_8py.html',1,'']]],
-  ['sources_2etxt_344',['SOURCES.txt',['../detector_2detector_8egg-info_2SOURCES_8txt.html',1,'(Global Namespace)'],['../perceiver_2perceiver_8egg-info_2SOURCES_8txt.html',1,'(Global Namespace)']]]
+  ['progress_2epy_365',['progress.py',['../progress_8py.html',1,'']]]
 ];

@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classdetector_1_1fromState_1_1detectorState.html" title=" " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,103,57"/>
+<area shape="rect" id="node2" href="$classperceiver_1_1monitor_1_1BuildCfgMonitor.html" title="Build configuration instance for a monitor." alt="" coords="154,5,281,32"/>
+<area shape="rect" id="node3" href="$classperceiver_1_1progress_1_1BuildCfgProgress.html" title="Build configuration instance for a progress monitor." alt="" coords="151,56,284,83"/>
 </map>
