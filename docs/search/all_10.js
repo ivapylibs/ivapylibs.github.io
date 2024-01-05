@@ -12,7 +12,7 @@ var searchData=
   ['setup_227',['setup',['../namespacesetup.html',1,'']]],
   ['setup_2epy_228',['setup.py',['../detector_2setup_8py.html',1,'(Global Namespace)'],['../perceiver_2setup_8py.html',1,'(Global Namespace)']]],
   ['sgmdebug_229',['SGMdebug',['../classdetector_1_1fgmodel_1_1Gaussian_1_1SGMdebug.html',1,'SGMdebug'],['../classdetector_1_1bgmodel_1_1Gaussian_1_1SGMdebug.html',1,'SGMdebug']]],
-  ['sgmstate_230',['SGMstate',['../classdetector_1_1bgmodel_1_1Gaussian_1_1SGMstate.html',1,'SGMstate'],['../classdetector_1_1fgmodel_1_1Gaussian_1_1SGMstate.html',1,'SGMstate']]],
+  ['sgmstate_230',['SGMstate',['../classdetector_1_1fgmodel_1_1Gaussian_1_1SGMstate.html',1,'SGMstate'],['../classdetector_1_1bgmodel_1_1Gaussian_1_1SGMstate.html',1,'SGMstate']]],
   ['shadow_5fmask_231',['shadow_mask',['../classdetector_1_1bgmodel_1_1bgmodelGMM_1_1bgmodelGMM__cv.html#af0ff019372f3d5678e0ae445db10cfee',1,'detector::bgmodel::bgmodelGMM::bgmodelGMM_cv']]],
   ['sig_232',['sig',['../classdetector_1_1fgmodel_1_1targetSG_1_1tModel__SG.html#a9dae697ff4af35ccc89f78e77487126d',1,'detector::fgmodel::targetSG::tModel_SG']]],
   ['sigeignval_233',['sigEignVal',['../classdetector_1_1fgmodel_1_1targetSG_1_1tModel__SG.html#a25515f345e192887e05a0e54ba3c76ee',1,'detector::fgmodel::targetSG::tModel_SG']]],
