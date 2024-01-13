@@ -1,0 +1,10 @@
+<map id="AlgConfig" name="AlgConfig">
+<area shape="rect" id="node1" title="Base class for algorithm configuration." alt="" coords="180,80,259,107"/>
+<area shape="rect" id="node3" href="$classcamera_1_1base_1_1CfgCamera.html" title="Configuration setting specifier for generic camera." alt="" coords="5,155,95,181"/>
+<area shape="rect" id="node4" href="$classivapy_1_1Configuration_1_1BuildConfig.html" title="Base class for algorithm builder configuration." alt="" coords="119,155,208,181"/>
+<area shape="rect" id="node7" href="$classperceiver_1_1monitor_1_1CfgMonitor.html" title="Configuration instance for a Monitor." alt="" coords="232,155,319,181"/>
+<area shape="rect" id="node8" href="$classperceiver_1_1progress_1_1CfgProgress.html" title="Configuration instance for a Progress monitor." alt="" coords="343,155,437,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="182,5,257,32"/>
+<area shape="rect" id="node5" href="$classperceiver_1_1monitor_1_1BuildCfgMonitor.html" title="Build configuration instance for a monitor." alt="" coords="34,229,149,256"/>
+<area shape="rect" id="node6" href="$classperceiver_1_1progress_1_1BuildCfgProgress.html" title="Build configuration instance for a progress monitor." alt="" coords="173,229,297,256"/>
+</map>

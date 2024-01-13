@@ -1,0 +1,22 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,208,80,235"/>
+<area shape="rect" id="node2" href="$classcamera_1_1d435_1_1runner2_1_1CfgD435.html" title="Configuration setting specifier for the D435 camera." alt="" coords="130,157,205,184"/>
+<area shape="rect" id="node3" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="128,208,207,235"/>
+<area shape="rect" id="node14" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration." alt="" coords="128,461,207,488"/>
+<area shape="rect" id="node4" href="$classbyMotion_1_1CfgMoving.html" title="Configuration setting specifier for &quot;motion&quot; detector." alt="" coords="275,5,361,32"/>
+<area shape="rect" id="node5" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="281,56,355,83"/>
+<area shape="rect" id="node7" href="$classdetector_1_1bgmodel_1_1inCorner_1_1CfgInCorner.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="271,107,365,133"/>
+<area shape="rect" id="node8" href="$classdetector_1_1fgmodel_1_1Gaussian_1_1CfgSGT.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="283,157,353,184"/>
+<area shape="rect" id="node9" href="$classperceiver_1_1simple_1_1BuildCfgPerceiver.html" title="Build configuration instance for a perceiver." alt="" coords="255,208,381,235"/>
+<area shape="rect" id="node10" href="$classperceiver_1_1simple_1_1CfgPerceiver.html" title="Configuration instance for a perceiver." alt="" coords="269,259,367,285"/>
+<area shape="rect" id="node11" href="$classtrackpointer_1_1centroid_1_1CfgCentroid.html" title=" " alt="" coords="272,309,364,336"/>
+<area shape="rect" id="node13" href="$classtrackpointer_1_1centroid_1_1CfgCentroind.html" title="Configuration setting specifier for centroidMulti." alt="" coords="269,360,367,387"/>
+<area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="450,56,533,83"/>
+<area shape="rect" id="node12" href="$classtrackpointer_1_1centroidMulti_1_1CfgCentMulti.html" title="Configuration setting specifier for centroidMulti." alt="" coords="442,309,541,336"/>
+<area shape="rect" id="node15" href="$classcamera_1_1base_1_1CfgCamera.html" title="Configuration setting specifier for generic camera." alt="" coords="273,411,363,437"/>
+<area shape="rect" id="node16" href="$classivapy_1_1Configuration_1_1BuildConfig.html" title="Base class for algorithm builder configuration." alt="" coords="273,461,363,488"/>
+<area shape="rect" id="node19" href="$classperceiver_1_1monitor_1_1CfgMonitor.html" title="Configuration instance for a Monitor." alt="" coords="275,512,361,539"/>
+<area shape="rect" id="node20" href="$classperceiver_1_1progress_1_1CfgProgress.html" title="Configuration instance for a Progress monitor." alt="" coords="271,563,365,589"/>
+<area shape="rect" id="node17" href="$classperceiver_1_1monitor_1_1BuildCfgMonitor.html" title="Build configuration instance for a monitor." alt="" coords="434,436,549,463"/>
+<area shape="rect" id="node18" href="$classperceiver_1_1progress_1_1BuildCfgProgress.html" title="Build configuration instance for a progress monitor." alt="" coords="429,487,553,513"/>
+</map>

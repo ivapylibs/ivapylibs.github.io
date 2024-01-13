@@ -1,0 +1,11 @@
+<map id="Base" name="Base">
+<area shape="rect" id="node1" title="Base class for camera runners." alt="" coords="308,5,360,32"/>
+<area shape="rect" id="node2" href="$classcamera_1_1base_1_1Color.html" title="Expands on base class to specialize to color images." alt="" coords="75,80,129,107"/>
+<area shape="rect" id="node5" href="$classcamera_1_1base_1_1Grayscale.html" title="Expands on base class to specialize to color images." alt="" coords="177,80,259,107"/>
+<area shape="rect" id="node6" href="$classcamera_1_1d435_1_1runner2_1_1D435__Runner.html" title=" " alt="" coords="283,80,385,107"/>
+<area shape="rect" id="node8" href="$classcamera_1_1d435new_1_1RGBD.html" title="D435 Color + Depth (RGB+D) image capture class." alt="" coords="411,80,473,107"/>
+<area shape="rect" id="node3" href="$classcamera_1_1base_1_1ReplayColor.html" title="Replay a recorded color stream from a bag file." alt="" coords="5,155,100,181"/>
+<area shape="rect" id="node4" href="$classcamera_1_1d435new_1_1Depth.html" title=" " alt="" coords="124,155,181,181"/>
+<area shape="rect" id="node7" href="$classcamera_1_1d435_1_1runner2_1_1Replay.html" title="Replay a recorded stream from a bag file." alt="" coords="301,155,364,181"/>
+<area shape="rect" id="node9" href="$classcamera_1_1d435new_1_1RGBD__Aligned.html" title="D435 Color + Depth (RGB+D) image capture class." alt="" coords="388,155,499,181"/>
+</map>
