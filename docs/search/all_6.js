@@ -27,7 +27,7 @@ var searchData=
   ['framewriter_276',['frameWriter',['../classcamera_1_1utils_1_1writer_1_1frameWriter.html',1,'camera::utils::writer']]],
   ['free_277',['free',['../classperceiver_1_1monitor_1_1Monitor.html#abc0100ebe0f74d4c2e0da92529c2890b',1,'perceiver.monitor.Monitor.free()'],['../classperceiver_1_1progress_1_1Progress.html#abc0100ebe0f74d4c2e0da92529c2890b',1,'perceiver.progress.Progress.free()'],['../classperceiver_1_1simple_1_1Perceiver.html#abc0100ebe0f74d4c2e0da92529c2890b',1,'perceiver.simple.Perceiver.free()']]],
   ['frombottom_278',['fromBottom',['../classtrackpointer_1_1toplines_1_1fromBottom.html',1,'trackpointer::toplines']]],
-  ['fromstate_279',['fromState',['../classdetector_1_1fromState_1_1fromState.html',1,'detector::fromState']]],
+  ['fromstate_279',['fromState',['../classdetector_1_1fromState_1_1fromState.html',1,'fromState'],['../namespacefromState.html',1,'fromState']]],
   ['fromstate_2epy_280',['fromState.py',['../fromState_8py.html',1,'']]],
   ['fromtop_281',['fromTop',['../classtrackpointer_1_1toplines_1_1fromTop.html',1,'trackpointer::toplines']]]
 ];

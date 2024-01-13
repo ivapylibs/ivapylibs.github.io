@@ -104,7 +104,7 @@ Collaboration diagram for imageRegions:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b41f851c6a9306c613b05ce1ea209cd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbyRegion_1_1imageRegions.html#a2b41f851c6a9306c613b05ce1ea209cd">__init__</a> (self, <a class="el" href="classbyRegion_1_1imageRegions.html#a84b73d6406f6f94666ae76594d9b8264">imRegions</a>=None)</td></tr>
-<tr class="memdesc:a2b41f851c6a9306c613b05ce1ea209cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for fromState instance.  <a href="classbyRegion_1_1imageRegions.html#a2b41f851c6a9306c613b05ce1ea209cd">More...</a><br /></td></tr>
+<tr class="memdesc:a2b41f851c6a9306c613b05ce1ea209cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="namespacefromState.html" title="Detector based on state vector input.">fromState</a> instance.  <a href="classbyRegion_1_1imageRegions.html#a2b41f851c6a9306c613b05ce1ea209cd">More...</a><br /></td></tr>
 <tr class="separator:a2b41f851c6a9306c613b05ce1ea209cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ebff2622457fad82eb04a2397e83cf0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbyRegion_1_1imageRegions.html#a7ebff2622457fad82eb04a2397e83cf0">addRegionByMask</a> (self, regMask)</td></tr>
 <tr class="memdesc:a7ebff2622457fad82eb04a2397e83cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide a masked region to use for defining a new state.  <a href="classbyRegion_1_1imageRegions.html#a7ebff2622457fad82eb04a2397e83cf0">More...</a><br /></td></tr>
@@ -214,7 +214,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Activity states depend on having signal lying in specific regions of an image. Signal is presumably in image pixels. </p>
 <p>The presumption is that the regions are disjoint so that each pixel maps to either 1 or 0 activity/event states. The signals can be pixel coordinates (2D) or it can be pixel coordinates plus depth or height (3D), but up to the underlying class implementation to work out whether that extra coordinate matters and its meaning.</p>
-<p>Chosen not to be a sub-class of inImage due to the fact that these operate differently. Activity recognition checks for presence of signal location in a particular region of the image. Image-based detection checks for presence of target features throughout the entire image.</p>
+<p>Chosen not to be a sub-class of <a class="el" href="namespaceinImage.html" title="Detector based on image input.">inImage</a> due to the fact that these operate differently. Activity recognition checks for presence of signal location in a particular region of the image. Image-based detection checks for presence of target features throughout the entire image.</p>
 <dl class="section note"><dt>Note</dt><dd>Can code both disjoint and overlap. Disjoint = single image region label. Overlapping requires list/array of region masks. Multiple states can be triggered at once. State is a set/list then, not a scalar. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2b41f851c6a9306c613b05ce1ea209cd"></a>
@@ -243,7 +243,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor for fromState instance. </p>
+<p>Constructor for <a class="el" href="namespacefromState.html" title="Detector based on state vector input.">fromState</a> instance. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">processor</td><td>A state processor. </td></tr>

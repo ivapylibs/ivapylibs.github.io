@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['coloblob_765',['coloBlob',['../namespaceperceiver_1_1coloBlob.html',1,'perceiver']]],
-  ['colorheight_766',['colorHeight',['../namespaceperceiver_1_1colorHeight.html',1,'perceiver']]],
-  ['monitor_767',['monitor',['../namespaceperceiver_1_1monitor.html',1,'perceiver']]],
-  ['paths_768',['paths',['../namespacepaths.html',1,'']]],
-  ['perceiver_769',['perceiver',['../namespaceperceiver.html',1,'']]],
-  ['progress_770',['progress',['../namespaceperceiver_1_1progress.html',1,'perceiver']]],
-  ['simple_771',['simple',['../namespaceperceiver_1_1simple.html',1,'perceiver']]]
+  ['basic_760',['basic',['../namespaceimprocessor_1_1basic.html',1,'improcessor']]],
+  ['configuration_761',['Configuration',['../namespaceivapy_1_1Configuration.html',1,'ivapy']]],
+  ['display_5fcv_762',['display_cv',['../namespaceivapy_1_1display__cv.html',1,'ivapy']]],
+  ['improcessor_763',['improcessor',['../namespaceimprocessor.html',1,'']]],
+  ['inimage_764',['inImage',['../namespaceinImage.html',1,'']]],
+  ['inimagergbd_765',['inImageRGBD',['../namespaceinImageRGBD.html',1,'']]],
+  ['ivapy_766',['ivapy',['../namespaceivapy.html',1,'']]],
+  ['mask_767',['mask',['../namespaceimprocessor_1_1mask.html',1,'improcessor']]]
 ];
