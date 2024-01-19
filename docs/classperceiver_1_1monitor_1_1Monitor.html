@@ -98,9 +98,9 @@ Collaboration diagram for Monitor:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa850fd57f03171f6ceb3475b95f852ac"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1monitor_1_1Monitor.html#aa850fd57f03171f6ceb3475b95f852ac">__init__</a> (self, theParams=<a class="el" href="classperceiver_1_1monitor_1_1CfgMonitor.html">CfgMonitor</a>(), thePerceiver, theActivity)</td></tr>
-<tr class="memdesc:aa850fd57f03171f6ceb3475b95f852ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="namespaceperceiver_1_1monitor.html">perceiver.monitor</a> class.  <a href="classperceiver_1_1monitor_1_1Monitor.html#aa850fd57f03171f6ceb3475b95f852ac">More...</a><br /></td></tr>
-<tr class="separator:aa850fd57f03171f6ceb3475b95f852ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03377559a4bf4f5cb17c441196168f92"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1monitor_1_1Monitor.html#a03377559a4bf4f5cb17c441196168f92">__init__</a> (self, theParams, thePerceiver, theActivity)</td></tr>
+<tr class="memdesc:a03377559a4bf4f5cb17c441196168f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="namespaceperceiver_1_1monitor.html">perceiver.monitor</a> class.  <a href="classperceiver_1_1monitor_1_1Monitor.html#a03377559a4bf4f5cb17c441196168f92">More...</a><br /></td></tr>
+<tr class="separator:a03377559a4bf4f5cb17c441196168f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72fbf2f30085967560d93851fdf9fe6b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1monitor_1_1Monitor.html#a72fbf2f30085967560d93851fdf9fe6b">adapt</a> (self)</td></tr>
 <tr class="memdesc:a72fbf2f30085967560d93851fdf9fe6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adapt parts of the process based on measurements and corrections.  <a href="classperceiver_1_1monitor_1_1Monitor.html#a72fbf2f30085967560d93851fdf9fe6b">More...</a><br /></td></tr>
 <tr class="separator:a72fbf2f30085967560d93851fdf9fe6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,8 +152,8 @@ Public Attributes</h2></td></tr>
 <p>A <a class="el" href="classperceiver_1_1monitor_1_1Monitor.html" title="A simple interface class for monitoring the outcomes of a perceived scene.">Monitor</a> tacks on some form of action recognition to make sense of the perceiver information. If the intent is to compare against some target state or establish completion, then take a look at the Progress subclass. It tacks on a target/goal state and includes a progress estimator.</p>
 <p>The choice was made to have the <a class="el" href="classperceiver_1_1monitor_1_1Monitor.html" title="A simple interface class for monitoring the outcomes of a perceived scene.">Monitor</a> class independent of the Perceiver class (i.e., not a derived class of it). Rather it will receive a Perceiver instance and snag the signals from it as needed. Doing so permits a little more flexibility regarding how the actual implementation operates, which may be a future need. It is still put in the perceiver package based on the implicit messaging of the "perceiver" name. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa850fd57f03171f6ceb3475b95f852ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa850fd57f03171f6ceb3475b95f852ac">&#9670;&nbsp;</a></span>__init__()</h2>
+<a id="a03377559a4bf4f5cb17c441196168f92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03377559a4bf4f5cb17c441196168f92">&#9670;&nbsp;</a></span>__init__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,7 +168,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>theParams</em> = <code><a class="el" href="classperceiver_1_1monitor_1_1CfgMonitor.html">CfgMonitor</a>()</code>, </td>
+          <td class="paramname"><em>theParams</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

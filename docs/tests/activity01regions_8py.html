@@ -71,17 +71,20 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Code to test out the basic activity monitor for a scenario with left/right tracking semantics of a square in an image.  
+<p>Code to test out the basic activity monitor for a scenario with top-left/lower-right semantics of a tracked square in an image.  
 <a href="#details">More...</a></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Code to test out the basic activity monitor for a scenario with left/right tracking semantics of a square in an image. </p>
-<p>The image is not "grayscale" and gets thresholded to generate a single region. That region is processed to generate a track point, which is used to establish left/right/none semantics. The implementation builds out a Monitor.</p>
+<div class="textblock"><p>Code to test out the basic activity monitor for a scenario with top-left/lower-right semantics of a tracked square in an image. </p>
+<p>The image is "grayscale" and gets thresholded to generate a single region. That region is processed to generate a track point, which is used to establish activity state semantics. The implementation builds out a Monitor.</p>
 <p>The code below</p>
 <blockquote class="doxtable">
 <p>./activity01regions </p>
 </blockquote>
 <p>runs the script. <br  />
- </p>
+</p>
+<h3><a class="anchor" id="autotoc_md9"></a>
+Outcome</h3>
+<p>The square starts off in activity region 1, leaves the region into undefined space, enters activity region 2, then leaves it and stops at the path terminal point. The state output is purely text-based. There is visual output of the square to see where it is, and ultimately that it stops moving at the end of the path. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
