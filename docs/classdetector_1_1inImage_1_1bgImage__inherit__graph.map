@@ -1,12 +1,13 @@
 <map id="bgImage" name="bgImage">
-<area shape="rect" id="node1" title="The most basic object or instance detector from image input." alt="" coords="223,229,295,256"/>
-<area shape="rect" id="node5" href="$classdetector_1_1bgmodel_1_1bgmodelGMM_1_1bgmodelGMM.html" title=" " alt="" coords="5,304,108,331"/>
-<area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1bgmodelGMM_1_1bgmodelGMM__cv.html" title=" " alt="" coords="132,304,256,331"/>
-<area shape="rect" id="node7" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html" title="Implements a single Gaussian background model." alt="" coords="281,304,371,331"/>
-<area shape="rect" id="node9" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html" title="Class instance for extracting background that lies with the corner region of the RGB color cube,..." alt="" coords="412,304,483,331"/>
-<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="225,155,293,181"/>
-<area shape="rect" id="node3" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="233,80,285,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="231,5,288,32"/>
-<area shape="rect" id="node8" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html" title="Applies half&#45;Gaussian model with premise that targets lie to one side of the distribution." alt="" coords="267,379,369,405"/>
-<area shape="rect" id="node10" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html" title="Wrapper to inCorner that performs estimation for caliration and saving." alt="" coords="393,379,520,405"/>
+<area shape="rect" id="node1" title="The most basic object or instance detector from image input." alt="" coords="240,229,312,256"/>
+<area shape="rect" id="node5" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgConical.html" title="Implements a single Gaussian background model with conical error." alt="" coords="5,304,85,331"/>
+<area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html" title="Implements a single Gaussian background model." alt="" coords="109,304,200,331"/>
+<area shape="rect" id="node8" href="$classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM.html" title=" " alt="" coords="225,304,327,331"/>
+<area shape="rect" id="node9" href="$classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html" title=" " alt="" coords="351,304,475,331"/>
+<area shape="rect" id="node10" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html" title="Class instance for extracting background that lies with the corner region of the RGB color cube,..." alt="" coords="499,304,570,331"/>
+<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="242,155,310,181"/>
+<area shape="rect" id="node3" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="250,80,302,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="247,5,305,32"/>
+<area shape="rect" id="node7" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html" title="Applies half&#45;Gaussian model with premise that targets lie to one side of the distribution." alt="" coords="104,379,205,405"/>
+<area shape="rect" id="node11" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html" title="Wrapper to inCorner that performs estimation for caliration and saving." alt="" coords="471,379,598,405"/>
 </map>

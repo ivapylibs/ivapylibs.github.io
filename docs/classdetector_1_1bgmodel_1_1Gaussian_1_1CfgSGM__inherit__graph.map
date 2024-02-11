@@ -1,6 +1,7 @@
 <map id="CfgSGM" name="CfgSGM">
-<area shape="rect" id="node1" title="Configuration setting specifier for Gaussian BG model." alt="" coords="11,155,85,181"/>
-<area shape="rect" id="node4" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="7,229,89,256"/>
-<area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="5,80,91,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="9,5,87,32"/>
+<area shape="rect" id="node1" title="Configuration setting specifier for Gaussian BG model." alt="" coords="71,155,145,181"/>
+<area shape="rect" id="node4" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGCone.html" title="Configuration setting specifier for Gaussian BG conical model." alt="" coords="5,229,99,256"/>
+<area shape="rect" id="node5" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="123,229,205,256"/>
+<area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="69,80,147,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="71,5,145,32"/>
 </map>

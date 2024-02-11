@@ -82,10 +82,11 @@ Inheritance diagram for CfgSGM:</div>
 <div class="dyncontent">
 <div class="center"><img src="classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM__inherit__graph.png" border="0" usemap="#CfgSGM_inherit__map" alt="Inheritance graph"/></div>
 <map name="CfgSGM_inherit__map" id="CfgSGM_inherit__map">
-<area shape="rect" title="Configuration setting specifier for Gaussian BG model." alt="" coords="11,155,85,181"/>
-<area shape="rect" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="7,229,89,256"/>
-<area shape="rect" href="classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="5,80,91,107"/>
-<area shape="rect" title=" " alt="" coords="9,5,87,32"/>
+<area shape="rect" title="Configuration setting specifier for Gaussian BG model." alt="" coords="71,155,145,181"/>
+<area shape="rect" href="classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGCone.html" title="Configuration setting specifier for Gaussian BG conical model." alt="" coords="5,229,99,256"/>
+<area shape="rect" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="123,229,205,256"/>
+<area shape="rect" href="classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="69,80,147,107"/>
+<area shape="rect" title=" " alt="" coords="71,5,145,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -109,6 +110,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a001046fb8860872c5848b43f85912996"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html#a001046fb8860872c5848b43f85912996">builtForBlackMat</a> ()</td></tr>
+<tr class="separator:a001046fb8860872c5848b43f85912996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f1b2c795f4ec44010d6f5a507be34c6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html#a5f1b2c795f4ec44010d6f5a507be34c6">builtForBlackMatHSV</a> ()</td></tr>
+<tr class="separator:a5f1b2c795f4ec44010d6f5a507be34c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69aea1b30f270259c71a883cdac0108c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html#a69aea1b30f270259c71a883cdac0108c">builtForLearning</a> ()</td></tr>
 <tr class="separator:a69aea1b30f270259c71a883cdac0108c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a49d49fc8fc3be34d358f8a4a0e75be"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html#a2a49d49fc8fc3be34d358f8a4a0e75be">get_default_settings</a> ()</td></tr>
@@ -117,7 +122,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="namespacedetector_1_1Configuration.html">Configuration</a> setting specifier for <a class="el" href="namespacedetector_1_1bgmodel_1_1Gaussian.html">Gaussian</a> BG model. </p>
-<dl class="section note"><dt>Note</dt><dd>Currently not using a CfgBGModel super class. Probably best to do so. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Currently not using a CfgBGModel super class. Should there be one? </dd>
+<dd>
+What about config from bgImage class? </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a418793636fd792a2b17e86fc767ccb78"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a418793636fd792a2b17e86fc767ccb78">&#9670;&nbsp;</a></span>__init__()</h2>
@@ -159,11 +166,61 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classdetector_1_1Configuration_1_1AlgConfig.html#a418793636fd792a2b17e86fc767ccb78">AlgConfig</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html#a418793636fd792a2b17e86fc767ccb78">CfgOnWS</a>.</p>
+<p>Reimplemented in <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGCone.html#a418793636fd792a2b17e86fc767ccb78">CfgSGCone</a>, and <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html#a418793636fd792a2b17e86fc767ccb78">CfgOnWS</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a001046fb8860872c5848b43f85912996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a001046fb8860872c5848b43f85912996">&#9670;&nbsp;</a></span>builtForBlackMat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def builtForBlackMat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f1b2c795f4ec44010d6f5a507be34c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1b2c795f4ec44010d6f5a507be34c6">&#9670;&nbsp;</a></span>builtForBlackMatHSV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def builtForBlackMatHSV </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a69aea1b30f270259c71a883cdac0108c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69aea1b30f270259c71a883cdac0108c">&#9670;&nbsp;</a></span>builtForLearning()</h2>
 
@@ -220,7 +277,7 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html#a2a49d49fc8fc3be34d358f8a4a0e75be">CfgOnWS</a>.</p>
+<p>Reimplemented in <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGCone.html#a2a49d49fc8fc3be34d358f8a4a0e75be">CfgSGCone</a>, and <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html#a2a49d49fc8fc3be34d358f8a4a0e75be">CfgOnWS</a>.</p>
 
 </div>
 </div>
