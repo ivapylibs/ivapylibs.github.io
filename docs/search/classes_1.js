@@ -8,7 +8,7 @@ var searchData=
   ['bgmodelgmm_675',['bgmodelGMM',['../classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM.html',1,'detector::bgmodel::GMM']]],
   ['bgmodelgmm_5fcv_676',['bgmodelGMM_cv',['../classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html',1,'detector::bgmodel::GMM']]],
   ['buildcfgmonitor_677',['BuildCfgMonitor',['../classperceiver_1_1monitor_1_1BuildCfgMonitor.html',1,'perceiver::monitor']]],
-  ['buildcfgperceiver_678',['BuildCfgPerceiver',['../classperceiver_1_1perceiver_1_1BuildCfgPerceiver.html',1,'BuildCfgPerceiver'],['../classperceiver_1_1simple_1_1BuildCfgPerceiver.html',1,'BuildCfgPerceiver']]],
+  ['buildcfgperceiver_678',['BuildCfgPerceiver',['../classperceiver_1_1perceiver_1_1BuildCfgPerceiver.html',1,'perceiver::perceiver']]],
   ['buildcfgprogress_679',['BuildCfgProgress',['../classperceiver_1_1progress_1_1BuildCfgProgress.html',1,'perceiver::progress']]],
   ['buildconfig_680',['BuildConfig',['../classivapy_1_1Configuration_1_1BuildConfig.html',1,'ivapy::Configuration']]]
 ];

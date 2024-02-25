@@ -1,6 +1,6 @@
 <map id="fgImage" name="fgImage">
-<area shape="rect" id="node1" title="The most basic object or instance detector from image input." alt="" coords="5,229,81,256"/>
-<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="6,155,81,181"/>
-<area shape="rect" id="node3" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="16,80,71,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="12,5,75,32"/>
+<area shape="rect" id="node1" title="The most basic object or instance detector from image input." alt="" coords="5,229,75,256"/>
+<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="6,155,74,181"/>
+<area shape="rect" id="node3" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="14,80,66,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="11,5,69,32"/>
 </map>

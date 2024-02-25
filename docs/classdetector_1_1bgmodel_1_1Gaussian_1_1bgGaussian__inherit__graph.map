@@ -1,8 +1,8 @@
 <map id="bgGaussian" name="bgGaussian">
-<area shape="rect" id="node1" title="Implements a single Gaussian background model." alt="" coords="11,304,110,331"/>
-<area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html" title="Applies half&#45;Gaussian model with premise that targets lie to one side of the distribution." alt="" coords="5,379,116,405"/>
-<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input." alt="" coords="21,229,100,256"/>
-<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="23,155,98,181"/>
-<area shape="rect" id="node4" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="33,80,88,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="29,5,92,32"/>
+<area shape="rect" id="node1" title="Implements a single Gaussian background model." alt="" coords="11,304,101,331"/>
+<area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html" title="Applies half&#45;Gaussian model with premise that targets lie to one side of the distribution." alt="" coords="5,379,107,405"/>
+<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input." alt="" coords="20,229,92,256"/>
+<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="22,155,90,181"/>
+<area shape="rect" id="node4" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="30,80,82,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="27,5,85,32"/>
 </map>

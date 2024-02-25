@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,436,63,463"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,411,63,437"/>
 <area shape="rect" id="node2" href="$classcamera_1_1utils_1_1writer_1_1frameWriter.html" title=" " alt="" coords="127,56,217,83"/>
 <area shape="rect" id="node3" href="$classcamera_1_1utils_1_1writer_1_1vidWriter.html" title=" " alt="" coords="135,107,209,133"/>
 <area shape="rect" id="node4" href="$classcamera_1_1utils_1_1writer__ros_1_1vidWriter__ROS.html" title=" " alt="" coords="117,157,227,184"/>
@@ -10,12 +10,11 @@
 <area shape="rect" id="node32" href="$classdetector_1_1fgmodel_1_1targetNeon_1_1MData.html" title=" " alt="" coords="141,411,203,437"/>
 <area shape="rect" id="node33" href="$classdetector_1_1fgmodel_1_1targetNeon_1_1TModel.html" title=" " alt="" coords="139,461,205,488"/>
 <area shape="rect" id="node34" href="$classperceiver_1_1monitor_1_1Monitor.html" title="A simple interface class for monitoring the outcomes of a perceived scene." alt="" coords="139,512,205,539"/>
-<area shape="rect" id="node35" href="$classperceiver_1_1perceiver_1_1Perceiver.html" title="Simple perceiver class. Most basic implementation." alt="" coords="133,563,211,589"/>
+<area shape="rect" id="node35" href="$classperceiver_1_1perceiver_1_1Perceiver.html" title="Basic implementation of a perceiver class." alt="" coords="133,563,211,589"/>
 <area shape="rect" id="node36" href="$classperceiver_1_1progress_1_1Progress.html" title="A simple interface class for progress monitoring a perceived scene." alt="" coords="135,613,209,640"/>
-<area shape="rect" id="node37" href="$classperceiver_1_1simple_1_1Perceiver.html" title="Simple perceiver class. Most basic implementation." alt="" coords="133,664,211,691"/>
-<area shape="rect" id="node38" href="$classtrackpointer_1_1centroid_1_1centroid.html" title=" " alt="" coords="138,715,206,741"/>
-<area shape="rect" id="node40" href="$classtrackpointer_1_1toplines_1_1Params.html" title="Parameters for the toplines tracker." alt="" coords="139,765,205,792"/>
-<area shape="rect" id="node41" href="$classtrackpointer_1_1utils_1_1fakeTriangle_1_1fakeTriangle.html" title=" " alt="" coords="125,816,219,843"/>
+<area shape="rect" id="node37" href="$classtrackpointer_1_1centroid_1_1centroid.html" title=" " alt="" coords="138,664,206,691"/>
+<area shape="rect" id="node39" href="$classtrackpointer_1_1toplines_1_1Params.html" title="Parameters for the toplines tracker." alt="" coords="139,715,205,741"/>
+<area shape="rect" id="node40" href="$classtrackpointer_1_1utils_1_1fakeTriangle_1_1fakeTriangle.html" title=" " alt="" coords="125,765,219,792"/>
 <area shape="rect" id="node6" href="$classdetector_1_1fromState_1_1fromState.html" title="Basic detector from state vector input. Should be overloaded, but simple detectors can be created wit..." alt="" coords="297,107,376,133"/>
 <area shape="rect" id="node9" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="303,208,371,235"/>
 <area shape="rect" id="node7" href="$classbyRegion_1_1imageRegions.html" title="Activity states depend on having signal lying in specific regions of an image. Signal is presumably i..." alt="" coords="441,56,546,83"/>
@@ -39,5 +38,5 @@
 <area shape="rect" id="node26" href="$classdetector_1_1inImageRGBD_1_1bgImageRBGD.html" title="The most basic object or instance detector from RGBD image input." alt="" coords="601,360,712,387"/>
 <area shape="rect" id="node28" href="$classdetector_1_1bgmodel_1_1inCorner_1_1PlanarModel.html" title="Specification data class that describes the planar cut classifier and its functional properties." alt="" coords="289,259,384,285"/>
 <area shape="rect" id="node29" href="$classdetector_1_1bgmodel_1_1inCorner_1_1SphericalModel.html" title="Specification data class that describes the planar cut classifier and its functional properties." alt="" coords="281,309,392,336"/>
-<area shape="rect" id="node39" href="$classtrackpointer_1_1centroidMulti_1_1centroidMulti.html" title=" " alt="" coords="289,715,385,741"/>
+<area shape="rect" id="node38" href="$classtrackpointer_1_1centroidMulti_1_1centroidMulti.html" title=" " alt="" coords="289,664,385,691"/>
 </map>

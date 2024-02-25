@@ -1,7 +1,7 @@
 <map id="fromState" name="fromState">
-<area shape="rect" id="node1" title="Basic detector from state vector input. Should be overloaded, but simple detectors can be created wit..." alt="" coords="75,155,162,181"/>
-<area shape="rect" id="node4" href="$classbyRegion_1_1imageRegions.html" title="Activity states depend on having signal lying in specific regions of an image. Signal is presumably i..." alt="" coords="5,229,120,256"/>
-<area shape="rect" id="node5" href="$classbyRegion_1_1Planar.html" title="Activity detection based on lying in specific planar regions." alt="" coords="145,229,207,256"/>
-<area shape="rect" id="node2" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="91,80,146,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="87,5,150,32"/>
+<area shape="rect" id="node1" title="Basic detector from state vector input. Should be overloaded, but simple detectors can be created wit..." alt="" coords="71,155,149,181"/>
+<area shape="rect" id="node4" href="$classbyRegion_1_1imageRegions.html" title="Activity states depend on having signal lying in specific regions of an image. Signal is presumably i..." alt="" coords="5,229,111,256"/>
+<area shape="rect" id="node5" href="$classbyRegion_1_1Planar.html" title="Activity detection based on lying in specific planar regions." alt="" coords="134,229,193,256"/>
+<area shape="rect" id="node2" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="84,80,136,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="81,5,139,32"/>
 </map>
