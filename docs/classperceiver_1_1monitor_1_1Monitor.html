@@ -98,9 +98,9 @@ Collaboration diagram for Monitor:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a03377559a4bf4f5cb17c441196168f92"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1monitor_1_1Monitor.html#a03377559a4bf4f5cb17c441196168f92">__init__</a> (self, theParams, thePerceiver, theActivity)</td></tr>
-<tr class="memdesc:a03377559a4bf4f5cb17c441196168f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="namespaceperceiver_1_1monitor.html">perceiver.monitor</a> class.  <a href="classperceiver_1_1monitor_1_1Monitor.html#a03377559a4bf4f5cb17c441196168f92">More...</a><br /></td></tr>
-<tr class="separator:a03377559a4bf4f5cb17c441196168f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7c8b06712ead5cd02d061ec52c24f3c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1monitor_1_1Monitor.html#ac7c8b06712ead5cd02d061ec52c24f3c">__init__</a> (self, theParams, thePerceiver, theActivity, theReporter=None)</td></tr>
+<tr class="memdesc:ac7c8b06712ead5cd02d061ec52c24f3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="namespaceperceiver_1_1monitor.html">perceiver.monitor</a> class.  <a href="classperceiver_1_1monitor_1_1Monitor.html#ac7c8b06712ead5cd02d061ec52c24f3c">More...</a><br /></td></tr>
+<tr class="separator:ac7c8b06712ead5cd02d061ec52c24f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72fbf2f30085967560d93851fdf9fe6b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1monitor_1_1Monitor.html#a72fbf2f30085967560d93851fdf9fe6b">adapt</a> (self)</td></tr>
 <tr class="memdesc:a72fbf2f30085967560d93851fdf9fe6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adapt parts of the process based on measurements and corrections.  <a href="classperceiver_1_1monitor_1_1Monitor.html#a72fbf2f30085967560d93851fdf9fe6b">More...</a><br /></td></tr>
 <tr class="separator:a72fbf2f30085967560d93851fdf9fe6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,14 +148,17 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a876fe06d447ee106136e459f56e655cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1monitor_1_1Monitor.html#a876fe06d447ee106136e459f56e655cf">perceiver</a></td></tr>
 <tr class="memdesc:a876fe06d447ee106136e459f56e655cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perceiver instance.  <a href="classperceiver_1_1monitor_1_1Monitor.html#a876fe06d447ee106136e459f56e655cf">More...</a><br /></td></tr>
 <tr class="separator:a876fe06d447ee106136e459f56e655cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a602ae602f49efdcf7bb2fe925f53d2dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1monitor_1_1Monitor.html#a602ae602f49efdcf7bb2fe925f53d2dc">reporter</a></td></tr>
+<tr class="memdesc:a602ae602f49efdcf7bb2fe925f53d2dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes activity outcomes and creates report out.  <a href="classperceiver_1_1monitor_1_1Monitor.html#a602ae602f49efdcf7bb2fe925f53d2dc">More...</a><br /></td></tr>
+<tr class="separator:a602ae602f49efdcf7bb2fe925f53d2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A simple interface class for monitoring the outcomes of a perceived scene. </p>
 <p>A <a class="el" href="classperceiver_1_1monitor_1_1Monitor.html" title="A simple interface class for monitoring the outcomes of a perceived scene.">Monitor</a> tacks on some form of action recognition to make sense of the perceiver information. If the intent is to compare against some target state or establish completion, then take a look at the Progress subclass. It tacks on a target/goal state and includes a progress estimator.</p>
 <p>The choice was made to have the <a class="el" href="classperceiver_1_1monitor_1_1Monitor.html" title="A simple interface class for monitoring the outcomes of a perceived scene.">Monitor</a> class independent of the Perceiver class (i.e., not a derived class of it). Rather it will receive a Perceiver instance and snag the signals from it as needed. Doing so permits a little more flexibility regarding how the actual implementation operates, which may be a future need. It is still put in the perceiver package based on the implicit messaging of the "perceiver" name. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a03377559a4bf4f5cb17c441196168f92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03377559a4bf4f5cb17c441196168f92">&#9670;&nbsp;</a></span>__init__()</h2>
+<a id="ac7c8b06712ead5cd02d061ec52c24f3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7c8b06712ead5cd02d061ec52c24f3c">&#9670;&nbsp;</a></span>__init__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,7 +185,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>theActivity</em>&#160;</td>
+          <td class="paramname"><em>theActivity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>theReporter</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -198,6 +207,7 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">theParams</td><td>Option set of paramters. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">thePerceiver</td><td>Perceiver instance (or possibly not). </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">theActivity</td><td>Activity detector/recognizer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">theReporter</td><td>Reporting mechanism for activity outputs. </td></tr>
   </table>
   </dd>
 </dl>
@@ -579,6 +589,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Perceiver instance. </p>
+
+</div>
+</div>
+<a id="a602ae602f49efdcf7bb2fe925f53d2dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a602ae602f49efdcf7bb2fe925f53d2dc">&#9670;&nbsp;</a></span>reporter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">reporter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes activity outcomes and creates report out. </p>
 
 </div>
 </div>

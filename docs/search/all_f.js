@@ -44,5 +44,6 @@ var searchData=
   ['progress_476',['Progress',['../classperceiver_1_1progress_1_1Progress.html',1,'Progress'],['../namespaceperceiver_1_1progress.html',1,'perceiver.progress']]],
   ['progress_2epy_477',['progress.py',['../progress_8py.html',1,'']]],
   ['progressstate_478',['ProgressState',['../classperceiver_1_1progress_1_1ProgressState.html',1,'perceiver::progress']]],
-  ['simple_479',['simple',['../namespaceperceiver_1_1simple.html',1,'perceiver']]]
+  ['reporter_479',['reporter',['../namespaceperceiver_1_1reporter.html',1,'perceiver']]],
+  ['simple_480',['simple',['../namespaceperceiver_1_1simple.html',1,'perceiver']]]
 ];
