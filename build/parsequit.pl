@@ -14,7 +14,7 @@ while (<>)
      }
     exit;
    }
- elsif ( $_ =~ /\@classf/ )
+  elsif ( $_ =~ /\@classf/ )
    {
     chomp($_);
     $_=~m/\@classf[ ]*([^\Z]*)\Z/;
@@ -31,6 +31,13 @@ while (<>)
     $line=~m/class[ ]*([^\Z]*)\Z/;
     $restOfLine = $1;
     print "class $namespace\:\:$restOfLine";
+   }
+  elsif ( $_ =~ /\#\</ )
+   {
+    my($before, $after) = split(/\#\</, $_, 2);
+    my($wspaces) = $before =~ /(\s+)/;
+    print "$wspaces## $after";
+    print "$before\n";
    }
   else
    {

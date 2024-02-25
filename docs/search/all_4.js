@@ -47,7 +47,7 @@ var searchData=
   ['dirname_218',['dirname',['../classcamera_1_1utils_1_1writer_1_1frameWriter.html#a23159e0e6997cdd5125fefe42020ad0a',1,'camera.utils.writer.frameWriter.dirname()'],['../classcamera_1_1utils_1_1writer_1_1vidWriter.html#a23159e0e6997cdd5125fefe42020ad0a',1,'camera.utils.writer.vidWriter.dirname()']]],
   ['display_219',['display',['../classcamera_1_1cv2cam_1_1Color.html#aa9af7c1cef86d4ab9325ce04ba347fd3',1,'camera.cv2cam.Color.display()'],['../classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#aa057a80112c4f78a1c014b5e5154bb71',1,'camera.d435.runner2.D435_Runner.display()']]],
   ['display_2epy_220',['display.py',['../display_8py.html',1,'']]],
-  ['display_5fcv_221',['display_cv',['../namespacedisplay__cv.html',1,'display_cv'],['../classbyRegion_1_1imageRegions.html#ab4057195d166dcf46808ef6ce6aaeb10',1,'byRegion.imageRegions.display_cv()'],['../group__Display__CV.html',1,'(Global Namespace)']]],
+  ['display_5fcv_221',['display_cv',['../namespacedisplay__cv.html',1,'display_cv'],['../group__Display__CV.html',1,'(Global Namespace)']]],
   ['display_5fcv_2epy_222',['display_cv.py',['../display__cv_8py.html',1,'']]],
   ['display_5fdep_223',['display_dep',['../group__Display__CV.html#ga8966a052e6c0d1b9f269506bd07b8b19',1,'ivapy::display_cv']]],
   ['display_5fdep_5fcv_224',['display_dep_cv',['../namespacecamera_1_1utils_1_1display.html#a7a886df7a8e82165d26adbfbbb865475',1,'camera::utils::display']]],

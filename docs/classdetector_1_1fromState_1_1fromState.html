@@ -106,31 +106,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af6c7a3f709feb7b34c6dae656b07899a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="classdetector_1_1fromState_1_1fromState.html" title="Basic detector from state vector input. Should be overloaded, but simple detectors can be created wit...">fromState</a> instance.  <a href="classdetector_1_1fromState_1_1fromState.html#af6c7a3f709feb7b34c6dae656b07899a">More...</a><br /></td></tr>
 <tr class="separator:af6c7a3f709feb7b34c6dae656b07899a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72fbf2f30085967560d93851fdf9fe6b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#a72fbf2f30085967560d93851fdf9fe6b">adapt</a> (self)</td></tr>
-<tr class="memdesc:a72fbf2f30085967560d93851fdf9fe6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adapt any internal parameters based on activity state, signal, and any other historical information.  <a href="classdetector_1_1fromState_1_1fromState.html#a72fbf2f30085967560d93851fdf9fe6b">More...</a><br /></td></tr>
+<tr class="memdesc:a72fbf2f30085967560d93851fdf9fe6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adapt detection model, if implemented.  <a href="classdetector_1_1fromState_1_1fromState.html#a72fbf2f30085967560d93851fdf9fe6b">More...</a><br /></td></tr>
 <tr class="separator:a72fbf2f30085967560d93851fdf9fe6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1017975e2cf3f6aad2eb699e576acfb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#ad1017975e2cf3f6aad2eb699e576acfb">correct</a> (self)</td></tr>
-<tr class="memdesc:ad1017975e2cf3f6aad2eb699e576acfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconcile prediction and measurement as fitting.  <a href="classdetector_1_1fromState_1_1fromState.html#ad1017975e2cf3f6aad2eb699e576acfb">More...</a><br /></td></tr>
+<tr class="memdesc:ad1017975e2cf3f6aad2eb699e576acfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correct detection state estimate, if implemented.  <a href="classdetector_1_1fromState_1_1fromState.html#ad1017975e2cf3f6aad2eb699e576acfb">More...</a><br /></td></tr>
 <tr class="separator:ad1017975e2cf3f6aad2eb699e576acfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bbb50d8c85e39e051675be235b4eeac"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#a2bbb50d8c85e39e051675be235b4eeac">detect</a> (self, <a class="el" href="classdetector_1_1base_1_1Base.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a>)</td></tr>
-<tr class="memdesc:a2bbb50d8c85e39e051675be235b4eeac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run detection only processing pipeline (no adaptation).  <a href="classdetector_1_1fromState_1_1fromState.html#a2bbb50d8c85e39e051675be235b4eeac">More...</a><br /></td></tr>
+<tr class="memdesc:a2bbb50d8c85e39e051675be235b4eeac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform detection only, which basically keeps the model static if it would normally update.  <a href="classdetector_1_1fromState_1_1fromState.html#a2bbb50d8c85e39e051675be235b4eeac">More...</a><br /></td></tr>
 <tr class="separator:a2bbb50d8c85e39e051675be235b4eeac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18bb39f68bce281f0f163fd96bb09a8c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#a18bb39f68bce281f0f163fd96bb09a8c">getState</a> (self)</td></tr>
-<tr class="memdesc:a18bb39f68bce281f0f163fd96bb09a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return current/latest state.  <a href="classdetector_1_1fromState_1_1fromState.html#a18bb39f68bce281f0f163fd96bb09a8c">More...</a><br /></td></tr>
+<tr class="memdesc:a18bb39f68bce281f0f163fd96bb09a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current detection state estimate.  <a href="classdetector_1_1fromState_1_1fromState.html#a18bb39f68bce281f0f163fd96bb09a8c">More...</a><br /></td></tr>
 <tr class="separator:a18bb39f68bce281f0f163fd96bb09a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae24ddf4fbca3ccdedebff2a34ed938c6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#ae24ddf4fbca3ccdedebff2a34ed938c6">measure</a> (self, <a class="el" href="classdetector_1_1base_1_1Base.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a>)</td></tr>
-<tr class="memdesc:ae24ddf4fbca3ccdedebff2a34ed938c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate measurement of activity state from passed signal.  <a href="classdetector_1_1fromState_1_1fromState.html#ae24ddf4fbca3ccdedebff2a34ed938c6">More...</a><br /></td></tr>
+<tr class="memdesc:ae24ddf4fbca3ccdedebff2a34ed938c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate detection outcome from state signal.  <a href="classdetector_1_1fromState_1_1fromState.html#ae24ddf4fbca3ccdedebff2a34ed938c6">More...</a><br /></td></tr>
 <tr class="separator:ae24ddf4fbca3ccdedebff2a34ed938c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dd85ce87569585c592b0dd0638c0dfd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#a4dd85ce87569585c592b0dd0638c0dfd">predict</a> (self)</td></tr>
-<tr class="memdesc:a4dd85ce87569585c592b0dd0638c0dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predict next state from current state.  <a href="classdetector_1_1fromState_1_1fromState.html#a4dd85ce87569585c592b0dd0638c0dfd">More...</a><br /></td></tr>
+<tr class="memdesc:a4dd85ce87569585c592b0dd0638c0dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predict detection state outcome, if implemented.  <a href="classdetector_1_1fromState_1_1fromState.html#a4dd85ce87569585c592b0dd0638c0dfd">More...</a><br /></td></tr>
 <tr class="separator:a4dd85ce87569585c592b0dd0638c0dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b4dc48a437fa80146abb1e58fd6ce35"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#a0b4dc48a437fa80146abb1e58fd6ce35">process</a> (self, <a class="el" href="classdetector_1_1base_1_1Base.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a>)</td></tr>
-<tr class="memdesc:a0b4dc48a437fa80146abb1e58fd6ce35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process the new incoming signal on full detection pipeline.  <a href="classdetector_1_1fromState_1_1fromState.html#a0b4dc48a437fa80146abb1e58fd6ce35">More...</a><br /></td></tr>
+<tr class="memdesc:a0b4dc48a437fa80146abb1e58fd6ce35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run entire processing pipeline.  <a href="classdetector_1_1fromState_1_1fromState.html#a0b4dc48a437fa80146abb1e58fd6ce35">More...</a><br /></td></tr>
 <tr class="separator:a0b4dc48a437fa80146abb1e58fd6ce35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07d1608e126690cb0e445f9a8df04bc5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#a07d1608e126690cb0e445f9a8df04bc5">save</a> (self, fileName)</td></tr>
-<tr class="memdesc:a07d1608e126690cb0e445f9a8df04bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outer method for saving to a file given as a string.  <a href="classdetector_1_1fromState_1_1fromState.html#a07d1608e126690cb0e445f9a8df04bc5">More...</a><br /></td></tr>
-<tr class="separator:a07d1608e126690cb0e445f9a8df04bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d052ae6ae0dc395ed468285493dbc4c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#a2d052ae6ae0dc395ed468285493dbc4c">saveTo</a> (self, fPtr)</td></tr>
-<tr class="memdesc:a2d052ae6ae0dc395ed468285493dbc4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty method for saving internal information to HDF5 file.  <a href="classdetector_1_1fromState_1_1fromState.html#a2d052ae6ae0dc395ed468285493dbc4c">More...</a><br /></td></tr>
+<tr class="memdesc:a2d052ae6ae0dc395ed468285493dbc4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save configuration or other data to HDF5 file.  <a href="classdetector_1_1fromState_1_1fromState.html#a2d052ae6ae0dc395ed468285493dbc4c">More...</a><br /></td></tr>
 <tr class="separator:a2d052ae6ae0dc395ed468285493dbc4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdetector_1_1base_1_1Base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdetector_1_1base_1_1Base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classdetector_1_1base_1_1Base.html">Base</a></td></tr>
 <tr class="memitem:ae64f0875afe3067b97ba370b354b9213 inherit pub_methods_classdetector_1_1base_1_1Base"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1base_1_1Base.html#ae64f0875afe3067b97ba370b354b9213">__init__</a> (self)</td></tr>
@@ -145,15 +142,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a86e33c39d3c54a6ebba54b5a0ebf9787 inherit pub_methods_classdetector_1_1base_1_1Base"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1base_1_1Base.html#a86e33c39d3c54a6ebba54b5a0ebf9787">getDebug</a> (self)</td></tr>
 <tr class="memdesc:a86e33c39d3c54a6ebba54b5a0ebf9787 inherit pub_methods_classdetector_1_1base_1_1Base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return current/latest debug state information.  <a href="classdetector_1_1base_1_1Base.html#a86e33c39d3c54a6ebba54b5a0ebf9787">More...</a><br /></td></tr>
 <tr class="separator:a86e33c39d3c54a6ebba54b5a0ebf9787 inherit pub_methods_classdetector_1_1base_1_1Base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07d1608e126690cb0e445f9a8df04bc5 inherit pub_methods_classdetector_1_1base_1_1Base"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1base_1_1Base.html#a07d1608e126690cb0e445f9a8df04bc5">save</a> (self, fileName)</td></tr>
+<tr class="memdesc:a07d1608e126690cb0e445f9a8df04bc5 inherit pub_methods_classdetector_1_1base_1_1Base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Outer method for saving to a file given as a string.  <a href="classdetector_1_1base_1_1Base.html#a07d1608e126690cb0e445f9a8df04bc5">More...</a><br /></td></tr>
+<tr class="separator:a07d1608e126690cb0e445f9a8df04bc5 inherit pub_methods_classdetector_1_1base_1_1Base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a484a8e0e9e7b305769fcf0dfeb7d79cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#a484a8e0e9e7b305769fcf0dfeb7d79cc">processor</a></td></tr>
+<tr class="memdesc:a484a8e0e9e7b305769fcf0dfeb7d79cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre-processor or similar.  <a href="classdetector_1_1fromState_1_1fromState.html#a484a8e0e9e7b305769fcf0dfeb7d79cc">More...</a><br /></td></tr>
 <tr class="separator:a484a8e0e9e7b305769fcf0dfeb7d79cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25ed1bcb423b0b7200f485fc5ff71c8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fromState_1_1fromState.html#a25ed1bcb423b0b7200f485fc5ff71c8e">z</a></td></tr>
+<tr class="memdesc:a25ed1bcb423b0b7200f485fc5ff71c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The detection outcome.  <a href="classdetector_1_1fromState_1_1fromState.html#a25ed1bcb423b0b7200f485fc5ff71c8e">More...</a><br /></td></tr>
 <tr class="separator:a25ed1bcb423b0b7200f485fc5ff71c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classdetector_1_1base_1_1Base"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classdetector_1_1base_1_1Base')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classdetector_1_1base_1_1Base.html">Base</a></td></tr>
 <tr class="memitem:a9336ebf25087d91c818ee6e9ec29f8c1 inherit pub_attribs_classdetector_1_1base_1_1Base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1base_1_1Base.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a></td></tr>
+<tr class="memdesc:a9336ebf25087d91c818ee6e9ec29f8c1 inherit pub_attribs_classdetector_1_1base_1_1Base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detection state.  <a href="classdetector_1_1base_1_1Base.html#a9336ebf25087d91c818ee6e9ec29f8c1">More...</a><br /></td></tr>
 <tr class="separator:a9336ebf25087d91c818ee6e9ec29f8c1 inherit pub_attribs_classdetector_1_1base_1_1Base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -203,8 +206,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classbyRegion_1_1imageRegions.html#a2b41f851c6a9306c613b05ce1ea209cd">imageRegions</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -224,8 +225,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Adapt any internal parameters based on activity state, signal, and any other historical information. </p>
-<p>Base method does not have adaptation. Should be customized to the implementation of the class. </p>
+<p>Adapt detection model, if implemented. </p>
+<p>Default implementation is no adaptation. </p>
 
 <p>Reimplemented from <a class="el" href="classdetector_1_1base_1_1Base.html#a72fbf2f30085967560d93851fdf9fe6b">Base</a>.</p>
 
@@ -249,8 +250,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reconcile prediction and measurement as fitting. </p>
-<p>Correct state based on measurement and prediction states. Base method does not have correction. </p>
+<p>Correct detection state estimate, if implemented. </p>
+<p>Default implementation is to do nothing. Roll with measurement. </p>
 
 <p>Reimplemented from <a class="el" href="classdetector_1_1base_1_1Base.html#ad1017975e2cf3f6aad2eb699e576acfb">Base</a>.</p>
 
@@ -274,7 +275,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal</em>&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -284,8 +285,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Run detection only processing pipeline (no adaptation). </p>
-<p>Good to have if there is a calibration scheme that uses adaptation, then freezes the parameters during deployment. Running detect rather than process prevents further model updating while still running the rest of the process in a single call. </p>
+<p>Perform detection only, which basically keeps the model static if it would normally update. </p>
+<p>Detection consists of predict, measure, and correct. No adaptation. At least if there is a measurement. If no measurement, then only predict is executed since there is no measurement to interpret and correct. </p>
 
 <p>Reimplemented from <a class="el" href="classdetector_1_1base_1_1Base.html#a8333fb44dff3615b489cadfd221c5394">Base</a>.</p>
 
@@ -307,7 +308,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Return current/latest state. </p>
+<p>Get the current detection state estimate. </p>
 
 <p>Reimplemented from <a class="el" href="classdetector_1_1base_1_1Base.html#a18bb39f68bce281f0f163fd96bb09a8c">Base</a>.</p>
 
@@ -329,7 +330,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal</em>&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -339,10 +340,10 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Generate measurement of activity state from passed signal. </p>
+<p>Generate detection outcome from state signal. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">signal</td><td>Current signal of interest for activity detection. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>External signal to detect with. </td></tr>
   </table>
   </dd>
 </dl>
@@ -369,9 +370,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Predict next state from current state. </p>
-<p>If transition model known, generate state prediction. Else it is most likely a static transition model, which does nothing / keeps prior state. The base method employs a static state assumption. <br  />
- </p>
+<p>Predict detection state outcome, if implemented. </p>
+<p>Default implementation is to do nothing. State not updated. </p>
 
 <p>Reimplemented from <a class="el" href="classdetector_1_1base_1_1Base.html#a4dd85ce87569585c592b0dd0638c0dfd">Base</a>.</p>
 
@@ -395,7 +395,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>signal</em>&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -405,45 +405,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Process the new incoming signal on full detection pipeline. </p>
-<p>Running the full detection pipeline includes adaptation. </p>
+<p>Run entire processing pipeline. </p>
+<p>The entire pipeline consists of predict, measure, correct, and adapt. At least if there is a measurement. If no measurement, then only predict is executed since there is no measurement to interpret, correct, and adapt with. </p>
 
 <p>Reimplemented from <a class="el" href="classdetector_1_1base_1_1Base.html#ac0e04a6d0292eed0154740ef0ed44772">Base</a>.</p>
 
 <p>Reimplemented in <a class="el" href="classbyRegion_1_1Planar.html#ac0e04a6d0292eed0154740ef0ed44772">Planar</a>.</p>
-
-</div>
-</div>
-<a id="a07d1608e126690cb0e445f9a8df04bc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07d1608e126690cb0e445f9a8df04bc5">&#9670;&nbsp;</a></span>save()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def save </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>fileName</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Outer method for saving to a file given as a string. </p>
-<p>Opens file, preps for saving, invokes save routine, then closes. Usually not overloaded. Overload the saveTo member function. </p>
-
-<p>Reimplemented from <a class="el" href="classdetector_1_1base_1_1Base.html#a07d1608e126690cb0e445f9a8df04bc5">Base</a>.</p>
 
 </div>
 </div>
@@ -473,8 +440,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Empty method for saving internal information to HDF5 file. </p>
-<p>Save data to given HDF5 pointer. Puts in root. </p>
+<p>Save configuration or other data to HDF5 file. </p>
+<dl class="section note"><dt>Note</dt><dd>Currently not implemented. Should not get here. Triggers warning. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classdetector_1_1base_1_1Base.html#a2d052ae6ae0dc395ed468285493dbc4c">Base</a>.</p>
 
@@ -493,6 +460,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Pre-processor or similar. </p>
+<p>[partially implemented] </p>
+
 </div>
 </div>
 <a id="a25ed1bcb423b0b7200f485fc5ff71c8e"></a>
@@ -506,6 +476,8 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The detection outcome. </p>
 
 </div>
 </div>

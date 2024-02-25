@@ -100,6 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab24e956493a8cecbc7f340b7c4b02b9f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#ab24e956493a8cecbc7f340b7c4b02b9f">__init__</a> (self, <a class="el" href="classcamera_1_1base_1_1Base.html#a3a4acb4d58f4ad4702285291a94a58c6">configs</a>=<a class="el" href="classcamera_1_1d435_1_1runner2_1_1CfgD435.html">CfgD435</a>())</td></tr>
 <tr class="memdesc:ab24e956493a8cecbc7f340b7c4b02b9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for Intel Realsense D435 camera interface.  <a href="classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#ab24e956493a8cecbc7f340b7c4b02b9f">More...</a><br /></td></tr>
 <tr class="separator:ab24e956493a8cecbc7f340b7c4b02b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae25109424a3d326792f31d6ed03382ff"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#ae25109424a3d326792f31d6ed03382ff">capture</a> (self, before_scale=False)</td></tr>
+<tr class="memdesc:ae25109424a3d326792f31d6ed03382ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the next frame(s) with awareness of expected return.  <a href="classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#ae25109424a3d326792f31d6ed03382ff">More...</a><br /></td></tr>
+<tr class="separator:ae25109424a3d326792f31d6ed03382ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c157d6826642fe47bd4991d1eb96028"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#a3c157d6826642fe47bd4991d1eb96028">captureRGBD</a> (self, before_scale=False)</td></tr>
 <tr class="memdesc:a3c157d6826642fe47bd4991d1eb96028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Snag the next set of RGB and D frames.  <a href="classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#a3c157d6826642fe47bd4991d1eb96028">More...</a><br /></td></tr>
 <tr class="separator:a3c157d6826642fe47bd4991d1eb96028"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,6 +237,49 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae25109424a3d326792f31d6ed03382ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae25109424a3d326792f31d6ed03382ff">&#9670;&nbsp;</a></span>capture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def capture </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>before_scale</em> = <code>False</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the next frame(s) with awareness of expected return. </p>
+<p>Slightly more flexible version of get_frames agnostic to what is being captured. The setup determines configured returns and returns compatible output.</p>
+<p>Returns arguments provided in prioritized order based on camera configuration: color, depth, flag.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">before_scale</td><td>[bool] If True, get integer depth map before scaling.</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">rgb</td><td>[np.ndarray] RGB image if set to read. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">dep</td><td>[np.ndarray] Depth map in meters if set to read. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">flag</td><td>[bool] Indicator status of fetch/capture operation. \ If true, then expected frame(s) fetched. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classcamera_1_1d435_1_1runner2_1_1Replay.html#ae25109424a3d326792f31d6ed03382ff">Replay</a>.</p>
+
+</div>
+</div>
 <a id="a3c157d6826642fe47bd4991d1eb96028"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c157d6826642fe47bd4991d1eb96028">&#9670;&nbsp;</a></span>captureRGBD()</h2>
 
@@ -261,7 +307,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Snag the next set of RGB and D frames. </p>
-<p>Captures the color and depth pair as an RGBD image instance. The depth map should be returned in standard units (meters).</p>
+<p>Captures the color and depth pair as an RGBD image instance. The depth map should be returned in standard units (meters). Unlike the standard capture routine, this one explicitly demands that the outcome be packed into an RGBD frame structure, irrespective of output configuration. That means a field can be None if it is not to be returned.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">before_scale</td><td>[bool] True = integer depth map before scaling.</td></tr>
@@ -454,6 +500,9 @@ Returns:
         </tr>
       </table>
 </div><div class="memdoc">
+<ul>
+<li>auto exposure mode </li>
+</ul>
 
 </div>
 </div>

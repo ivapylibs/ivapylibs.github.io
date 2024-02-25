@@ -168,6 +168,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a27491808ddf612d419d56aa8970ab09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a2ed620894230abefeb48f86fa9094f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a6a2ed620894230abefeb48f86fa9094f">testOnRGBDStream</a> (self, theStream, incVis=True)</td></tr>
 <tr class="separator:a6a2ed620894230abefeb48f86fa9094f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd73275c0a2c58eb278cb0984203aafa"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#abd73275c0a2c58eb278cb0984203aafa">updateFromData</a> (self, theData, alpha=None)</td></tr>
+<tr class="memdesc:abd73275c0a2c58eb278cb0984203aafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use given data to update Gaussia foreground model based on learning rate.  <a href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#abd73275c0a2c58eb278cb0984203aafa">More...</a><br /></td></tr>
+<tr class="separator:abd73275c0a2c58eb278cb0984203aafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2c374f4f80de0ea76229a89186cd535"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#ac2c374f4f80de0ea76229a89186cd535">updateFromMaskRGB</a> (self, theMask, theImage, alpha=None)</td></tr>
+<tr class="memdesc:ac2c374f4f80de0ea76229a89186cd535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract mask region pixel data from image for Gaussia model update/adaptation.  <a href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#ac2c374f4f80de0ea76229a89186cd535">More...</a><br /></td></tr>
+<tr class="separator:ac2c374f4f80de0ea76229a89186cd535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classdetector_1_1inImage_1_1fgImage"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classdetector_1_1inImage_1_1fgImage')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classdetector_1_1inImage_1_1fgImage.html">fgImage</a></td></tr>
 <tr class="memitem:af6c7a3f709feb7b34c6dae656b07899a inherit pub_methods_classdetector_1_1inImage_1_1fgImage"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1inImage_1_1fgImage.html#af6c7a3f709feb7b34c6dae656b07899a">__init__</a> (self, <a class="el" href="classdetector_1_1inImage_1_1inImage.html#a484a8e0e9e7b305769fcf0dfeb7d79cc">processor</a>=None)</td></tr>
 <tr class="separator:af6c7a3f709feb7b34c6dae656b07899a inherit pub_methods_classdetector_1_1inImage_1_1fgImage"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,6 +246,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a484a8e0e9e7b305769fcf0dfeb7d79cc inherit pub_attribs_classdetector_1_1inImage_1_1inImage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classdetector_1_1base_1_1Base"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classdetector_1_1base_1_1Base')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classdetector_1_1base_1_1Base.html">Base</a></td></tr>
 <tr class="memitem:a9336ebf25087d91c818ee6e9ec29f8c1 inherit pub_attribs_classdetector_1_1base_1_1Base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1base_1_1Base.html#a9336ebf25087d91c818ee6e9ec29f8c1">x</a></td></tr>
+<tr class="memdesc:a9336ebf25087d91c818ee6e9ec29f8c1 inherit pub_attribs_classdetector_1_1base_1_1Base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detection state.  <a href="classdetector_1_1base_1_1Base.html#a9336ebf25087d91c818ee6e9ec29f8c1">More...</a><br /></td></tr>
 <tr class="separator:a9336ebf25087d91c818ee6e9ec29f8c1 inherit pub_attribs_classdetector_1_1base_1_1Base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -1057,6 +1064,100 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd73275c0a2c58eb278cb0984203aafa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd73275c0a2c58eb278cb0984203aafa">&#9670;&nbsp;</a></span>updateFromData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def updateFromData </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>theData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>alpha</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Use given data to update Gaussia foreground model based on learning rate. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">theData</td><td>Column-vectors of target data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>[None] Learning rate override: set for value other than internal one.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>Establish if should be row or column. </dd></dl>
+
+</div>
+</div>
+<a id="ac2c374f4f80de0ea76229a89186cd535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2c374f4f80de0ea76229a89186cd535">&#9670;&nbsp;</a></span>updateFromMaskRGB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def updateFromMaskRGB </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>theMask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>theImage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>alpha</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Extract mask region pixel data from image for Gaussia model update/adaptation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">theMask</td><td>Regions of interest w/binary true values. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">theImage</td><td>Source image to get model data from. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">alpha</td><td>[None] Learning rate override: set for value other than internal one. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
