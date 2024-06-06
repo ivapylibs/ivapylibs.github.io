@@ -1,12 +1,19 @@
 <map id="AlgConfig" name="AlgConfig">
-<area shape="rect" id="node1" title="Base class for algorithm configuration." alt="" coords="297,80,376,107"/>
-<area shape="rect" id="node3" href="$classcamera_1_1base_1_1CfgCamera.html" title="Configuration setting specifier for generic camera." alt="" coords="5,155,95,181"/>
-<area shape="rect" id="node4" href="$classivapy_1_1Configuration_1_1BuildConfig.html" title="Base class for algorithm builder configuration." alt="" coords="119,155,208,181"/>
-<area shape="rect" id="node7" href="$classivapy_1_1Configuration_1_1ROSConfig.html" title="Base class for ROS&#45;based robot, node, algorithm configuration." alt="" coords="232,155,321,181"/>
-<area shape="rect" id="node8" href="$classpaths_1_1CfgStepLines.html" title="Configuration specifier for piecewise lines instance." alt="" coords="346,155,447,181"/>
-<area shape="rect" id="node9" href="$classperceiver_1_1monitor_1_1CfgMonitor.html" title="Configuration instance for a Monitor." alt="" coords="472,155,559,181"/>
-<area shape="rect" id="node10" href="$classperceiver_1_1progress_1_1CfgProgress.html" title="Configuration instance for a Progress monitor." alt="" coords="583,155,677,181"/>
-<area shape="rect" id="node2" title=" " alt="" coords="299,5,374,32"/>
-<area shape="rect" id="node5" href="$classperceiver_1_1monitor_1_1BuildCfgMonitor.html" title="Build configuration instance for a monitor." alt="" coords="34,229,149,256"/>
-<area shape="rect" id="node6" href="$classperceiver_1_1progress_1_1BuildCfgProgress.html" title="Build configuration instance for a progress monitor." alt="" coords="173,229,297,256"/>
+<area shape="rect" id="node3" href="$classannouncer_1_1CfgAnnouncer.html" title="Configuration instance for an Announcer. " alt="" coords="265,5,371,32"/>
+<area shape="rect" id="node4" href="$classcamera_1_1base_1_1CfgCamera.html" title="Configuration setting specifier for generic camera. " alt="" coords="273,56,363,83"/>
+<area shape="rect" id="node5" href="$classchannel_1_1CfgChannel.html" title="Configuration instance for a Channel. " alt="" coords="273,107,363,133"/>
+<area shape="rect" id="node6" href="$classivapy_1_1Configuration_1_1BuildConfig.html" title="Base class for algorithm builder configuration. " alt="" coords="273,157,363,184"/>
+<area shape="rect" id="node9" href="$classivapy_1_1Configuration_1_1ROSConfig.html" title="Base class for ROS&#45;based robot, node, algorithm configuration. " alt="" coords="273,208,363,235"/>
+<area shape="rect" id="node10" href="$classpaths_1_1CfgStepLines.html" title="Configuration specifier for piecewise lines instance. " alt="" coords="267,259,369,285"/>
+<area shape="rect" id="node11" href="$classperceiver_1_1monitor_1_1CfgMonitor.html" title="Configuration instance for a Monitor. " alt="" coords="275,309,361,336"/>
+<area shape="rect" id="node12" href="$classperceiver_1_1perceiver_1_1BuildCfgPerceiver.html" title="Build configuration instance for a perceiver. " alt="" coords="255,360,381,387"/>
+<area shape="rect" id="node13" href="$classperceiver_1_1perceiver_1_1CfgPerceiver.html" title="Configuration instance for a perceiver. " alt="" coords="269,411,367,437"/>
+<area shape="rect" id="node14" href="$classperceiver_1_1progress_1_1CfgProgress.html" title="Configuration instance for a Progress monitor. " alt="" coords="271,461,365,488"/>
+<area shape="rect" id="node15" href="$classperceiver_1_1reporting_1_1BuildCfgReporter.html" title="Configuration instance for a Reporter. " alt="" coords="257,512,379,539"/>
+<area shape="rect" id="node16" href="$classperceiver_1_1reporting_1_1CfgReporter.html" title="Configuration instance for a Reporter. " alt="" coords="271,563,365,589"/>
+<area shape="rect" id="node17" href="$classtrigger_1_1BuildCfgTrigger.html" title="Configuration instance for building a Trigger. " alt="" coords="262,613,374,640"/>
+<area shape="rect" id="node18" href="$classtrigger_1_1CfgDistTrigger.html" title="Configuration instance for a Trigger. " alt="" coords="265,664,371,691"/>
+<area shape="rect" id="node19" href="$classtrigger_1_1CfgTrigger.html" title="Configuration instance for a Trigger. " alt="" coords="277,715,359,741"/>
+<area shape="rect" id="node7" href="$classperceiver_1_1monitor_1_1BuildCfgMonitor.html" title="Build configuration instance for a monitor. " alt="" coords="434,132,549,159"/>
+<area shape="rect" id="node8" href="$classperceiver_1_1progress_1_1BuildCfgProgress.html" title="Build configuration instance for a progress monitor. " alt="" coords="429,183,553,209"/>
 </map>

@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classperceiver_1_1perceiver_1_1PerceiverState.html" title=" " alt="" coords="5,5,113,32"/>
+<area shape="rect" id="node2" href="$classbyMotion_1_1MoveState.html" title="MoveState" alt="" coords="110,5,195,32"/>
+<area shape="rect" id="node3" href="$classbyMotion_1_1TrackState.html" title="TrackState" alt="" coords="109,56,196,83"/>
+<area shape="rect" id="node4" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1RunState.html" title="RunState" alt="" coords="114,107,191,133"/>
 </map>

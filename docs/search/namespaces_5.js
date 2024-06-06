@@ -1,12 +1,11 @@
 var searchData=
 [
-  ['builders_814',['builders',['../namespaceperceiver_1_1builders.html',1,'perceiver']]],
-  ['coloblob_815',['coloBlob',['../namespaceperceiver_1_1coloBlob.html',1,'perceiver']]],
-  ['colorheight_816',['colorHeight',['../namespaceperceiver_1_1colorHeight.html',1,'perceiver']]],
-  ['monitor_817',['monitor',['../namespaceperceiver_1_1monitor.html',1,'perceiver']]],
-  ['paths_818',['paths',['../namespacepaths.html',1,'']]],
-  ['perceiver_819',['perceiver',['../namespaceperceiver.html',1,'perceiver'],['../namespaceperceiver_1_1perceiver.html',1,'perceiver.perceiver']]],
-  ['progress_820',['progress',['../namespaceperceiver_1_1progress.html',1,'perceiver']]],
-  ['reporter_821',['reporter',['../namespaceperceiver_1_1reporter.html',1,'perceiver']]],
-  ['simple_822',['simple',['../namespaceperceiver_1_1simple.html',1,'perceiver']]]
+  ['basic',['basic',['../namespaceimprocessor_1_1basic.html',1,'improcessor']]],
+  ['configuration',['Configuration',['../namespaceivapy_1_1Configuration.html',1,'ivapy']]],
+  ['display_5fcv',['display_cv',['../namespaceivapy_1_1display__cv.html',1,'ivapy']]],
+  ['improcessor',['improcessor',['../namespaceimprocessor.html',1,'']]],
+  ['inimage',['inImage',['../namespaceinImage.html',1,'']]],
+  ['inimagergbd',['inImageRGBD',['../namespaceinImageRGBD.html',1,'']]],
+  ['ivapy',['ivapy',['../namespaceivapy.html',1,'']]],
+  ['mask',['mask',['../namespaceimprocessor_1_1mask.html',1,'improcessor']]]
 ];
