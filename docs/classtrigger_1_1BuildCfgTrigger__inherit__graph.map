@@ -1,5 +1,9 @@
 <map id="BuildCfgTrigger" name="BuildCfgTrigger">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title="Configuration instance for building a Trigger." alt="" coords="5,155,117,181"/>
 <area shape="rect" id="node2" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration." alt="" coords="22,80,101,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="24,5,99,32"/>
+=======
+<area shape="rect" id="node2" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration. " alt="" coords="22,80,101,107"/>
+>>>>>>> 9a108b0c5d18f5a3389589c350064a8bb67acfd2
 </map>

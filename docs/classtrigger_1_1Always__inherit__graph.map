@@ -1,4 +1,8 @@
 <map id="Always" name="Always">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title="Class that always triggers a report." alt="" coords="5,80,71,107"/>
 <area shape="rect" id="node2" href="$classtrigger_1_1Trigger.html" title="Base/abstract trigger class." alt="" coords="7,5,69,32"/>
+=======
+<area shape="rect" id="node2" href="$classtrigger_1_1Trigger.html" title="Base/abstract trigger class. " alt="" coords="7,5,69,32"/>
+>>>>>>> 9a108b0c5d18f5a3389589c350064a8bb67acfd2
 </map>

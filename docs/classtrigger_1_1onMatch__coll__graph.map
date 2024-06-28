@@ -1,4 +1,8 @@
 <map id="onMatch" name="onMatch">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title="Class that triggers a report when the state matches a target state." alt="" coords="5,80,77,107"/>
 <area shape="rect" id="node2" href="$classtrigger_1_1Trigger.html" title="Base/abstract trigger class." alt="" coords="10,5,73,32"/>
+=======
+<area shape="rect" id="node2" href="$classtrigger_1_1Trigger.html" title="Base/abstract trigger class. " alt="" coords="10,5,73,32"/>
+>>>>>>> 9a108b0c5d18f5a3389589c350064a8bb67acfd2
 </map>

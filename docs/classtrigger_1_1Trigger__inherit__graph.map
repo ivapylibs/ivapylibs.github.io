@@ -1,7 +1,17 @@
 <map id="Trigger" name="Trigger">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title="Base/abstract trigger class." alt="" coords="155,5,217,32"/>
 <area shape="rect" id="node2" href="$classtrigger_1_1Always.html" title="Class that always triggers a report." alt="" coords="5,80,71,107"/>
 <area shape="rect" id="node3" href="$classtrigger_1_1onChange.html" title="Class that triggers a report when the state changes." alt="" coords="95,80,176,107"/>
 <area shape="rect" id="node4" href="$classtrigger_1_1onMatch.html" title="Class that triggers a report when the state matches a target state." alt="" coords="201,80,273,107"/>
 <area shape="rect" id="node5" href="$classtrigger_1_1whenClose.html" title="Class that triggers a report when current state is close to target state." alt="" coords="297,80,384,107"/>
+=======
+<area shape="rect" id="node2" href="$classtrigger_1_1Always.html" title="Class that always triggers a report. " alt="" coords="5,80,71,107"/>
+<area shape="rect" id="node3" href="$classtrigger_1_1onChange.html" title="Class that triggers a report when the state changes. " alt="" coords="95,80,176,107"/>
+<area shape="rect" id="node4" href="$classtrigger_1_1onMatch.html" title="Class that triggers a report when the state matches a target state. " alt="" coords="201,80,273,107"/>
+<area shape="rect" id="node5" href="$classtrigger_1_1whenClose.html" title="Class that triggers a report when current state is close to target state. " alt="" coords="297,80,384,107"/>
+<area shape="rect" id="node6" href="$classtrigger_1_1whenDiffers.html" title="Class that triggers a report when current state differs from previous state. " alt="" coords="408,80,500,107"/>
+<area shape="rect" id="node7" href="$classtrigger_1_1whenFar.html" title="Class that triggers a report when current state is far fromo target state. " alt="" coords="525,80,597,107"/>
+<area shape="rect" id="node8" href="$classtrigger_1_1whenSimilar.html" title="Class that triggers a report when current state is similar to previous state. " alt="" coords="621,80,714,107"/>
+>>>>>>> 9a108b0c5d18f5a3389589c350064a8bb67acfd2
 </map>
