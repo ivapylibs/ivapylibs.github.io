@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['activitystate_668',['ActivityState',['../classdetector_1_1base_1_1ActivityState.html',1,'detector::base']]],
-  ['algconfig_669',['AlgConfig',['../classivapy_1_1Configuration_1_1AlgConfig.html',1,'AlgConfig'],['../classdetector_1_1Configuration_1_1AlgConfig.html',1,'AlgConfig']]]
+  ['activitystate_742',['ActivityState',['../classdetector_1_1base_1_1ActivityState.html',1,'detector::base']]],
+  ['algconfig_743',['AlgConfig',['../classdetector_1_1Configuration_1_1AlgConfig.html',1,'AlgConfig'],['../classivapy_1_1Configuration_1_1AlgConfig.html',1,'AlgConfig']]],
+  ['always_744',['Always',['../classtriggers_1_1Always.html',1,'triggers']]],
+  ['announcement_745',['Announcement',['../classdrafts_1_1Announcement.html',1,'drafts']]],
+  ['assignment_746',['Assignment',['../classchannels_1_1Assignment.html',1,'channels']]]
 ];

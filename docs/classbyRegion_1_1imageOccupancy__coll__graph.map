@@ -1,0 +1,6 @@
+<map id="imageOccupancy" name="imageOccupancy">
+<area shape="rect" id="node1" title="Activity states depend on having true image values lying in specific regions of an image...." alt="" coords="5,229,128,256"/>
+<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="33,155,101,181"/>
+<area shape="rect" id="node3" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="41,80,93,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="38,5,95,32"/>
+</map>

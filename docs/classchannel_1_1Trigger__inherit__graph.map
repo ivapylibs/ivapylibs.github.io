@@ -1,0 +1,7 @@
+<map id="Trigger" name="Trigger">
+<area shape="rect" id="node1" title="Base/abstract trigger class." alt="" coords="155,5,217,32"/>
+<area shape="rect" id="node2" href="$classchannel_1_1Always.html" title="Class that always triggers a report." alt="" coords="5,80,71,107"/>
+<area shape="rect" id="node3" href="$classchannel_1_1onChange.html" title="Class that triggers a report when the state changes." alt="" coords="95,80,176,107"/>
+<area shape="rect" id="node4" href="$classchannel_1_1onMatch.html" title="Class that triggers a report when the state matches a target state." alt="" coords="201,80,273,107"/>
+<area shape="rect" id="node5" href="$classchannel_1_1whenClose.html" title="Class that triggers a report when current state is close to target state." alt="" coords="297,80,384,107"/>
+</map>

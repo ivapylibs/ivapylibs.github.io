@@ -1,16 +1,13 @@
 <map id="AlgConfig" name="AlgConfig">
-<area shape="rect" id="node1" title=" " alt="" coords="128,208,207,235"/>
-<area shape="rect" id="node3" href="$classbyMotion_1_1CfgMoving.html" title="Configuration setting specifier for &quot;motion&quot; detector." alt="" coords="275,5,361,32"/>
-<area shape="rect" id="node4" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="281,56,355,83"/>
-<area shape="rect" id="node7" href="$classdetector_1_1bgmodel_1_1GMM_1_1CfgGMM__cv.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="270,107,366,133"/>
-<area shape="rect" id="node8" href="$classdetector_1_1bgmodel_1_1inCorner_1_1CfgInCorner.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="271,157,365,184"/>
-<area shape="rect" id="node9" href="$classdetector_1_1fgmodel_1_1Gaussian_1_1CfgSGT.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="283,208,353,235"/>
-<area shape="rect" id="node10" href="$classperceiver_1_1perceiver_1_1BuildCfgPerceiver.html" title="Build configuration instance for a perceiver." alt="" coords="255,259,381,285"/>
-<area shape="rect" id="node11" href="$classperceiver_1_1perceiver_1_1CfgPerceiver.html" title="Configuration instance for a perceiver." alt="" coords="269,309,367,336"/>
-<area shape="rect" id="node12" href="$classtrackpointer_1_1centroid_1_1CfgCentroid.html" title=" " alt="" coords="272,360,364,387"/>
-<area shape="rect" id="node14" href="$classtrackpointer_1_1centroid_1_1CfgCentroind.html" title="Configuration setting specifier for centroidMulti." alt="" coords="269,411,367,437"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,208,80,235"/>
-<area shape="rect" id="node5" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGCone.html" title="Configuration setting specifier for Gaussian BG conical model." alt="" coords="432,31,525,57"/>
-<area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="437,81,520,108"/>
-<area shape="rect" id="node13" href="$classtrackpointer_1_1centroidMulti_1_1CfgCentMulti.html" title="Configuration setting specifier for centroidMulti." alt="" coords="429,360,528,387"/>
+<area shape="rect" id="node1" title=" " alt="" coords="281,80,359,107"/>
+<area shape="rect" id="node3" href="$classbyMotion_1_1CfgMoving.html" title="Configuration setting specifier for &quot;motion&quot; detector." alt="" coords="5,155,91,181"/>
+<area shape="rect" id="node4" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="115,155,189,181"/>
+<area shape="rect" id="node7" href="$classdetector_1_1bgmodel_1_1GMM_1_1CfgGMM__cv.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="213,155,309,181"/>
+<area shape="rect" id="node8" href="$classdetector_1_1bgmodel_1_1inCorner_1_1CfgInCorner.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="333,155,427,181"/>
+<area shape="rect" id="node9" href="$classtrackpointer_1_1centroid_1_1CfgCentroid.html" title=" " alt="" coords="451,155,543,181"/>
+<area shape="rect" id="node11" href="$classtrackpointer_1_1centroid_1_1CfgCentroind.html" title="Configuration setting specifier for centroidMulti." alt="" coords="568,155,667,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="283,5,357,32"/>
+<area shape="rect" id="node5" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGCone.html" title="Configuration setting specifier for Gaussian BG conical model." alt="" coords="49,229,143,256"/>
+<area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="167,229,249,256"/>
+<area shape="rect" id="node10" href="$classtrackpointer_1_1centroidMulti_1_1CfgCentMulti.html" title="Configuration setting specifier for centroidMulti." alt="" coords="448,229,547,256"/>
 </map>

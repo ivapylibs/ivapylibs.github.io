@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classtriggers_1_1Trigger.html" title="Base/abstract trigger class." alt="" coords="5,157,68,184"/>
+<area shape="rect" id="node2" href="$classtriggers_1_1Always.html" title="Class that always triggers a report." alt="" coords="130,5,195,32"/>
+<area shape="rect" id="node3" href="$classtriggers_1_1onChange.html" title="Class that triggers a report when the state changes." alt="" coords="122,56,203,83"/>
+<area shape="rect" id="node4" href="$classtriggers_1_1onMatch.html" title="Class that triggers a report when the state matches a target state." alt="" coords="127,107,199,133"/>
+<area shape="rect" id="node5" href="$classtriggers_1_1whenClose.html" title="Class that triggers a report when current state is close to target state." alt="" coords="119,157,206,184"/>
+<area shape="rect" id="node6" href="$classtriggers_1_1whenDiffers.html" title="Class that triggers a report when current state differs from previous state." alt="" coords="117,208,209,235"/>
+<area shape="rect" id="node7" href="$classtriggers_1_1whenFar.html" title="Class that triggers a report when current state is far fromo target state." alt="" coords="127,259,199,285"/>
+<area shape="rect" id="node8" href="$classtriggers_1_1whenSimilar.html" title="Class that triggers a report when current state is similar to previous state." alt="" coords="116,309,209,336"/>
+</map>
