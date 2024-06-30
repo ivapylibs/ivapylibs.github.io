@@ -89,9 +89,9 @@ Inheritance diagram for Reporter:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae202c73b0cc98cc94ce6a5a00a42ff1b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1reporting_1_1Reporter.html#ae202c73b0cc98cc94ce6a5a00a42ff1b">__init__</a> (self, theTrigger, theAnnouncer, theChannel, theConfig=<a class="el" href="classperceiver_1_1reporting_1_1CfgReporter.html">CfgReporter</a>())</td></tr>
-<tr class="memdesc:ae202c73b0cc98cc94ce6a5a00a42ff1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to reporter class.  <a href="classperceiver_1_1reporting_1_1Reporter.html#ae202c73b0cc98cc94ce6a5a00a42ff1b">More...</a><br /></td></tr>
-<tr class="separator:ae202c73b0cc98cc94ce6a5a00a42ff1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af70c9c2d946ebd523f11120602f61511"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1reporting_1_1Reporter.html#af70c9c2d946ebd523f11120602f61511">__init__</a> (self, theTrigger, theAnnouncer, theChannel, theConfig=None)</td></tr>
+<tr class="memdesc:af70c9c2d946ebd523f11120602f61511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor to reporter class.  <a href="classperceiver_1_1reporting_1_1Reporter.html#af70c9c2d946ebd523f11120602f61511">More...</a><br /></td></tr>
+<tr class="separator:af70c9c2d946ebd523f11120602f61511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a061a15b5681647d526567f3c87b8801e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1reporting_1_1Reporter.html#a061a15b5681647d526567f3c87b8801e">process</a> (self, theSignal)</td></tr>
 <tr class="memdesc:a061a15b5681647d526567f3c87b8801e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process incoming signal and report as specified.  <a href="classperceiver_1_1reporting_1_1Reporter.html#a061a15b5681647d526567f3c87b8801e">More...</a><br /></td></tr>
 <tr class="separator:a061a15b5681647d526567f3c87b8801e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,8 +114,8 @@ Public Attributes</h2></td></tr>
 <p>A reporter manages the higher level flow that goes from state information to output. This way programming can go from debug type outputs to highly structured output that supports analysis. It can even be that the output is to a stream, thereby serving as input to some other process. Such a case could hold for ROS topic/message output types.</p>
 <p>All of the core implementations are overloadable through derived classes. Some generic versions are available. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae202c73b0cc98cc94ce6a5a00a42ff1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae202c73b0cc98cc94ce6a5a00a42ff1b">&#9670;&nbsp;</a></span>__init__()</h2>
+<a id="af70c9c2d946ebd523f11120602f61511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af70c9c2d946ebd523f11120602f61511">&#9670;&nbsp;</a></span>__init__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,7 +148,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>theConfig</em> = <code><a class="el" href="classperceiver_1_1reporting_1_1CfgReporter.html">CfgReporter</a>()</code>&#160;</td>
+          <td class="paramname"><em>theConfig</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -170,7 +170,7 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classperceiver_1_1reporting_1_1BeatReporter.html#a85fb162400ab3a14a1809beec76918f3">BeatReporter</a>.</p>
+<p>Reimplemented in <a class="el" href="classperceiver_1_1reporting_1_1BeatReporter.html#ab0ae302bc0d784eb3310b6bf223f7c04">BeatReporter</a>.</p>
 
 </div>
 </div>

@@ -86,6 +86,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a28a2fcc35373ec4535c8bbf758deed18"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1reporting_1_1Editor.html#a28a2fcc35373ec4535c8bbf758deed18">addBeat</a> (self, beatReporter, beatRevisor=None, assignID=None)</td></tr>
 <tr class="memdesc:a28a2fcc35373ec4535c8bbf758deed18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new <a class="el" href="classperceiver_1_1reporting_1_1BeatReporter.html" title="Specialized reporter class that works with an editor.">BeatReporter</a> to manage and potentially provide a news desk assignment ID (default is true for this last part).  <a href="classperceiver_1_1reporting_1_1Editor.html#a28a2fcc35373ec4535c8bbf758deed18">More...</a><br /></td></tr>
 <tr class="separator:a28a2fcc35373ec4535c8bbf758deed18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15650c51d93c1503d9936f6a1f4bb2ef"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1reporting_1_1Editor.html#a15650c51d93c1503d9936f6a1f4bb2ef">assignGroup</a> (self, theGroup, theRevisor=None, assignIDs=None)</td></tr>
+<tr class="memdesc:a15650c51d93c1503d9936f6a1f4bb2ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign a group of BeatReporters to the <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a>.  <a href="classperceiver_1_1reporting_1_1Editor.html#a15650c51d93c1503d9936f6a1f4bb2ef">More...</a><br /></td></tr>
+<tr class="separator:a15650c51d93c1503d9936f6a1f4bb2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac329813682f3f05172aee87453f41435"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classperceiver_1_1reporting_1_1Editor.html#ac329813682f3f05172aee87453f41435">incoming</a> (self, assignID, theReport)</td></tr>
 <tr class="memdesc:ac329813682f3f05172aee87453f41435"><td class="mdescLeft">&#160;</td><td class="mdescRight">There is an incoming output from a <a class="el" href="classperceiver_1_1reporting_1_1BeatReporter.html" title="Specialized reporter class that works with an editor.">BeatReporter</a>.  <a href="classperceiver_1_1reporting_1_1Editor.html#ac329813682f3f05172aee87453f41435">More...</a><br /></td></tr>
 <tr class="separator:ac329813682f3f05172aee87453f41435"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,7 +113,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a> class manages multiple reporters and curates information going to the output channel based on reporter commentary. </p>
-<p>An <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a> manages multiple reporters that are given "assignments" in that they receive specific signals, have their own triggers, and respond to the associated signals in their own ways. An <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a> collects the reporter outputs and determines when to publish (or report out) and in what order. We can the <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a> level receipt of activity as the the <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a>'s "news desk." The <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a>'s collects the information and its channel does the reporting through a output generating channel.</p>
+<p>An <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a> manages multiple reporters that are given "assignments" in that they receive specific signals, have their own triggers, and respond to the associated signals in their own ways. An <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a> collects the reporter outputs and determines when to publish (or report out) and in what order. We call the <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a> level receipt of activity as the the <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a>'s "news desk." The <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a>'s collects the information and its channel does the reporting through a output generating channel.</p>
 <p>Typically the <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a> will have a set of BeatReporters that are responsible for creating specific reporting output. All of their streams are integrated into a single output stream (or channel). </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9bec681f36d95f6663e81338af234c67"></a>
@@ -207,6 +210,48 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a15650c51d93c1503d9936f6a1f4bb2ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15650c51d93c1503d9936f6a1f4bb2ef">&#9670;&nbsp;</a></span>assignGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def assignGroup </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>theGroup</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>theRevisor</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>assignIDs</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Assign a group of BeatReporters to the <a class="el" href="classperceiver_1_1reporting_1_1Editor.html" title="Editor class manages multiple reporters and curates information going to the output channel based on ...">Editor</a>. </p>
 
 </div>
 </div>
