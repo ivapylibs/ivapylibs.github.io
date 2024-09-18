@@ -1,5 +1,4 @@
 <map id="Announcement" name="Announcement">
-<area shape="rect" id="node1" title="Base/abstract announcer class." alt="" coords="23,5,133,32"/>
-<area shape="rect" id="node2" href="$classdrafts_1_1Commentary.html" title="Commentary class, which does not transcribe the signal but passes it along in some non&#45;text format." alt="" coords="29,80,127,107"/>
-<area shape="rect" id="node3" href="$classdrafts_1_1RunningCommentary.html" title="Commentary class that also keeps track of past information and reports it all out when requested...." alt="" coords="5,155,151,181"/>
+<area shape="rect" id="node2" href="$classdrafts_1_1Commentary.html" title="Commentary class, which does not transcribe the signal but passes it along in some non&#45;text format..." alt="" coords="29,80,127,107"/>
+<area shape="rect" id="node3" href="$classdrafts_1_1RunningCommentary.html" title="Commentary class that also keeps track of past information and reports it all out when requested..." alt="" coords="5,155,151,181"/>
 </map>

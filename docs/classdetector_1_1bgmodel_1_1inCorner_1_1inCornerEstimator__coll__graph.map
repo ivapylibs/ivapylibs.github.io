@@ -1,8 +1,6 @@
 <map id="inCornerEstimator" name="inCornerEstimator">
-<area shape="rect" id="node1" title="Wrapper to inCorner that performs estimation for caliration and saving." alt="" coords="5,379,132,405"/>
-<area shape="rect" id="node2" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html" title="Class instance for extracting background that lies with the corner region of the RGB color cube,..." alt="" coords="33,304,104,331"/>
-<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input." alt="" coords="33,229,105,256"/>
-<area shape="rect" id="node4" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="35,155,103,181"/>
-<area shape="rect" id="node5" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="43,80,95,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="40,5,97,32"/>
+<area shape="rect" id="node2" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html" title="Class instance for extracting background that lies with the corner region of the RGB color cube..." alt="" coords="33,304,104,331"/>
+<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input. " alt="" coords="33,229,105,256"/>
+<area shape="rect" id="node4" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input. " alt="" coords="35,155,103,181"/>
+<area shape="rect" id="node5" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class. " alt="" coords="43,80,95,107"/>
 </map>

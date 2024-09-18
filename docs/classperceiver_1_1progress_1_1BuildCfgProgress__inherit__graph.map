@@ -1,6 +1,4 @@
 <map id="BuildCfgProgress" name="BuildCfgProgress">
-<area shape="rect" id="node1" title="Build configuration instance for a progress monitor." alt="" coords="5,229,129,256"/>
-<area shape="rect" id="node2" href="$classivapy_1_1Configuration_1_1BuildConfig.html" title="Base class for algorithm builder configuration." alt="" coords="23,155,112,181"/>
-<area shape="rect" id="node3" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration." alt="" coords="28,80,107,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="30,5,105,32"/>
+<area shape="rect" id="node2" href="$classivapy_1_1Configuration_1_1BuildConfig.html" title="Base class for algorithm builder configuration. " alt="" coords="23,155,112,181"/>
+<area shape="rect" id="node3" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration. " alt="" coords="28,80,107,107"/>
 </map>

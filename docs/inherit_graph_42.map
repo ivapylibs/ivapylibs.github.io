@@ -1,12 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classtriggers_1_1Trigger.html" title="Base/abstract trigger class." alt="" coords="5,208,68,235"/>
-<area shape="rect" id="node2" href="$classtriggers_1_1Always.html" title="Class that always triggers a report." alt="" coords="130,5,195,32"/>
-<area shape="rect" id="node3" href="$classtriggers_1_1Falling.html" title="Class that triggers a report when binary state changes, on falling edge." alt="" coords="133,56,193,83"/>
-<area shape="rect" id="node4" href="$classtriggers_1_1onChange.html" title="Class that triggers a report when the state changes." alt="" coords="122,107,203,133"/>
-<area shape="rect" id="node5" href="$classtriggers_1_1onMatch.html" title="Class that triggers a report when the state matches a target state." alt="" coords="127,157,199,184"/>
-<area shape="rect" id="node6" href="$classtriggers_1_1Rising.html" title="Class that triggers a report when binary state changes, on rising edge." alt="" coords="133,208,192,235"/>
-<area shape="rect" id="node7" href="$classtriggers_1_1whenClose.html" title="Class that triggers a report when current state is close to target state." alt="" coords="119,259,206,285"/>
-<area shape="rect" id="node8" href="$classtriggers_1_1whenDiffers.html" title="Class that triggers a report when current state differs from previous state." alt="" coords="117,309,209,336"/>
-<area shape="rect" id="node9" href="$classtriggers_1_1whenFar.html" title="Class that triggers a report when current state is far fromo target state." alt="" coords="127,360,199,387"/>
-<area shape="rect" id="node10" href="$classtriggers_1_1whenSimilar.html" title="Class that triggers a report when current state is similar to previous state." alt="" coords="116,411,209,437"/>
+<area shape="rect" id="node1" href="$classtriggers_1_1Trigger.html" title="Base/abstract trigger class. " alt="" coords="5,208,68,235"/>
+<area shape="rect" id="node2" href="$classtriggers_1_1Always.html" title="Class that always triggers a report. " alt="" coords="130,5,195,32"/>
+<area shape="rect" id="node3" href="$classtriggers_1_1Falling.html" title="Class that triggers a report when binary state changes, on falling edge. " alt="" coords="133,56,193,83"/>
+<area shape="rect" id="node4" href="$classtriggers_1_1onChange.html" title="Class that triggers a report when the state changes. " alt="" coords="122,107,203,133"/>
+<area shape="rect" id="node5" href="$classtriggers_1_1onMatch.html" title="Class that triggers a report when the state matches a target state. " alt="" coords="127,157,199,184"/>
+<area shape="rect" id="node6" href="$classtriggers_1_1Rising.html" title="Class that triggers a report when binary state changes, on rising edge. " alt="" coords="133,208,192,235"/>
+<area shape="rect" id="node7" href="$classtriggers_1_1whenClose.html" title="Class that triggers a report when current state is close to target state. " alt="" coords="119,259,206,285"/>
+<area shape="rect" id="node8" href="$classtriggers_1_1whenDiffers.html" title="Class that triggers a report when current state differs from previous state. " alt="" coords="117,309,209,336"/>
+<area shape="rect" id="node9" href="$classtriggers_1_1whenFar.html" title="Class that triggers a report when current state is far fromo target state. " alt="" coords="127,360,199,387"/>
+<area shape="rect" id="node10" href="$classtriggers_1_1whenSimilar.html" title="Class that triggers a report when current state is similar to previous state. " alt="" coords="116,411,209,437"/>
 </map>

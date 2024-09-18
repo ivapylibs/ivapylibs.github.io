@@ -1,5 +1,3 @@
 <map id="ROSConfig" name="ROSConfig">
-<area shape="rect" id="node1" title="Base class for ROS&#45;based robot, node, algorithm configuration." alt="" coords="5,155,95,181"/>
-<area shape="rect" id="node2" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration." alt="" coords="11,80,89,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="13,5,87,32"/>
+<area shape="rect" id="node2" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration. " alt="" coords="11,80,89,107"/>
 </map>
