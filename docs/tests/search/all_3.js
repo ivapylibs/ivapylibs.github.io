@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['gmmcv01run_2epy_7',['gmmcv01run.py',['../gmmcv01run_8py.html',1,'']]],
-  ['gmmcv02calibrate_2epy_8',['gmmcv02calibrate.py',['../gmmcv02calibrate_8py.html',1,'']]],
-  ['generic_20code_20to_20confirm_20implementation_9',['Generic Code to Confirm Implementation',['../md__home_pvela_python_detector_testing_fgmodel_CONTENTS.html',1,'']]]
+  ['editor01simple_2epy_7',['editor01simple.py',['../editor01simple_8py.html',1,'']]],
+  ['editor02commentary_2epy_8',['editor02commentary.py',['../editor02commentary_8py.html',1,'']]],
+  ['editor03badcsv_2epy_9',['editor03badcsv.py',['../editor03badcsv_8py.html',1,'']]],
+  ['editor04csv_2epy_10',['editor04csv.py',['../editor04csv_8py.html',1,'']]]
 ];

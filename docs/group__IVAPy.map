@@ -1,5 +1,5 @@
 <map id="IVAPy" name="IVAPy">
-<area shape="rect" id="node1" title="Utility functions and glue code for IVALab python libraries." alt="" coords="5,31,64,56"/>
-<area shape="rect" id="node2" href="$group__ivapy__testing.html" title="Utility functions and glue code for IVALab python test scripts." alt="" coords="112,5,264,31"/>
-<area shape="rect" id="node3" href="$group__Display__CV.html" title="Display&#45;related utility functions built on opencv (cv2) libraries." alt="" coords="117,55,259,80"/>
+<area shape="rect" id="node1" title="Utility functions and glue code for IVALab python libraries." alt="" coords="5,31,65,56"/>
+<area shape="rect" id="node2" href="$group__ivapy__testing.html" title="Utility functions and glue code for IVALab python test scripts." alt="" coords="113,5,279,31"/>
+<area shape="rect" id="node3" href="$group__Display__CV.html" title="Display&#45;related utility functions built on opencv (cv2) libraries." alt="" coords="121,55,271,80"/>
 </map>

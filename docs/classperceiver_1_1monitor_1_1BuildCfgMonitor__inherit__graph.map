@@ -1,6 +1,6 @@
 <map id="BuildCfgMonitor" name="BuildCfgMonitor">
-<area shape="rect" id="node1" title="Build configuration instance for a monitor." alt="" coords="5,229,120,256"/>
-<area shape="rect" id="node2" href="$classivapy_1_1Configuration_1_1BuildConfig.html" title="Base class for algorithm builder configuration." alt="" coords="18,155,107,181"/>
-<area shape="rect" id="node3" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration." alt="" coords="23,80,102,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="25,5,100,32"/>
+<area shape="rect" id="node1" title="Build configuration instance for a monitor." alt="" coords="5,229,132,256"/>
+<area shape="rect" id="node2" href="$classivapy_1_1Configuration_1_1BuildConfig.html" title="Base class for algorithm builder configuration." alt="" coords="20,155,117,181"/>
+<area shape="rect" id="node3" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration." alt="" coords="26,80,111,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="29,5,108,32"/>
 </map>

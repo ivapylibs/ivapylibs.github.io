@@ -1,5 +1,5 @@
 <map id="CfgMoving" name="CfgMoving">
-<area shape="rect" id="node1" title="Configuration setting specifier for &quot;motion&quot; detector." alt="" coords="5,155,91,181"/>
-<area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="9,80,87,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="11,5,85,32"/>
+<area shape="rect" id="node1" title="Configuration setting specifier for &quot;motion&quot; detector." alt="" coords="5,155,97,181"/>
+<area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="9,80,94,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="12,5,91,32"/>
 </map>

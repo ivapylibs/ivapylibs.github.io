@@ -1,26 +1,29 @@
 <map id="Base" name="Base">
-<area shape="rect" id="node1" title="Base or root implementation of detector class." alt="" coords="111,107,163,133"/>
-<area shape="rect" id="node3" href="$classdetector_1_1fromState_1_1fromState.html" title="Basic detector from state vector input. Should be overloaded, but simple detectors can be created wit..." alt="" coords="211,56,289,83"/>
-<area shape="rect" id="node6" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="216,157,284,184"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,107,63,133"/>
-<area shape="rect" id="node4" href="$classbyRegion_1_1imageRegions.html" title="Activity states depend on having signal lying in specific regions of an image. Signal is presumably i..." alt="" coords="346,5,451,32"/>
-<area shape="rect" id="node5" href="$classbyRegion_1_1Planar.html" title="Activity detection based on lying in specific planar regions." alt="" coords="369,56,428,83"/>
-<area shape="rect" id="node7" href="$classbyRegion_1_1imageOccupancy.html" title="Activity states depend on having true image values lying in specific regions of an image...." alt="" coords="337,107,460,133"/>
-<area shape="rect" id="node8" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input." alt="" coords="363,157,435,184"/>
-<area shape="rect" id="node16" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input." alt="" coords="364,259,433,285"/>
-<area shape="rect" id="node23" href="$classdetector_1_1inImageRGBD_1_1inImageRGBD.html" title="Most basic object or instance detector from RGBD image input." alt="" coords="345,335,452,361"/>
-<area shape="rect" id="node9" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgConical.html" title="Implements a single Gaussian background model with conical error." alt="" coords="530,5,610,32"/>
-<area shape="rect" id="node10" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html" title="Implements a single Gaussian background model." alt="" coords="525,56,615,83"/>
-<area shape="rect" id="node12" href="$classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM.html" title=" " alt="" coords="519,107,621,133"/>
-<area shape="rect" id="node13" href="$classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html" title=" " alt="" coords="508,157,632,184"/>
-<area shape="rect" id="node14" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html" title="Class instance for extracting background that lies with the corner region of the RGB color cube,..." alt="" coords="535,208,605,235"/>
-<area shape="rect" id="node11" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html" title="Applies half&#45;Gaussian model with premise that targets lie to one side of the distribution." alt="" coords="693,56,794,83"/>
-<area shape="rect" id="node15" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html" title="Wrapper to inCorner that performs estimation for caliration and saving." alt="" coords="680,157,807,184"/>
-<area shape="rect" id="node17" href="$classdetector_1_1fgmodel_1_1appearance_1_1fgAppearance.html" title="Appearance based object detection." alt="" coords="519,259,621,285"/>
-<area shape="rect" id="node22" href="$classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html" title="Single Gaussian target/foreground model with diagonal covariance." alt="" coords="526,309,614,336"/>
-<area shape="rect" id="node18" href="$classdetector_1_1fgmodel_1_1targetCorner_1_1targetCorner.html" title="Class instance for extracting targets that lie with the corner region of the RGB color cube,..." alt="" coords="696,208,791,235"/>
-<area shape="rect" id="node19" href="$classdetector_1_1fgmodel_1_1targetMagenta_1_1targetMagenta.html" title="Class instance for extracting bright/neon magenta targets, which tend to lie in a corner region of th..." alt="" coords="691,259,796,285"/>
-<area shape="rect" id="node20" href="$classdetector_1_1fgmodel_1_1targetNeon_1_1targetNeon.html" title="Detection interface for neon colored targets." alt="" coords="700,309,787,336"/>
-<area shape="rect" id="node21" href="$classdetector_1_1fgmodel_1_1targetSG_1_1targetSG.html" title="Single&#45;Gaussian based target detection with full covariance." alt="" coords="706,360,781,387"/>
-<area shape="rect" id="node24" href="$classdetector_1_1inImageRGBD_1_1bgImageRBGD.html" title="The most basic object or instance detector from RGBD image input." alt="" coords="515,360,625,387"/>
+<area shape="rect" id="node1" title="Base or root implementation of detector class." alt="" coords="116,157,171,184"/>
+<area shape="rect" id="node3" href="$classdetector_1_1fromState_1_1fromState.html" title="Basic detector from state vector input. Should be overloaded, but simple detectors can be created wit..." alt="" coords="219,81,305,108"/>
+<area shape="rect" id="node6" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="225,208,299,235"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,157,68,184"/>
+<area shape="rect" id="node4" href="$classbyRegion_1_1imageRegions.html" title="Activity states depend on having signal lying in specific regions of an image. Signal is presumably i..." alt="" coords="363,31,478,57"/>
+<area shape="rect" id="node5" href="$classbyRegion_1_1Planar.html" title="Activity detection based on lying in specific planar regions." alt="" coords="389,81,452,108"/>
+<area shape="rect" id="node7" href="$classbyRegion_1_1imageOccupancy.html" title="Activity states depend on having true image values lying in specific regions of an image...." alt="" coords="353,132,488,159"/>
+<area shape="rect" id="node8" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input." alt="" coords="381,183,460,209"/>
+<area shape="rect" id="node16" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input." alt="" coords="383,259,459,285"/>
+<area shape="rect" id="node25" href="$classdetector_1_1inImageRGBD_1_1inImageRGBD.html" title="Most basic object or instance detector from RGBD image input." alt="" coords="364,309,477,336"/>
+<area shape="rect" id="node27" href="$classpuzzle_1_1parse_1_1fromSketch_1_1FromSketch.html" title=" " alt="" coords="371,360,470,387"/>
+<area shape="rect" id="node9" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgConical.html" title="Implements a single Gaussian background model with conical error." alt="" coords="560,5,647,32"/>
+<area shape="rect" id="node10" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html" title="Implements a single Gaussian background model." alt="" coords="554,56,653,83"/>
+<area shape="rect" id="node12" href="$classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM.html" title=" " alt="" coords="547,107,660,133"/>
+<area shape="rect" id="node13" href="$classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html" title=" " alt="" coords="536,157,671,184"/>
+<area shape="rect" id="node14" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html" title="Class instance for extracting background that lies with the corner region of the RGB color cube,..." alt="" coords="565,208,642,235"/>
+<area shape="rect" id="node11" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html" title="Applies half&#45;Gaussian model with premise that targets lie to one side of the distribution." alt="" coords="735,56,846,83"/>
+<area shape="rect" id="node15" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html" title="Wrapper to inCorner that performs estimation for caliration and saving." alt="" coords="721,132,861,159"/>
+<area shape="rect" id="node17" href="$classdetector_1_1fgmodel_1_1appearance_1_1fgAppearance.html" title="Appearance based object detection." alt="" coords="547,259,659,285"/>
+<area shape="rect" id="node22" href="$classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html" title="Single Gaussian target/foreground model with diagonal covariance." alt="" coords="556,309,651,336"/>
+<area shape="rect" id="node23" href="$classSurveillance_1_1layers_1_1GloveByColor_1_1GloveByColor.html" title="Glove detector by color only." alt="" coords="548,360,659,387"/>
+<area shape="rect" id="node18" href="$classdetector_1_1fgmodel_1_1targetCorner_1_1targetCorner.html" title="Class instance for extracting targets that lie with the corner region of the RGB color cube,..." alt="" coords="739,183,843,209"/>
+<area shape="rect" id="node19" href="$classdetector_1_1fgmodel_1_1targetMagenta_1_1targetMagenta.html" title="Class instance for extracting bright/neon magenta targets, which tend to lie in a corner region of th..." alt="" coords="731,233,850,260"/>
+<area shape="rect" id="node20" href="$classdetector_1_1fgmodel_1_1targetNeon_1_1targetNeon.html" title="Detection interface for neon colored targets." alt="" coords="743,284,838,311"/>
+<area shape="rect" id="node21" href="$classdetector_1_1fgmodel_1_1targetSG_1_1targetSG.html" title="Single&#45;Gaussian based target detection with full covariance." alt="" coords="751,335,830,361"/>
+<area shape="rect" id="node24" href="$classSurveillance_1_1layers_1_1GloveByColor_1_1CalibGloveByColor.html" title=" " alt="" coords="719,385,863,412"/>
+<area shape="rect" id="node26" href="$classdetector_1_1inImageRGBD_1_1bgImageRBGD.html" title="The most basic object or instance detector from RGBD image input." alt="" coords="545,411,662,437"/>
 </map>

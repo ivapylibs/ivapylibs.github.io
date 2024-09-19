@@ -1,6 +1,6 @@
 <map id="CfgRunningCommentary" name="CfgRunningCommentary">
-<area shape="rect" id="node1" title="Configuration instance for RunningCommentary." alt="" coords="5,229,172,256"/>
-<area shape="rect" id="node2" href="$classdrafts_1_1CfgAnnouncement.html" title="Configuration instance for an Announcement." alt="" coords="23,155,154,181"/>
-<area shape="rect" id="node3" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration." alt="" coords="49,80,128,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="51,5,126,32"/>
+<area shape="rect" id="node1" title="Configuration instance for RunningCommentary." alt="" coords="5,229,188,256"/>
+<area shape="rect" id="node2" href="$classdrafts_1_1CfgAnnouncement.html" title="Configuration instance for an Announcement." alt="" coords="25,155,168,181"/>
+<area shape="rect" id="node3" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration." alt="" coords="54,80,139,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="57,5,136,32"/>
 </map>
