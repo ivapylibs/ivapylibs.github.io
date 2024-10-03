@@ -1,8 +1,8 @@
 var searchData=
 [
   ['aruco',['aruco',['../namespacecamera_1_1extrinsic_1_1aruco.html',1,'camera::extrinsic']]],
-  ['camera',['Camera',['../autotoc_md1.html',1,'']]],
-  ['camera_2fscripts',['Camera/scripts',['../autotoc_md7.html',1,'']]],
+  ['camera',['Camera',['../autotoc_md2.html',1,'']]],
+  ['camera_2fscripts',['Camera/scripts',['../autotoc_md8.html',1,'']]],
   ['base',['base',['../namespacecamera_1_1base.html',1,'camera']]],
   ['c',['c',['../classdetector_1_1bgmodel_1_1inCorner_1_1SphericalModel.html#ae0323a9039add2978bf5b49550572c7c',1,'detector::bgmodel::inCorner::SphericalModel']]],
   ['cache',['cache',['../classimprocessor_1_1mask_1_1mask.html#a3c138af7067df82c4c4964d42878edc6',1,'improcessor::mask::mask']]],
@@ -19,7 +19,7 @@ var searchData=
   ['calibrate',['calibrate',['../classcamera_1_1extrinsic_1_1aruco_1_1CtoW__Calibrator__aruco.html#a0f201973cb43d113106998f7f8ffd92a',1,'camera.extrinsic.aruco.CtoW_Calibrator_aruco.calibrate()'],['../classcamera_1_1tabletop_1_1height__estimator_1_1HeightEstimator.html#a0b1f346fbf061cc57de33ac90e6d8105',1,'camera.tabletop.height_estimator.HeightEstimator.calibrate()'],['../classdetector_1_1fgmodel_1_1targetSG_1_1targetSG.html#a1331d09997dc4070548692f77cb31837',1,'detector.fgmodel.targetSG.targetSG.calibrate()']]],
   ['calibrate_5ffrom_5fdata',['calibrate_from_data',['../classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html#afd0e7519f6db389b1ef4184930928a25',1,'detector::bgmodel::inCorner::inCorner']]],
   ['calibrate_5ffrom_5fimage',['calibrate_from_image',['../classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html#added3652f314b9029ebf673f1a62b289',1,'detector::bgmodel::inCorner::inCorner']]],
-  ['calibratefrompolygonmouseinputoverimagergb',['calibrateFromPolygonMouseInputOverImageRGB',['../classbyRegion_1_1imageRegions.html#a209b6264b8caea08f85ceba96fcb4273',1,'byRegion::imageRegions']]],
+  ['calibratefrompolygonmouseinputoverimagergb',['calibrateFromPolygonMouseInputOverImageRGB',['../classbyRegion_1_1imageRegions.html#a209b6264b8caea08f85ceba96fcb4273',1,'byRegion.imageRegions.calibrateFromPolygonMouseInputOverImageRGB()'],['../classbyRegion_1_1imageOccupancy.html#a209b6264b8caea08f85ceba96fcb4273',1,'byRegion.imageOccupancy.calibrateFromPolygonMouseInputOverImageRGB()']]],
   ['calibratefromrgbdstream',['calibrateFromRGBDStream',['../classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a5656131cf2dc33ee2cf2f0155b8373e2',1,'detector::bgmodel::inCorner::inCornerEstimator']]],
   ['calibratefromstreamrgb',['calibrateFromStreamRGB',['../classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a5a68420220e124a641e6a93c9440f4d9',1,'detector::bgmodel::inCorner::inCornerEstimator']]],
   ['calibratefromstreamrgbd',['calibrateFromStreamRGBD',['../classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a5d7d2108d07f40e270e47d5b62274fdc',1,'detector::bgmodel::inCorner::inCornerEstimator']]],
@@ -72,7 +72,7 @@ var searchData=
   ['close_5fcv',['close_cv',['../namespacecamera_1_1utils_1_1display.html#ae009691b6e998af9cae3ac99d3276e57',1,'camera::utils::display']]],
   ['closing',['closing',['../classimprocessor_1_1mask_1_1mask.html#a3a824807069ff67f52fbf42bef410e06',1,'improcessor::mask::mask']]],
   ['coloblob_2epy',['coloBlob.py',['../coloBlob_8py.html',1,'']]],
-  ['color',['Color',['../classcamera_1_1base_1_1Color.html',1,'Color'],['../classcamera_1_1d435new_1_1Color.html',1,'Color'],['../classcamera_1_1rostopic_1_1Color.html',1,'Color'],['../classcamera_1_1cv2cam_1_1Color.html',1,'Color'],['../namespacecamera_1_1utils_1_1display.html#a37dbdc30935031c05304482e1be89d8f',1,'camera.utils.display.color()']]],
+  ['color',['Color',['../classcamera_1_1base_1_1Color.html',1,'Color'],['../classcamera_1_1d435new_1_1Color.html',1,'Color'],['../classcamera_1_1cv2cam_1_1Color.html',1,'Color'],['../classcamera_1_1rostopic_1_1Color.html',1,'Color'],['../namespacecamera_1_1utils_1_1display.html#a37dbdc30935031c05304482e1be89d8f',1,'camera.utils.display.color()']]],
   ['color_5fsensor',['color_sensor',['../classcamera_1_1cv2cam_1_1Color.html#a408c44ae2a1be1316522d336cd3005f0',1,'camera.cv2cam.Color.color_sensor()'],['../classcamera_1_1d435_1_1runner_1_1D435__Runner.html#a408c44ae2a1be1316522d336cd3005f0',1,'camera.d435.runner.D435_Runner.color_sensor()'],['../classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#a408c44ae2a1be1316522d336cd3005f0',1,'camera.d435.runner2.D435_Runner.color_sensor()'],['../classcamera_1_1d435new_1_1RGBD__Aligned.html#a408c44ae2a1be1316522d336cd3005f0',1,'camera.d435new.RGBD_Aligned.color_sensor()']]],
   ['color_5ftopic_5fname',['color_topic_name',['../classcamera_1_1d435_1_1recorders_1_1D435RecRosbag.html#a4f30247c8aec1b218fb5235c7a3f2dea',1,'camera::d435::recorders::D435RecRosbag']]],
   ['color_5ftype',['color_type',['../namespacecamera_1_1utils_1_1display.html#abfeedff777690abae6390f2a7363533c',1,'camera::utils::display']]],

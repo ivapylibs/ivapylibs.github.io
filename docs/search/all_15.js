@@ -12,7 +12,7 @@ var searchData=
   ['whensimilar',['whenSimilar',['../classtriggers_1_1whenSimilar.html',1,'triggers']]],
   ['width',['width',['../namespacescripts_1_1vid__compress.html#a5558ace5433f9aabbf0a0ec059900d94',1,'scripts::vid_compress']]],
   ['window_5fname',['window_name',['../namespacecamera_1_1utils_1_1display.html#af1a464766317ca2878de63df2ec7c041',1,'camera.utils.display.window_name()'],['../namespacescripts_1_1d435__record.html#af1a464766317ca2878de63df2ec7c041',1,'scripts.d435_record.window_name()'],['../namespacescripts_1_1d435__record__rosbag__dev.html#af1a464766317ca2878de63df2ec7c041',1,'scripts.d435_record_rosbag_dev.window_name()'],['../namespacescripts_1_1vid__playback.html#af1a464766317ca2878de63df2ec7c041',1,'scripts.vid_playback.window_name()']]],
-  ['wiperegions',['wipeRegions',['../classbyRegion_1_1imageRegions.html#a72403c045548a83b77665a1f55b8a7e1',1,'byRegion::imageRegions']]],
+  ['wiperegions',['wipeRegions',['../classbyRegion_1_1imageRegions.html#a72403c045548a83b77665a1f55b8a7e1',1,'byRegion.imageRegions.wipeRegions()'],['../classbyRegion_1_1imageOccupancy.html#a72403c045548a83b77665a1f55b8a7e1',1,'byRegion.imageOccupancy.wipeRegions()']]],
   ['writer',['writer',['../classchannels_1_1toCSV.html#ab462494acb3894fee8e680bb0057d319',1,'channels::toCSV']]],
   ['writer_2epy',['writer.py',['../writer_8py.html',1,'']]],
   ['writer_5fros_2epy',['writer_ros.py',['../writer__ros_8py.html',1,'']]]

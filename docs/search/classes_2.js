@@ -30,7 +30,7 @@ var searchData=
   ['cfgtofile',['CfgToFile',['../classchannels_1_1CfgToFile.html',1,'channels']]],
   ['cfgtrigger',['CfgTrigger',['../classtriggers_1_1CfgTrigger.html',1,'triggers']]],
   ['channel',['Channel',['../classchannels_1_1Channel.html',1,'channels']]],
-  ['color',['Color',['../classcamera_1_1base_1_1Color.html',1,'Color'],['../classcamera_1_1d435new_1_1Color.html',1,'Color'],['../classcamera_1_1rostopic_1_1Color.html',1,'Color'],['../classcamera_1_1cv2cam_1_1Color.html',1,'Color']]],
+  ['color',['Color',['../classcamera_1_1base_1_1Color.html',1,'Color'],['../classcamera_1_1d435new_1_1Color.html',1,'Color'],['../classcamera_1_1cv2cam_1_1Color.html',1,'Color'],['../classcamera_1_1rostopic_1_1Color.html',1,'Color']]],
   ['commentary',['Commentary',['../classdrafts_1_1Commentary.html',1,'drafts']]],
   ['config_5fd435',['Config_D435',['../classcamera_1_1d435new_1_1Config__D435.html',1,'camera::d435new']]],
   ['ctow_5fcalibrator_5faruco',['CtoW_Calibrator_aruco',['../classcamera_1_1extrinsic_1_1aruco_1_1CtoW__Calibrator__aruco.html',1,'camera::extrinsic::aruco']]]

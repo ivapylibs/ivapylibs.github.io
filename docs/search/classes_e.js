@@ -5,10 +5,10 @@ var searchData=
   ['targetmagenta',['targetMagenta',['../classdetector_1_1fgmodel_1_1targetMagenta_1_1targetMagenta.html',1,'detector::fgmodel::targetMagenta']]],
   ['targetneon',['targetNeon',['../classdetector_1_1fgmodel_1_1targetNeon_1_1targetNeon.html',1,'detector::fgmodel::targetNeon']]],
   ['targetsg',['targetSG',['../classdetector_1_1fgmodel_1_1targetSG_1_1targetSG.html',1,'detector::fgmodel::targetSG']]],
-  ['tmodel',['TModel',['../classdetector_1_1fgmodel_1_1targetCorner_1_1TModel.html',1,'TModel'],['../classdetector_1_1fgmodel_1_1targetNeon_1_1TModel.html',1,'TModel'],['../classdetector_1_1fgmodel_1_1targetMagenta_1_1TModel.html',1,'TModel']]],
+  ['tmodel',['TModel',['../classdetector_1_1fgmodel_1_1targetCorner_1_1TModel.html',1,'TModel'],['../classdetector_1_1fgmodel_1_1targetMagenta_1_1TModel.html',1,'TModel'],['../classdetector_1_1fgmodel_1_1targetNeon_1_1TModel.html',1,'TModel']]],
   ['tmodel_5fsg',['tModel_SG',['../classdetector_1_1fgmodel_1_1targetSG_1_1tModel__SG.html',1,'detector::fgmodel::targetSG']]],
   ['tocsv',['toCSV',['../classchannels_1_1toCSV.html',1,'channels']]],
   ['tofile',['toFile',['../classchannels_1_1toFile.html',1,'channels']]],
-  ['trackstate',['TrackState',['../classbyMotion_1_1TrackState.html',1,'byMotion']]],
+  ['trackstate',['TrackState',['../classbyMotion_1_1TrackState.html',1,'TrackState'],['../classtrackpointer_1_1centroid_1_1TrackState.html',1,'TrackState']]],
   ['trigger',['Trigger',['../classtriggers_1_1Trigger.html',1,'triggers']]]
 ];

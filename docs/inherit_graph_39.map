@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classpaths_1_1StepLines.html" title="Given a set of points representing piecewise line segments, provides an interface for generating them..." alt="" coords="5,5,85,32"/>
+<area shape="rect" id="node1" href="$classcamera_1_1tabletop_1_1tabletop__plane_1_1tabletopPlaneEstimator.html" title="tabletopPlaneEstimator" alt="" coords="5,5,163,32"/>
+<area shape="rect" id="node2" href="$classcamera_1_1tabletop_1_1height__estimator_1_1HeightEstimator.html" title="HeightEstimator" alt="" coords="211,5,327,32"/>
 </map>
