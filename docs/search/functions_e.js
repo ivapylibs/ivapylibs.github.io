@@ -1,27 +1,7 @@
 var searchData=
 [
-  ['refinefromframergbd',['refineFromFrameRGBD',['../classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a45095c8032ac6d974b160dc8ca4be435',1,'detector::bgmodel::inCorner::inCornerEstimator']]],
-  ['refinefromrgbdstream',['refineFromRGBDStream',['../classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a368fb52043dd0161b5ef936f8dc43d09',1,'detector.bgmodel.inCorner.inCornerEstimator.refineFromRGBDStream()'],['../classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a368fb52043dd0161b5ef936f8dc43d09',1,'detector.fgmodel.Gaussian.fgGaussian.refineFromRGBDStream()']]],
-  ['refinefromstreamrgb',['refineFromStreamRGB',['../classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#aad13d10aa23cf1937a66674fde9b29dc',1,'detector.bgmodel.inCorner.inCornerEstimator.refineFromStreamRGB()'],['../classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#aad13d10aa23cf1937a66674fde9b29dc',1,'detector.fgmodel.Gaussian.fgGaussian.refineFromStreamRGB()']]],
-  ['refinefromstreamrgbd',['refineFromStreamRGBD',['../classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a39273804abcf0b3945b0b3eba84228de',1,'detector.bgmodel.inCorner.inCornerEstimator.refineFromStreamRGBD()'],['../classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a39273804abcf0b3945b0b3eba84228de',1,'detector.fgmodel.Gaussian.fgGaussian.refineFromStreamRGBD()']]],
-  ['regionproposal',['regionProposal',['../classtrackpointer_1_1centroidMulti_1_1centroidMulti.html#a1410b000f748b7695272141a8388ce53',1,'trackpointer::centroidMulti::centroidMulti']]],
-  ['regions_5fclose_5fcv',['regions_close_cv',['../classbyRegion_1_1imageRegions.html#a10e81b0866a033b5e1db5c8a63176b87',1,'byRegion::imageRegions']]],
-  ['regions_5fdisplay_5fcv',['regions_display_cv',['../classbyRegion_1_1imageRegions.html#a28af29dbf5120f4fe840b58702957420',1,'byRegion::imageRegions']]],
-  ['rembeat',['remBeat',['../classperceiver_1_1reporting_1_1Editor.html#aca738a0cf3e36aa18c7f92cbe5a0b1fc',1,'perceiver::reporting::Editor']]],
-  ['render',['render',['../classtrackpointer_1_1utils_1_1fakeTriangle_1_1fakeTriangle.html#a947607162fb7ca61c6533d1625a6bf51',1,'trackpointer::utils::fakeTriangle::fakeTriangle']]],
-  ['replaceregionmask',['replaceRegionMask',['../classbyRegion_1_1imageOccupancy.html#a0e7040d2fd078b9ce57bcc9801174d9f',1,'byRegion::imageOccupancy']]],
-  ['replay_5floop',['replay_loop',['../classcamera_1_1d435_1_1runner2_1_1Replay.html#a4a9e39a5b201b4412db58d5263d14bd5',1,'camera::d435::runner2::Replay']]],
-  ['reportout',['reportout',['../classdrafts_1_1Commentary.html#a6d673d07dee3eea7be454e0133f3b2fc',1,'drafts::Commentary']]],
-  ['reset',['reset',['../classdrafts_1_1RunningCommentary.html#a51829b63adb24ac48d350dee60181002',1,'drafts::RunningCommentary']]],
-  ['resumebeat',['resumeBeat',['../classperceiver_1_1reporting_1_1BeatReporter.html#ae3380b6b82515dd7cab670ec3233fb99',1,'perceiver::reporting::BeatReporter']]],
-  ['rgb',['rgb',['../group__Display__CV.html#gaa3326c793b2a917ff7e29266576a6503',1,'ivapy::display_cv']]],
-  ['rgb_5fbinary',['rgb_binary',['../group__Display__CV.html#ga0f24748d3bebc9de14c2b0c1f3b550b6',1,'ivapy::display_cv']]],
-  ['rgb_5fbinary_5fcv',['rgb_binary_cv',['../namespacecamera_1_1utils_1_1display.html#abd42fbc396fcd33589f126ebc119db5d',1,'camera::utils::display']]],
-  ['rgb_5fcv',['rgb_cv',['../namespacecamera_1_1utils_1_1display.html#a5d8ec2104c10f4ceb0016a4253f11163',1,'camera::utils::display']]],
-  ['rgb_5fdepth',['rgb_depth',['../group__Display__CV.html#ga1d2f0c1803d3bbb0ad9735b4636ca73f',1,'ivapy::display_cv']]],
-  ['rgb_5fdepth_5fcv',['rgb_depth_cv',['../namespacecamera_1_1utils_1_1display.html#a2edb58b146a9a1189a188ee9e822f9b6',1,'camera::utils::display']]],
-  ['rgbd_5fwait_5ffor_5fconfirm',['rgbd_wait_for_confirm',['../group__Display__CV.html#gac76d10a87da5e0324ef54782e4eb5d42',1,'ivapy::display_cv']]],
-  ['rs_5fextrin_5fto_5fm',['rs_extrin_to_M',['../namespacecamera_1_1utils_1_1rs__utils.html#af427ba37c0002b9852a39b44e0dae889',1,'camera::utils::rs_utils']]],
-  ['rs_5fintrin_5fto_5fm',['rs_intrin_to_M',['../namespacecamera_1_1utils_1_1rs__utils.html#a78938d1d1820fc5d782b880618ff2101',1,'camera::utils::rs_utils']]],
-  ['run',['run',['../classcamera_1_1d435_1_1recorders_1_1D435RecBase.html#ad22709b2e67308af35f55680d5a026e0',1,'camera::d435::recorders::D435RecBase']]]
+  ['offset',['offset',['../classtrackpointer_1_1centroid_1_1centroid.html#a8ff8655164e312e194327f31593cbe38',1,'trackpointer::centroid::centroid']]],
+  ['offsetthreshold',['offsetThreshold',['../classdetector_1_1bgmodel_1_1inCorner_1_1PlanarModel.html#a2938193dd77c87baa89227f185a95586',1,'detector::bgmodel::inCorner::PlanarModel']]],
+  ['opening',['opening',['../classimprocessor_1_1mask_1_1mask.html#a15fc315b40e482ce487168fa8fd6a5f7',1,'improcessor::mask::mask']]],
+  ['order_5fcorners',['order_corners',['../namespacepuzzle_1_1utils_1_1sideExtractor.html#abbaf5d39b5bf185147639105218e13ef',1,'puzzle::utils::sideExtractor']]]
 ];

@@ -1,12 +1,28 @@
 <map id="AlgConfig" name="AlgConfig">
-<area shape="rect" id="node3" href="$classbyMotion_1_1CfgMoving.html" title="Configuration setting specifier for &quot;motion&quot; detector. " alt="" coords="5,155,91,181"/>
-<area shape="rect" id="node4" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html" title="Configuration setting specifier for Gaussian BG model. " alt="" coords="115,155,189,181"/>
-<area shape="rect" id="node7" href="$classdetector_1_1bgmodel_1_1GMM_1_1CfgGMM__cv.html" title="Configuration setting specifier for Gaussian BG model. " alt="" coords="213,155,309,181"/>
-<area shape="rect" id="node8" href="$classdetector_1_1bgmodel_1_1inCorner_1_1CfgInCorner.html" title="Configuration setting specifier for Gaussian workspace model. " alt="" coords="333,155,427,181"/>
-<area shape="rect" id="node9" href="$classdetector_1_1fgmodel_1_1Gaussian_1_1CfgSGT.html" title="Configuration setting specifier for Gaussian BG model. " alt="" coords="451,155,522,181"/>
-<area shape="rect" id="node10" href="$classtrackpointer_1_1centroid_1_1CfgCentroid.html" title="CfgCentroid" alt="" coords="546,155,638,181"/>
-<area shape="rect" id="node12" href="$classtrackpointer_1_1centroid_1_1CfgCentroind.html" title="Configuration setting specifier for centroidMulti. " alt="" coords="663,155,761,181"/>
-<area shape="rect" id="node5" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGCone.html" title="Configuration setting specifier for Gaussian BG conical model. " alt="" coords="49,229,143,256"/>
-<area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model. " alt="" coords="167,229,249,256"/>
-<area shape="rect" id="node11" href="$classtrackpointer_1_1centroidMulti_1_1CfgCentMulti.html" title="Configuration setting specifier for centroidMulti. " alt="" coords="543,229,641,256"/>
+<area shape="rect" id="node3" href="$classbyMotion_1_1CfgMoving.html" title="Configuration setting specifier for &quot;motion&quot; detector. " alt="" coords="285,5,370,32"/>
+<area shape="rect" id="node4" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html" title="Configuration setting specifier for Gaussian BG model. " alt="" coords="291,56,364,83"/>
+<area shape="rect" id="node7" href="$classdetector_1_1bgmodel_1_1GMM_1_1CfgGMM__cv.html" title="Configuration setting specifier for Gaussian BG model. " alt="" coords="279,107,375,133"/>
+<area shape="rect" id="node8" href="$classdetector_1_1bgmodel_1_1inCorner_1_1CfgInCorner.html" title="Configuration setting specifier for Gaussian workspace model. " alt="" coords="281,157,374,184"/>
+<area shape="rect" id="node9" href="$classdetector_1_1fgmodel_1_1Gaussian_1_1CfgSGT.html" title="Configuration setting specifier for Gaussian BG model. " alt="" coords="292,208,363,235"/>
+<area shape="rect" id="node10" href="$classpuzzle_1_1board_1_1CfgCorrespondences.html" title="Configuration setting specifier for Correspondences class. " alt="" coords="255,259,400,285"/>
+<area shape="rect" id="node11" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgMatcher.html" title="Configuration setting specifier for puzzle piece matcher class. " alt="" coords="282,309,373,336"/>
+<area shape="rect" id="node18" href="$classSurveillance_1_1layers_1_1Glove_1_1CfgGloveDetector.html" title="Configuration instance for glove tracking perceiver. " alt="" coords="264,360,391,387"/>
+<area shape="rect" id="node19" href="$classSurveillance_1_1layers_1_1HoveringGlove_1_1CfgHandDetector.html" title="Configuration instance for glove tracking perceiver. " alt="" coords="265,411,389,437"/>
+<area shape="rect" id="node20" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1CfgPuzzleScene.html" title="Configuration instance for Puzzle Scene perceiver. " alt="" coords="267,461,387,488"/>
+<area shape="rect" id="node21" href="$classtrackpointer_1_1centroid_1_1CfgCentroid.html" title="CfgCentroid" alt="" coords="281,512,373,539"/>
+<area shape="rect" id="node28" href="$classtrackpointer_1_1centroid_1_1CfgCentroind.html" title="Configuration setting specifier for centroidMulti. " alt="" coords="278,563,377,589"/>
+<area shape="rect" id="node5" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGCone.html" title="Configuration setting specifier for Gaussian BG conical model. " alt="" coords="451,31,544,57"/>
+<area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model. " alt="" coords="456,81,539,108"/>
+<area shape="rect" id="node12" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgDifferent.html" title="Configuration setting specifier for difference matcher class. " alt="" coords="451,284,544,311"/>
+<area shape="rect" id="node17" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgSimilar.html" title="Configuration setting specifier for similar matcher class. " alt="" coords="456,335,539,361"/>
+<area shape="rect" id="node13" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgDistance.html" title="Configuration setting specifier for distance matcher class. " alt="" coords="611,208,705,235"/>
+<area shape="rect" id="node14" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgHistogramCV.html" title="Configuration setting specifier for Histogram puzzle comparator class. " alt="" coords="597,259,719,285"/>
+<area shape="rect" id="node15" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgMoments.html" title="Configuration setting specifier for Moments class. " alt="" coords="609,309,707,336"/>
+<area shape="rect" id="node16" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgPCA.html" title="Configuration setting specifier for Moments class. " alt="" coords="623,360,693,387"/>
+<area shape="rect" id="node22" href="$classtrackpointer_1_1centroidMulti_1_1CfgCentMulti.html" title="Configuration setting specifier for centroidMulti. " alt="" coords="448,512,547,539"/>
+<area shape="rect" id="node23" href="$classpuzzle_1_1parser_1_1CfgBoardMeasure.html" title="Configuration setting specifier for centroidMulti. " alt="" coords="595,512,721,539"/>
+<area shape="rect" id="node24" href="$classpuzzle_1_1builder_1_1arrangement_1_1CfgArrangement.html" title="Configuration setting specifier for centroidMulti. " alt="" coords="769,512,887,539"/>
+<area shape="rect" id="node25" href="$classpuzzle_1_1builder_1_1adjacent_1_1CfgAdjacent.html" title="Configuration setting specifier for Arrangement. " alt="" coords="935,512,1029,539"/>
+<area shape="rect" id="node26" href="$classpuzzle_1_1builder_1_1interlocking_1_1CfgInterlocking.html" title="Configuration setting specifier for centroidMulti. " alt="" coords="1077,512,1188,539"/>
+<area shape="rect" id="node27" href="$classpuzzle_1_1builder_1_1gridded_1_1CfgGridded.html" title="Configuration setting specifier for centroidMulti. " alt="" coords="1236,512,1324,539"/>
 </map>
