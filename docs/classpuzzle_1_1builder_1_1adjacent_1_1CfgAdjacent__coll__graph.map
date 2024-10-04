@@ -1,0 +1,9 @@
+<map id="CfgAdjacent" name="CfgAdjacent">
+<area shape="rect" id="node1" title="Configuration setting specifier for Arrangement." alt="" coords="21,453,116,480"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1builder_1_1arrangement_1_1CfgArrangement.html" title="Configuration setting specifier for centroidMulti." alt="" coords="10,379,127,405"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1parser_1_1CfgBoardMeasure.html" title="Configuration setting specifier for centroidMulti." alt="" coords="5,304,132,331"/>
+<area shape="rect" id="node4" href="$classtrackpointer_1_1centroidMulti_1_1CfgCentMulti.html" title="Configuration setting specifier for centroidMulti." alt="" coords="19,229,118,256"/>
+<area shape="rect" id="node5" href="$classtrackpointer_1_1centroid_1_1CfgCentroid.html" title=" " alt="" coords="23,155,115,181"/>
+<area shape="rect" id="node6" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="29,80,108,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="31,5,106,32"/>
+</map>

@@ -1,3 +1,4 @@
 <map id="Assignment" name="Assignment">
-<area shape="rect" id="node2" href="$classchannels_1_1Channel.html" title="Base/abstract channel class. " alt="" coords="15,5,86,32"/>
+<area shape="rect" id="node1" title="Assignment class for communication between BeatReporter and Editor." alt="" coords="5,80,96,107"/>
+<area shape="rect" id="node2" href="$classchannels_1_1Channel.html" title="Base/abstract channel class." alt="" coords="15,5,86,32"/>
 </map>

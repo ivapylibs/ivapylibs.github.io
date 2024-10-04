@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['recorder_20instructions',['Recorder instructions',['../autotoc_md48.html',1,'']]]
+  ['software_20design_20principles_2348',['Software Design Principles',['../design.html',1,'']]]
 ];

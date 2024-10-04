@@ -1,0 +1,10 @@
+<map id="CfgDifferent" name="CfgDifferent">
+<area shape="rect" id="node1" title="Configuration setting specifier for difference matcher class." alt="" coords="206,229,299,256"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgDistance.html" title="Configuration setting specifier for distance matcher class." alt="" coords="5,304,100,331"/>
+<area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgHistogramCV.html" title="Configuration setting specifier for Histogram puzzle comparator class." alt="" coords="125,304,247,331"/>
+<area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgMoments.html" title="Configuration setting specifier for Moments class." alt="" coords="272,304,369,331"/>
+<area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgPCA.html" title="Configuration setting specifier for Moments class." alt="" coords="393,304,464,331"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgMatcher.html" title="Configuration setting specifier for puzzle piece matcher class." alt="" coords="207,155,298,181"/>
+<area shape="rect" id="node3" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="213,80,292,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="215,5,290,32"/>
+</map>

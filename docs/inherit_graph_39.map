@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classSurveillance_1_1activity_1_1utils_1_1DynamicDisplay.html" title="DynamicDisplay" alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,61,159"/>
+<area shape="rect" id="node2" href="$classbyMotion_1_1MoveState.html" title=" " alt="" coords="119,5,204,32"/>
+<area shape="rect" id="node3" href="$classbyMotion_1_1TrackState.html" title=" " alt="" coords="118,56,205,83"/>
+<area shape="rect" id="node4" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1RunState.html" title=" " alt="" coords="123,107,200,133"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1piece_1_1EdgeDirection.html" title=" " alt="" coords="109,157,213,184"/>
+<area shape="rect" id="node6" href="$classpuzzle_1_1piece_1_1EdgeType.html" title=" " alt="" coords="121,208,201,235"/>
+<area shape="rect" id="node7" href="$classpuzzle_1_1piece_1_1PieceStatus.html" title=" " alt="" coords="115,259,208,285"/>
 </map>

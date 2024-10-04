@@ -1,3 +1,4 @@
 <map id="whenClose" name="whenClose">
-<area shape="rect" id="node2" href="$classtriggers_1_1Trigger.html" title="Base/abstract trigger class. " alt="" coords="17,5,80,32"/>
+<area shape="rect" id="node1" title="Class that triggers a report when current state is close to target state." alt="" coords="5,80,92,107"/>
+<area shape="rect" id="node2" href="$classtriggers_1_1Trigger.html" title="Base/abstract trigger class." alt="" coords="17,5,80,32"/>
 </map>

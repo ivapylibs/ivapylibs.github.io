@@ -1,3 +1,4 @@
 <map id="Perceiver" name="Perceiver">
-<area shape="rect" id="node1" href="$group__Reports.html" title="A set of interfaces for reporting perceiver outcomes during processing. " alt="" coords="131,5,199,32"/>
+<area shape="rect" id="node1" href="$group__Reports.html" title="A set of interfaces for reporting perceiver outcomes during processing." alt="" coords="131,5,199,31"/>
+<area shape="rect" id="node2" title="Perception code that aims to extract interpretable signals from a visual stream." alt="" coords="5,5,83,31"/>
 </map>

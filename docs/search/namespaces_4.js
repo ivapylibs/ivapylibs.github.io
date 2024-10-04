@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['histogram',['histogram',['../namespacehistogram.html',1,'']]]
+  ['histogram_1389',['histogram',['../namespacehistogram.html',1,'']]]
 ];

@@ -1,9 +1,11 @@
 <map id="fgAppearance" name="fgAppearance">
-<area shape="rect" id="node6" href="$classdetector_1_1fgmodel_1_1targetCorner_1_1targetCorner.html" title="Class instance for extracting targets that lie with the corner region of the RGB color cube..." alt="" coords="5,379,100,405"/>
+<area shape="rect" id="node1" title="Appearance based object detection." alt="" coords="185,304,288,331"/>
+<area shape="rect" id="node6" href="$classdetector_1_1fgmodel_1_1targetCorner_1_1targetCorner.html" title="Class instance for extracting targets that lie with the corner region of the RGB color cube,..." alt="" coords="5,379,100,405"/>
 <area shape="rect" id="node7" href="$classdetector_1_1fgmodel_1_1targetMagenta_1_1targetMagenta.html" title="Class instance for extracting bright/neon magenta targets, which tend to lie in a corner region of th..." alt="" coords="124,379,229,405"/>
-<area shape="rect" id="node8" href="$classdetector_1_1fgmodel_1_1targetNeon_1_1targetNeon.html" title="Detection interface for neon colored targets. " alt="" coords="253,379,340,405"/>
-<area shape="rect" id="node9" href="$classdetector_1_1fgmodel_1_1targetSG_1_1targetSG.html" title="Single&#45;Gaussian based target detection with full covariance. " alt="" coords="365,379,439,405"/>
-<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input. " alt="" coords="202,229,271,256"/>
-<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input. " alt="" coords="203,155,271,181"/>
-<area shape="rect" id="node4" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class. " alt="" coords="211,80,263,107"/>
+<area shape="rect" id="node8" href="$classdetector_1_1fgmodel_1_1targetNeon_1_1targetNeon.html" title="Detection interface for neon colored targets." alt="" coords="253,379,340,405"/>
+<area shape="rect" id="node9" href="$classdetector_1_1fgmodel_1_1targetSG_1_1targetSG.html" title="Single&#45;Gaussian based target detection with full covariance." alt="" coords="365,379,439,405"/>
+<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input." alt="" coords="202,229,271,256"/>
+<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="203,155,271,181"/>
+<area shape="rect" id="node4" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="211,80,263,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="208,5,265,32"/>
 </map>

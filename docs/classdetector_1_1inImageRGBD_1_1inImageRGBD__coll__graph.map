@@ -1,4 +1,6 @@
 <map id="inImageRGBD" name="inImageRGBD">
-<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input. " alt="" coords="25,155,93,181"/>
-<area shape="rect" id="node3" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class. " alt="" coords="33,80,85,107"/>
+<area shape="rect" id="node1" title="Most basic object or instance detector from RGBD image input." alt="" coords="5,229,112,256"/>
+<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="25,155,93,181"/>
+<area shape="rect" id="node3" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="33,80,85,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="30,5,87,32"/>
 </map>

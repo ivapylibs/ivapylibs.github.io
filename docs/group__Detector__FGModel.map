@@ -1,3 +1,4 @@
 <map id="Detect Foreground" name="Detect Foreground">
-<area shape="rect" id="node1" href="$group__Detector.html" title="A collection of detector implementations for images and signal streams. " alt="" coords="5,5,77,32"/>
+<area shape="rect" id="node1" href="$group__Detector.html" title="A collection of detector implementations for images and signal streams." alt="" coords="5,5,77,31"/>
+<area shape="rect" id="node2" title="Interfaces for detecting when signal matches a foreground model." alt="" coords="125,5,256,31"/>
 </map>

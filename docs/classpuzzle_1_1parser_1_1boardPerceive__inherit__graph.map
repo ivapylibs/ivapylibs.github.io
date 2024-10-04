@@ -1,0 +1,4 @@
+<map id="boardPerceive" name="boardPerceive">
+<area shape="rect" id="node1" title="A simple perceiver for recovering puzzle pieces from a layer mask and an image." alt="" coords="5,80,111,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="19,5,97,32"/>
+</map>

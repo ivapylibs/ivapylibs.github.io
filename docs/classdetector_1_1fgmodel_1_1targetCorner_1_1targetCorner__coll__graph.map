@@ -1,6 +1,8 @@
 <map id="targetCorner" name="targetCorner">
-<area shape="rect" id="node2" href="$classdetector_1_1fgmodel_1_1appearance_1_1fgAppearance.html" title="Appearance based object detection. " alt="" coords="5,304,108,331"/>
-<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input. " alt="" coords="22,229,91,256"/>
-<area shape="rect" id="node4" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input. " alt="" coords="23,155,91,181"/>
-<area shape="rect" id="node5" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class. " alt="" coords="31,80,83,107"/>
+<area shape="rect" id="node1" title="Class instance for extracting targets that lie with the corner region of the RGB color cube,..." alt="" coords="9,379,104,405"/>
+<area shape="rect" id="node2" href="$classdetector_1_1fgmodel_1_1appearance_1_1fgAppearance.html" title="Appearance based object detection." alt="" coords="5,304,108,331"/>
+<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input." alt="" coords="22,229,91,256"/>
+<area shape="rect" id="node4" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="23,155,91,181"/>
+<area shape="rect" id="node5" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="31,80,83,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="28,5,85,32"/>
 </map>

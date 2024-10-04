@@ -1,5 +1,7 @@
 <map id="bgGaussian" name="bgGaussian">
-<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input. " alt="" coords="15,229,87,256"/>
-<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input. " alt="" coords="17,155,85,181"/>
-<area shape="rect" id="node4" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class. " alt="" coords="25,80,77,107"/>
+<area shape="rect" id="node1" title="Implements a single Gaussian background model." alt="" coords="5,304,96,331"/>
+<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input." alt="" coords="15,229,87,256"/>
+<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="17,155,85,181"/>
+<area shape="rect" id="node4" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="25,80,77,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="22,5,79,32"/>
 </map>

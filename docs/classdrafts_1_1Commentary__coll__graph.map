@@ -1,3 +1,4 @@
 <map id="Commentary" name="Commentary">
-<area shape="rect" id="node2" href="$classdrafts_1_1Announcement.html" title="Base/abstract announcer class. " alt="" coords="5,5,115,32"/>
+<area shape="rect" id="node1" title="Commentary class, which does not transcribe the signal but passes it along in some non&#45;text format." alt="" coords="11,80,109,107"/>
+<area shape="rect" id="node2" href="$classdrafts_1_1Announcement.html" title="Base/abstract announcer class." alt="" coords="5,5,115,32"/>
 </map>

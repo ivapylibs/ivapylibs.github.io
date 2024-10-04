@@ -1,0 +1,7 @@
+<map id="CfgMoments" name="CfgMoments">
+<area shape="rect" id="node1" title="Configuration setting specifier for Moments class." alt="" coords="5,304,103,331"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgDifferent.html" title="Configuration setting specifier for difference matcher class." alt="" coords="7,229,101,256"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgMatcher.html" title="Configuration setting specifier for puzzle piece matcher class." alt="" coords="9,155,99,181"/>
+<area shape="rect" id="node4" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="15,80,93,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="17,5,91,32"/>
+</map>

@@ -1,5 +1,7 @@
 <map id="BuildConfig" name="BuildConfig">
-<area shape="rect" id="node4" href="$classperceiver_1_1monitor_1_1BuildCfgMonitor.html" title="Build configuration instance for a monitor. " alt="" coords="5,229,120,256"/>
-<area shape="rect" id="node5" href="$classperceiver_1_1progress_1_1BuildCfgProgress.html" title="Build configuration instance for a progress monitor. " alt="" coords="145,229,269,256"/>
-<area shape="rect" id="node2" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration. " alt="" coords="95,80,174,107"/>
+<area shape="rect" id="node1" title="Base class for algorithm builder configuration." alt="" coords="90,155,179,181"/>
+<area shape="rect" id="node4" href="$classperceiver_1_1monitor_1_1BuildCfgMonitor.html" title="Build configuration instance for a monitor." alt="" coords="5,229,120,256"/>
+<area shape="rect" id="node5" href="$classperceiver_1_1progress_1_1BuildCfgProgress.html" title="Build configuration instance for a progress monitor." alt="" coords="145,229,269,256"/>
+<area shape="rect" id="node2" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration." alt="" coords="95,80,174,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="97,5,172,32"/>
 </map>

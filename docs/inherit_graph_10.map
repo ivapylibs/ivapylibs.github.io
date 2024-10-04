@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classpuzzle_1_1clusters_1_1byColor_1_1ByColor.html" title="ByColor" alt="" coords="112,5,181,32"/>
-<area shape="rect" id="node3" href="$classpuzzle_1_1clusters_1_1byShape_1_1ByShape.html" title="ByShape" alt="" coords="109,56,184,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,95,32"/>
+<area shape="rect" id="node2" href="$classcamera_1_1rostopic_1_1CfgROSCam.html" title="Configuration setting specifier for ROS connected camera." alt="" coords="143,5,243,32"/>
 </map>
