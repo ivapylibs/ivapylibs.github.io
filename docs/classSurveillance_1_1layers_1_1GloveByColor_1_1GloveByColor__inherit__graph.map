@@ -1,8 +1,15 @@
 <map id="GloveByColor" name="GloveByColor">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title="Glove detector by color only." alt="" coords="22,304,133,331"/>
 <area shape="rect" id="node6" href="$classSurveillance_1_1layers_1_1GloveByColor_1_1CalibGloveByColor.html" title=" " alt="" coords="5,379,149,405"/>
 <area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input." alt="" coords="39,229,115,256"/>
 <area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="40,155,115,181"/>
 <area shape="rect" id="node4" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="50,80,105,107"/>
 <area shape="rect" id="node5" title=" " alt="" coords="46,5,109,32"/>
+=======
+<area shape="rect" id="node6" href="$classSurveillance_1_1layers_1_1GloveByColor_1_1CalibGloveByColor.html" title="CalibGloveByColor" alt="" coords="5,379,139,405"/>
+<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input. " alt="" coords="37,229,107,256"/>
+<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input. " alt="" coords="38,155,106,181"/>
+<area shape="rect" id="node4" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class. " alt="" coords="46,80,98,107"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['surveillance_3024',['Surveillance',['../md__home_mary_python_Surveillance_README.html',1,'']]]
+  ['surveillance',['Surveillance',['../autotoc_md42.html',1,'']]],
+  ['software_20design_20principles',['Software Design Principles',['../design.html',1,'']]]
 ];

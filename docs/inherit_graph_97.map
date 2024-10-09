@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<<<<<<< HEAD
 <area shape="rect" id="node1" href="$classSurveillance_1_1layers_1_1scene_1_1SceneInterpreterV1.html" title=" " alt="" coords="5,5,152,32"/>
+=======
+<area shape="rect" id="node2" href="$classcamera_1_1rostopic_1_1RGBD.html" title="Class for ROS&#45;based depth camera subsrciber. " alt="" coords="105,5,167,32"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>

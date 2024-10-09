@@ -1,4 +1,8 @@
 <map id="RegionGrower_ValDiff" name="RegionGrower_ValDiff">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title=" " alt="" coords="5,80,172,107"/>
 <area shape="rect" id="node2" href="$classSurveillance_1_1utils_1_1region__grow_1_1RegionGrower__base.html" title=" " alt="" coords="13,5,165,32"/>
+=======
+<area shape="rect" id="node2" href="$classSurveillance_1_1utils_1_1region__grow_1_1RegionGrower__base.html" title="RegionGrower_base" alt="" coords="11,5,151,32"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>

@@ -1,6 +1,4 @@
 <map id="CfgSGCone" name="CfgSGCone">
-<area shape="rect" id="node1" title="Configuration setting specifier for Gaussian BG conical model." alt="" coords="5,229,100,256"/>
-<area shape="rect" id="node2" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="15,155,90,181"/>
-<area shape="rect" id="node3" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="10,80,95,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="13,5,92,32"/>
+<area shape="rect" id="node2" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html" title="Configuration setting specifier for Gaussian BG model. " alt="" coords="15,155,89,181"/>
+<area shape="rect" id="node3" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title="AlgConfig" alt="" coords="13,80,91,107"/>
 </map>

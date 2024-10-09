@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['moments_1781',['moments',['../namespacemoments.html',1,'']]]
+  ['moments',['moments',['../namespacemoments.html',1,'']]]
 ];

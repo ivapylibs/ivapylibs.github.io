@@ -1,4 +1,5 @@
 <map id="CfgMatcher" name="CfgMatcher">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title="Configuration setting specifier for puzzle piece matcher class." alt="" coords="278,155,375,181"/>
 <area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgDifferent.html" title="Configuration setting specifier for difference matcher class." alt="" coords="215,229,318,256"/>
 <area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgSimilar.html" title="Configuration setting specifier for similar matcher class." alt="" coords="343,229,433,256"/>
@@ -8,4 +9,13 @@
 <area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgHistogramCV.html" title="Configuration setting specifier for Histogram puzzle comparator class." alt="" coords="131,304,261,331"/>
 <area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgMoments.html" title="Configuration setting specifier for Moments class." alt="" coords="286,304,391,331"/>
 <area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgPCA.html" title="Configuration setting specifier for Moments class." alt="" coords="415,304,486,331"/>
+=======
+<area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgDifferent.html" title="Configuration setting specifier for difference matcher class. " alt="" coords="206,229,299,256"/>
+<area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgSimilar.html" title="Configuration setting specifier for similar matcher class. " alt="" coords="323,229,406,256"/>
+<area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title="AlgConfig" alt="" coords="269,80,348,107"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgDistance.html" title="Configuration setting specifier for distance matcher class. " alt="" coords="5,304,100,331"/>
+<area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgHistogramCV.html" title="Configuration setting specifier for Histogram puzzle comparator class. " alt="" coords="125,304,247,331"/>
+<area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgMoments.html" title="Configuration setting specifier for Moments class. " alt="" coords="272,304,369,331"/>
+<area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgPCA.html" title="Configuration setting specifier for Moments class. " alt="" coords="393,304,464,331"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>

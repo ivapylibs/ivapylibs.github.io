@@ -1,4 +1,3 @@
 <map id="Rising" name="Rising">
-<area shape="rect" id="node1" title="Class that triggers a report when binary state changes, on rising edge." alt="" coords="7,80,70,107"/>
-<area shape="rect" id="node2" href="$classtriggers_1_1Trigger.html" title="Base/abstract trigger class." alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node2" href="$classtriggers_1_1Trigger.html" title="Base/abstract trigger class. " alt="" coords="5,5,68,32"/>
 </map>

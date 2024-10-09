@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<<<<<<< HEAD
 <area shape="rect" id="node1" href="$classpuzzle_1_1parse_1_1fromLayer_1_1ParamPuzzle.html" title=" " alt="" coords="5,5,112,32"/>
+=======
+<area shape="rect" id="node2" href="$classpuzzle_1_1simulator_1_1planner_1_1ParamPlanner.html" title="ParamPlanner" alt="" coords="137,5,241,32"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1runner_1_1ParamRunner.html" title="ParamRunner" alt="" coords="289,5,392,32"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>

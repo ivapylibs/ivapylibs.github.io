@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<<<<<<< HEAD
 <area shape="rect" id="node1" href="$classSurveillance_1_1layers_1_1HoveringGlove_1_1InstPerceiver.html" title="Class for collecting visual processing methods needed by the PuzzleScene perceiver." alt="" coords="5,5,112,32"/>
+=======
+<area shape="rect" id="node1" href="$classSurveillance_1_1layers_1_1Glove_1_1InstGlovePerceiver.html" title="Class for collecting visual processing methods needed by the PuzzleScene perceiver. " alt="" coords="5,5,139,32"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>

@@ -1,6 +1,5 @@
 <map id="Color" name="Color">
-<area shape="rect" id="node1" title="Expands on base class to specialize to color images." alt="" coords="80,80,136,107"/>
-<area shape="rect" id="node3" href="$classcamera_1_1base_1_1ReplayColor.html" title="Replay a recorded color stream from a bag file." alt="" coords="5,155,107,181"/>
-<area shape="rect" id="node4" href="$classcamera_1_1d435new_1_1Depth.html" title=" " alt="" coords="131,155,192,181"/>
-<area shape="rect" id="node2" href="$classcamera_1_1base_1_1Base.html" title="Base class for camera runners." alt="" coords="81,5,135,32"/>
+<area shape="rect" id="node3" href="$classcamera_1_1base_1_1ReplayColor.html" title="Replay a recorded color stream from a bag file. " alt="" coords="5,155,100,181"/>
+<area shape="rect" id="node4" href="$classcamera_1_1d435new_1_1Depth.html" title="Depth" alt="" coords="124,155,181,181"/>
+<area shape="rect" id="node2" href="$classcamera_1_1base_1_1Base.html" title="Base class for camera runners. " alt="" coords="76,5,128,32"/>
 </map>

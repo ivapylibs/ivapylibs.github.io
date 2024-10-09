@@ -1,4 +1,5 @@
 <map id="Base" name="Base">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title=" " alt="" coords="186,80,241,107"/>
 <area shape="rect" id="node3" href="$classSurveillance_1_1layers_1_1base__bg_1_1Base__bg.html" title=" " alt="" coords="125,155,203,181"/>
 <area shape="rect" id="node5" href="$classSurveillance_1_1layers_1_1base__fg_1_1Base__fg.html" title=" " alt="" coords="249,155,324,181"/>
@@ -9,4 +10,14 @@
 <area shape="rect" id="node9" href="$classSurveillance_1_1layers_1_1robot__seg_1_1robot__inRange.html" title=" " alt="" coords="450,229,566,256"/>
 <area shape="rect" id="node7" href="$classSurveillance_1_1layers_1_1human__seg_1_1Human__ColorSG__HeightInRange.html" title=" " alt="" coords="95,304,326,331"/>
 <area shape="rect" id="node10" href="$classSurveillance_1_1layers_1_1robot__seg_1_1robot__inRange__Height.html" title=" " alt="" coords="425,304,591,331"/>
+=======
+<area shape="rect" id="node3" href="$classSurveillance_1_1layers_1_1base__bg_1_1Base__bg.html" title="Base_bg" alt="" coords="115,155,189,181"/>
+<area shape="rect" id="node5" href="$classSurveillance_1_1layers_1_1base__fg_1_1Base__fg.html" title="Base_fg" alt="" coords="234,155,305,181"/>
+<area shape="rect" id="node4" href="$classSurveillance_1_1layers_1_1tabletop__seg_1_1tabletop__GMM.html" title="tabletop_GMM" alt="" coords="5,229,112,256"/>
+<area shape="rect" id="node6" href="$classSurveillance_1_1layers_1_1human__seg_1_1Human__ColorSG.html" title="Human_ColorSG" alt="" coords="137,229,258,256"/>
+<area shape="rect" id="node8" href="$classSurveillance_1_1layers_1_1puzzle__seg_1_1Puzzle__Residual.html" title="Puzzle_Residual" alt="" coords="283,229,403,256"/>
+<area shape="rect" id="node9" href="$classSurveillance_1_1layers_1_1robot__seg_1_1robot__inRange.html" title="robot_inRange" alt="" coords="427,229,533,256"/>
+<area shape="rect" id="node7" href="$classSurveillance_1_1layers_1_1human__seg_1_1Human__ColorSG__HeightInRange.html" title="Human_ColorSG_HeightInRange" alt="" coords="90,304,305,331"/>
+<area shape="rect" id="node10" href="$classSurveillance_1_1layers_1_1robot__seg_1_1robot__inRange__Height.html" title="robot_inRange_Height" alt="" coords="405,304,555,331"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>

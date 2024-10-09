@@ -1,7 +1,5 @@
 <map id="centroid" name="centroid">
-<area shape="rect" id="node1" title=" " alt="" coords="76,80,151,107"/>
-<area shape="rect" id="node3" href="$classtrackpointer_1_1centroidMulti_1_1centroidMulti.html" title=" " alt="" coords="59,155,167,181"/>
-<area shape="rect" id="node2" title=" " alt="" coords="82,5,145,32"/>
-<area shape="rect" id="node4" href="$classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html" title=" " alt="" coords="5,229,96,256"/>
-<area shape="rect" id="node5" href="$classpuzzle_1_1parser_1_1boardMeasure.html" title=" " alt="" coords="120,229,235,256"/>
+<area shape="rect" id="node3" href="$classtrackpointer_1_1centroidMulti_1_1centroidMulti.html" title="centroidMulti" alt="" coords="58,155,154,181"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html" title="A basic detector class that processes a layered image (or mask and image) detection output..." alt="" coords="5,229,89,256"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1parser_1_1boardMeasure.html" title="boardMeasure" alt="" coords="114,229,218,256"/>
 </map>

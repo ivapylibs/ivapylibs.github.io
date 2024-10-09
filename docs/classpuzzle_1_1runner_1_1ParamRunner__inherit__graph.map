@@ -1,5 +1,9 @@
 <map id="ParamRunner" name="ParamRunner">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title=" " alt="" coords="7,155,117,181"/>
 <area shape="rect" id="node2" href="$classpuzzle_1_1simulator_1_1planner_1_1ParamPlanner.html" title=" " alt="" coords="5,80,119,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="17,5,107,32"/>
+=======
+<area shape="rect" id="node2" href="$classpuzzle_1_1simulator_1_1planner_1_1ParamPlanner.html" title="ParamPlanner" alt="" coords="5,80,109,107"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>

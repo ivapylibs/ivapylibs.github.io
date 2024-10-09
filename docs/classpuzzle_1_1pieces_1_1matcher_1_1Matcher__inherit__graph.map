@@ -1,4 +1,5 @@
 <map id="Matcher" name="Matcher">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title=" " alt="" coords="333,5,407,32"/>
 <area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchDifferent.html" title="The puzzle piece matching scores are based on differences." alt="" coords="241,80,361,107"/>
 <area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchSimilar.html" title=" " alt="" coords="425,80,533,107"/>
@@ -8,4 +9,14 @@
 <area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html" title="Uses shape moments to establish similarity." alt="" coords="319,155,402,181"/>
 <area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1PCA.html" title="Uses pca to calculate rotation." alt="" coords="426,155,474,181"/>
 <area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1sift_1_1Sift.html" title=" " alt="" coords="499,155,543,181"/>
+=======
+<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchDifferent.html" title="The puzzle piece matching scores are based on differences. " alt="" coords="233,80,341,107"/>
+<area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchSimilar.html" title="MatchSimilar" alt="" coords="410,80,509,107"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1pieces_1_1edge_1_1Edge.html" title="Edge" alt="" coords="5,155,57,181"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Distance.html" title="Distance" alt="" coords="82,155,157,181"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1HistogramCV.html" title="HistogramCV" alt="" coords="181,155,282,181"/>
+<area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html" title="Uses shape moments to establish similarity. " alt="" coords="307,155,383,181"/>
+<area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1PCA.html" title="Uses pca to calculate rotation. " alt="" coords="407,155,458,181"/>
+<area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1sift_1_1Sift.html" title="Sift" alt="" coords="482,155,525,181"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>

@@ -1,5 +1,10 @@
 <map id="Basic" name="Basic">
+<<<<<<< HEAD
 <area shape="rect" id="node1" title=" " alt="" coords="31,5,88,32"/>
 <area shape="rect" id="node2" href="$classpuzzle_1_1simulator_1_1simTimeless_1_1SimTimeLess.html" title=" " alt="" coords="5,80,113,107"/>
 <area shape="rect" id="node3" href="$classpuzzle_1_1simulator_1_1simTime_1_1SimTime.html" title=" " alt="" coords="20,155,99,181"/>
+=======
+<area shape="rect" id="node2" href="$classpuzzle_1_1simulator_1_1simTimeless_1_1SimTimeLess.html" title="SimTimeLess" alt="" coords="5,80,108,107"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1simulator_1_1simTime_1_1SimTime.html" title="SimTime" alt="" coords="19,155,94,181"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>
