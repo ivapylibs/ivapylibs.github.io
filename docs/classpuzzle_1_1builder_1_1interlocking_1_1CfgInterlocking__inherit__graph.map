@@ -1,0 +1,11 @@
+<map id="CfgInterlocking" name="CfgInterlocking">
+<area shape="rect" id="node1" title="Configuration setting specifier for centroidMulti." alt="" coords="14,528,135,555"/>
+<area shape="rect" id="node9" href="$classpuzzle_1_1builder_1_1gridded_1_1CfgGridded.html" title="Configuration setting specifier for centroidMulti." alt="" coords="27,603,122,629"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1builder_1_1adjacent_1_1CfgAdjacent.html" title="Configuration setting specifier for Arrangement." alt="" coords="24,453,125,480"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1builder_1_1arrangement_1_1CfgArrangement.html" title="Configuration setting specifier for centroidMulti." alt="" coords="10,379,139,405"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1parser_1_1CfgBoardMeasure.html" title="Configuration setting specifier for centroidMulti." alt="" coords="5,304,144,331"/>
+<area shape="rect" id="node5" href="$classtrackpointer_1_1centroidMulti_1_1CfgCentMulti.html" title="Configuration setting specifier for centroidMulti." alt="" coords="21,229,128,256"/>
+<area shape="rect" id="node6" href="$classtrackpointer_1_1centroid_1_1CfgCentroid.html" title=" " alt="" coords="25,155,124,181"/>
+<area shape="rect" id="node7" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="32,80,117,107"/>
+<area shape="rect" id="node8" title=" " alt="" coords="35,5,114,32"/>
+</map>

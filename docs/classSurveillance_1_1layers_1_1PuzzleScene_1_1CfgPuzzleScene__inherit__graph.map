@@ -1,0 +1,5 @@
+<map id="CfgPuzzleScene" name="CfgPuzzleScene">
+<area shape="rect" id="node1" title="Configuration instance for Puzzle Scene perceiver." alt="" coords="5,155,131,181"/>
+<area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="25,80,111,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="29,5,107,32"/>
+</map>

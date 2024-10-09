@@ -1,0 +1,11 @@
+<map id="Matcher" name="Matcher">
+<area shape="rect" id="node1" title=" " alt="" coords="333,5,407,32"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchDifferent.html" title="The puzzle piece matching scores are based on differences." alt="" coords="241,80,361,107"/>
+<area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchSimilar.html" title=" " alt="" coords="425,80,533,107"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1pieces_1_1edge_1_1Edge.html" title=" " alt="" coords="5,155,60,181"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Distance.html" title=" " alt="" coords="84,155,163,181"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1HistogramCV.html" title=" " alt="" coords="187,155,295,181"/>
+<area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html" title="Uses shape moments to establish similarity." alt="" coords="319,155,402,181"/>
+<area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1PCA.html" title="Uses pca to calculate rotation." alt="" coords="426,155,474,181"/>
+<area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1sift_1_1Sift.html" title=" " alt="" coords="499,155,543,181"/>
+</map>

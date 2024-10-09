@@ -77,12 +77,13 @@ $(function() {
 <div class="textblock"><p>Code to test editor scheme with Commentary instances under hard coded loop. </p>
 <p>Builds on <code>editor01simple</code> by replacing the Announcements with Commentary, such that the Commentary instances have no signal2text function pointer (set to None). In doing so, the Commentary instance is implicitly told to pass along the internal commentary as the message. The commentary can be binary data and not necessarily printable. <br  />
 </p>
-<p>In this case, the outputs are indeed printable and the output should be the same as <code>editor01simple</code>.</p>
+<p>In this case, the outputs are indeed printable and the output should be similar to <code>editor01simple</code> but in a CSV file and with some timing information.</p>
 <p>The code below</p>
 <blockquote class="doxtable">
 <p>./editor04csv.py </p>
 </blockquote>
-<p>runs the script. The output is text trial number and timing information. The running times are pre-specified floats, while the trial termination time does us actual timing. The reason to call is "badcsv" is because the Commentary instance outputs to the CSV writer all the time. Because the CSV writer writes complete lines, each output is on its own line. To get more of the data along the row requires using a RunningCommentary instance that packs everything into an iterable (list) and then passes it along when necessary. </p>
+<p>runs the script. The output is text trial number and timing information. The running times are pre-specified floats, while the trial termination time does us actual timing. <br  />
+ </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

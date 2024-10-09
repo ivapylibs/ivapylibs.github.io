@@ -1,0 +1,7 @@
+<map id="CfgDistance" name="CfgDistance">
+<area shape="rect" id="node1" title="Configuration setting specifier for distance matcher class." alt="" coords="6,304,107,331"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgDifferent.html" title="Configuration setting specifier for difference matcher class." alt="" coords="5,229,108,256"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgMatcher.html" title="Configuration setting specifier for puzzle piece matcher class." alt="" coords="8,155,105,181"/>
+<area shape="rect" id="node4" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="14,80,99,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="17,5,96,32"/>
+</map>

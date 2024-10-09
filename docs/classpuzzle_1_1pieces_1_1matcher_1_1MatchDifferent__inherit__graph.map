@@ -1,0 +1,9 @@
+<map id="MatchDifferent" name="MatchDifferent">
+<area shape="rect" id="node1" title="The puzzle piece matching scores are based on differences." alt="" coords="181,80,301,107"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1pieces_1_1edge_1_1Edge.html" title=" " alt="" coords="5,155,60,181"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Distance.html" title=" " alt="" coords="84,155,163,181"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1HistogramCV.html" title=" " alt="" coords="187,155,295,181"/>
+<area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html" title="Uses shape moments to establish similarity." alt="" coords="319,155,402,181"/>
+<area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1PCA.html" title="Uses pca to calculate rotation." alt="" coords="426,155,474,181"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1Matcher.html" title=" " alt="" coords="203,5,278,32"/>
+</map>
