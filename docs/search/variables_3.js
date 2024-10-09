@@ -30,6 +30,7 @@ var searchData=
   ['detected_5fmasks',['detected_masks',['../classSurveillance_1_1layers_1_1puzzle__seg_1_1Puzzle__Residual.html#aea79e641e00c820e01063fff1e5e2254',1,'Surveillance::layers::puzzle_seg::Puzzle_Residual']]],
   ['detector',['detector',['../classperceiver_1_1perceiver_1_1Perceiver.html#a2e2cc69bf023676b0749903f295a507e',1,'perceiver::perceiver::Perceiver']]],
   ['detresult',['detResult',['../classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html#a6020af2feb19da773f3431dce3c2fbcd',1,'detector::bgmodel::GMM::bgmodelGMM_cv']]],
+  ['dict_5fid_5f2d',['dict_id_2d',['../namespacepuzzle_1_1utils_1_1dataProcessing.html#aded81a3c6732dc56fd0cf4b6c286b83e',1,'puzzle::utils::dataProcessing']]],
   ['dirname',['dirname',['../classcamera_1_1utils_1_1writer_1_1frameWriter.html#a23159e0e6997cdd5125fefe42020ad0a',1,'camera.utils.writer.frameWriter.dirname()'],['../classcamera_1_1utils_1_1writer_1_1vidWriter.html#a23159e0e6997cdd5125fefe42020ad0a',1,'camera.utils.writer.vidWriter.dirname()'],['../classSurveillance_1_1layers_1_1scene_1_1SceneInterpreterV1.html#a23159e0e6997cdd5125fefe42020ad0a',1,'Surveillance.layers.scene.SceneInterpreterV1.dirname()']]],
   ['display',['display',['../namespaceSurveillance_1_1deployment_1_1ROS_1_1rosbag__runner.html#a4f0dca78b998ba41b1799a11f1287c87',1,'Surveillance::deployment::ROS::rosbag_runner']]],
   ['displayboard',['displayBoard',['../classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a8ebe6485d68baa7ace485b6c83177046',1,'puzzle::simulator::planner::Planner']]],

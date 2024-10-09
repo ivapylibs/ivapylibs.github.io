@@ -1,7 +1,7 @@
 var searchData=
 [
   ['sceneinterpreterv1',['SceneInterpreterV1',['../classSurveillance_1_1layers_1_1scene_1_1SceneInterpreterV1.html',1,'Surveillance::layers::scene']]],
-  ['sgmdebug',['SGMdebug',['../classdetector_1_1fgmodel_1_1Gaussian_1_1SGMdebug.html',1,'SGMdebug'],['../classdetector_1_1bgmodel_1_1Gaussian_1_1SGMdebug.html',1,'SGMdebug']]],
+  ['sgmdebug',['SGMdebug',['../classdetector_1_1bgmodel_1_1Gaussian_1_1SGMdebug.html',1,'SGMdebug'],['../classdetector_1_1fgmodel_1_1Gaussian_1_1SGMdebug.html',1,'SGMdebug']]],
   ['sgmstate',['SGMstate',['../classdetector_1_1fgmodel_1_1Gaussian_1_1SGMstate.html',1,'SGMstate'],['../classdetector_1_1bgmodel_1_1Gaussian_1_1SGMstate.html',1,'SGMstate']]],
   ['sift',['Sift',['../classpuzzle_1_1pieces_1_1sift_1_1Sift.html',1,'puzzle::pieces::sift']]],
   ['siftcv',['SIFTCV',['../classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html',1,'puzzle::pieces::matchSimilar']]],

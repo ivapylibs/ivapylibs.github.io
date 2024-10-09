@@ -7,5 +7,6 @@ var searchData=
   ['kernel_5ferode',['kernel_erode',['../classSurveillance_1_1layers_1_1scene_1_1SceneInterpreterV1.html#a07f6a214d4a38f7e5d67991030f129a5',1,'Surveillance::layers::scene::SceneInterpreterV1']]],
   ['kernel_5frefine',['kernel_refine',['../classSurveillance_1_1layers_1_1scene_1_1SceneInterpreterV1.html#a47cd1ff11318c476312db17bdf82b0e9',1,'Surveillance::layers::scene::SceneInterpreterV1']]],
   ['key_5fcache',['key_cache',['../classSurveillance_1_1deployment_1_1activity__record_1_1ActDecoder.html#ab0ff009151f74f53abbcf6d6e8efce13',1,'Surveillance::deployment::activity_record::ActDecoder']]],
+  ['kmeans_5fid_5f2d',['kmeans_id_2d',['../namespacepuzzle_1_1utils_1_1dataProcessing.html#a425965f6d0e54bad8b2e8e59b5339a4d',1,'puzzle::utils::dataProcessing']]],
   ['kpfeaextract',['kpFeaExtract',['../classpuzzle_1_1pieces_1_1sift_1_1Sift.html#ad47495c4c5052555b124c9648901c0fb',1,'puzzle::pieces::sift::Sift']]]
 ];

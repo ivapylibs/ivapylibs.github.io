@@ -6,6 +6,7 @@ var searchData=
   ['base_5fstate',['Base_state',['../classSurveillance_1_1activity_1_1state_1_1Base__state.html',1,'Surveillance::activity::state']]],
   ['basesurveillancedeploy',['BaseSurveillanceDeploy',['../classSurveillance_1_1deployment_1_1Base_1_1BaseSurveillanceDeploy.html',1,'Surveillance::deployment::Base']]],
   ['basic',['Basic',['../classpuzzle_1_1simulator_1_1basic_1_1Basic.html',1,'puzzle::simulator::basic']]],
+  ['bcolors',['bcolors',['../classpuzzle_1_1simulator_1_1planner_1_1bcolors.html',1,'puzzle::simulator::planner']]],
   ['beatreporter',['BeatReporter',['../classperceiver_1_1reporting_1_1BeatReporter.html',1,'perceiver::reporting']]],
   ['bgconical',['bgConical',['../classdetector_1_1bgmodel_1_1Gaussian_1_1bgConical.html',1,'detector::bgmodel::Gaussian']]],
   ['bggaussian',['bgGaussian',['../classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html',1,'detector::bgmodel::Gaussian']]],

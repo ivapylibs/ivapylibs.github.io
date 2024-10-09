@@ -9,6 +9,7 @@ var searchData=
   ['readme_2emd',['README.md',['../ivapy_2README_8md.html',1,'(Global Namespace)'],['../camera_2README_8md.html',1,'(Global Namespace)'],['../camera_2scripts_2README_8md.html',1,'(Global Namespace)'],['../improcessor_2README_8md.html',1,'(Global Namespace)'],['../detector_2README_8md.html',1,'(Global Namespace)'],['../trackpointer_2README_8md.html',1,'(Global Namespace)'],['../perceiver_2README_8md.html',1,'(Global Namespace)'],['../puzzle__solver_2README_8md.html',1,'(Global Namespace)'],['../Surveillance_2README_8md.html',1,'(Global Namespace)'],['../Surveillance_2Surveillance_2deployment_2ROS_2README_8md.html',1,'(Global Namespace)']]],
   ['ready',['ready',['../classcamera_1_1cv2cam_1_1Color.html#ab0db378e6ced1decdb42263d4cb2789a',1,'camera.cv2cam.Color.ready()'],['../classSurveillance_1_1layers_1_1scene_1_1SceneInterpreterV1.html#ab0db378e6ced1decdb42263d4cb2789a',1,'Surveillance.layers.scene.SceneInterpreterV1.ready()']]],
   ['realsolver',['RealSolver',['../classpuzzle_1_1runner_1_1RealSolver.html',1,'puzzle::runner']]],
+  ['realsolverros',['RealSolverROS',['../classpuzzle_1_1runnerROS_1_1RealSolverROS.html',1,'puzzle::runnerROS']]],
   ['record',['record',['../classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a494a20ecd0a0354be80b354322b62cc1',1,'puzzle::simulator::planner::Planner']]],
   ['recorder',['recorder',['../namespacescripts_1_1d435__record__rosbag__user.html#ad775930548a691778ac8e7fe03c3e2d1',1,'scripts::d435_record_rosbag_user']]],
   ['recorders_2epy',['recorders.py',['../recorders_8py.html',1,'']]],
@@ -103,6 +104,7 @@ var searchData=
   ['run_5fsystem',['run_system',['../classSurveillance_1_1deployment_1_1ROS_1_1rosbag__runner_1_1ImageListener.html#a514a6ac8bc08f9b06893b957f8acd431',1,'Surveillance::deployment::ROS::rosbag_runner::ImageListener']]],
   ['runner_2epy',['runner.py',['../camera_2camera_2d435_2runner_8py.html',1,'(Global Namespace)'],['../puzzle__solver_2puzzle_2runner_8py.html',1,'(Global Namespace)']]],
   ['runner2_2epy',['runner2.py',['../runner2_8py.html',1,'']]],
+  ['runnerros_2epy',['runnerROS.py',['../runnerROS_8py.html',1,'']]],
   ['runningcommentary',['RunningCommentary',['../classdrafts_1_1RunningCommentary.html',1,'drafts']]],
   ['runstate',['RunState',['../classdetector_1_1bgmodel_1_1onWorkspace_1_1RunState.html',1,'detector::bgmodel::onWorkspace']]]
 ];

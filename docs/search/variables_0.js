@@ -25,6 +25,7 @@ var searchData=
   ['arm_5fregion',['arm_region',['../classpuzzle_1_1simulator_1_1hand_1_1Hand.html#a55a7f780314008ad43e0ae3667ed551f',1,'puzzle::simulator::hand::Hand']]],
   ['array',['array',['../classpuzzle_1_1runner_1_1ParamRunner.html#a41ab4b8b4e6b05e8489555b1bbc7f845',1,'puzzle.runner.ParamRunner.array()'],['../classSurveillance_1_1deployment_1_1Base_1_1Params.html#a41ab4b8b4e6b05e8489555b1bbc7f845',1,'Surveillance.deployment.Base.Params.array()']]],
   ['aruco_5fdict',['aruco_dict',['../classcamera_1_1extrinsic_1_1aruco_1_1CtoW__Calibrator__aruco.html#a2f28482ae4ba02c4483e262ea80d936f',1,'camera::extrinsic::aruco::CtoW_Calibrator_aruco']]],
+  ['assignmentmethod',['assignmentMethod',['../classpuzzle_1_1manager_1_1Manager.html#a78ff6f4ab9dda3bded60656e564ae667',1,'puzzle::manager::Manager']]],
   ['author',['author',['../namespacesetup.html#ad50afb6ec7b2501164b80a0480596ded',1,'setup']]],
   ['auto_5fcompress',['auto_compress',['../classcamera_1_1utils_1_1writer__ros_1_1vidWriter__ROS.html#a11eb7107cf4bdb84682b5e473ce1ffaa',1,'camera::utils::writer_ros::vidWriter_ROS']]],
   ['auto_5fexposure',['auto_exposure',['../classcamera_1_1d435_1_1runner_1_1D435__Runner.html#a4da321dd2fc04e01a3a0167962b86d68',1,'camera.d435.runner.D435_Runner.auto_exposure()'],['../classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#a4da321dd2fc04e01a3a0167962b86d68',1,'camera.d435.runner2.D435_Runner.auto_exposure()'],['../classcamera_1_1d435new_1_1RGBD__Aligned.html#a4da321dd2fc04e01a3a0167962b86d68',1,'camera.d435new.RGBD_Aligned.auto_exposure()']]],

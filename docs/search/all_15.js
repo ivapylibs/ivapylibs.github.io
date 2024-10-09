@@ -6,6 +6,7 @@ var searchData=
   ['wait_5ffor_5fconfirm',['wait_for_confirm',['../namespacecamera_1_1utils_1_1display.html#a0a5f07f832923115f101712784546a11',1,'camera::utils::display']]],
   ['wait_5ftime',['wait_time',['../classcamera_1_1utils_1_1writer__ros_1_1vidWriter__ROS.html#abda3c5f2d902070656591b1f1664dc86',1,'camera.utils.writer_ros.vidWriter_ROS.wait_time()'],['../classSurveillance_1_1layers_1_1scene_1_1SceneInterpreterV1.html#abda3c5f2d902070656591b1f1664dc86',1,'Surveillance.layers.scene.SceneInterpreterV1.wait_time()']]],
   ['wait_5ftime_5fcounter',['wait_time_counter',['../classcamera_1_1utils_1_1writer__ros_1_1vidWriter__ROS.html#a9d4869438cec1a67ac88d237bb116a46',1,'camera::utils::writer_ros::vidWriter_ROS']]],
+  ['warning',['WARNING',['../classpuzzle_1_1simulator_1_1planner_1_1bcolors.html#a93bb20810d83fb8742ba55ad8af4e467',1,'puzzle::simulator::planner::bcolors']]],
   ['whenclose',['whenClose',['../classtriggers_1_1whenClose.html',1,'triggers']]],
   ['whendiffers',['whenDiffers',['../classtriggers_1_1whenDiffers.html',1,'triggers']]],
   ['whenfar',['whenFar',['../classtriggers_1_1whenFar.html',1,'triggers']]],

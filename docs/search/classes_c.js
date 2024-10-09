@@ -1,6 +1,7 @@
 var searchData=
 [
   ['realsolver',['RealSolver',['../classpuzzle_1_1runner_1_1RealSolver.html',1,'puzzle::runner']]],
+  ['realsolverros',['RealSolverROS',['../classpuzzle_1_1runnerROS_1_1RealSolverROS.html',1,'puzzle::runnerROS']]],
   ['regiongrower_5fbase',['RegionGrower_base',['../classSurveillance_1_1utils_1_1region__grow_1_1RegionGrower__base.html',1,'Surveillance::utils::region_grow']]],
   ['regiongrower_5fvaldiff',['RegionGrower_ValDiff',['../classSurveillance_1_1utils_1_1region__grow_1_1RegionGrower__ValDiff.html',1,'Surveillance::utils::region_grow']]],
   ['regular',['Regular',['../classpuzzle_1_1piece_1_1Regular.html',1,'puzzle::piece']]],

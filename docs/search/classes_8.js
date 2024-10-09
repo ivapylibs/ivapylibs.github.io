@@ -10,11 +10,11 @@ var searchData=
   ['info',['Info',['../classperceiver_1_1perceiver_1_1Info.html',1,'perceiver::perceiver']]],
   ['inimage',['inImage',['../classdetector_1_1inImage_1_1inImage.html',1,'detector::inImage']]],
   ['inimagergbd',['inImageRGBD',['../classdetector_1_1inImageRGBD_1_1inImageRGBD.html',1,'detector::inImageRGBD']]],
-  ['instdetector',['InstDetector',['../classSurveillance_1_1layers_1_1HoveringHand_1_1InstDetector.html',1,'InstDetector'],['../classSurveillance_1_1layers_1_1HoveringGlove_1_1InstDetector.html',1,'InstDetector']]],
+  ['instdetector',['InstDetector',['../classSurveillance_1_1layers_1_1HoveringGlove_1_1InstDetector.html',1,'InstDetector'],['../classSurveillance_1_1layers_1_1HoveringHand_1_1InstDetector.html',1,'InstDetector']]],
   ['instglovedetector',['InstGloveDetector',['../classSurveillance_1_1layers_1_1Glove_1_1InstGloveDetector.html',1,'InstGloveDetector'],['../classSurveillance_1_1layers_1_1GloveByColor_1_1InstGloveDetector.html',1,'InstGloveDetector']]],
-  ['instgloveperceiver',['InstGlovePerceiver',['../classSurveillance_1_1layers_1_1Glove_1_1InstGlovePerceiver.html',1,'InstGlovePerceiver'],['../classSurveillance_1_1layers_1_1GloveByColor_1_1InstGlovePerceiver.html',1,'InstGlovePerceiver']]],
+  ['instgloveperceiver',['InstGlovePerceiver',['../classSurveillance_1_1layers_1_1GloveByColor_1_1InstGlovePerceiver.html',1,'InstGlovePerceiver'],['../classSurveillance_1_1layers_1_1Glove_1_1InstGlovePerceiver.html',1,'InstGlovePerceiver']]],
   ['instperceiver',['InstPerceiver',['../classSurveillance_1_1layers_1_1HoveringGlove_1_1InstPerceiver.html',1,'InstPerceiver'],['../classSurveillance_1_1layers_1_1HoveringHand_1_1InstPerceiver.html',1,'InstPerceiver']]],
-  ['instpuzzleperceiver',['InstPuzzlePerceiver',['../classSurveillance_1_1layers_1_1BlackWorkMat_1_1InstPuzzlePerceiver.html',1,'InstPuzzlePerceiver'],['../classSurveillance_1_1layers_1_1PuzzleScene_1_1InstPuzzlePerceiver.html',1,'InstPuzzlePerceiver']]],
+  ['instpuzzleperceiver',['InstPuzzlePerceiver',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1InstPuzzlePerceiver.html',1,'InstPuzzlePerceiver'],['../classSurveillance_1_1layers_1_1BlackWorkMat_1_1InstPuzzlePerceiver.html',1,'InstPuzzlePerceiver']]],
   ['instpuzzlescene',['InstPuzzleScene',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1InstPuzzleScene.html',1,'Surveillance::layers::PuzzleScene']]],
   ['interlocking',['Interlocking',['../classpuzzle_1_1builder_1_1interlocking_1_1Interlocking.html',1,'puzzle::builder::interlocking']]]
 ];

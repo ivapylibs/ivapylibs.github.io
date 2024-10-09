@@ -43,6 +43,7 @@ var searchData=
   ['register',['register',['../namespacepuzzle_1_1pieces_1_1register.html',1,'puzzle::pieces']]],
   ['reporting',['reporting',['../namespaceperceiver_1_1reporting.html',1,'perceiver']]],
   ['runner',['runner',['../namespacepuzzle_1_1runner.html',1,'puzzle']]],
+  ['runnerros',['runnerROS',['../namespacepuzzle_1_1runnerROS.html',1,'puzzle']]],
   ['shapeprocessing',['shapeProcessing',['../namespacepuzzle_1_1utils_1_1shapeProcessing.html',1,'puzzle::utils']]],
   ['sideextractor',['sideExtractor',['../namespacepuzzle_1_1utils_1_1sideExtractor.html',1,'puzzle::utils']]],
   ['sift',['sift',['../namespacepuzzle_1_1pieces_1_1sift.html',1,'puzzle::pieces']]],

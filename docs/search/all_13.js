@@ -1,6 +1,7 @@
 var searchData=
 [
   ['undefined',['UNDEFINED',['../classpuzzle_1_1piece_1_1EdgeType.html#a1c7b7d7f0afb43d32bc29971b997c796',1,'puzzle::piece::EdgeType']]],
+  ['underline',['UNDERLINE',['../classpuzzle_1_1simulator_1_1planner_1_1bcolors.html#adfd2e04a8cd1c80e5363474b3e69bde0',1,'puzzle::simulator::planner::bcolors']]],
   ['unknown',['UNKNOWN',['../classpuzzle_1_1piece_1_1PieceStatus.html#a3a3f7f05081d274ef83ed669efc1c328',1,'puzzle::piece::PieceStatus']]],
   ['update',['update',['../classcamera_1_1extrinsic_1_1aruco_1_1CtoW__Calibrator__aruco.html#a852118613d88430c90d5ce9be2505773',1,'camera.extrinsic.aruco.CtoW_Calibrator_aruco.update()'],['../classpuzzle_1_1piece_1_1Template.html#a0d9d50aee8666e4242f46920d7b9a5ea',1,'puzzle.piece.Template.update()'],['../classSurveillance_1_1activity_1_1state_1_1Base__state.html#a1eec535b9845bd66901c9157c5b58978',1,'Surveillance.activity.state.Base_state.update()']]],
   ['update_5fdepth',['update_depth',['../classSurveillance_1_1layers_1_1human__seg_1_1Human__ColorSG__HeightInRange.html#a797988a5460248ee2d7b9eb6b27746c1',1,'Surveillance::layers::human_seg::Human_ColorSG_HeightInRange']]],

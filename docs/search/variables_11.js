@@ -18,6 +18,7 @@ var searchData=
   ['th_5fval',['th_val',['../classSurveillance_1_1utils_1_1region__grow_1_1RegionGrower__ValDiff.html#a5e40e7fc3fad61ae046a769c60dde68f',1,'Surveillance::utils::region_grow::RegionGrower_ValDiff']]],
   ['th_5fvar',['th_var',['../classSurveillance_1_1utils_1_1region__grow_1_1RegionGrower__ValDiff.html#a69f670995fcaa569fb8dd0a88051109c',1,'Surveillance::utils::region_grow::RegionGrower_ValDiff']]],
   ['thecalibrated',['theCalibrated',['../classpuzzle_1_1runner_1_1RealSolver.html#a9993320adb175b89e5500acf486a19c5',1,'puzzle::runner::RealSolver']]],
+  ['theclusterboard',['theClusterBoard',['../classpuzzle_1_1runner_1_1RealSolver.html#a1e2c53b84ac462c31799a558c977e3c6',1,'puzzle::runner::RealSolver']]],
   ['themanager',['theManager',['../classpuzzle_1_1runner_1_1RealSolver.html#af190e1ce1d44ba0da831d0f0955b33eb',1,'puzzle::runner::RealSolver']]],
   ['themanager_5fintra',['theManager_intra',['../classpuzzle_1_1simulator_1_1planner_1_1Planner.html#aad0f252bb2ff648694045c0385e8618a',1,'puzzle::simulator::planner::Planner']]],
   ['thepercent',['thePercent',['../namespacepuzzle_1_1runner.html#a6016e9125171356854e2a9fd66878c03',1,'puzzle::runner']]],

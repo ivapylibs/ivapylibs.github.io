@@ -22,6 +22,10 @@ var searchData=
   ['loadmodel',['loadModel',['../classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html#a59576b0c76234749b965e22be403a7b9',1,'detector::bgmodel::GMM::bgmodelGMM_cv']]],
   ['loc',['loc',['../classpuzzle_1_1simulator_1_1action_1_1Actions.html#aeee9f371db14fda0de35d16324a167df',1,'puzzle::simulator::action::Actions']]],
   ['loc_5fhistory',['loc_history',['../classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a43161706558a5b37e9c5578169a941db',1,'puzzle::simulator::planner::Planner']]],
+  ['loc_5fhistory_5fpub',['loc_history_pub',['../classpuzzle_1_1runnerROS_1_1RealSolverROS.html#a10cf5e3fb8c5f20971b484131867e9de',1,'puzzle::runnerROS::RealSolverROS']]],
+  ['loc_5fhistory_5ftopic',['loc_history_topic',['../namespacepuzzle_1_1runnerROS.html#a01913ba61bc9ee5347932a4040ae4a8f',1,'puzzle::runnerROS']]],
+  ['loc_5fpulse_5fpub',['loc_pulse_pub',['../classpuzzle_1_1runnerROS_1_1RealSolverROS.html#aad6f6117fcb2c945f476420d4c205e09',1,'puzzle::runnerROS::RealSolverROS']]],
+  ['loc_5fpulse_5ftopic',['loc_pulse_topic',['../namespacepuzzle_1_1runnerROS.html#a3f919e7c725ff6490f5482de36973b09',1,'puzzle::runnerROS']]],
   ['lock',['lock',['../namespaceSurveillance_1_1deployment_1_1ROS_1_1rosbag__runner.html#af1b662fe6ae53fbcd5a505235805d788',1,'Surveillance::deployment::ROS::rosbag_runner']]],
   ['logger',['logger',['../namespaceivapy_1_1Configuration.html#a0b14e488ae28d98d262453f3e9cd6e4d',1,'ivapy.Configuration.logger()'],['../namespacedetector_1_1Configuration.html#a0b14e488ae28d98d262453f3e9cd6e4d',1,'detector.Configuration.logger()']]],
   ['low_5fth',['low_th',['../classSurveillance_1_1layers_1_1scene_1_1SceneInterpreterV1.html#a12d3f793c21450625a0f80a9c5b2d1de',1,'Surveillance::layers::scene::SceneInterpreterV1']]]
