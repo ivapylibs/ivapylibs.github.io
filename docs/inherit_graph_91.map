@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<<<<<<< HEAD
+<area shape="rect" id="node1" href="$classpuzzle_1_1piece_1_1PuzzleTemplate.html" title="Data class containing puzzle piece information." alt="" coords="5,5,129,32"/>
+=======
+<area shape="rect" id="node2" href="$classSurveillance_1_1layers_1_1BlackWorkMat_1_1PuzzlePerceiver.html" title="PuzzlePerceiver" alt="" coords="135,5,253,32"/>
+<area shape="rect" id="node3" href="$classSurveillance_1_1layers_1_1Glove_1_1Perceiver.html" title="Perceiver" alt="" coords="155,56,233,83"/>
+<area shape="rect" id="node4" href="$classSurveillance_1_1layers_1_1GloveByColor_1_1PerceiveGloveBC.html" title="Perceiver based on detecting glove by color. " alt="" coords="131,107,257,133"/>
+<area shape="rect" id="node5" href="$classSurveillance_1_1layers_1_1HoveringHand_1_1Perceiver.html" title="Perceiver" alt="" coords="155,157,233,184"/>
+<area shape="rect" id="node6" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1Perceiver.html" title="Perceiver" alt="" coords="155,208,233,235"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
+</map>

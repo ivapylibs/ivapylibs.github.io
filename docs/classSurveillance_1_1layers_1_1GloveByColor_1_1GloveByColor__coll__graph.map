@@ -1,0 +1,13 @@
+<map id="GloveByColor" name="GloveByColor">
+<<<<<<< HEAD
+<area shape="rect" id="node1" title="Glove detector by color only." alt="" coords="5,304,116,331"/>
+<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input." alt="" coords="23,229,99,256"/>
+<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="23,155,98,181"/>
+<area shape="rect" id="node4" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="33,80,88,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="29,5,92,32"/>
+=======
+<area shape="rect" id="node2" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input. " alt="" coords="22,229,91,256"/>
+<area shape="rect" id="node3" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input. " alt="" coords="23,155,91,181"/>
+<area shape="rect" id="node4" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class. " alt="" coords="31,80,83,107"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
+</map>

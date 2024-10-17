@@ -1,0 +1,9 @@
+<map id="CfgHandDetector" name="CfgHandDetector">
+<<<<<<< HEAD
+<area shape="rect" id="node1" title="Configuration instance for glove tracking perceiver." alt="" coords="5,155,140,181"/>
+<area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="30,80,115,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="33,5,112,32"/>
+=======
+<area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title="AlgConfig" alt="" coords="28,80,107,107"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
+</map>

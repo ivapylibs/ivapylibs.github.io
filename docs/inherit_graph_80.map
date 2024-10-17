@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<<<<<<< HEAD
+<area shape="rect" id="node1" href="$classdetector_1_1bgmodel_1_1GMM_1_1Params__cv.html" title="The parameters for the bgmodelGMM_cv." alt="" coords="5,5,99,32"/>
+=======
+<area shape="rect" id="node2" href="$classSurveillance_1_1layers_1_1base_1_1Params.html" title="Params" alt="" coords="120,56,187,83"/>
+<area shape="rect" id="node3" href="$classSurveillance_1_1layers_1_1base__bg_1_1Params.html" title="Params" alt="" coords="265,5,331,32"/>
+<area shape="rect" id="node5" href="$classSurveillance_1_1layers_1_1base__fg_1_1Params.html" title="Params" alt="" coords="265,107,331,133"/>
+<area shape="rect" id="node4" href="$classSurveillance_1_1layers_1_1tabletop__seg_1_1Params__GMM.html" title="Params_GMM" alt="" coords="419,5,525,32"/>
+<area shape="rect" id="node6" href="$classSurveillance_1_1layers_1_1human__seg_1_1Params.html" title="Params" alt="" coords="439,157,505,184"/>
+<area shape="rect" id="node7" href="$classSurveillance_1_1layers_1_1puzzle__seg_1_1Params__Residual.html" title="Params_Residual" alt="" coords="409,56,535,83"/>
+<area shape="rect" id="node8" href="$classSurveillance_1_1layers_1_1robot__seg_1_1Params.html" title="Params" alt="" coords="439,107,505,133"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
+</map>

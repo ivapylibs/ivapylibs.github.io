@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<<<<<<< HEAD
+<area shape="rect" id="node1" href="$classperceiver_1_1reporting_1_1Reporter.html" title="Base/abstract reporter class." alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node2" href="$classperceiver_1_1reporting_1_1BeatReporter.html" title="Specialized reporter class that works with an editor." alt="" coords="132,5,240,32"/>
+=======
+<area shape="rect" id="node1" href="$classSurveillance_1_1utils_1_1region__grow_1_1RegionGrower__base.html" title="RegionGrower_base" alt="" coords="5,31,145,57"/>
+<area shape="rect" id="node2" href="$classSurveillance_1_1utils_1_1region__grow_1_1MaskGrower.html" title="MaskGrower" alt="" coords="221,5,317,32"/>
+<area shape="rect" id="node3" href="$classSurveillance_1_1utils_1_1region__grow_1_1RegionGrower__ValDiff.html" title="RegionGrower_ValDiff" alt="" coords="193,56,345,83"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
+</map>

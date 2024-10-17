@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<<<<<<< HEAD
+<area shape="rect" id="node1" href="$classpuzzle_1_1utils_1_1pygameProcessing_1_1TextRectException.html" title=" " alt="" coords="5,5,148,32"/>
+=======
+<area shape="rect" id="node1" href="$classpuzzle_1_1piece_1_1Template.html" title="Stores and encapsulates a template instance of a visual puzzle piece. " alt="" coords="5,5,81,32"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1piece_1_1Regular.html" title="Regular" alt="" coords="129,5,196,32"/>
+>>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
+</map>
