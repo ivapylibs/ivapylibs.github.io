@@ -103,8 +103,10 @@ Functions</h2></td></tr>
 <tr class="separator:a72aa7368a5925f2948af7b1b1d438c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a348352837eeedcb27f195eed638f6bce"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepuzzle_1_1utils_1_1sideExtractor.html#a348352837eeedcb27f195eed638f6bce">get_best_fitting_rect_coords</a> (xy, d_threshold=30, perp_angle_thresh=20, verbose=0)</td></tr>
 <tr class="separator:a348352837eeedcb27f195eed638f6bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9d6de353521340b53ce7c30f3eb133a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepuzzle_1_1utils_1_1sideExtractor.html#ad9d6de353521340b53ce7c30f3eb133a">get_corners</a> (dst, neighborhood_size=5, score_threshold=0.3, minmax_threshold=100)</td></tr>
-<tr class="separator:ad9d6de353521340b53ce7c30f3eb133a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a925978dc2205c007a245f0dcd03a83c6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepuzzle_1_1utils_1_1sideExtractor.html#a925978dc2205c007a245f0dcd03a83c6">get_binarymask_params</a> ()</td></tr>
+<tr class="separator:a925978dc2205c007a245f0dcd03a83c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9971b6c671870b7dba4b9c13d7c710c0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepuzzle_1_1utils_1_1sideExtractor.html#a9971b6c671870b7dba4b9c13d7c710c0">get_corners</a> (dst, neighborhood_size=5, score_factor=0.2, minmax_factor=0.2)</td></tr>
+<tr class="separator:a9971b6c671870b7dba4b9c13d7c710c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e5ac3eea6b957c2be464d33cc61ce51"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepuzzle_1_1utils_1_1sideExtractor.html#a0e5ac3eea6b957c2be464d33cc61ce51">get_default_params</a> ()</td></tr>
 <tr class="separator:a0e5ac3eea6b957c2be464d33cc61ce51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1322b07de271dab7ff20941642aef932"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepuzzle_1_1utils_1_1sideExtractor.html#a1322b07de271dab7ff20941642aef932">get_line_through_points</a> (p0, p1)</td></tr>
@@ -577,8 +579,25 @@ the function: area * Gaussian(rectangularness)
 </pre> 
 </div>
 </div>
-<a id="ad9d6de353521340b53ce7c30f3eb133a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9d6de353521340b53ce7c30f3eb133a">&#9670;&nbsp;</a></span>get_corners()</h2>
+<a id="a925978dc2205c007a245f0dcd03a83c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a925978dc2205c007a245f0dcd03a83c6">&#9670;&nbsp;</a></span>get_binarymask_params()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def puzzle.utils.sideExtractor.get_binarymask_params </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9971b6c671870b7dba4b9c13d7c710c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9971b6c671870b7dba4b9c13d7c710c0">&#9670;&nbsp;</a></span>get_corners()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -599,13 +618,13 @@ the function: area * Gaussian(rectangularness)
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>score_threshold</em> = <code>0.3</code>, </td>
+          <td class="paramname"><em>score_factor</em> = <code>0.2</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>minmax_threshold</em> = <code>100</code>&#160;</td>
+          <td class="paramname"><em>minmax_factor</em> = <code>0.2</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

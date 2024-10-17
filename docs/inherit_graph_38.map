@@ -1,11 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classpuzzle_1_1pieces_1_1matcher_1_1Matcher.html" title=" " alt="" coords="5,183,75,209"/>
-<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchDifferent.html" title="The puzzle piece matching scores are based on differences." alt="" coords="123,132,231,159"/>
-<area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchSimilar.html" title=" " alt="" coords="127,208,226,235"/>
-<area shape="rect" id="node3" href="$classpuzzle_1_1pieces_1_1edge_1_1Edge.html" title=" " alt="" coords="303,5,355,32"/>
-<area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Distance.html" title=" " alt="" coords="292,56,367,83"/>
-<area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1HistogramCV.html" title=" " alt="" coords="279,107,380,133"/>
-<area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html" title="Uses shape moments to establish similarity." alt="" coords="291,157,367,184"/>
-<area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1PCA.html" title="Uses pca to calculate rotation." alt="" coords="304,208,355,235"/>
-<area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1sift_1_1Sift.html" title=" " alt="" coords="308,259,351,285"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,59,32"/>
+<area shape="rect" id="node2" href="$classimprocessor_1_1mask_1_1mask.html" title=" " alt="" coords="107,5,161,32"/>
 </map>

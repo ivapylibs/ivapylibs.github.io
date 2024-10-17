@@ -1,4 +1,4 @@
 <map id="ByShape" name="ByShape">
 <area shape="rect" id="node1" title=" " alt="" coords="5,80,80,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="15,5,71,32"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1board_1_1Board.html" title="Class description for a board, which is a locality sensitive bag." alt="" coords="15,5,71,32"/>
 </map>

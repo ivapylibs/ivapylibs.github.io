@@ -88,14 +88,14 @@ Inheritance diagram for Planner:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9760875cddd93454bc7d0a77e3abc510"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a9760875cddd93454bc7d0a77e3abc510">__init__</a> (self, <a class="el" href="classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a2debe316c6874c013213554b33d598bf">solver</a>, <a class="el" href="classpuzzle_1_1manager_1_1Manager.html">Manager</a> <a class="el" href="classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a23416379944e641a8ad6bdbc95ef1859">manager</a>, theParams=<a class="el" href="classpuzzle_1_1simulator_1_1planner_1_1ParamPlanner.html">ParamPlanner</a>)</td></tr>
 <tr class="separator:a9760875cddd93454bc7d0a77e3abc510"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12d5e6e11fe7f030ea53aa6f09e7cada"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a12d5e6e11fe7f030ea53aa6f09e7cada">adapt</a> (self, meaBoard, visibleMask, rLoc_hand=None, COMPLETE_PLAN=True, SAVED_PLAN=True, RUN_SOLVER=True)</td></tr>
-<tr class="separator:a12d5e6e11fe7f030ea53aa6f09e7cada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7acf0a8fd28146835e3d467a0d8681"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a1d7acf0a8fd28146835e3d467a0d8681">adapt</a> (self, meaBoard, visibleMask, theImageMea, rLoc_hand=None, COMPLETE_PLAN=True, SAVED_PLAN=True, RUN_SOLVER=True, PLAN_WITH_TRACKBOARD=True)</td></tr>
+<tr class="separator:a1d7acf0a8fd28146835e3d467a0d8681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4802cafd4ab57a9d7d4b4180691959a3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a4802cafd4ab57a9d7d4b4180691959a3">adapt_simulator</a> (self, meaBoard, rLoc_hand=None, COMPLETE_PLAN=True, SAVED_PLAN=True, RUN_SOLVER=True)</td></tr>
 <tr class="separator:a4802cafd4ab57a9d7d4b4180691959a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c929e144b06b17fd349cc7601a3c747"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a4c929e144b06b17fd349cc7601a3c747">measure</a> (self, img)</td></tr>
 <tr class="separator:a4c929e144b06b17fd349cc7601a3c747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9de99bd71db3e0d3eaf4742e563e51f4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a9de99bd71db3e0d3eaf4742e563e51f4">process</a> (self, input, rLoc_hand=None, visibleMask=None, COMPLETE_PLAN=True, SAVED_PLAN=True, RUN_SOLVER=True)</td></tr>
-<tr class="separator:a9de99bd71db3e0d3eaf4742e563e51f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c6e2fa490003e64846ab5cd5cb7bb68"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1simulator_1_1planner_1_1Planner.html#a9c6e2fa490003e64846ab5cd5cb7bb68">process</a> (self, input, rLoc_hand=None, visibleMask=None, theImageMea=None, COMPLETE_PLAN=True, SAVED_PLAN=True, RUN_SOLVER=True, planOnTrack=False)</td></tr>
+<tr class="separator:a9c6e2fa490003e64846ab5cd5cb7bb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -164,8 +164,8 @@ Args:
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a12d5e6e11fe7f030ea53aa6f09e7cada"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12d5e6e11fe7f030ea53aa6f09e7cada">&#9670;&nbsp;</a></span>adapt()</h2>
+<a id="a1d7acf0a8fd28146835e3d467a0d8681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d7acf0a8fd28146835e3d467a0d8681">&#9670;&nbsp;</a></span>adapt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,6 +192,12 @@ Args:
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>theImageMea</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
           <td class="paramname"><em>rLoc_hand</em> = <code>None</code>, </td>
         </tr>
         <tr>
@@ -210,7 +216,13 @@ Args:
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>RUN_SOLVER</em> = <code>True</code>&#160;</td>
+          <td class="paramname"><em>RUN_SOLVER</em> = <code>True</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>PLAN_WITH_TRACKBOARD</em> = <code>True</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -222,8 +234,9 @@ Args:
 <pre class="fragment">@brief Update the tracked board/history and generate the action plan for the robot.
 
 Args:
-    meaBoard: The measured board for the current view.
+    meaBoard: The measured board for the current view. Contains pieces at all the working area (include solution area)
     visibleMask: The mask image for the visible area.
+    theImageMea: The original processed RGB image from the surveillance system.
     rLoc_hand: The location of the hand.
     COMPLETE_PLAN: Whether to generate the complete plan.
     SAVED_PLAN: Use the saved plan (self.plan) or not.
@@ -283,8 +296,9 @@ Returns:
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief Update the tracked board/history and generate the action plan for the robot.
-       Todo: To be compatible with the old version. Maybe integrated later.
+<pre class="fragment">@brief  Update the tracked board/history and generate the action plan for the robot.
+Still with the old pick &amp; place idea (not working on the real cases).
+Todo: To be compatible with the old version. Maybe integrated later.
 
 Args:
     meaBoard: The measured board for the current view.
@@ -334,8 +348,8 @@ Returns:
 </pre> 
 </div>
 </div>
-<a id="a9de99bd71db3e0d3eaf4742e563e51f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9de99bd71db3e0d3eaf4742e563e51f4">&#9670;&nbsp;</a></span>process()</h2>
+<a id="a9c6e2fa490003e64846ab5cd5cb7bb68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c6e2fa490003e64846ab5cd5cb7bb68">&#9670;&nbsp;</a></span>process()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,6 +382,12 @@ Returns:
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>theImageMea</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
           <td class="paramname"><em>COMPLETE_PLAN</em> = <code>True</code>, </td>
         </tr>
         <tr>
@@ -380,7 +400,13 @@ Returns:
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>RUN_SOLVER</em> = <code>True</code>&#160;</td>
+          <td class="paramname"><em>RUN_SOLVER</em> = <code>True</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>planOnTrack</em> = <code>False</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -397,6 +423,7 @@ Args:
     input:          A measured board or RGB image.
     rLoc_hand:      The location of the hand.
     visibleMask:    The mask of the visible area on the table (puzzle included).
+    theImageMea:    The original processed RGB image from the surveillance system.
     COMPLETE_PLAN:  Whether to plan the whole sequence.
     SAVED_PLAN:     Use the saved plan (self.plan) or not. NOTE: this option overwrite the COMPLETE_PLAN option. 
             (i.e. If this is True, then the COMPLETE_PLAN will be set to true)
@@ -521,7 +548,7 @@ Returns:
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/pvela/python/puzzle_solver/puzzle/simulator/<a class="el" href="planner_8py.html">planner.py</a></li>
+<li>/home/pvela/python/puzzle_yunzhi/puzzle/simulator/<a class="el" href="planner_8py.html">planner.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

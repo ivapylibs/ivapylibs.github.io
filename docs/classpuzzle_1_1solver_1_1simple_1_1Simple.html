@@ -102,8 +102,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4fc0be821f8a1349b086683f16fcd778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a655c258270d4220250da3d6b214280ae"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1solver_1_1simple_1_1Simple.html#a655c258270d4220250da3d6b214280ae">planNew</a> (self)</td></tr>
 <tr class="separator:a655c258270d4220250da3d6b214280ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50a81e9083a1d92f79015083941e58be"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1solver_1_1simple_1_1Simple.html#a50a81e9083a1d92f79015083941e58be">planOrdered</a> (self, occlusionList=[], STEP_WISE=True, COMPLETE_PLAN=False)</td></tr>
-<tr class="separator:a50a81e9083a1d92f79015083941e58be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2757d0319c98e02b205c106d266a5f73"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1solver_1_1simple_1_1Simple.html#a2757d0319c98e02b205c106d266a5f73">planOrdered</a> (self, occlusionList=[], STEP_WISE=True, COMPLETE_PLAN=False, verbose=False)</td></tr>
+<tr class="separator:a2757d0319c98e02b205c106d266a5f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88939c35e54e49996f68e04f1833291f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1solver_1_1simple_1_1Simple.html#a88939c35e54e49996f68e04f1833291f">setCurrBoard</a> (self, theBoard)</td></tr>
 <tr class="separator:a88939c35e54e49996f68e04f1833291f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e8180dcffe198694d6ce1d4afed753a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1solver_1_1simple_1_1Simple.html#a1e8180dcffe198694d6ce1d4afed753a">setMatch</a> (self, <a class="el" href="classpuzzle_1_1solver_1_1simple_1_1Simple.html#accb9e3891f1b5e10699e8048d6762923">match</a>, <a class="el" href="classpuzzle_1_1solver_1_1simple_1_1Simple.html#a2cf2886cacfc85149e1521b3387ca796">rotation_match</a>=None)</td></tr>
@@ -222,8 +222,8 @@ Returns:
 </pre> 
 </div>
 </div>
-<a id="a50a81e9083a1d92f79015083941e58be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50a81e9083a1d92f79015083941e58be">&#9670;&nbsp;</a></span>planOrdered()</h2>
+<a id="a2757d0319c98e02b205c106d266a5f73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2757d0319c98e02b205c106d266a5f73">&#9670;&nbsp;</a></span>planOrdered()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +250,13 @@ Returns:
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>COMPLETE_PLAN</em> = <code>False</code>&#160;</td>
+          <td class="paramname"><em>COMPLETE_PLAN</em> = <code>False</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>verbose</em> = <code>False</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -266,6 +272,7 @@ Args:
     STEP_WISE: If disabled, we will put the puzzle piece's rotation &amp; location
         in a single step.
     COMPLETE_PLAN:  If enabled, we will create the complete plan instead a single step.
+    verbose: For debug purpose.
 
 Returns:
     plan: The plan list.
@@ -473,7 +480,7 @@ Returns:
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/pvela/python/puzzle_solver/puzzle/solver/<a class="el" href="puzzle__solver_2puzzle_2solver_2simple_8py.html">simple.py</a></li>
+<li>/home/pvela/python/puzzle_yunzhi/puzzle/solver/<a class="el" href="puzzle__yunzhi_2puzzle_2solver_2simple_8py.html">simple.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,4 +1,4 @@
 <map id="Template" name="Template">
 <area shape="rect" id="node1" title="Stores and encapsulates a template instance of a visual puzzle piece." alt="" coords="5,5,80,32"/>
-<area shape="rect" id="node2" href="$classpuzzle_1_1piece_1_1Regular.html" title=" " alt="" coords="9,80,76,107"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1piece_1_1Regular.html" title="A puzzle has Regular pieces when they are all of a consistent sizing such that their edge structure c..." alt="" coords="9,80,76,107"/>
 </map>

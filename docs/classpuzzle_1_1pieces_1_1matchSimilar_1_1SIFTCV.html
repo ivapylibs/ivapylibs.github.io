@@ -98,11 +98,13 @@ Collaboration diagram for SIFTCV:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ffb4afa6fff0c7071e0c0c989f13ad8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#a6ffb4afa6fff0c7071e0c0c989f13ad8">compare</a> (self, piece_A, piece_B)</td></tr>
+<tr class="memdesc:a6ffb4afa6fff0c7071e0c0c989f13ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare between two passed puzzle piece data.  <a href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#a6ffb4afa6fff0c7071e0c0c989f13ad8">More...</a><br /></td></tr>
 <tr class="separator:a6ffb4afa6fff0c7071e0c0c989f13ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a170ae1eff1d6205d8c62dbbf1aa16534"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#a170ae1eff1d6205d8c62dbbf1aa16534">extractFeature</a> (self, piece)</td></tr>
 <tr class="memdesc:a170ae1eff1d6205d8c62dbbf1aa16534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute SIFT features from the raw puzzle data.  <a href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#a170ae1eff1d6205d8c62dbbf1aa16534">More...</a><br /></td></tr>
 <tr class="separator:a170ae1eff1d6205d8c62dbbf1aa16534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13e0dd98dfa8069f3510356f495e0d16"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#a13e0dd98dfa8069f3510356f495e0d16">score</a> (self, piece_A, piece_B)</td></tr>
+<tr class="memdesc:a13e0dd98dfa8069f3510356f495e0d16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the score between two passed puzzle piece data.  <a href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#a13e0dd98dfa8069f3510356f495e0d16">More...</a><br /></td></tr>
 <tr class="separator:a13e0dd98dfa8069f3510356f495e0d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62b63c91fd5513320bd960ff6e8a25c7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#a62b63c91fd5513320bd960ff6e8a25c7">theThreshMatch</a> (self, theParams=<a class="el" href="classpuzzle_1_1pieces_1_1matchSimilar_1_1CfgSIFTCV.html">CfgSIFTCV</a>())</td></tr>
 <tr class="memdesc:a62b63c91fd5513320bd960ff6e8a25c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the puzzle piece sift class.  <a href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#a62b63c91fd5513320bd960ff6e8a25c7">More...</a><br /></td></tr>
@@ -142,28 +144,23 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief  Compare between two passed puzzle piece data.
 
-Note that this code has additional calculations that estimate the transformation
-that will register or align the puzzle pieces.
+<p>Compare between two passed puzzle piece data. </p>
+<p>Note that this code has additional calculations that estimate the transformation that will register or align the puzzle pieces.</p>
+<p>See references for idea behind this comparison:</p>
+<p><a href="https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_matcher/py_matcher.html">https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_matcher/py_matcher.html</a> and <a href="https://scikit-image.org/docs/dev/auto_examples/transform/plot_matching.html">https://scikit-image.org/docs/dev/auto_examples/transform/plot_matching.html</a></p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd><p class="startdd">Establish whether the registration code should be here or elsewhere. The reason for being here is that it takes advantage of matching computations made to prevent additional computations. </p>
+<p class="enddd">Yet, these are done whether it is a match or not. Better to not bother if not even a match. Going to go with that by rearranging the code [2023/11/03]. Delete note if acceptable.</p>
+</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">piece_A</td><td>Template instance saving a piece's info. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">piece_B</td><td>Template instance saving a piece's info.</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">Comparison</td><td>result &amp; rotation angle(degree) &amp; other params. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-See references for idea behind this comparison:
-
-https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_matcher/py_matcher.html
-and https://scikit-image.org/docs/dev/auto_examples/transform/plot_matching.html
-
-@todo   Establish whether the registration code should be here or elsewhere.  The reason for
-    being here is that it takes advantage of matching computations made to prevent
-    additional computations.
-@todo   Yet, these are done whether it is a match or not.  Better to not bother if not even
-    a match. Going to go with that by rearranging the code [2023/11/03]. Delete note
-    if acceptable.
-
-@param[in] piece_A      Template instance saving a piece's info.
-@param[in] piece_B      Template instance saving a piece's info.
-
-@param[out] Comparison result &amp; rotation angle(degree) &amp; other params.
-</pre> 
 </div>
 </div>
 <a id="a170ae1eff1d6205d8c62dbbf1aa16534"></a>
@@ -235,13 +232,17 @@ and https://scikit-image.org/docs/dev/auto_examples/transform/plot_matching.html
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief Compute the score between two passed puzzle piece data.
 
-@param[in] piece_A      Template instance saving a piece's info.
-@param[in] piece_B      Template instance saving a piece's info.
+<p>Compute the score between two passed puzzle piece data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">piece_A</td><td>Template instance saving a piece's info. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">piece_B</td><td>Template instance saving a piece's info.</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">Distance</td><td>of the feature vectors. (Overload if not proper). </td></tr>
+  </table>
+  </dd>
+</dl>
 
-@param[out] Distance of the feature vectors. (Overload if not proper).
-</pre> 
 </div>
 </div>
 <a id="a62b63c91fd5513320bd960ff6e8a25c7"></a>
@@ -275,7 +276,7 @@ and https://scikit-image.org/docs/dev/auto_examples/transform/plot_matching.html
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/pvela/python/puzzle_solver/puzzle/pieces/<a class="el" href="matchSimilar_8py.html">matchSimilar.py</a></li>
+<li>/home/pvela/python/puzzle_yunzhi/puzzle/pieces/<a class="el" href="matchSimilar_8py.html">matchSimilar.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
