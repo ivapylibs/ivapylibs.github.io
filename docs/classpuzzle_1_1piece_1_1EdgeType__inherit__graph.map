@@ -1,4 +1,4 @@
 <map id="EdgeType" name="EdgeType">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,85,107"/>
+<area shape="rect" id="node1" title="EdgeType used to keep track of the type of edges." alt="" coords="5,80,85,107"/>
 <area shape="rect" id="node2" title=" " alt="" coords="17,5,73,32"/>
 </map>

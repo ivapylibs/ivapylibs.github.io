@@ -71,15 +71,18 @@ $(function() {
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classpuzzle_1_1manager_1_1Manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Manager Class Reference</div>  </div>
+<div class="title">Manager Class Reference<div class="ingroups"><a class="el" href="group__PuzzleSolver.html">Puzzle Solver</a> &raquo; <a class="el" href="group__Puzzle__Tracking.html">Puzzle Tracking</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A class for associating puzzle pieces across boards. It "manages" the puzzle interpretation process over time, where each sensing cycle generates a new board instance.  
+ <a href="classpuzzle_1_1manager_1_1Manager.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Manager:</div>
 <div class="dyncontent">
 <div class="center"><img src="classpuzzle_1_1manager_1_1Manager__inherit__graph.png" border="0" usemap="#Manager_inherit__map" alt="Inheritance graph"/></div>
 <map name="Manager_inherit__map" id="Manager_inherit__map">
-<area shape="rect" title=" " alt="" coords="11,80,83,107"/>
+<area shape="rect" title="A class for associating puzzle pieces across boards. It &quot;manages&quot; the puzzle interpretation process o..." alt="" coords="11,80,83,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,89,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -88,7 +91,7 @@ Collaboration diagram for Manager:</div>
 <div class="dyncontent">
 <div class="center"><img src="classpuzzle_1_1manager_1_1Manager__coll__graph.png" border="0" usemap="#Manager_coll__map" alt="Collaboration graph"/></div>
 <map name="Manager_coll__map" id="Manager_coll__map">
-<area shape="rect" title=" " alt="" coords="11,80,83,107"/>
+<area shape="rect" title="A class for associating puzzle pieces across boards. It &quot;manages&quot; the puzzle interpretation process o..." alt="" coords="11,80,83,107"/>
 <area shape="rect" title=" " alt="" coords="5,5,89,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -98,14 +101,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a72c60f4b326acd286ffa488c97bab330"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1manager_1_1Manager.html#a72c60f4b326acd286ffa488c97bab330">__init__</a> (self, <a class="el" href="classpuzzle_1_1manager_1_1Manager.html#ae4bd085d10e18fd066c9ff3e6af72173">solution</a>, theParams=<a class="el" href="classpuzzle_1_1manager_1_1ManagerParms.html">ManagerParms</a>)</td></tr>
 <tr class="separator:a72c60f4b326acd286ffa488c97bab330"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4072d8bdf7b51b32fdc6e6523f9cd6b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1manager_1_1Manager.html#ac4072d8bdf7b51b32fdc6e6523f9cd6b">greedyAssignment</a> (self, <a class="el" href="classpuzzle_1_1manager_1_1Manager.html#a1d4606f589063e9dd2d29744554ecc64">scoreTable_shape</a>, scoreTable_color, scoreTable_edge_color)</td></tr>
+<tr class="memdesc:ac4072d8bdf7b51b32fdc6e6523f9cd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the greedyAssignment for the score table.  <a href="classpuzzle_1_1manager_1_1Manager.html#ac4072d8bdf7b51b32fdc6e6523f9cd6b">More...</a><br /></td></tr>
 <tr class="separator:ac4072d8bdf7b51b32fdc6e6523f9cd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a123cb12e4694a2aebfcc779166a3c707"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1manager_1_1Manager.html#a123cb12e4694a2aebfcc779166a3c707">hungarianAssignment</a> (self, <a class="el" href="classpuzzle_1_1manager_1_1Manager.html#a1d4606f589063e9dd2d29744554ecc64">scoreTable_shape</a>, scoreTable_color, scoreTable_edge_color)</td></tr>
+<tr class="memdesc:a123cb12e4694a2aebfcc779166a3c707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the hungarianAssignment for the score table.  <a href="classpuzzle_1_1manager_1_1Manager.html#a123cb12e4694a2aebfcc779166a3c707">More...</a><br /></td></tr>
 <tr class="separator:a123cb12e4694a2aebfcc779166a3c707"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb50fb92faf8f50eb95a8bccc5317b70"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1manager_1_1Manager.html#adb50fb92faf8f50eb95a8bccc5317b70">matchPieces</a> (self)</td></tr>
+<tr class="memdesc:adb50fb92faf8f50eb95a8bccc5317b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Match all the measured puzzle pieces with the ground truth in a pairwise manner to get meas to sol.  <a href="classpuzzle_1_1manager_1_1Manager.html#adb50fb92faf8f50eb95a8bccc5317b70">More...</a><br /></td></tr>
 <tr class="separator:adb50fb92faf8f50eb95a8bccc5317b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d843dccc98837103aebbcc2ae528635"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1manager_1_1Manager.html#a6d843dccc98837103aebbcc2ae528635">measure</a> (self, *argv)</td></tr>
+<tr class="memdesc:a6d843dccc98837103aebbcc2ae528635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the match based on the input.  <a href="classpuzzle_1_1manager_1_1Manager.html#a6d843dccc98837103aebbcc2ae528635">More...</a><br /></td></tr>
 <tr class="separator:a6d843dccc98837103aebbcc2ae528635"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65adc9fb12f1ac9a99e46d9f93d2fa95"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1manager_1_1Manager.html#a65adc9fb12f1ac9a99e46d9f93d2fa95">process</a> (self, *argv)</td></tr>
+<tr class="memdesc:a65adc9fb12f1ac9a99e46d9f93d2fa95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the tracking pipeline for image measurement or directly work on a measured board.  <a href="classpuzzle_1_1manager_1_1Manager.html#a65adc9fb12f1ac9a99e46d9f93d2fa95">More...</a><br /></td></tr>
 <tr class="separator:a65adc9fb12f1ac9a99e46d9f93d2fa95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -129,7 +137,11 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae4bd085d10e18fd066c9ff3e6af72173"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1manager_1_1Manager.html#ae4bd085d10e18fd066c9ff3e6af72173">solution</a></td></tr>
 <tr class="separator:ae4bd085d10e18fd066c9ff3e6af72173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class for associating puzzle pieces across boards. It "manages" the puzzle interpretation process over time, where each sensing cycle generates a new board instance. </p>
+<p>A puzzle manager is a base class for recovering and identifying or associating puzzle pieces across different board measurements, usually reflecting measurements at different times. A calibrated solution board can also be associated to a given measured board, which then provides information about how to solve the board.</p>
+<p>There are different scoring systems for matching puzzle pieces. This class manages that matching process based on a given puzzle piece Matcher instance and compatible feature generator from puzzle piece image patches. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a72c60f4b326acd286ffa488c97bab330"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72c60f4b326acd286ffa488c97bab330">&#9670;&nbsp;</a></span>__init__()</h2>
 
@@ -207,16 +219,11 @@ Args:
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief  Run the greedyAssignment for the score table.
 
-Args:
-    scoreTable_shape:  The score table for the pairwise comparison (shape).
-    scoreTable_color:  The score table for the pairwise comparison (color).
-    scoreTable_edge_color: The score table for the pairwise comparison (edge_color).
+<p>Run the greedyAssignment for the score table. </p>
+<p>Args: scoreTable_shape: The score table for the pairwise comparison (shape). scoreTable_color: The score table for the pairwise comparison (color). scoreTable_edge_color: The score table for the pairwise comparison (edge_color).</p>
+<p>Returns: matched_id: The matched pair dict. </p>
 
-Returns:
-    matched_id: The matched pair dict.
-</pre> 
 </div>
 </div>
 <a id="a123cb12e4694a2aebfcc779166a3c707"></a>
@@ -256,16 +263,11 @@ Returns:
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief  Run the hungarianAssignment for the score table.
 
-Args:
-    scoreTable_shape:  The score table for the pairwise comparison (shape).
-    scoreTable_color:  The score table for the pairwise comparison (color).
-    scoreTable_edge_color: The score table for the pairwise comparison (edge_color).
+<p>Run the hungarianAssignment for the score table. </p>
+<p>Args: scoreTable_shape: The score table for the pairwise comparison (shape). scoreTable_color: The score table for the pairwise comparison (color). scoreTable_edge_color: The score table for the pairwise comparison (edge_color).</p>
+<p>Returns: matched_id: The matched pair dict. </p>
 
-Returns:
-    matched_id: The matched pair dict.
-</pre> 
 </div>
 </div>
 <a id="adb50fb92faf8f50eb95a8bccc5317b70"></a>
@@ -283,9 +285,9 @@ Returns:
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief  Match all the measured puzzle pieces with the ground truth in a pairwise manner
-to get meas to sol.
-</pre> 
+
+<p>Match all the measured puzzle pieces with the ground truth in a pairwise manner to get meas to sol. </p>
+
 </div>
 </div>
 <a id="a6d843dccc98837103aebbcc2ae528635"></a>
@@ -313,13 +315,10 @@ to get meas to sol.
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief Get the match based on the input.
 
-Args:
-    I: RGB image.
-    M: Mask image.
-    board: The measured board.
-</pre> 
+<p>Get the match based on the input. </p>
+<p>Args: I: RGB image. M: Mask image. board: The measured board. </p>
+
 </div>
 </div>
 <a id="a65adc9fb12f1ac9a99e46d9f93d2fa95"></a>
@@ -347,13 +346,10 @@ Args:
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief  Run the tracking pipeline for image measurement or directly work
-on a measured board. Assume two modes: 1. I &amp; M or 2. A measured board.
-Args:
-    I: RGB image.
-    M: Mask image.
-    board: The measured board.
-</pre> 
+
+<p>Run the tracking pipeline for image measurement or directly work on a measured board. </p>
+<p>Assume two modes: 1. I &amp; M or 2. A measured board. Args: I: RGB image. M: Mask image. board: The measured board. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

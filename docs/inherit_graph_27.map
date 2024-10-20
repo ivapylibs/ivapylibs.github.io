@@ -43,5 +43,5 @@
 <area shape="rect" id="node31" href="$classdetector_1_1bgmodel_1_1inCorner_1_1SphericalModel.html" title="Specification data class that describes the planar cut classifier and its functional properties." alt="" coords="281,296,392,323"/>
 <area shape="rect" id="node41" href="$classtrackpointer_1_1centroidMulti_1_1centroidMulti.html" title=" " alt="" coords="289,701,385,728"/>
 <area shape="rect" id="node42" href="$classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html" title="A basic detector class that processes a layered image (or mask and image) detection output." alt="" coords="459,676,543,703"/>
-<area shape="rect" id="node43" href="$classpuzzle_1_1parser_1_1boardMeasure.html" title=" " alt="" coords="449,727,553,753"/>
+<area shape="rect" id="node43" href="$classpuzzle_1_1parser_1_1boardMeasure.html" title="Puzzle piece board measurement class, based on puzzle piece layer parsing." alt="" coords="449,727,553,753"/>
 </map>

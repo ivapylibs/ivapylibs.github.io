@@ -1,4 +1,4 @@
 <map id="Manager" name="Manager">
-<area shape="rect" id="node1" title=" " alt="" coords="11,80,83,107"/>
+<area shape="rect" id="node1" title="A class for associating puzzle pieces across boards. It &quot;manages&quot; the puzzle interpretation process o..." alt="" coords="11,80,83,107"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,5,89,32"/>
 </map>

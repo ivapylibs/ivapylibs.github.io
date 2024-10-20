@@ -1,0 +1,6 @@
+<map id="Puzzle Solver" name="Puzzle Solver">
+<area shape="rect" id="node1" title="Code for working with puzzles on a controlled workspace." alt="" coords="5,55,108,80"/>
+<area shape="rect" id="node2" href="$group__Puzzle__Types.html" title="Classes that abstract different puzzle (arrangement) types." alt="" coords="168,5,269,31"/>
+<area shape="rect" id="node3" href="$group__Puzzle__Clusters.html" title="Interfaces for clustering puzzle pieces." alt="" coords="156,55,281,80"/>
+<area shape="rect" id="node4" href="$group__Puzzle__Tracking.html" title="Code that assists with tracking the movement of puzzle pieces and also associating them to a known so..." alt="" coords="161,104,277,129"/>
+</map>
