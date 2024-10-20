@@ -90,6 +90,9 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacePuzzleParser"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePuzzleParser.html">PuzzleParser</a></td></tr>
 <tr class="memdesc:namespacePuzzleParser"><td class="mdescLeft">&#160;</td><td class="mdescRight">A basic tracking class that processes a layered image (or mask and image) detection output and generates a model of the puzzle pieces in the scene. Converts all accepted, isolated regions into their own puzzle piece instances. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacePuzzlePieceMatcher"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePuzzlePieceMatcher.html">PuzzlePieceMatcher</a></td></tr>
+<tr class="memdesc:namespacePuzzlePieceMatcher"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes for comparing puzzle pieces in support of puzzle solving and puzzle piece association. The base-type class and most of its member functions will do nothing. They require overloading. The ones that don't should be for some generic functionality. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -102,8 +105,59 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1parser_1_1CfgBoardMeasure.html">CfgBoardMeasure</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration setting specifier for centroidMulti.  <a href="classpuzzle_1_1parser_1_1CfgBoardMeasure.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matcher_1_1CfgDifferent.html">CfgDifferent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration setting specifier for difference matcher class.  <a href="classpuzzle_1_1pieces_1_1matcher_1_1CfgDifferent.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgDistance.html">CfgDistance</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration setting specifier for distance matcher class.  <a href="classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgDistance.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgHistogramCV.html">CfgHistogramCV</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration setting specifier for Histogram puzzle comparator class.  <a href="classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgHistogramCV.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matcher_1_1CfgMatcher.html">CfgMatcher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration setting specifier for puzzle piece matcher class.  <a href="classpuzzle_1_1pieces_1_1matcher_1_1CfgMatcher.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgMoments.html">CfgMoments</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration setting specifier for <a class="el" href="classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html" title="Uses shape moments to establish similarity.">Moments</a> class.  <a href="classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgMoments.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgPCA.html">CfgPCA</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration setting specifier for <a class="el" href="classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html" title="Uses shape moments to establish similarity.">Moments</a> class.  <a href="classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgPCA.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchSimilar_1_1CfgSIFTCV.html">CfgSIFTCV</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration setting specifier for OpenCV SIFT matcher class.  <a href="classpuzzle_1_1pieces_1_1matchSimilar_1_1CfgSIFTCV.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matcher_1_1CfgSimilar.html">CfgSimilar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration setting specifier for similar matcher class.  <a href="classpuzzle_1_1pieces_1_1matcher_1_1CfgSimilar.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchDifferent_1_1Distance.html">Distance</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance-based puzzle piece matching.  <a href="classpuzzle_1_1pieces_1_1matchDifferent_1_1Distance.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1edge_1_1Edge.html">Edge</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puzzle piece edge based comparison.  <a href="classpuzzle_1_1pieces_1_1edge_1_1Edge.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchDifferent_1_1HistogramCV.html">HistogramCV</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">OpenCV Histogram puzzle comparator class.  <a href="classpuzzle_1_1pieces_1_1matchDifferent_1_1HistogramCV.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1manager_1_1Manager.html">Manager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class for associating puzzle pieces across boards. It "manages" the puzzle interpretation process over time, where each sensing cycle generates a new board instance.  <a href="classpuzzle_1_1manager_1_1Manager.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matcher_1_1MatchDifferent.html">MatchDifferent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The puzzle piece matching scores are based on differences. Lower is better.  <a href="classpuzzle_1_1pieces_1_1matcher_1_1MatchDifferent.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matcher_1_1Matcher.html">Matcher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic puzzle piece matching class. Actual instances should use similarity of difference matching sub-classes.  <a href="classpuzzle_1_1pieces_1_1matcher_1_1Matcher.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matcher_1_1MatchSimilar.html">MatchSimilar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similarity matching.  <a href="classpuzzle_1_1pieces_1_1matcher_1_1MatchSimilar.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html">Moments</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses shape moments to establish similarity.  <a href="classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchDifferent_1_1PCA.html">PCA</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses pca to calculate rotation.  <a href="classpuzzle_1_1pieces_1_1matchDifferent_1_1PCA.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html">SIFTCV</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses sift features to establish similarity.  <a href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

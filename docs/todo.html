@@ -77,6 +77,8 @@ $(function() {
 <dd><a class="anchor" id="_todo000005"></a>Should implement start/stop functionality and capture boolean.  </dd>
 <dt>Member <a class="el" href="classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#a26ca7c1c7fcdd35378e7be97727047a6">D435_Runner.stop</a>  (self)</dt>
 <dd><a class="anchor" id="_todo000006"></a>Should implement start/stop functionality and capture boolean.  </dd>
+<dt>Class <a class="el" href="classpuzzle_1_1pieces_1_1edge_1_1Edge.html">Edge</a>  </dt>
+<dd><a class="anchor" id="_todo000021"></a>Need to confirm that works. [2024/10/20 - PAV]  </dd>
 <dt>Class <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html">fgGaussian</a>  </dt>
 <dd><p class="startdd"><a class="anchor" id="_todo000009"></a>Eventually should be translated to OpenCV style code by repurposing their code to get CUDA and OpenCL implementations for speed purposes. Even their C code is fairly zippy relative to python.</p>
 <p class="enddd"><a class="anchor" id="_todo000010"></a>Redo so that inherits from appearance or some kind of fgmodel class.  </p>
@@ -100,7 +102,7 @@ $(function() {
 <dt>Member <a class="el" href="classcamera_1_1base_1_1ReplayColor.html#af1af6ddf04f00f958949618f79c33b82">ReplayColor.start</a>  (self)</dt>
 <dd><a class="anchor" id="_todo000002"></a>Should implement start/stop functionality and capture boolean.  </dd>
 <dt>Member <a class="el" href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#a6ffb4afa6fff0c7071e0c0c989f13ad8">SIFTCV.compare</a>  (self, piece_A, piece_B)</dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000021"></a>Establish whether the registration code should be here or elsewhere. The reason for being here is that it takes advantage of matching computations made to prevent additional computations. </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000022"></a>Establish whether the registration code should be here or elsewhere. The reason for being here is that it takes advantage of matching computations made to prevent additional computations. </p>
 <p class="enddd">Yet, these are done whether it is a match or not. Better to not bother if not even a match. Going to go with that by rearranging the code [2023/11/03]. Delete note if acceptable. </p>
 </dd>
 <dt>Member <a class="el" href="classpuzzle_1_1piece_1_1Template.html#affd9df85ce55a368225f6562198e6249">Template.buildFromMaskAndImage</a>  (theMask, theImage, cLoc=None, rLoc=None, pieceStatus=<a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a1f3ff7b7c822ee18e3c9018b93766e5a">PieceStatus.MEASURED</a>)</dt>
