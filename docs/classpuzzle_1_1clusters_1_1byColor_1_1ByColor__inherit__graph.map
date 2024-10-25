@@ -1,4 +1,4 @@
 <map id="ByColor" name="ByColor">
-<area shape="rect" id="node1" title="A puzzle piece clustering method based on color." alt="" coords="5,80,75,107"/>
+<area shape="rect" id="node1" title="A puzzle piece clustering method based on color. The feature extractor should be based on color." alt="" coords="5,80,75,107"/>
 <area shape="rect" id="node2" href="$classpuzzle_1_1board_1_1Board.html" title="Class description for a board, which is a locality sensitive bag." alt="" coords="12,5,68,32"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="FromLayer" name="FromLayer">
-<area shape="rect" id="node1" title="A basic detector class that processes a layered image (or mask and image) detection output." alt="" coords="11,229,95,256"/>
+<area shape="rect" id="node1" title="A basic detector class that processes a layered image (or mask and image) detection output...." alt="" coords="11,229,95,256"/>
 <area shape="rect" id="node2" href="$classtrackpointer_1_1centroidMulti_1_1centroidMulti.html" title=" " alt="" coords="5,155,101,181"/>
 <area shape="rect" id="node3" href="$classtrackpointer_1_1centroid_1_1centroid.html" title=" " alt="" coords="19,80,87,107"/>
 <area shape="rect" id="node4" title=" " alt="" coords="25,5,82,32"/>

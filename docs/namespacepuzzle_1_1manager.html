@@ -70,9 +70,12 @@ $(function() {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">puzzle.manager Namespace Reference</div>  </div>
+<div class="title">puzzle.manager Namespace Reference<div class="ingroups"><a class="el" href="group__PuzzleSolver.html">Puzzle Solver</a> &raquo; <a class="el" href="group__Puzzle__Tracking.html">Puzzle Tracking</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Manage the tracking of puzzle pieces.  
+<a href="namespacepuzzle_1_1manager.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -89,7 +92,21 @@ Variables</h2></td></tr>
 <tr class="memitem:af5b4005e04dcf65d72ac694d6aa11988"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepuzzle_1_1manager.html#af5b4005e04dcf65d72ac694d6aa11988">SCORE_SIMILAR</a> = 1</td></tr>
 <tr class="separator:af5b4005e04dcf65d72ac694d6aa11988"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Variable Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Manage the tracking of puzzle pieces. </p>
+<p>This puzzle piece manager keeps track of the puzzle pieces and their association over time as new imagery of the scene is captured. This manager stores the puzzle piece instances and organizes the code for data association. Even though the individual puzzle piece instances has some mechanism to recognize matches in their class API, the implementation in the manager can override those matching mechanisms using other considerations such as multi-piece competition or changes in the image and what regions are linked to those changes.</p>
+<p>As an example, this manager can get all similarity (or difference) scores and use them for generating assignments instead of greedily creating assignments for each puzzle piece independently of the other pieces.</p>
+<p>To be able to generate the associations, the puzzle manager should have a template or calibration puzzle board.</p>
+<dl class="section note"><dt>Note</dt><dd>This code may be outdated. A review on 2024/10/25 led to the understanding that the manager is quite similar to board correspondences. The newer code seems to use board correspondences over board.manager.</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Patricio A. Vela, <a href="#" onclick="location.href='mai'+'lto:'+'pve'+'la'+'@ga'+'te'+'ch.'+'ed'+'u'; return false;">pvela<span style="display: none;">.nosp@m.</span>@gat<span style="display: none;">.nosp@m.</span>ech.e<span style="display: none;">.nosp@m.</span>du</a> </dd>
+<dd>
+Yunzhi Lin, <a href="#" onclick="location.href='mai'+'lto:'+'yun'+'zh'+'i.l'+'in'+'@ga'+'te'+'ch.'+'ed'+'u'; return false;">yunzh<span style="display: none;">.nosp@m.</span>i.li<span style="display: none;">.nosp@m.</span>n@gat<span style="display: none;">.nosp@m.</span>ech.<span style="display: none;">.nosp@m.</span>edu</a></dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2021/07/26 [created] </dd>
+<dd>
+2021/08/01 [modified] </dd>
+<dd>
+2024/10/20 [refactored &amp; merged] </dd></dl>
+</div><h2 class="groupheader">Variable Documentation</h2>
 <a id="a0cf23740b08ad1c16f8a276af9e8d24c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0cf23740b08ad1c16f8a276af9e8d24c">&#9670;&nbsp;</a></span>SCORE_DIFFERENCE</h2>
 

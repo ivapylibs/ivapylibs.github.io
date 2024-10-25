@@ -24,7 +24,7 @@
 <area shape="rect" id="node11" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input." alt="" coords="465,169,537,196"/>
 <area shape="rect" id="node19" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input." alt="" coords="467,245,536,272"/>
 <area shape="rect" id="node26" href="$classdetector_1_1inImageRGBD_1_1inImageRGBD.html" title="Most basic object or instance detector from RGBD image input." alt="" coords="448,296,555,323"/>
-<area shape="rect" id="node28" href="$classpuzzle_1_1parse_1_1fromSketch_1_1FromSketch.html" title=" " alt="" coords="455,347,548,373"/>
+<area shape="rect" id="node28" href="$classpuzzle_1_1parse_1_1fromSketch_1_1FromSketch.html" title="What is FromSketch??" alt="" coords="455,347,548,373"/>
 <area shape="rect" id="node12" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgConical.html" title="Implements a single Gaussian background model with conical error." alt="" coords="633,5,713,32"/>
 <area shape="rect" id="node13" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html" title="Implements a single Gaussian background model." alt="" coords="627,56,718,83"/>
 <area shape="rect" id="node15" href="$classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM.html" title=" " alt="" coords="621,107,724,133"/>
@@ -42,6 +42,6 @@
 <area shape="rect" id="node30" href="$classdetector_1_1bgmodel_1_1inCorner_1_1PlanarModel.html" title="Specification data class that describes the planar cut classifier and its functional properties." alt="" coords="289,245,384,272"/>
 <area shape="rect" id="node31" href="$classdetector_1_1bgmodel_1_1inCorner_1_1SphericalModel.html" title="Specification data class that describes the planar cut classifier and its functional properties." alt="" coords="281,296,392,323"/>
 <area shape="rect" id="node41" href="$classtrackpointer_1_1centroidMulti_1_1centroidMulti.html" title=" " alt="" coords="289,701,385,728"/>
-<area shape="rect" id="node42" href="$classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html" title="A basic detector class that processes a layered image (or mask and image) detection output." alt="" coords="459,676,543,703"/>
+<area shape="rect" id="node42" href="$classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html" title="A basic detector class that processes a layered image (or mask and image) detection output...." alt="" coords="459,676,543,703"/>
 <area shape="rect" id="node43" href="$classpuzzle_1_1parser_1_1boardMeasure.html" title="Puzzle piece board measurement class, based on puzzle piece layer parsing." alt="" coords="449,727,553,753"/>
 </map>

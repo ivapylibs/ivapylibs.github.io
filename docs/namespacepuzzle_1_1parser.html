@@ -67,12 +67,25 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">puzzle.parser Namespace Reference</div>  </div>
+<div class="title">puzzle.parser Namespace Reference<div class="ingroups"><a class="el" href="group__PuzzleSolver.html">Puzzle Solver</a> &raquo; <a class="el" href="group__Puzzle__Tracking.html">Puzzle Tracking</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A basic tracking class that processes a layered image (or mask and image) detection output and generates a model of the puzzle pieces in the scene. Converts all accepted, isolated regions into their own puzzle piece instances.  
+<a href="namespacepuzzle_1_1parser.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacepuzzle_1_1parser_1_1fromLayer"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepuzzle_1_1parser_1_1fromLayer.html">fromLayer</a></td></tr>
+<tr class="memdesc:namespacepuzzle_1_1parser_1_1fromLayer"><td class="mdescLeft">&#160;</td><td class="mdescRight">A basic detector class that processes a layered image (or mask and image) detection output. Converts all isolated regions into their own puzzle piece instances. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacepuzzle_1_1parser_1_1fromSketch"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepuzzle_1_1parser_1_1fromSketch.html">fromSketch</a></td></tr>
+<tr class="memdesc:namespacepuzzle_1_1parser_1_1fromSketch"><td class="mdescLeft">&#160;</td><td class="mdescRight">A derived detector class that can process an image &amp; mask image to create a binary mask. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1parser_1_1boardMeasure.html">boardMeasure</a></td></tr>
@@ -85,7 +98,21 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration setting specifier for centroidMulti.  <a href="classpuzzle_1_1parser_1_1CfgBoardMeasure.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A basic tracking class that processes a layered image (or mask and image) detection output and generates a model of the puzzle pieces in the scene. Converts all accepted, isolated regions into their own puzzle piece instances. </p>
+<p>1] <a class="el" href="classpuzzle_1_1parser_1_1boardMeasure.html" title="Puzzle piece board measurement class, based on puzzle piece layer parsing.">boardMeasure</a></p>
+<p>Being a subclass of centroidMulti, this is effectively just a puzzle board measurement strategy. To be a full fledged system requires integration with some sort of filter (e.g., temporal data association scheme).</p>
+<p>2] boardTracker</p>
+<p>Performs the data association code for keeping track of puzzle pieces over time.</p>
+<p>3] boardActivity</p>
+<p>Monitors the tracker associations and recovers the atomic actions or activities inferred from the track states over time.</p>
+<dl class="section author"><dt>Author</dt><dd>Yunzhi Lin, <a href="#" onclick="location.href='mai'+'lto:'+'yun'+'zh'+'i.l'+'in'+'@ga'+'te'+'ch.'+'ed'+'u'; return false;">yunzh<span style="display: none;">.nosp@m.</span>i.li<span style="display: none;">.nosp@m.</span>n@gat<span style="display: none;">.nosp@m.</span>ech.<span style="display: none;">.nosp@m.</span>edu</a> </dd>
+<dd>
+Patricio A. Vela, <a href="#" onclick="location.href='mai'+'lto:'+'pve'+'la'+'@ga'+'te'+'ch.'+'ed'+'u'; return false;">pvela<span style="display: none;">.nosp@m.</span>@gat<span style="display: none;">.nosp@m.</span>ech.e<span style="display: none;">.nosp@m.</span>du</a></dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2024/10/20 [merged from Perceiver branch] </dd>
+<dd>
+2023/09/01 [copied from <a class="el" href="namespacepuzzle_1_1parser_1_1fromLayer.html" title="A basic detector class that processes a layered image (or mask and image) detection output....">puzzle.parser.fromLayer</a> master branch] </dd></dl>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

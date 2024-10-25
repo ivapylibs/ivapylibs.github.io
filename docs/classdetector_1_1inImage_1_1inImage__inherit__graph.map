@@ -4,7 +4,7 @@
 <area shape="rect" id="node5" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input." alt="" coords="352,157,424,184"/>
 <area shape="rect" id="node13" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input." alt="" coords="353,259,423,285"/>
 <area shape="rect" id="node20" href="$classdetector_1_1inImageRGBD_1_1inImageRGBD.html" title="Most basic object or instance detector from RGBD image input." alt="" coords="335,309,441,336"/>
-<area shape="rect" id="node22" href="$classpuzzle_1_1parse_1_1fromSketch_1_1FromSketch.html" title=" " alt="" coords="341,360,435,387"/>
+<area shape="rect" id="node22" href="$classpuzzle_1_1parse_1_1fromSketch_1_1FromSketch.html" title="What is FromSketch??" alt="" coords="341,360,435,387"/>
 <area shape="rect" id="node2" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="111,259,163,285"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,259,63,285"/>
 <area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgConical.html" title="Implements a single Gaussian background model with conical error." alt="" coords="519,5,599,32"/>

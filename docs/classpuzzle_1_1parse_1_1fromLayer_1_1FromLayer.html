@@ -71,18 +71,18 @@ $(function() {
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">FromLayer Class Reference</div>  </div>
+<div class="title">FromLayer Class Reference<div class="ingroups"><a class="el" href="group__PuzzleSolver.html">Puzzle Solver</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>A basic detector class that processes a layered image (or mask and image) detection output.  
+<p>A basic detector class that processes a layered image (or mask and image) detection output. Converts all isolated regions into their own puzzle piece instances.  
  <a href="classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for FromLayer:</div>
 <div class="dyncontent">
 <div class="center"><img src="classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer__inherit__graph.png" border="0" usemap="#FromLayer_inherit__map" alt="Inheritance graph"/></div>
 <map name="FromLayer_inherit__map" id="FromLayer_inherit__map">
-<area shape="rect" title="A basic detector class that processes a layered image (or mask and image) detection output." alt="" coords="11,229,95,256"/>
+<area shape="rect" title="A basic detector class that processes a layered image (or mask and image) detection output...." alt="" coords="11,229,95,256"/>
 <area shape="rect" href="classtrackpointer_1_1centroidMulti_1_1centroidMulti.html" title=" " alt="" coords="5,155,101,181"/>
 <area shape="rect" href="classtrackpointer_1_1centroid_1_1centroid.html" title=" " alt="" coords="19,80,87,107"/>
 <area shape="rect" title=" " alt="" coords="25,5,82,32"/>
@@ -93,7 +93,7 @@ Collaboration diagram for FromLayer:</div>
 <div class="dyncontent">
 <div class="center"><img src="classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer__coll__graph.png" border="0" usemap="#FromLayer_coll__map" alt="Collaboration graph"/></div>
 <map name="FromLayer_coll__map" id="FromLayer_coll__map">
-<area shape="rect" title="A basic detector class that processes a layered image (or mask and image) detection output." alt="" coords="11,229,95,256"/>
+<area shape="rect" title="A basic detector class that processes a layered image (or mask and image) detection output...." alt="" coords="11,229,95,256"/>
 <area shape="rect" href="classtrackpointer_1_1centroidMulti_1_1centroidMulti.html" title=" " alt="" coords="5,155,101,181"/>
 <area shape="rect" href="classtrackpointer_1_1centroid_1_1centroid.html" title=" " alt="" coords="19,80,87,107"/>
 <area shape="rect" title=" " alt="" coords="25,5,82,32"/>
@@ -103,8 +103,10 @@ Collaboration diagram for FromLayer:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9fe5d48a7f4c6a7215fc6bc3b878d66a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html#a9fe5d48a7f4c6a7215fc6bc3b878d66a">__init__</a> (self, theParams=<a class="el" href="classpuzzle_1_1parse_1_1fromLayer_1_1ParamPuzzle.html">ParamPuzzle</a>)</td></tr>
+<tr class="memdesc:a9fe5d48a7f4c6a7215fc6bc3b878d66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the puzzle piece layer parsing class.  <a href="classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html#a9fe5d48a7f4c6a7215fc6bc3b878d66a">More...</a><br /></td></tr>
 <tr class="separator:a9fe5d48a7f4c6a7215fc6bc3b878d66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a992c10bd96bf4e32c10a25049cf99dff"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html#a992c10bd96bf4e32c10a25049cf99dff">findCorrectedContours</a> (self, mask, FILTER=True)</td></tr>
+<tr class="memdesc:a992c10bd96bf4e32c10a25049cf99dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the right contours given a binary mask image.  <a href="classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html#a992c10bd96bf4e32c10a25049cf99dff">More...</a><br /></td></tr>
 <tr class="separator:a992c10bd96bf4e32c10a25049cf99dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18bb39f68bce281f0f163fd96bb09a8c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html#a18bb39f68bce281f0f163fd96bb09a8c">getState</a> (self)</td></tr>
 <tr class="separator:a18bb39f68bce281f0f163fd96bb09a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,8 +185,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a34cf4ef155300b4e2ab8303af37669ce inherit pub_attribs_classtrackpointer_1_1centroid_1_1centroid"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A basic detector class that processes a layered image (or mask and image) detection output. </p>
-<p>Converts all isolated regions into their own puzzle piece instances. </p>
+<div class="textblock"><p>A basic detector class that processes a layered image (or mask and image) detection output. Converts all isolated regions into their own puzzle piece instances. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9fe5d48a7f4c6a7215fc6bc3b878d66a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9fe5d48a7f4c6a7215fc6bc3b878d66a">&#9670;&nbsp;</a></span>__init__()</h2>
@@ -211,11 +212,10 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief  Constructor for the puzzle piece layer parsing class.
 
-Args:
-    theParams: The parameters.
-</pre> 
+<p>Constructor for the puzzle piece layer parsing class. </p>
+<p>Args: theParams: The parameters. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -250,14 +250,11 @@ Args:
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">@brief Find the right contours given a binary mask image.
 
-Args:
-    mask: The input binary mask image.
+<p>Find the right contours given a binary mask image. </p>
+<p>Args: mask: The input binary mask image.</p>
+<p>Returns: desired_cnts: Contour list. </p>
 
-Returns:
-    desired_cnts: Contour list.
-</pre> 
 </div>
 </div>
 <a id="a18bb39f68bce281f0f163fd96bb09a8c"></a>
