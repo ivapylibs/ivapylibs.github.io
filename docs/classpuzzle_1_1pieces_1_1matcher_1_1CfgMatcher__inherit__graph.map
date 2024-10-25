@@ -1,11 +1,12 @@
 <map id="CfgMatcher" name="CfgMatcher">
-<area shape="rect" id="node1" title="Configuration setting specifier for puzzle piece matcher class." alt="" coords="263,155,354,181"/>
-<area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgDifferent.html" title="Configuration setting specifier for difference matcher class." alt="" coords="206,229,299,256"/>
-<area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgSimilar.html" title="Configuration setting specifier for similar matcher class." alt="" coords="323,229,406,256"/>
-<area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="269,80,348,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="271,5,346,32"/>
+<area shape="rect" id="node1" title="Configuration setting specifier for puzzle piece matcher class." alt="" coords="331,155,422,181"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgDifferent.html" title="Configuration setting specifier for difference matcher class." alt="" coords="274,229,367,256"/>
+<area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgSimilar.html" title="Configuration setting specifier for similar matcher class." alt="" coords="442,229,525,256"/>
+<area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="337,80,416,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="339,5,414,32"/>
 <area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgDistance.html" title="Configuration setting specifier for distance matcher class." alt="" coords="5,304,100,331"/>
 <area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgHistogramCV.html" title="Configuration setting specifier for Histogram puzzle comparator class." alt="" coords="125,304,247,331"/>
 <area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgMoments.html" title="Configuration setting specifier for Moments class." alt="" coords="272,304,369,331"/>
 <area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgPCA.html" title="Configuration setting specifier for Moments class." alt="" coords="393,304,464,331"/>
+<area shape="rect" id="node10" href="$classpuzzle_1_1pieces_1_1matchSimilar_1_1CfgSIFTCV.html" title="Configuration setting specifier for OpenCV SIFT matcher class." alt="" coords="489,304,579,331"/>
 </map>

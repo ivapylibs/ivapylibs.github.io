@@ -68,7 +68,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><dl class="reflist">
 <dt>Class <a class="el" href="classpuzzle_1_1parser_1_1boardPerceive.html">boardPerceive</a>  </dt>
-<dd><a class="anchor" id="_todo000017"></a>Create complete implementation with track filter.  </dd>
+<dd><a class="anchor" id="_todo000018"></a>Create complete implementation with track filter.  </dd>
 <dt>Member <a class="el" href="classcamera_1_1cv2cam_1_1Color.html#af1af6ddf04f00f958949618f79c33b82">Color.start</a>  (self)</dt>
 <dd><a class="anchor" id="_todo000003"></a>Should implement start/stop functionality and capture boolean.  </dd>
 <dt>Member <a class="el" href="classcamera_1_1cv2cam_1_1Color.html#a26ca7c1c7fcdd35378e7be97727047a6">Color.stop</a>  (self)</dt>
@@ -78,7 +78,7 @@ $(function() {
 <dt>Member <a class="el" href="classcamera_1_1d435_1_1runner2_1_1D435__Runner.html#a26ca7c1c7fcdd35378e7be97727047a6">D435_Runner.stop</a>  (self)</dt>
 <dd><a class="anchor" id="_todo000006"></a>Should implement start/stop functionality and capture boolean.  </dd>
 <dt>Class <a class="el" href="classpuzzle_1_1pieces_1_1edge_1_1Edge.html">Edge</a>  </dt>
-<dd><a class="anchor" id="_todo000021"></a>Need to confirm that works. [2024/10/20 - PAV]  </dd>
+<dd><a class="anchor" id="_todo000022"></a>Need to confirm that works. [2024/10/20 - PAV]  </dd>
 <dt>Class <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html">fgGaussian</a>  </dt>
 <dd><p class="startdd"><a class="anchor" id="_todo000009"></a>Eventually should be translated to OpenCV style code by repurposing their code to get CUDA and OpenCL implementations for speed purposes. Even their C code is fairly zippy relative to python.</p>
 <p class="enddd"><a class="anchor" id="_todo000010"></a>Redo so that inherits from appearance or some kind of fgmodel class.  </p>
@@ -92,21 +92,25 @@ $(function() {
 <dt>Member <a class="el" href="classperceiver_1_1monitor_1_1Monitor.html#a4dd85ce87569585c592b0dd0638c0dfd">Monitor.predict</a>  (self)</dt>
 <dd><a class="anchor" id="_todo000014"></a>Is this proper way to conceive of monitor predict?  </dd>
 <dt>Class <a class="el" href="classpuzzle_1_1piece_1_1Piece.html">Piece</a>  </dt>
-<dd><a class="anchor" id="_todo000018"></a>When have time, need to integrate into <a class="el" href="classpuzzle_1_1piece_1_1Template.html" title="Stores and encapsulates a template instance of a visual puzzle piece.">Template</a> or have be generic function available through the <a class="el" href="classpuzzle_1_1piece_1_1Piece.html" title="Bad code here.">Piece</a> package. <a class="el" href="classpuzzle_1_1piece_1_1Piece.html#af1abc16953fcfe1347bd20efb792bad0">Piece.getBuilderFromString</a>. or Piece.Template, Piece.Regular, etc. For now leaving until have time to make correction and ensure code + unit tests work.  </dd>
+<dd><a class="anchor" id="_todo000019"></a>When have time, need to integrate into <a class="el" href="classpuzzle_1_1piece_1_1Template.html" title="Stores and encapsulates a template instance of a visual puzzle piece.">Template</a> or have be generic function available through the <a class="el" href="classpuzzle_1_1piece_1_1Piece.html" title="Bad code here.">Piece</a> package. <a class="el" href="classpuzzle_1_1piece_1_1Piece.html#af1abc16953fcfe1347bd20efb792bad0">Piece.getBuilderFromString</a>. or Piece.Template, Piece.Regular, etc. For now leaving until have time to make correction and ensure code + unit tests work.  </dd>
 <dt>Member <a class="el" href="classperceiver_1_1progress_1_1Progress.html#a4dd85ce87569585c592b0dd0638c0dfd">Progress.predict</a>  (self)</dt>
 <dd><a class="anchor" id="_todo000016"></a>Is this proper way to conceive of progress monitor predict?  </dd>
+<dt>Namespace <a class="el" href="namespacePuzzleArrangement.html">PuzzleArrangement</a>  </dt>
+<dd><p class="startdd"><a class="anchor" id="_todo000017"></a>May need more work to align with current revisions. </p>
+<p class="enddd">Some of the test scripts may have bad Cfg parameter names.  </p>
+</dd>
 <dt>Member <a class="el" href="classpuzzle_1_1piece_1_1Regular.html#ade40fe3b7a3ac5e2ccb70008c0e53d89">Regular.setEdgeType</a>  (self, direction, etype)</dt>
-<dd><a class="anchor" id="_todo000020"></a>Shouldn't this be a private or protected member function?  </dd>
+<dd><a class="anchor" id="_todo000021"></a>Shouldn't this be a private or protected member function?  </dd>
 <dt>Member <a class="el" href="classcamera_1_1d435_1_1runner2_1_1Replay.html#af1af6ddf04f00f958949618f79c33b82">Replay.start</a>  (self)</dt>
 <dd><a class="anchor" id="_todo000007"></a>Should implement start/stop functionality and capture boolean.  </dd>
 <dt>Member <a class="el" href="classcamera_1_1base_1_1ReplayColor.html#af1af6ddf04f00f958949618f79c33b82">ReplayColor.start</a>  (self)</dt>
 <dd><a class="anchor" id="_todo000002"></a>Should implement start/stop functionality and capture boolean.  </dd>
 <dt>Member <a class="el" href="classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html#a6ffb4afa6fff0c7071e0c0c989f13ad8">SIFTCV.compare</a>  (self, piece_A, piece_B)</dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000022"></a>Establish whether the registration code should be here or elsewhere. The reason for being here is that it takes advantage of matching computations made to prevent additional computations. </p>
+<dd><p class="startdd"><a class="anchor" id="_todo000023"></a>Establish whether the registration code should be here or elsewhere. The reason for being here is that it takes advantage of matching computations made to prevent additional computations. </p>
 <p class="enddd">Yet, these are done whether it is a match or not. Better to not bother if not even a match. Going to go with that by rearranging the code [2023/11/03]. Delete note if acceptable. </p>
 </dd>
 <dt>Member <a class="el" href="classpuzzle_1_1piece_1_1Template.html#affd9df85ce55a368225f6562198e6249">Template.buildFromMaskAndImage</a>  (theMask, theImage, cLoc=None, rLoc=None, pieceStatus=<a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a1f3ff7b7c822ee18e3c9018b93766e5a">PieceStatus.MEASURED</a>)</dt>
-<dd><a class="anchor" id="_todo000019"></a>Include option to have cropped mask but full image and use cLoc. </dd>
+<dd><a class="anchor" id="_todo000020"></a>Include option to have cropped mask but full image and use cLoc. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

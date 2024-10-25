@@ -1,4 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,88,32"/>
-<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matchSimilar_1_1CfgSIFTCV.html" title="Configuration setting specifier for OpenCV SIFT matcher class." alt="" coords="136,5,227,32"/>
+<area shape="rect" id="node1" href="$classchannels_1_1Channel.html" title="Base/abstract channel class." alt="" coords="5,56,76,83"/>
+<area shape="rect" id="node2" href="$classchannels_1_1Assignment.html" title="Assignment class for communication between BeatReporter and Editor." alt="" coords="124,5,215,32"/>
+<area shape="rect" id="node3" href="$classchannels_1_1toCSV.html" title="Save to CSV formatted file channel." alt="" coords="139,56,200,83"/>
+<area shape="rect" id="node4" href="$classchannels_1_1toFile.html" title="Save to file channel." alt="" coords="142,107,197,133"/>
 </map>

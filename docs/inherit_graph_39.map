@@ -1,11 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classpuzzle_1_1pieces_1_1matcher_1_1Matcher.html" title="Generic puzzle piece matching class. Actual instances should use similarity of difference matching su..." alt="" coords="5,183,75,209"/>
-<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchDifferent.html" title="The puzzle piece matching scores are based on differences. Lower is better." alt="" coords="123,132,231,159"/>
-<area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchSimilar.html" title="Similarity matching." alt="" coords="127,208,226,235"/>
-<area shape="rect" id="node3" href="$classpuzzle_1_1pieces_1_1edge_1_1Edge.html" title="Puzzle piece edge based comparison." alt="" coords="303,5,355,32"/>
-<area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Distance.html" title="Distance&#45;based puzzle piece matching." alt="" coords="292,56,367,83"/>
-<area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1HistogramCV.html" title="OpenCV Histogram puzzle comparator class." alt="" coords="279,107,380,133"/>
-<area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html" title="Uses shape moments to establish similarity." alt="" coords="291,157,367,184"/>
-<area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1PCA.html" title="Uses pca to calculate rotation." alt="" coords="304,208,355,235"/>
-<area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1sift_1_1Sift.html" title=" " alt="" coords="308,259,351,285"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,61,184"/>
+<area shape="rect" id="node2" href="$classbyMotion_1_1MoveState.html" title=" " alt="" coords="119,5,204,32"/>
+<area shape="rect" id="node3" href="$classbyMotion_1_1TrackState.html" title=" " alt="" coords="118,56,205,83"/>
+<area shape="rect" id="node4" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1RunState.html" title=" " alt="" coords="123,107,200,133"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1old__template_1_1PieceStatus.html" title=" " alt="" coords="115,157,208,184"/>
+<area shape="rect" id="node6" href="$classpuzzle_1_1piece_1_1EdgeDirection.html" title="EdgeDirection used to keep track of the direction of edges." alt="" coords="109,208,213,235"/>
+<area shape="rect" id="node7" href="$classpuzzle_1_1piece_1_1EdgeType.html" title="EdgeType used to keep track of the type of edges." alt="" coords="121,259,201,285"/>
+<area shape="rect" id="node8" href="$classpuzzle_1_1piece_1_1PieceStatus.html" title="PieceStatus used to keep track of the status of pieces." alt="" coords="115,309,208,336"/>
 </map>

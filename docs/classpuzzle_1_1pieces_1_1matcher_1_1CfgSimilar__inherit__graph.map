@@ -1,5 +1,6 @@
 <map id="CfgSimilar" name="CfgSimilar">
 <area shape="rect" id="node1" title="Configuration setting specifier for similar matcher class." alt="" coords="9,229,92,256"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchSimilar_1_1CfgSIFTCV.html" title="Configuration setting specifier for OpenCV SIFT matcher class." alt="" coords="5,304,96,331"/>
 <area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgMatcher.html" title="Configuration setting specifier for puzzle piece matcher class." alt="" coords="5,155,96,181"/>
 <area shape="rect" id="node3" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="11,80,90,107"/>
 <area shape="rect" id="node4" title=" " alt="" coords="13,5,88,32"/>
