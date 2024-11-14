@@ -1,7 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<<<<<<< HEAD
-<area shape="rect" id="node1" href="$classdetector_1_1fgmodel_1_1targetSG_1_1tModel__SG.html" title=" " alt="" coords="5,5,97,32"/>
-=======
-<area shape="rect" id="node1" href="$classpuzzle_1_1utils_1_1pygameProcessing_1_1TextRectException.html" title="TextRectException" alt="" coords="5,5,140,32"/>
->>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
+<area shape="rect" id="node1" href="$classtriggers_1_1Trigger.html" title="Base/abstract trigger class." alt="" coords="5,208,72,235"/>
+<area shape="rect" id="node2" href="$classtriggers_1_1Always.html" title="Class that always triggers a report." alt="" coords="137,5,206,32"/>
+<area shape="rect" id="node3" href="$classtriggers_1_1Falling.html" title="Class that triggers a report when binary state changes, on falling edge." alt="" coords="139,56,204,83"/>
+<area shape="rect" id="node4" href="$classtriggers_1_1onChange.html" title="Class that triggers a report when the state changes." alt="" coords="128,107,215,133"/>
+<area shape="rect" id="node5" href="$classtriggers_1_1onMatch.html" title="Class that triggers a report when the state matches a target state." alt="" coords="132,157,211,184"/>
+<area shape="rect" id="node6" href="$classtriggers_1_1Rising.html" title="Class that triggers a report when binary state changes, on rising edge." alt="" coords="140,208,203,235"/>
+<area shape="rect" id="node7" href="$classtriggers_1_1whenClose.html" title="Class that triggers a report when current state is close to target state." alt="" coords="125,259,218,285"/>
+<area shape="rect" id="node8" href="$classtriggers_1_1whenDiffers.html" title="Class that triggers a report when current state differs from previous state." alt="" coords="121,309,222,336"/>
+<area shape="rect" id="node9" href="$classtriggers_1_1whenFar.html" title="Class that triggers a report when current state is far fromo target state." alt="" coords="133,360,210,387"/>
+<area shape="rect" id="node10" href="$classtriggers_1_1whenSimilar.html" title="Class that triggers a report when current state is similar to previous state." alt="" coords="120,411,223,437"/>
 </map>

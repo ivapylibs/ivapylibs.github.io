@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classpuzzle_1_1board_1_1Correspondences.html" title="Class that compares two boards and generates correspondences across them." alt="" coords="5,5,129,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,100,32"/>
+<area shape="rect" id="node2" href="$classcamera_1_1rostopic_1_1CfgROSCam.html" title="Configuration setting specifier for ROS connected camera." alt="" coords="148,5,249,32"/>
 </map>

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['undefined_2425',['UNDEFINED',['../classpuzzle_1_1piece_1_1EdgeType.html#a1c7b7d7f0afb43d32bc29971b997c796',1,'puzzle::piece::EdgeType']]],
-  ['underline_2426',['UNDERLINE',['../classpuzzle_1_1simulator_1_1planner_1_1bcolors.html#adfd2e04a8cd1c80e5363474b3e69bde0',1,'puzzle::simulator::planner::bcolors']]],
-  ['unknown_2427',['UNKNOWN',['../classpuzzle_1_1old__template_1_1PieceStatus.html#a3a3f7f05081d274ef83ed669efc1c328',1,'puzzle.old_template.PieceStatus.UNKNOWN()'],['../classpuzzle_1_1piece_1_1PieceStatus.html#a3a3f7f05081d274ef83ed669efc1c328',1,'puzzle.piece.PieceStatus.UNKNOWN()']]],
-  ['url_2428',['url',['../namespacesetup.html#afcd5a3e84f2adb7f83fa6c99911f31e4',1,'setup']]]
+  ['undefined_3099',['UNDEFINED',['../classpuzzle_1_1piece_1_1EdgeType.html#a1c7b7d7f0afb43d32bc29971b997c796',1,'puzzle::piece::EdgeType']]],
+  ['underline_3100',['UNDERLINE',['../classpuzzle_1_1simulator_1_1planner_1_1bcolors.html#adfd2e04a8cd1c80e5363474b3e69bde0',1,'puzzle::simulator::planner::bcolors']]],
+  ['unknown_3101',['UNKNOWN',['../classpuzzle_1_1piece_1_1PieceStatus.html#a3a3f7f05081d274ef83ed669efc1c328',1,'puzzle::piece::PieceStatus']]],
+  ['url_3102',['url',['../namespacesetup.html#afcd5a3e84f2adb7f83fa6c99911f31e4',1,'setup']]]
 ];
