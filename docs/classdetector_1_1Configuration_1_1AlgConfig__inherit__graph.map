@@ -7,7 +7,7 @@
 <area shape="rect" id="node9" href="$classpuzzle_1_1board_1_1CfgCorrespondences.html" title="Configuration setting specifier for Correspondences class." alt="" coords="255,208,400,235"/>
 <area shape="rect" id="node10" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgMatcher.html" title="Configuration setting specifier for puzzle piece matcher class." alt="" coords="282,259,373,285"/>
 <area shape="rect" id="node18" href="$classtrackpointer_1_1centroid_1_1CfgCentroid.html" title=" " alt="" coords="281,309,373,336"/>
-<area shape="rect" id="node25" href="$classtrackpointer_1_1centroid_1_1CfgCentroind.html" title="Configuration setting specifier for centroidMulti." alt="" coords="278,360,377,387"/>
+<area shape="rect" id="node26" href="$classtrackpointer_1_1centroid_1_1CfgCentroind.html" title="Configuration setting specifier for centroidMulti." alt="" coords="278,360,377,387"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,183,80,209"/>
 <area shape="rect" id="node5" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGCone.html" title="Configuration setting specifier for Gaussian BG conical model." alt="" coords="451,31,544,57"/>
 <area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="456,81,539,108"/>
@@ -22,6 +22,7 @@
 <area shape="rect" id="node20" href="$classpuzzle_1_1parser_1_1CfgBoardMeasure.html" title="Configuration setting specifier for centroidMulti." alt="" coords="595,309,721,336"/>
 <area shape="rect" id="node21" href="$classpuzzle_1_1builder_1_1arrangement_1_1CfgArrangement.html" title="Configuration setting specifier for centroidMulti." alt="" coords="769,309,887,336"/>
 <area shape="rect" id="node22" href="$classpuzzle_1_1builder_1_1adjacent_1_1CfgAdjacent.html" title="Configuration setting specifier for Arrangement." alt="" coords="935,309,1029,336"/>
-<area shape="rect" id="node23" href="$classpuzzle_1_1builder_1_1interlocking_1_1CfgInterlocking.html" title="Configuration setting specifier for centroidMulti." alt="" coords="1077,309,1188,336"/>
-<area shape="rect" id="node24" href="$classpuzzle_1_1builder_1_1gridded_1_1CfgGridded.html" title="Configuration setting specifier for gridded puzzle." alt="" coords="1236,309,1324,336"/>
+<area shape="rect" id="node23" href="$classpuzzle_1_1builder_1_1interlocking_1_1CfgInterlocking.html" title="Configuration setting specifier for centroidMulti." alt="" coords="1077,284,1188,311"/>
+<area shape="rect" id="node25" href="$classpuzzle_1_1builder_1_1matrix_1_1CfgMatrix.html" title="Configuration setting specifier for gridded puzzle." alt="" coords="1093,335,1172,361"/>
+<area shape="rect" id="node24" href="$classpuzzle_1_1builder_1_1gridded_1_1CfgGridded.html" title="Configuration setting specifier for gridded puzzle." alt="" coords="1236,284,1324,311"/>
 </map>

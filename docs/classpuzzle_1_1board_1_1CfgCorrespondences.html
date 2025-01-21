@@ -71,7 +71,7 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classpuzzle_1_1board_1_1CfgCorrespondences-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">CfgCorrespondences Class Reference</div>  </div>
+<div class="title">CfgCorrespondences Class Reference<div class="ingroups"><a class="el" href="group__PuzzleSolver.html">Puzzle Solver</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -119,6 +119,23 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration setting specifier for <a class="el" href="classpuzzle_1_1board_1_1Correspondences.html" title="Class that compares two boards and generates correspondences across them.">Correspondences</a> class. </p>
+<p>The different configuration settings are: </p><table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">field </th><th class="markdownTableHeadNone">influences or controls  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">doUpdate </td><td class="markdownTableBodyNone">Boolean indicating whether to update IDs with assigned piece IDs or not.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">haveGarbage </td><td class="markdownTableBodyNone">Include garbage classes for pieces? Pemits non-assignment if too off.  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">tauGarbage </td><td class="markdownTableBodyNone">Value to apply to garbage classes. How threshold applies is based on matcher type  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">forceMatches </td><td class="markdownTableBodyNone">Boolean indicating whether matches should be forced or post-filtered and removed.  </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">matcher </td><td class="markdownTableBodyNone">String indicating what Matcher to use.  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">matchParams </td><td class="markdownTableBodyNone">Matcher parameter settings as a dictionary.  </td></tr>
+</table>
+<dl class="section note"><dt>Note</dt><dd>Added but not yet implemented: haveGarbage, tauGarbage, forceMatches. They have no influence on processing. This is being worked on. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a418793636fd792a2b17e86fc767ccb78"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a418793636fd792a2b17e86fc767ccb78">&#9670;&nbsp;</a></span>__init__()</h2>
