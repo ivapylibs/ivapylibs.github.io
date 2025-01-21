@@ -1,11 +1,6 @@
 <map id="Base" name="Base">
-<<<<<<< HEAD
 <area shape="rect" id="node1" title=" " alt="" coords="37,80,92,107"/>
 <area shape="rect" id="node3" href="$classSurveillance_1_1activity_1_1state_1_1Base__state.html" title=" " alt="" coords="17,155,112,181"/>
 <area shape="rect" id="node2" title=" " alt="" coords="33,5,96,32"/>
 <area shape="rect" id="node4" href="$classSurveillance_1_1activity_1_1state_1_1StateEstimator.html" title=" " alt="" coords="5,229,124,256"/>
-=======
-<area shape="rect" id="node3" href="$classSurveillance_1_1activity_1_1state_1_1Base__state.html" title="Base_state" alt="" coords="16,155,104,181"/>
-<area shape="rect" id="node4" href="$classSurveillance_1_1activity_1_1state_1_1StateEstimator.html" title="StateEstimator" alt="" coords="5,229,115,256"/>
->>>>>>> fb8ea61c5563ccee8dddf076a835728d8989570d
 </map>
