@@ -1,8 +1,9 @@
 <map id="Board" name="Board">
-<area shape="rect" id="node1" title="Class description for a board, which is a locality sensitive bag." alt="" coords="178,5,234,32"/>
+<area shape="rect" id="node1" title="Class description for a board, which is a locality sensitive bag." alt="" coords="229,5,285,32"/>
 <area shape="rect" id="node2" href="$classpuzzle_1_1builder_1_1arrangement_1_1Arrangement.html" title="A puzzle that simply needs to arrange pieces on a workspace." alt="" coords="51,80,147,107"/>
-<area shape="rect" id="node7" href="$classpuzzle_1_1clusters_1_1byColor_1_1ByColor.html" title="A puzzle piece clustering method based on color. The feature extractor should be based on color." alt="" coords="171,80,241,107"/>
-<area shape="rect" id="node8" href="$classpuzzle_1_1clusters_1_1byShape_1_1ByShape.html" title="Clustering by shape." alt="" coords="265,80,339,107"/>
+<area shape="rect" id="node7" href="$classpuzzle_1_1builder_1_1calibrate_1_1Calibrate.html" title="Puzzle interface to facilitate calibration." alt="" coords="171,80,246,107"/>
+<area shape="rect" id="node8" href="$classpuzzle_1_1clusters_1_1byColor_1_1ByColor.html" title="A puzzle piece clustering method based on color. The feature extractor should be based on color." alt="" coords="270,80,339,107"/>
+<area shape="rect" id="node9" href="$classpuzzle_1_1clusters_1_1byShape_1_1ByShape.html" title="Clustering by shape." alt="" coords="363,80,438,107"/>
 <area shape="rect" id="node3" href="$classpuzzle_1_1builder_1_1adjacent_1_1Adjacent.html" title="Puzzle whose pieces will be touching as part of the solution." alt="" coords="63,155,136,181"/>
 <area shape="rect" id="node4" href="$classpuzzle_1_1builder_1_1interlocking_1_1Interlocking.html" title="Puzzle with interlocking pieces." alt="" coords="5,229,95,256"/>
 <area shape="rect" id="node6" href="$classpuzzle_1_1builder_1_1matrix_1_1Matrix.html" title="Puzzle type that is a set of adjacent, rectangular puzzle pieces that get put together in a matrix/2D..." alt="" coords="119,229,178,256"/>

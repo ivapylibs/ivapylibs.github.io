@@ -109,9 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac1d6f60502cfe53549dc10ce09145b93"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#ac1d6f60502cfe53549dc10ce09145b93">getMask</a> (self, theMask, offset=[0, 0])</td></tr>
 <tr class="memdesc:ac1d6f60502cfe53549dc10ce09145b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an updated mask of the target.  <a href="classpuzzle_1_1piece_1_1Template.html#ac1d6f60502cfe53549dc10ce09145b93">More...</a><br /></td></tr>
 <tr class="separator:ac1d6f60502cfe53549dc10ce09145b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a08605d5ae67c5bae9d4f39f321943d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a2a08605d5ae67c5bae9d4f39f321943d">placeInImage</a> (self, theImage, offset=[0, 0], CONTOUR_DISPLAY=True)</td></tr>
-<tr class="memdesc:a2a08605d5ae67c5bae9d4f39f321943d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert the puzzle piece into the image in the original location.  <a href="classpuzzle_1_1piece_1_1Template.html#a2a08605d5ae67c5bae9d4f39f321943d">More...</a><br /></td></tr>
-<tr class="separator:a2a08605d5ae67c5bae9d4f39f321943d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c163a39df31d4964ff92c64ca16a11c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a7c163a39df31d4964ff92c64ca16a11c">placeInImage</a> (self, theImage, offset=[0, 0], CONTOUR_DISPLAY=False)</td></tr>
+<tr class="memdesc:a7c163a39df31d4964ff92c64ca16a11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert the puzzle piece into the image in the original location.  <a href="classpuzzle_1_1piece_1_1Template.html#a7c163a39df31d4964ff92c64ca16a11c">More...</a><br /></td></tr>
+<tr class="separator:a7c163a39df31d4964ff92c64ca16a11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30ece36acb64b9d8cc4c477a2b347211"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a30ece36acb64b9d8cc4c477a2b347211">placeInImageAt</a> (self, theImage, rc, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#aebf487f5d315cb61f0bd86455edff1fd">theta</a>=None, isCenter=False, CONTOUR_DISPLAY=True)</td></tr>
 <tr class="memdesc:a30ece36acb64b9d8cc4c477a2b347211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert the puzzle piece into the image at the given location.  <a href="classpuzzle_1_1piece_1_1Template.html#a30ece36acb64b9d8cc4c477a2b347211">More...</a><br /></td></tr>
 <tr class="separator:a30ece36acb64b9d8cc4c477a2b347211"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,6 +141,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ae7ae93e7ef03b726cb49a0fc16860d2f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#ae7ae93e7ef03b726cb49a0fc16860d2f">buildFromFullMaskAndImage</a> (theMask, theImage, cLoc=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#a9dc2abe0bfe8497046692cdb09143d70">rLoc</a>=None, pieceStatus=<a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a1f3ff7b7c822ee18e3c9018b93766e5a">PieceStatus.MEASURED</a>)</td></tr>
+<tr class="memdesc:ae7ae93e7ef03b726cb49a0fc16860d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a mask and an image of same base dimensions, use to instantiate a puzzle piece template.  <a href="classpuzzle_1_1piece_1_1Template.html#ae7ae93e7ef03b726cb49a0fc16860d2f">More...</a><br /></td></tr>
+<tr class="separator:ae7ae93e7ef03b726cb49a0fc16860d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affd9df85ce55a368225f6562198e6249"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#affd9df85ce55a368225f6562198e6249">buildFromMaskAndImage</a> (theMask, theImage, cLoc=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#a9dc2abe0bfe8497046692cdb09143d70">rLoc</a>=None, pieceStatus=<a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a1f3ff7b7c822ee18e3c9018b93766e5a">PieceStatus.MEASURED</a>)</td></tr>
 <tr class="memdesc:affd9df85ce55a368225f6562198e6249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a mask (individual) and an image of same base dimensions, use to instantiate a puzzle piece template.  <a href="classpuzzle_1_1piece_1_1Template.html#affd9df85ce55a368225f6562198e6249">More...</a><br /></td></tr>
 <tr class="separator:affd9df85ce55a368225f6562198e6249"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,6 +236,77 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae7ae93e7ef03b726cb49a0fc16860d2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7ae93e7ef03b726cb49a0fc16860d2f">&#9670;&nbsp;</a></span>buildFromFullMaskAndImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def buildFromFullMaskAndImage </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>theMask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>theImage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>cLoc</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>rLoc</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>pieceStatus</em> = <code><a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a1f3ff7b7c822ee18e3c9018b93766e5a">PieceStatus.MEASURED</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Given a mask and an image of same base dimensions, use to instantiate a puzzle piece template. </p>
+<p><br  />
+</p>
+<p>This implementation assumes that a whole image and an image-wide mask are provided for recovering a single piece. Then cLoc is not needed. rLoc can still be used.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">theMask</td><td>Mask of individual piece. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">theImage</td><td>Source image with puzzle piece. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cLoc</td><td>Corner location of puzzle piece [optional: None]. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">rLoc</td><td>Alternative puzzle piece location [optional: None]. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pieceStatus</td><td>Status of the puzzle piece [optional, def:MEASURED]</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">thePiece</td><td>Puzzle piece instance.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Include option to have cropped mask but full image and use cLoc. </dd></dl>
+
+</div>
+</div>
 <a id="affd9df85ce55a368225f6562198e6249"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#affd9df85ce55a368225f6562198e6249">&#9670;&nbsp;</a></span>buildFromMaskAndImage()</h2>
 
@@ -286,10 +360,8 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Given a mask (individual) and an image of same base dimensions, use to instantiate a puzzle piece template. </p>
-<p>Usually passed as cropped.</p>
+<p>Passed as cropped mask/image pair.</p>
 <p>This can be run in a few different ways. First, assumiong that the puzzle piece has been cropped along with the mask. Then providing cLoc is important for it to be placed in correct part of the original (uncropped) image. If the placement should change for whatever reason, then specifying rLoc will do that. Otherwise, cLoc and rLoc are set to be the same.</p>
-<p>A less common implementation is to provide the whole image and an image-wide mask for recovering a single piece. Then cLoc is not needed. rLoc can still be used.</p>
-<p>Not implemented is the case of a whole image plus a cropped mask with cLoc. That is on the todo list.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">theMask</td><td>Mask of individual piece. </td></tr>
@@ -297,11 +369,11 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">cLoc</td><td>Corner location of puzzle piece [optional: None]. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">rLoc</td><td>Alternative puzzle piece location [optional: None]. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">pieceStatus</td><td>Status of the puzzle piece [optional, def:MEASURED]</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">thePiece</td><td>Puzzle piece instance.</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">thePiece</td><td>Puzzle piece instance.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Include option to have cropped mask but full image and use cLoc. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Include option to have cropped mask but full image and use cLoc. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classpuzzle_1_1piece_1_1Regular.html#a093d817147278d440b80cf331713b75e">Regular</a>.</p>
 
@@ -633,8 +705,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2a08605d5ae67c5bae9d4f39f321943d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a08605d5ae67c5bae9d4f39f321943d">&#9670;&nbsp;</a></span>placeInImage()</h2>
+<a id="a7c163a39df31d4964ff92c64ca16a11c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c163a39df31d4964ff92c64ca16a11c">&#9670;&nbsp;</a></span>placeInImage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -661,7 +733,7 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>CONTOUR_DISPLAY</em> = <code>True</code>&#160;</td>
+          <td class="paramname"><em>CONTOUR_DISPLAY</em> = <code>False</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

@@ -100,13 +100,14 @@ Inheritance diagram for Base:</div>
 <area shape="rect" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html" title=" " alt="" coords="508,157,632,184"/>
 <area shape="rect" href="classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html" title="Class instance for extracting background that lies with the corner region of the RGB color cube,..." alt="" coords="535,208,605,235"/>
 <area shape="rect" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html" title="Applies half&#45;Gaussian model with premise that targets lie to one side of the distribution." alt="" coords="693,56,794,83"/>
-<area shape="rect" href="classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html" title="Wrapper to inCorner that performs estimation for caliration and saving." alt="" coords="680,157,807,184"/>
+<area shape="rect" href="classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html" title="Wrapper to inCorner that performs estimation for caliration and saving." alt="" coords="680,132,807,159"/>
 <area shape="rect" href="classdetector_1_1fgmodel_1_1appearance_1_1fgAppearance.html" title="Appearance based object detection." alt="" coords="519,259,621,285"/>
 <area shape="rect" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html" title="Single Gaussian target/foreground model with diagonal covariance." alt="" coords="526,309,614,336"/>
-<area shape="rect" href="classdetector_1_1fgmodel_1_1targetCorner_1_1targetCorner.html" title="Class instance for extracting targets that lie with the corner region of the RGB color cube,..." alt="" coords="696,208,791,235"/>
-<area shape="rect" href="classdetector_1_1fgmodel_1_1targetMagenta_1_1targetMagenta.html" title="Class instance for extracting bright/neon magenta targets, which tend to lie in a corner region of th..." alt="" coords="691,259,796,285"/>
-<area shape="rect" href="classdetector_1_1fgmodel_1_1targetNeon_1_1targetNeon.html" title="Detection interface for neon colored targets." alt="" coords="700,309,787,336"/>
-<area shape="rect" href="classdetector_1_1fgmodel_1_1targetSG_1_1targetSG.html" title="Single&#45;Gaussian based target detection with full covariance." alt="" coords="706,360,781,387"/>
+<area shape="rect" href="classdetector_1_1fgmodel_1_1differences_1_1fgDifferences.html" title="Image differences foreground model." alt="" coords="693,183,793,209"/>
+<area shape="rect" href="classdetector_1_1fgmodel_1_1targetCorner_1_1targetCorner.html" title="Class instance for extracting targets that lie with the corner region of the RGB color cube,..." alt="" coords="696,233,791,260"/>
+<area shape="rect" href="classdetector_1_1fgmodel_1_1targetMagenta_1_1targetMagenta.html" title="Class instance for extracting bright/neon magenta targets, which tend to lie in a corner region of th..." alt="" coords="691,284,796,311"/>
+<area shape="rect" href="classdetector_1_1fgmodel_1_1targetNeon_1_1targetNeon.html" title="Detection interface for neon colored targets." alt="" coords="700,335,787,361"/>
+<area shape="rect" href="classdetector_1_1fgmodel_1_1targetSG_1_1targetSG.html" title="Single&#45;Gaussian based target detection with full covariance." alt="" coords="706,385,781,412"/>
 <area shape="rect" href="classdetector_1_1inImageRGBD_1_1bgImageRBGD.html" title="The most basic object or instance detector from RGBD image input." alt="" coords="515,360,625,387"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -222,7 +223,7 @@ Public Attributes</h2></td></tr>
 <p>Adapt any internal parameters based on activity state, signal, and any other historical information. </p>
 <p><a class="el" href="classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class.">Base</a> method does not have adaptation. Should be customized to the implementation of the class. </p>
 
-<p>Reimplemented in <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgConical.html#a72fbf2f30085967560d93851fdf9fe6b">bgConical</a>, <a class="el" href="classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a72fbf2f30085967560d93851fdf9fe6b">inCornerEstimator</a>, <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#a72fbf2f30085967560d93851fdf9fe6b">bgGaussian</a>, <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a72fbf2f30085967560d93851fdf9fe6b">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html#a72fbf2f30085967560d93851fdf9fe6b">bgmodelGMM_cv</a>, <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#a72fbf2f30085967560d93851fdf9fe6b">onWorkspace</a>, <a class="el" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM.html#a72fbf2f30085967560d93851fdf9fe6b">bgmodelGMM</a>, <a class="el" href="classdetector_1_1fromState_1_1fromState.html#a72fbf2f30085967560d93851fdf9fe6b">fromState</a>, and <a class="el" href="classbyRegion_1_1Planar.html#a72fbf2f30085967560d93851fdf9fe6b">Planar</a>.</p>
+<p>Reimplemented in <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgConical.html#a72fbf2f30085967560d93851fdf9fe6b">bgConical</a>, <a class="el" href="classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a72fbf2f30085967560d93851fdf9fe6b">inCornerEstimator</a>, <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#a72fbf2f30085967560d93851fdf9fe6b">bgGaussian</a>, <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a72fbf2f30085967560d93851fdf9fe6b">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html#a72fbf2f30085967560d93851fdf9fe6b">bgmodelGMM_cv</a>, <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#a72fbf2f30085967560d93851fdf9fe6b">onWorkspace</a>, <a class="el" href="classdetector_1_1fgmodel_1_1differences_1_1fgDifferences.html#a72fbf2f30085967560d93851fdf9fe6b">fgDifferences</a>, <a class="el" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM.html#a72fbf2f30085967560d93851fdf9fe6b">bgmodelGMM</a>, <a class="el" href="classdetector_1_1fromState_1_1fromState.html#a72fbf2f30085967560d93851fdf9fe6b">fromState</a>, and <a class="el" href="classbyRegion_1_1Planar.html#a72fbf2f30085967560d93851fdf9fe6b">Planar</a>.</p>
 
 </div>
 </div>
@@ -245,7 +246,7 @@ Public Attributes</h2></td></tr>
 <p>Reconcile prediction and measurement as fitting. </p>
 <p>Correct state based on measurement and prediction states. <a class="el" href="classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class.">Base</a> method does not have correction. </p>
 
-<p>Reimplemented in <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#ad1017975e2cf3f6aad2eb699e576acfb">bgGaussian</a>, <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#ad1017975e2cf3f6aad2eb699e576acfb">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#ad1017975e2cf3f6aad2eb699e576acfb">onWorkspace</a>, <a class="el" href="classbyRegion_1_1Planar.html#ad1017975e2cf3f6aad2eb699e576acfb">Planar</a>, and <a class="el" href="classdetector_1_1fromState_1_1fromState.html#ad1017975e2cf3f6aad2eb699e576acfb">fromState</a>.</p>
+<p>Reimplemented in <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#ad1017975e2cf3f6aad2eb699e576acfb">bgGaussian</a>, <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#ad1017975e2cf3f6aad2eb699e576acfb">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#ad1017975e2cf3f6aad2eb699e576acfb">onWorkspace</a>, <a class="el" href="classdetector_1_1fgmodel_1_1differences_1_1fgDifferences.html#ad1017975e2cf3f6aad2eb699e576acfb">fgDifferences</a>, <a class="el" href="classbyRegion_1_1Planar.html#ad1017975e2cf3f6aad2eb699e576acfb">Planar</a>, and <a class="el" href="classdetector_1_1fromState_1_1fromState.html#ad1017975e2cf3f6aad2eb699e576acfb">fromState</a>.</p>
 
 </div>
 </div>
@@ -301,7 +302,7 @@ Public Attributes</h2></td></tr>
 <p>Return empty debug state information. </p>
 <p>Useful if contents needed beforehand. </p>
 
-<p>Reimplemented in <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#ae41cd8a9eb2f382e6706d5418bee3c83">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#ae41cd8a9eb2f382e6706d5418bee3c83">bgGaussian</a>, and <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#ae41cd8a9eb2f382e6706d5418bee3c83">onWorkspace</a>.</p>
+<p>Reimplemented in <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#ae41cd8a9eb2f382e6706d5418bee3c83">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#ae41cd8a9eb2f382e6706d5418bee3c83">bgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#ae41cd8a9eb2f382e6706d5418bee3c83">onWorkspace</a>, and <a class="el" href="classdetector_1_1fgmodel_1_1differences_1_1fgDifferences.html#ae41cd8a9eb2f382e6706d5418bee3c83">fgDifferences</a>.</p>
 
 </div>
 </div>
@@ -324,7 +325,7 @@ Public Attributes</h2></td></tr>
 <p>Return empty state. </p>
 <p>Useful if contents needed beforehand. </p>
 
-<p>Reimplemented in <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a9ee90969e62195d66d515fcdaf56bf6a">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#a9ee90969e62195d66d515fcdaf56bf6a">bgGaussian</a>, and <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#a9ee90969e62195d66d515fcdaf56bf6a">onWorkspace</a>.</p>
+<p>Reimplemented in <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a9ee90969e62195d66d515fcdaf56bf6a">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#a9ee90969e62195d66d515fcdaf56bf6a">bgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#a9ee90969e62195d66d515fcdaf56bf6a">onWorkspace</a>, <a class="el" href="classdetector_1_1fgmodel_1_1differences_1_1fgDifferences.html#a9ee90969e62195d66d515fcdaf56bf6a">fgDifferences</a>, and <a class="el" href="classdetector_1_1fgmodel_1_1appearance_1_1fgAppearance.html#a9ee90969e62195d66d515fcdaf56bf6a">fgAppearance</a>.</p>
 
 </div>
 </div>
@@ -347,7 +348,7 @@ Public Attributes</h2></td></tr>
 <p>Return current/latest debug state information. </p>
 <p>Usually the debug state consists of internally computed information that is useful for debugging purposes and can help to isolate problems within the implemented class or with downstream processing that may rely on assumptions built into this implemented class. </p>
 
-<p>Reimplemented in <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a86e33c39d3c54a6ebba54b5a0ebf9787">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#a86e33c39d3c54a6ebba54b5a0ebf9787">bgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html#a86e33c39d3c54a6ebba54b5a0ebf9787">bgmodelGMM_cv</a>, and <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#a86e33c39d3c54a6ebba54b5a0ebf9787">onWorkspace</a>.</p>
+<p>Reimplemented in <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a86e33c39d3c54a6ebba54b5a0ebf9787">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#a86e33c39d3c54a6ebba54b5a0ebf9787">bgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html#a86e33c39d3c54a6ebba54b5a0ebf9787">bgmodelGMM_cv</a>, <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#a86e33c39d3c54a6ebba54b5a0ebf9787">onWorkspace</a>, and <a class="el" href="classdetector_1_1fgmodel_1_1differences_1_1fgDifferences.html#a86e33c39d3c54a6ebba54b5a0ebf9787">fgDifferences</a>.</p>
 
 </div>
 </div>
@@ -510,7 +511,7 @@ Public Attributes</h2></td></tr>
 <p>If transition model known, generate state prediction. Else it is most likely a static transition model, which does nothing / keeps prior state. The base method employs a static state assumption. <br  />
  </p>
 
-<p>Reimplemented in <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#a4dd85ce87569585c592b0dd0638c0dfd">bgGaussian</a>, <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a4dd85ce87569585c592b0dd0638c0dfd">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#a4dd85ce87569585c592b0dd0638c0dfd">onWorkspace</a>, <a class="el" href="classbyRegion_1_1Planar.html#a4dd85ce87569585c592b0dd0638c0dfd">Planar</a>, <a class="el" href="classdetector_1_1fromState_1_1fromState.html#a4dd85ce87569585c592b0dd0638c0dfd">fromState</a>, and <a class="el" href="classpuzzle_1_1parse_1_1fromSketch_1_1FromSketch.html#a4dd85ce87569585c592b0dd0638c0dfd">FromSketch</a>.</p>
+<p>Reimplemented in <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#a4dd85ce87569585c592b0dd0638c0dfd">bgGaussian</a>, <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a4dd85ce87569585c592b0dd0638c0dfd">fgGaussian</a>, <a class="el" href="classdetector_1_1fgmodel_1_1differences_1_1fgDifferences.html#a4dd85ce87569585c592b0dd0638c0dfd">fgDifferences</a>, <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#a4dd85ce87569585c592b0dd0638c0dfd">onWorkspace</a>, <a class="el" href="classbyRegion_1_1Planar.html#a4dd85ce87569585c592b0dd0638c0dfd">Planar</a>, <a class="el" href="classdetector_1_1fromState_1_1fromState.html#a4dd85ce87569585c592b0dd0638c0dfd">fromState</a>, and <a class="el" href="classpuzzle_1_1parse_1_1fromSketch_1_1FromSketch.html#a4dd85ce87569585c592b0dd0638c0dfd">FromSketch</a>.</p>
 
 </div>
 </div>
@@ -543,7 +544,7 @@ Public Attributes</h2></td></tr>
 <p>Process the new incoming signal on full detection pipeline. </p>
 <p>Running the full detection pipeline includes adaptation. </p>
 
-<p>Reimplemented in <a class="el" href="classdetector_1_1fromState_1_1fromState.html#a0b4dc48a437fa80146abb1e58fd6ce35">fromState</a>, <a class="el" href="classbyRegion_1_1Planar.html#ac0e04a6d0292eed0154740ef0ed44772">Planar</a>, <a class="el" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html#ae7ea0e57263609b9fc86c2f0bde7294b">bgmodelGMM_cv</a>, <a class="el" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM.html#ae7ea0e57263609b9fc86c2f0bde7294b">bgmodelGMM</a>, <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a15b5b23376c42a855847f9b74cdc07b3">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#a15b5b23376c42a855847f9b74cdc07b3">bgGaussian</a>, and <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#a15b5b23376c42a855847f9b74cdc07b3">onWorkspace</a>.</p>
+<p>Reimplemented in <a class="el" href="classdetector_1_1fromState_1_1fromState.html#a0b4dc48a437fa80146abb1e58fd6ce35">fromState</a>, <a class="el" href="classbyRegion_1_1Planar.html#ac0e04a6d0292eed0154740ef0ed44772">Planar</a>, <a class="el" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html#ae7ea0e57263609b9fc86c2f0bde7294b">bgmodelGMM_cv</a>, <a class="el" href="classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM.html#ae7ea0e57263609b9fc86c2f0bde7294b">bgmodelGMM</a>, <a class="el" href="classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html#a15b5b23376c42a855847f9b74cdc07b3">fgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html#a15b5b23376c42a855847f9b74cdc07b3">bgGaussian</a>, <a class="el" href="classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html#a15b5b23376c42a855847f9b74cdc07b3">onWorkspace</a>, and <a class="el" href="classdetector_1_1fgmodel_1_1differences_1_1fgDifferences.html#a15b5b23376c42a855847f9b74cdc07b3">fgDifferences</a>.</p>
 
 </div>
 </div>
