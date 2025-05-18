@@ -831,7 +831,7 @@ WARN_LOGFILE           =
 
 INPUT                  = pages/tests \
                         ../detector/testing ../perceiver/testing \
-                        ../puzzle_solver/testing ../Surveillance/testing 
+                        ../puzzle_solver/testing ../surveillance/testing 
 
 
 # pages/packages ../ivapy  ../camera ../improcessor ../trackpointer 

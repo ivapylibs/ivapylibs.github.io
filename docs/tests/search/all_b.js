@@ -1,19 +1,13 @@
 var searchData=
 [
-  ['readme_68',['README',['../md__home_pvela_python_puzzle_solver_testing_core_README.html',1,'']]],
-  ['real01template_2epy_69',['real01template.py',['../real01template_8py.html',1,'']]],
-  ['real05edge_2epy_70',['real05edge.py',['../real05edge_8py.html',1,'']]],
-  ['real05sift_2epy_71',['real05sift.py',['../real05sift_8py.html',1,'']]],
-  ['real06sift_2epy_72',['real06sift.py',['../real06sift_8py.html',1,'']]],
-  ['real07sift_2epy_73',['real07sift.py',['../real07sift_8py.html',1,'']]],
-  ['real08sift_2epy_74',['real08sift.py',['../real08sift_8py.html',1,'']]],
-  ['real_5frunnerros_75',['real_runnerROS',['../namespacereal__runnerROS.html',1,'']]],
-  ['realrunner01_5fstatic_76',['realRunner01_static',['../namespacerealRunner01__static.html',1,'']]],
-  ['realrunner02_5fdynamic_77',['realRunner02_dynamic',['../namespacerealRunner02__dynamic.html',1,'']]],
-  ['region01_5frealsense_2epy_78',['region01_realsense.py',['../region01__realsense_8py.html',1,'']]],
-  ['report01flag_2epy_79',['report01flag.py',['../report01flag_8py.html',1,'']]],
-  ['report02int_2epy_80',['report02int.py',['../report02int_8py.html',1,'']]],
-  ['report03float_2epy_81',['report03float.py',['../report03float_8py.html',1,'']]],
-  ['report04csv_2epy_82',['report04csv.py',['../report04csv_8py.html',1,'']]],
-  ['run_83',['run',['../classsurvRunner_1_1SurvRunner.html#ad22709b2e67308af35f55680d5a026e0',1,'survRunner::SurvRunner']]]
+  ['perceive01glove_2epy_86',['perceive01glove.py',['../devcode2_2perceive01glove_8py.html',1,'(Global Namespace)'],['../layers_2perceive01glove_8py.html',1,'(Global Namespace)']]],
+  ['perceive02pieces_2epy_87',['perceive02pieces.py',['../perceive02pieces_8py.html',1,'']]],
+  ['puzzle01aruco_2epy_88',['puzzle01aruco.py',['../puzzle01aruco_8py.html',1,'']]],
+  ['perceiver_89',['Perceiver',['../group__TestPerceiver.html',1,'']]],
+  ['progress_20monitor_90',['Progress Monitor',['../group__TestProgress.html',1,'']]],
+  ['puzzle_20clustering_91',['Puzzle Clustering',['../group__TestPuzzle__Clusters.html',1,'']]],
+  ['puzzle_20solver_92',['Puzzle Solver',['../group__TestPuzzle__Solver.html',1,'']]],
+  ['puzzle_20tracking_93',['Puzzle Tracking',['../group__TestPuzzle__Tracking.html',1,'']]],
+  ['puzzle_20types_94',['Puzzle Types',['../group__TestPuzzle__Types.html',1,'']]],
+  ['puzzle_20solver_95',['Puzzle Solver',['../group__TestPuzzleSolver.html',1,'']]]
 ];

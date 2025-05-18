@@ -1,13 +1,23 @@
 var searchData=
 [
-  ['single_20gaussian_20depth_20image_20modeling_2e_84',['Single Gaussian depth image modeling.',['../md__home_pvela_python_detector_testing_bgmodel_CONTENTS.html',1,'']]],
-  ['score01_5fsimbycolor_2epy_85',['score01_simByColor.py',['../score01__simByColor_8py.html',1,'']]],
-  ['score02_5frosbycolor_2epy_86',['score02_rosByColor.py',['../score02__rosByColor_8py.html',1,'']]],
-  ['sgm03color_2epy_87',['sgm03color.py',['../sgm03color_8py.html',1,'']]],
-  ['sgm04hsv_2epy_88',['sgm04hsv.py',['../sgm04hsv_8py.html',1,'']]],
-  ['simple01graybox_2epy_89',['simple01graybox.py',['../simple01graybox_8py.html',1,'']]],
-  ['simple02magentadot_2epy_90',['simple02magentadot.py',['../simple02magentadot_8py.html',1,'']]],
-  ['simple03magentabag_2epy_91',['simple03magentabag.py',['../simple03magentabag_8py.html',1,'']]],
-  ['surv_92',['surv',['../classsurvRunner_1_1SurvRunner.html#a641753925b907a8d61d483c035abe01d',1,'survRunner::SurvRunner']]],
-  ['survrunner_93',['SurvRunner',['../classsurvRunner_1_1SurvRunner.html',1,'SurvRunner'],['../namespacesurvRunner.html',1,'survRunner']]]
+  ['readme_96',['README',['../md__home_pvela_python_puzzle_solver_testing_core_README.html',1,'']]],
+  ['real01template_2epy_97',['real01template.py',['../real01template_8py.html',1,'']]],
+  ['real05edge_2epy_98',['real05edge.py',['../real05edge_8py.html',1,'']]],
+  ['real05sift_2epy_99',['real05sift.py',['../real05sift_8py.html',1,'']]],
+  ['real06sift_2epy_100',['real06sift.py',['../real06sift_8py.html',1,'']]],
+  ['real07sift_2epy_101',['real07sift.py',['../real07sift_8py.html',1,'']]],
+  ['real08sift_2epy_102',['real08sift.py',['../real08sift_8py.html',1,'']]],
+  ['real_5frunnerros_103',['real_runnerROS',['../namespacereal__runnerROS.html',1,'']]],
+  ['realrunner01_5fstatic_104',['realRunner01_static',['../namespacerealRunner01__static.html',1,'']]],
+  ['realrunner02_5fdynamic_105',['realRunner02_dynamic',['../namespacerealRunner02__dynamic.html',1,'']]],
+  ['region01_5frealsense_2epy_106',['region01_realsense.py',['../region01__realsense_8py.html',1,'']]],
+  ['regiongrow01_2epy_107',['regiongrow01.py',['../regiongrow01_8py.html',1,'']]],
+  ['regiongrow02_2epy_108',['regiongrow02.py',['../regiongrow02_8py.html',1,'']]],
+  ['report01flag_2epy_109',['report01flag.py',['../report01flag_8py.html',1,'']]],
+  ['report02int_2epy_110',['report02int.py',['../report02int_8py.html',1,'']]],
+  ['report03float_2epy_111',['report03float.py',['../report03float_8py.html',1,'']]],
+  ['report04csv_2epy_112',['report04csv.py',['../report04csv_8py.html',1,'']]],
+  ['robot01inrange_2epy_113',['robot01inRange.py',['../robot01inRange_8py.html',1,'']]],
+  ['robot02inrangeheight_2epy_114',['robot02inRangeHeight.py',['../robot02inRangeHeight_8py.html',1,'']]],
+  ['run_115',['run',['../classsurvRunner_1_1SurvRunner.html#ad22709b2e67308af35f55680d5a026e0',1,'survRunner::SurvRunner']]]
 ];

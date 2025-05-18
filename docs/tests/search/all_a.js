@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['perceiver_61',['Perceiver',['../group__TestPerceiver.html',1,'']]],
-  ['progress_20monitor_62',['Progress Monitor',['../group__TestProgress.html',1,'']]],
-  ['puzzle_20clustering_63',['Puzzle Clustering',['../group__TestPuzzle__Clusters.html',1,'']]],
-  ['puzzle_20solver_64',['Puzzle Solver',['../group__TestPuzzle__Solver.html',1,'']]],
-  ['puzzle_20tracking_65',['Puzzle Tracking',['../group__TestPuzzle__Tracking.html',1,'']]],
-  ['puzzle_20types_66',['Puzzle Types',['../group__TestPuzzle__Types.html',1,'']]],
-  ['puzzle_20solver_67',['Puzzle Solver',['../group__TestPuzzleSolver.html',1,'']]]
+  ['opencv_20implementation_20tests_84',['OpenCV Implementation Tests',['../md__home_pvela_python_detector_testing_testing.html',1,'']]],
+  ['occupancy01basics_2epy_85',['occupancy01basics.py',['../occupancy01basics_8py.html',1,'']]]
 ];
