@@ -1,5 +1,58 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,89,32"/>
-<area shape="rect" id="node2" href="$classpuzzle_1_1simulator_1_1planner_1_1ParamPlanner.html" title=" " alt="" coords="137,5,241,32"/>
-<area shape="rect" id="node3" href="$classpuzzle_1_1runner_1_1ParamRunner.html" title=" " alt="" coords="289,5,392,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,613,63,640"/>
+<area shape="rect" id="node2" href="$classcamera_1_1utils_1_1writer_1_1frameWriter.html" title=" " alt="" coords="127,81,217,108"/>
+<area shape="rect" id="node3" href="$classcamera_1_1utils_1_1writer_1_1vidWriter.html" title=" " alt="" coords="135,132,209,159"/>
+<area shape="rect" id="node4" href="$classcamera_1_1utils_1_1writer__ros_1_1vidWriter__ROS.html" title=" " alt="" coords="117,183,227,209"/>
+<area shape="rect" id="node5" href="$classdetector_1_1base_1_1Base.html" title="Base or root implementation of detector class." alt="" coords="146,233,198,260"/>
+<area shape="rect" id="node32" href="$classdetector_1_1bgmodel_1_1inCorner_1_1SurfaceCutModel.html" title=" " alt="" coords="111,284,233,311"/>
+<area shape="rect" id="node35" href="$classdetector_1_1fgmodel_1_1targetCorner_1_1TModel.html" title="Target model class to encapsulate affine decision classifier." alt="" coords="139,335,205,361"/>
+<area shape="rect" id="node36" href="$classdetector_1_1fgmodel_1_1targetMagenta_1_1TModel.html" title=" " alt="" coords="139,385,205,412"/>
+<area shape="rect" id="node37" href="$classdetector_1_1fgmodel_1_1targetNeon_1_1MData.html" title=" " alt="" coords="141,436,203,463"/>
+<area shape="rect" id="node38" href="$classdetector_1_1fgmodel_1_1targetNeon_1_1TModel.html" title=" " alt="" coords="139,487,205,513"/>
+<area shape="rect" id="node39" href="$classperceiver_1_1monitor_1_1Monitor.html" title="A simple interface class for monitoring the outcomes of a perceived scene." alt="" coords="139,537,205,564"/>
+<area shape="rect" id="node40" href="$classperceiver_1_1perceiver_1_1Perceiver.html" title="Basic implementation of a perceiver class." alt="" coords="133,588,211,615"/>
+<area shape="rect" id="node41" href="$classperceiver_1_1progress_1_1Progress.html" title="A simple interface class for progress monitoring a perceived scene." alt="" coords="135,639,209,665"/>
+<area shape="rect" id="node42" href="$classpuzzle_1_1utils_1_1dataProcessing_1_1copyAttributes.html" title=" " alt="" coords="119,689,225,716"/>
+<area shape="rect" id="node43" href="$classSurveillance_1_1activity_1_1base_1_1Base.html" title=" " alt="" coords="146,740,198,767"/>
+<area shape="rect" id="node46" href="$classSurveillance_1_1layers_1_1Glove_1_1TrackPointer.html" title=" " alt="" coords="124,791,220,817"/>
+<area shape="rect" id="node47" href="$classSurveillance_1_1layers_1_1GloveByColor_1_1GlovePointer.html" title=" " alt="" coords="123,841,221,868"/>
+<area shape="rect" id="node48" href="$classSurveillance_1_1layers_1_1HoveringGlove_1_1TrackPointer.html" title=" " alt="" coords="124,892,220,919"/>
+<area shape="rect" id="node49" href="$classSurveillance_1_1layers_1_1HoveringHand_1_1TrackPointer.html" title=" " alt="" coords="124,943,220,969"/>
+<area shape="rect" id="node50" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html" title="Layered track pointer part of puzzle scene perceiver grouping." alt="" coords="121,993,223,1020"/>
+<area shape="rect" id="node51" href="$classtrackpointer_1_1centroid_1_1centroid.html" title=" " alt="" coords="138,1044,206,1071"/>
+<area shape="rect" id="node55" href="$classtrackpointer_1_1toplines_1_1Params.html" title="Parameters for the toplines tracker." alt="" coords="139,1095,205,1121"/>
+<area shape="rect" id="node56" href="$classtrackpointer_1_1utils_1_1fakeTriangle_1_1fakeTriangle.html" title=" " alt="" coords="125,1145,219,1172"/>
+<area shape="rect" id="node6" href="$classdetector_1_1fromState_1_1fromState.html" title="Basic detector from state vector input. Should be overloaded, but simple detectors can be created wit..." alt="" coords="297,81,376,108"/>
+<area shape="rect" id="node9" href="$classdetector_1_1inImage_1_1inImage.html" title="The most basic object or instance detector from image input." alt="" coords="303,233,371,260"/>
+<area shape="rect" id="node7" href="$classbyRegion_1_1imageRegions.html" title="Activity states depend on having signal lying in specific regions of an image. Signal is presumably i..." alt="" coords="449,31,554,57"/>
+<area shape="rect" id="node8" href="$classbyRegion_1_1Planar.html" title="Activity detection based on lying in specific planar regions." alt="" coords="472,81,531,108"/>
+<area shape="rect" id="node10" href="$classbyRegion_1_1imageOccupancy.html" title="Activity states depend on having true image values lying in specific regions of an image...." alt="" coords="440,132,563,159"/>
+<area shape="rect" id="node11" href="$classdetector_1_1inImage_1_1bgImage.html" title="The most basic object or instance detector from image input." alt="" coords="465,183,537,209"/>
+<area shape="rect" id="node19" href="$classdetector_1_1inImage_1_1fgImage.html" title="The most basic object or instance detector from image input." alt="" coords="467,259,536,285"/>
+<area shape="rect" id="node29" href="$classdetector_1_1inImageRGBD_1_1inImageRGBD.html" title="Most basic object or instance detector from RGBD image input." alt="" coords="448,309,555,336"/>
+<area shape="rect" id="node31" href="$classpuzzle_1_1parse_1_1fromSketch_1_1FromSketch.html" title="What is FromSketch??" alt="" coords="455,360,548,387"/>
+<area shape="rect" id="node12" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgConical.html" title="Implements a single Gaussian background model with conical error." alt="" coords="633,5,713,32"/>
+<area shape="rect" id="node13" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1bgGaussian.html" title="Implements a single Gaussian background model." alt="" coords="627,56,718,83"/>
+<area shape="rect" id="node15" href="$classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM.html" title=" " alt="" coords="621,107,724,133"/>
+<area shape="rect" id="node16" href="$classdetector_1_1bgmodel_1_1GMM_1_1bgmodelGMM__cv.html" title=" " alt="" coords="611,157,735,184"/>
+<area shape="rect" id="node17" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html" title="Class instance for extracting background that lies with the corner region of the RGB color cube,..." alt="" coords="637,208,708,235"/>
+<area shape="rect" id="node14" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html" title="Applies half&#45;Gaussian model with premise that targets lie to one side of the distribution." alt="" coords="799,56,900,83"/>
+<area shape="rect" id="node18" href="$classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html" title="Wrapper to inCorner that performs estimation for caliration and saving." alt="" coords="786,107,913,133"/>
+<area shape="rect" id="node20" href="$classdetector_1_1fgmodel_1_1appearance_1_1fgAppearance.html" title="Appearance based object detection." alt="" coords="621,259,724,285"/>
+<area shape="rect" id="node26" href="$classdetector_1_1fgmodel_1_1Gaussian_1_1fgGaussian.html" title="Single Gaussian target/foreground model with diagonal covariance." alt="" coords="629,309,717,336"/>
+<area shape="rect" id="node27" href="$classSurveillance_1_1layers_1_1GloveByColor_1_1GloveByColor.html" title="Glove detector by color only." alt="" coords="621,360,724,387"/>
+<area shape="rect" id="node21" href="$classdetector_1_1fgmodel_1_1differences_1_1fgDifferences.html" title="Image differences foreground model." alt="" coords="799,157,899,184"/>
+<area shape="rect" id="node22" href="$classdetector_1_1fgmodel_1_1targetCorner_1_1targetCorner.html" title="Class instance for extracting targets that lie with the corner region of the RGB color cube,..." alt="" coords="802,208,897,235"/>
+<area shape="rect" id="node23" href="$classdetector_1_1fgmodel_1_1targetMagenta_1_1targetMagenta.html" title="Class instance for extracting bright/neon magenta targets, which tend to lie in a corner region of th..." alt="" coords="797,259,902,285"/>
+<area shape="rect" id="node24" href="$classdetector_1_1fgmodel_1_1targetNeon_1_1targetNeon.html" title="Detection interface for neon colored targets." alt="" coords="806,309,893,336"/>
+<area shape="rect" id="node25" href="$classdetector_1_1fgmodel_1_1targetSG_1_1targetSG.html" title="Single&#45;Gaussian based target detection with full covariance." alt="" coords="812,360,887,387"/>
+<area shape="rect" id="node28" href="$classSurveillance_1_1layers_1_1GloveByColor_1_1CalibGloveByColor.html" title=" " alt="" coords="783,411,916,437"/>
+<area shape="rect" id="node30" href="$classdetector_1_1inImageRGBD_1_1bgImageRBGD.html" title="The most basic object or instance detector from RGBD image input." alt="" coords="617,411,728,437"/>
+<area shape="rect" id="node33" href="$classdetector_1_1bgmodel_1_1inCorner_1_1PlanarModel.html" title="Specification data class that describes the planar cut classifier and its functional properties." alt="" coords="289,284,384,311"/>
+<area shape="rect" id="node34" href="$classdetector_1_1bgmodel_1_1inCorner_1_1SphericalModel.html" title="Specification data class that describes the planar cut classifier and its functional properties." alt="" coords="281,335,392,361"/>
+<area shape="rect" id="node44" href="$classSurveillance_1_1activity_1_1state_1_1Base__state.html" title=" " alt="" coords="293,740,381,767"/>
+<area shape="rect" id="node45" href="$classSurveillance_1_1activity_1_1state_1_1StateEstimator.html" title=" " alt="" coords="447,740,556,767"/>
+<area shape="rect" id="node52" href="$classtrackpointer_1_1centroidMulti_1_1centroidMulti.html" title=" " alt="" coords="289,1044,385,1071"/>
+<area shape="rect" id="node53" href="$classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html" title="A basic detector class that processes a layered image (or mask and image) detection output...." alt="" coords="459,1019,543,1045"/>
+<area shape="rect" id="node54" href="$classpuzzle_1_1parser_1_1boardMeasure.html" title="Puzzle piece board measurement class, based on puzzle piece layer parsing." alt="" coords="449,1069,553,1096"/>
 </map>

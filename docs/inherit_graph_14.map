@@ -1,4 +1,59 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,59,32"/>
-<area shape="rect" id="node2" href="$classcamera_1_1rostopic_1_1Color.html" title="Class for ROS&#45;based camera runners." alt="" coords="107,5,160,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,335,80,361"/>
+<area shape="rect" id="node2" href="$classcamera_1_1d435_1_1runner2_1_1CfgD435.html" title="Configuration setting specifier for the D435 camera." alt="" coords="130,284,205,311"/>
+<area shape="rect" id="node3" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="128,335,207,361"/>
+<area shape="rect" id="node34" href="$classivapy_1_1Configuration_1_1AlgConfig.html" title="Base class for algorithm configuration." alt="" coords="128,1069,207,1096"/>
+<area shape="rect" id="node4" href="$classbyMotion_1_1CfgMoving.html" title="Configuration setting specifier for &quot;motion&quot; detector." alt="" coords="285,5,370,32"/>
+<area shape="rect" id="node5" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGM.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="291,56,364,83"/>
+<area shape="rect" id="node8" href="$classdetector_1_1bgmodel_1_1GMM_1_1CfgGMM__cv.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="279,107,375,133"/>
+<area shape="rect" id="node9" href="$classdetector_1_1bgmodel_1_1inCorner_1_1CfgInCorner.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="281,157,374,184"/>
+<area shape="rect" id="node10" href="$classpuzzle_1_1board_1_1CfgCorrespondences.html" title="Configuration setting specifier for Correspondences class." alt="" coords="255,208,400,235"/>
+<area shape="rect" id="node11" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgMatcher.html" title="Configuration setting specifier for puzzle piece matcher class." alt="" coords="282,259,373,285"/>
+<area shape="rect" id="node19" href="$classSurveillance_1_1layers_1_1Glove_1_1CfgGloveDetector.html" title="Configuration instance for glove tracking perceiver." alt="" coords="264,309,391,336"/>
+<area shape="rect" id="node20" href="$classSurveillance_1_1layers_1_1GloveByColor_1_1CfgGloveDetector.html" title="Configuration instance for glove tracking perceiver." alt="" coords="264,360,391,387"/>
+<area shape="rect" id="node21" href="$classSurveillance_1_1layers_1_1HoveringGlove_1_1CfgHandDetector.html" title="Configuration instance for glove tracking perceiver." alt="" coords="265,411,389,437"/>
+<area shape="rect" id="node22" href="$classSurveillance_1_1layers_1_1HoveringHand_1_1CfgHandDetector.html" title="Configuration instance for glove tracking perceiver." alt="" coords="265,461,389,488"/>
+<area shape="rect" id="node23" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1CfgPuzzleScene.html" title="Configuration instance for Puzzle Scene perceiver. Designed to work for processing subsets (detect,..." alt="" coords="267,512,387,539"/>
+<area shape="rect" id="node24" href="$classtrackpointer_1_1centroid_1_1CfgCentroid.html" title=" " alt="" coords="281,563,373,589"/>
+<area shape="rect" id="node33" href="$classtrackpointer_1_1centroid_1_1CfgCentroind.html" title="Configuration setting specifier for centroidMulti." alt="" coords="278,613,377,640"/>
+<area shape="rect" id="node6" href="$classdetector_1_1bgmodel_1_1Gaussian_1_1CfgSGCone.html" title="Configuration setting specifier for Gaussian BG conical model." alt="" coords="485,31,578,57"/>
+<area shape="rect" id="node7" href="$classdetector_1_1bgmodel_1_1onWorkspace_1_1CfgOnWS.html" title="Configuration setting specifier for Gaussian workspace model." alt="" coords="490,81,573,108"/>
+<area shape="rect" id="node12" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgDifferent.html" title="Configuration setting specifier for difference matcher class." alt="" coords="485,233,578,260"/>
+<area shape="rect" id="node17" href="$classpuzzle_1_1pieces_1_1matcher_1_1CfgSimilar.html" title="Configuration setting specifier for similar matcher class." alt="" coords="490,309,573,336"/>
+<area shape="rect" id="node13" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgDistance.html" title="Configuration setting specifier for distance matcher class." alt="" coords="679,132,773,159"/>
+<area shape="rect" id="node14" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgHistogramCV.html" title="Configuration setting specifier for Histogram puzzle comparator class." alt="" coords="665,183,787,209"/>
+<area shape="rect" id="node15" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgMoments.html" title="Configuration setting specifier for Moments class." alt="" coords="677,233,775,260"/>
+<area shape="rect" id="node16" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1CfgPCA.html" title="Configuration setting specifier for Moments class." alt="" coords="691,284,761,311"/>
+<area shape="rect" id="node18" href="$classpuzzle_1_1pieces_1_1matchSimilar_1_1CfgSIFTCV.html" title="Configuration setting specifier for OpenCV SIFT matcher class." alt="" coords="681,335,771,361"/>
+<area shape="rect" id="node25" href="$classtrackpointer_1_1centroidMulti_1_1CfgCentMulti.html" title="Configuration setting specifier for centroidMulti." alt="" coords="482,563,581,589"/>
+<area shape="rect" id="node26" href="$classpuzzle_1_1parser_1_1CfgBoardMeasure.html" title="Configuration setting specifier for centroidMulti." alt="" coords="663,563,789,589"/>
+<area shape="rect" id="node27" href="$classpuzzle_1_1builder_1_1arrangement_1_1CfgArrangement.html" title="Configuration setting specifier for centroidMulti." alt="" coords="837,537,955,564"/>
+<area shape="rect" id="node32" href="$classpuzzle_1_1builder_1_1calibrate_1_1CfgCalibrate.html" title="Configuration setting specifier for puzzle calibration class." alt="" coords="849,588,943,615"/>
+<area shape="rect" id="node28" href="$classpuzzle_1_1builder_1_1adjacent_1_1CfgAdjacent.html" title="Configuration setting specifier for Arrangement." alt="" coords="1003,537,1097,564"/>
+<area shape="rect" id="node29" href="$classpuzzle_1_1builder_1_1interlocking_1_1CfgInterlocking.html" title="Configuration setting specifier for centroidMulti." alt="" coords="1145,512,1256,539"/>
+<area shape="rect" id="node31" href="$classpuzzle_1_1builder_1_1matrix_1_1CfgMatrix.html" title="Configuration setting specifier for gridded puzzle." alt="" coords="1161,563,1240,589"/>
+<area shape="rect" id="node30" href="$classpuzzle_1_1builder_1_1gridded_1_1CfgGridded.html" title="Configuration setting specifier for gridded puzzle." alt="" coords="1304,512,1392,539"/>
+<area shape="rect" id="node35" href="$classcamera_1_1base_1_1CfgCamera.html" title="Configuration setting specifier for generic camera." alt="" coords="283,664,372,691"/>
+<area shape="rect" id="node36" href="$classchannels_1_1CfgChannel.html" title="Configuration instance for a Channel." alt="" coords="282,715,373,741"/>
+<area shape="rect" id="node38" href="$classdetector_1_1fgmodel_1_1differences_1_1CfgDifferences.html" title="Configuration setting specifier for Differences FG model." alt="" coords="272,765,383,792"/>
+<area shape="rect" id="node39" href="$classdetector_1_1fgmodel_1_1Gaussian_1_1CfgSGT.html" title="Configuration setting specifier for Gaussian BG model." alt="" coords="292,816,363,843"/>
+<area shape="rect" id="node40" href="$classdrafts_1_1CfgAnnouncement.html" title="Configuration instance for an Announcement." alt="" coords="262,867,393,893"/>
+<area shape="rect" id="node43" href="$classivapy_1_1Configuration_1_1BuildConfig.html" title="Base class for algorithm builder configuration." alt="" coords="283,917,372,944"/>
+<area shape="rect" id="node46" href="$classivapy_1_1Configuration_1_1ROSConfig.html" title="Base class for ROS&#45;based robot, node, algorithm configuration." alt="" coords="283,968,372,995"/>
+<area shape="rect" id="node47" href="$classpaths_1_1CfgStepLines.html" title="Configuration specifier for piecewise lines instance." alt="" coords="277,1019,378,1045"/>
+<area shape="rect" id="node48" href="$classperceiver_1_1monitor_1_1CfgMonitor.html" title="Configuration instance for a Monitor." alt="" coords="284,1069,371,1096"/>
+<area shape="rect" id="node49" href="$classperceiver_1_1perceiver_1_1BuildCfgPerceiver.html" title="Build configuration instance for a perceiver." alt="" coords="264,1120,391,1147"/>
+<area shape="rect" id="node50" href="$classperceiver_1_1perceiver_1_1CfgPerceiver.html" title="Configuration instance for a perceiver." alt="" coords="278,1171,377,1197"/>
+<area shape="rect" id="node51" href="$classperceiver_1_1progress_1_1CfgProgress.html" title="Configuration instance for a Progress monitor." alt="" coords="280,1221,375,1248"/>
+<area shape="rect" id="node52" href="$classperceiver_1_1reporting_1_1BuildCfgReporter.html" title="Configuration instance for a Reporter." alt="" coords="266,1272,389,1299"/>
+<area shape="rect" id="node53" href="$classperceiver_1_1reporting_1_1CfgBeatReporter.html" title="Configuration instance for a Reporter." alt="" coords="267,1323,387,1349"/>
+<area shape="rect" id="node54" href="$classperceiver_1_1reporting_1_1CfgReporter.html" title="Configuration instance for a Reporter." alt="" coords="281,1373,374,1400"/>
+<area shape="rect" id="node55" href="$classtriggers_1_1BuildCfgTrigger.html" title="Configuration instance for building a Trigger." alt="" coords="271,1424,383,1451"/>
+<area shape="rect" id="node56" href="$classtriggers_1_1CfgDistTrigger.html" title="Configuration instance for a Trigger." alt="" coords="274,1475,381,1501"/>
+<area shape="rect" id="node57" href="$classtriggers_1_1CfgTrigger.html" title="Configuration instance for a Trigger." alt="" coords="286,1525,369,1552"/>
+<area shape="rect" id="node37" href="$classchannels_1_1CfgToFile.html" title="Configuration instance for a Channel." alt="" coords="492,715,571,741"/>
+<area shape="rect" id="node41" href="$classdrafts_1_1CfgCommentary.html" title="Configuration instance for Commentary." alt="" coords="472,816,591,843"/>
+<area shape="rect" id="node42" href="$classdrafts_1_1CfgRunningCommentary.html" title="Configuration instance for RunningCommentary." alt="" coords="448,867,615,893"/>
+<area shape="rect" id="node44" href="$classperceiver_1_1monitor_1_1BuildCfgMonitor.html" title="Build configuration instance for a monitor." alt="" coords="474,917,589,944"/>
+<area shape="rect" id="node45" href="$classperceiver_1_1progress_1_1BuildCfgProgress.html" title="Build configuration instance for a progress monitor." alt="" coords="469,968,593,995"/>
 </map>

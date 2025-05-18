@@ -72,17 +72,20 @@ $(function() {
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1Detectors-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Detectors Class Reference</div>  </div>
+<div class="title">Detectors Class Reference<div class="ingroups"><a class="el" href="group__Surveillance.html">Surveillance and Monitoring</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Layered detector part of puzzle scene perceiver grouping.  
+ <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1Detectors.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Detectors:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSurveillance_1_1layers_1_1PuzzleScene_1_1Detectors__inherit__graph.png" border="0" usemap="#Detectors_inherit__map" alt="Inheritance graph"/></div>
 <map name="Detectors_inherit__map" id="Detectors_inherit__map">
-<area shape="rect" title=" " alt="" coords="19,80,105,107"/>
-<area shape="rect" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1Calibrator.html" title=" " alt="" coords="19,155,105,181"/>
-<area shape="rect" title=" " alt="" coords="5,5,119,32"/>
+<area shape="rect" title="Layered detector part of puzzle scene perceiver grouping." alt="" coords="19,80,98,107"/>
+<area shape="rect" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1Calibrator.html" title="Layered calibration class for puzzle surveillance system." alt="" coords="19,155,98,181"/>
+<area shape="rect" title=" " alt="" coords="5,5,112,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -90,8 +93,8 @@ Collaboration diagram for Detectors:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSurveillance_1_1layers_1_1PuzzleScene_1_1Detectors__coll__graph.png" border="0" usemap="#Detectors_coll__map" alt="Collaboration graph"/></div>
 <map name="Detectors_coll__map" id="Detectors_coll__map">
-<area shape="rect" title=" " alt="" coords="19,80,105,107"/>
-<area shape="rect" title=" " alt="" coords="5,5,119,32"/>
+<area shape="rect" title="Layered detector part of puzzle scene perceiver grouping." alt="" coords="19,80,98,107"/>
+<area shape="rect" title=" " alt="" coords="5,5,112,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -162,7 +165,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9c23786b0c27aa484eabaa2977a62abb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1Detectors.html#a9c23786b0c27aa484eabaa2977a62abb">workspace</a></td></tr>
 <tr class="separator:a9c23786b0c27aa484eabaa2977a62abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Layered detector part of puzzle scene perceiver grouping. </p>
+<p>Requires RGBD input stream. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acd24f3a10491396e0947eb17e4ccd5fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acd24f3a10491396e0947eb17e4ccd5fe">&#9670;&nbsp;</a></span>__init__()</h2>
 
@@ -652,7 +658,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Save the instantiated Detector to given HDF5 file. </p>
-<p>The save process saves the necessary information to re-instantiate a <a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1Detectors.html">Detectors</a> class object.</p>
+<p>The save process saves the necessary information to re-instantiate a <a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1Detectors.html" title="Layered detector part of puzzle scene perceiver grouping.">Detectors</a> class object.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">fPtr</td><td>An HDF5 file point. </td></tr>
@@ -707,7 +713,7 @@ Public Attributes</h2></td></tr>
 
 <p>First, perform any specified pre-processing. </p>
 <dl class="section note"><dt>Note</dt><dd>Not dealing with pre-processor, but it might be important. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Figure out how to use the improcessor. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000037">Todo:</a></b></dt><dd>Figure out how to use the improcessor. </dd></dl>
 <p>Second, invoke the layer detectors and post-processor to differentiate the actual semantic layers of the scene. The layer detectors should be considered as raw detectors that need further polishing to extract the desired semantic layer information. These layers are further processed by customized track pointers and filters. The post processing here is hard-coded rather than a private member function invocation. <br  />
 </p>
 <p>Shrink region associated to the surface just to clean up potential sources of confusion and promote recovery of puzzle pieces that are fully captured. Package the processed layers started with the glove. Next, remove any parts of the not surface layer that intersect with the expanded glove region. May remove adjacent puzzle piece area; that's OK since we can't rely on those pieces having been fully measured/captured. After that </p>
@@ -757,7 +763,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/mary/python/Surveillance/Surveillance/layers/<a class="el" href="PuzzleScene_8py.html">PuzzleScene.py</a></li>
+<li>/home/pvela/python/surveillance/Surveillance/layers/<a class="el" href="PuzzleScene_8py.html">PuzzleScene.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

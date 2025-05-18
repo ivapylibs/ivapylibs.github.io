@@ -1,12 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classpuzzle_1_1pieces_1_1matcher_1_1Matcher.html" title="Generic puzzle piece matching class. Actual instances should use similarity of difference matching su..." alt="" coords="5,208,75,235"/>
-<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchDifferent.html" title="The puzzle piece matching scores are based on differences. Lower is better." alt="" coords="123,132,231,159"/>
-<area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchSimilar.html" title="Similarity matching." alt="" coords="127,259,226,285"/>
-<area shape="rect" id="node3" href="$classpuzzle_1_1pieces_1_1edge_1_1Edge.html" title="Puzzle piece edge based comparison." alt="" coords="303,5,355,32"/>
-<area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Distance.html" title="Distance&#45;based puzzle piece matching." alt="" coords="292,56,367,83"/>
-<area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1HistogramCV.html" title="OpenCV Histogram puzzle comparator class." alt="" coords="279,107,380,133"/>
-<area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html" title="Uses shape moments to establish similarity." alt="" coords="291,157,367,184"/>
-<area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1PCA.html" title="Uses pca to calculate rotation." alt="" coords="304,208,355,235"/>
-<area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html" title="Uses sift features to establish similarity." alt="" coords="294,259,365,285"/>
-<area shape="rect" id="node10" href="$classpuzzle_1_1pieces_1_1sift_1_1Sift.html" title=" " alt="" coords="308,309,351,336"/>
+<area shape="rect" id="node1" href="$classSurveillance_1_1utils_1_1specifications_1_1dict2struct.html" title=" " alt="" coords="5,5,88,32"/>
 </map>

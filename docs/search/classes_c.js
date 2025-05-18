@@ -1,15 +1,20 @@
 var searchData=
 [
-  ['realsolver_1415',['RealSolver',['../classpuzzle_1_1runner_1_1RealSolver.html',1,'puzzle::runner']]],
-  ['realsolverros_1416',['RealSolverROS',['../classpuzzle_1_1runnerROS_1_1RealSolverROS.html',1,'puzzle::runnerROS']]],
-  ['regular_1417',['Regular',['../classpuzzle_1_1piece_1_1Regular.html',1,'puzzle::piece']]],
-  ['replay_1418',['Replay',['../classcamera_1_1d435_1_1runner2_1_1Replay.html',1,'camera::d435::runner2']]],
-  ['replaycolor_1419',['ReplayColor',['../classcamera_1_1base_1_1ReplayColor.html',1,'camera::base']]],
-  ['reporter_1420',['Reporter',['../classperceiver_1_1reporting_1_1Reporter.html',1,'perceiver::reporting']]],
-  ['rgbd_1421',['RGBD',['../classcamera_1_1d435new_1_1RGBD.html',1,'RGBD'],['../classcamera_1_1rostopic_1_1RGBD.html',1,'RGBD']]],
-  ['rgbd_5faligned_1422',['RGBD_Aligned',['../classcamera_1_1d435new_1_1RGBD__Aligned.html',1,'camera::d435new']]],
-  ['rising_1423',['Rising',['../classtriggers_1_1Rising.html',1,'triggers']]],
-  ['rosconfig_1424',['ROSConfig',['../classivapy_1_1Configuration_1_1ROSConfig.html',1,'ivapy::Configuration']]],
-  ['runningcommentary_1425',['RunningCommentary',['../classdrafts_1_1RunningCommentary.html',1,'drafts']]],
-  ['runstate_1426',['RunState',['../classdetector_1_1bgmodel_1_1onWorkspace_1_1RunState.html',1,'detector::bgmodel::onWorkspace']]]
+  ['realsolver_1796',['RealSolver',['../classpuzzle_1_1runner_1_1RealSolver.html',1,'puzzle::runner']]],
+  ['realsolverros_1797',['RealSolverROS',['../classpuzzle_1_1runnerROS_1_1RealSolverROS.html',1,'puzzle::runnerROS']]],
+  ['regiongrower_5fbase_1798',['RegionGrower_base',['../classSurveillance_1_1utils_1_1region__grow_1_1RegionGrower__base.html',1,'Surveillance::utils::region_grow']]],
+  ['regiongrower_5fvaldiff_1799',['RegionGrower_ValDiff',['../classSurveillance_1_1utils_1_1region__grow_1_1RegionGrower__ValDiff.html',1,'Surveillance::utils::region_grow']]],
+  ['regular_1800',['Regular',['../classpuzzle_1_1piece_1_1Regular.html',1,'puzzle::piece']]],
+  ['replay_1801',['Replay',['../classcamera_1_1d435_1_1runner2_1_1Replay.html',1,'camera::d435::runner2']]],
+  ['replaycolor_1802',['ReplayColor',['../classcamera_1_1base_1_1ReplayColor.html',1,'camera::base']]],
+  ['reporter_1803',['Reporter',['../classperceiver_1_1reporting_1_1Reporter.html',1,'perceiver::reporting']]],
+  ['rg_5fparams_1804',['RG_Params',['../classSurveillance_1_1utils_1_1region__grow_1_1RG__Params.html',1,'Surveillance::utils::region_grow']]],
+  ['rgbd_1805',['RGBD',['../classcamera_1_1rostopic_1_1RGBD.html',1,'RGBD'],['../classcamera_1_1d435new_1_1RGBD.html',1,'RGBD']]],
+  ['rgbd_5faligned_1806',['RGBD_Aligned',['../classcamera_1_1d435new_1_1RGBD__Aligned.html',1,'camera::d435new']]],
+  ['rising_1807',['Rising',['../classtriggers_1_1Rising.html',1,'triggers']]],
+  ['robot_5finrange_1808',['robot_inRange',['../classSurveillance_1_1layers_1_1robot__seg_1_1robot__inRange.html',1,'Surveillance::layers::robot_seg']]],
+  ['robot_5finrange_5fheight_1809',['robot_inRange_Height',['../classSurveillance_1_1layers_1_1robot__seg_1_1robot__inRange__Height.html',1,'Surveillance::layers::robot_seg']]],
+  ['rosconfig_1810',['ROSConfig',['../classivapy_1_1Configuration_1_1ROSConfig.html',1,'ivapy::Configuration']]],
+  ['runningcommentary_1811',['RunningCommentary',['../classdrafts_1_1RunningCommentary.html',1,'drafts']]],
+  ['runstate_1812',['RunState',['../classdetector_1_1bgmodel_1_1onWorkspace_1_1RunState.html',1,'detector::bgmodel::onWorkspace']]]
 ];
