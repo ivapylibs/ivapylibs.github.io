@@ -1,12 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,65,83"/>
-<area shape="rect" id="node2" href="$classSurveillance_1_1layers_1_1base_1_1Base.html" title=" " alt="" coords="113,56,165,83"/>
-<area shape="rect" id="node3" href="$classSurveillance_1_1layers_1_1base__bg_1_1Base__bg.html" title=" " alt="" coords="213,19,287,45"/>
-<area shape="rect" id="node5" href="$classSurveillance_1_1layers_1_1base__fg_1_1Base__fg.html" title=" " alt="" coords="215,81,285,108"/>
-<area shape="rect" id="node4" href="$classSurveillance_1_1layers_1_1tabletop__seg_1_1tabletop__GMM.html" title=" " alt="" coords="342,5,449,32"/>
-<area shape="rect" id="node6" href="$classSurveillance_1_1layers_1_1human__seg_1_1Human__ColorSG.html" title=" " alt="" coords="335,56,456,83"/>
-<area shape="rect" id="node8" href="$classSurveillance_1_1layers_1_1puzzle__seg_1_1Puzzle__Residual.html" title=" " alt="" coords="335,107,455,133"/>
-<area shape="rect" id="node9" href="$classSurveillance_1_1layers_1_1robot__seg_1_1robot__inRange.html" title=" " alt="" coords="342,157,449,184"/>
-<area shape="rect" id="node7" href="$classSurveillance_1_1layers_1_1human__seg_1_1Human__ColorSG__HeightInRange.html" title=" " alt="" coords="504,56,719,83"/>
-<area shape="rect" id="node10" href="$classSurveillance_1_1layers_1_1robot__seg_1_1robot__inRange__Height.html" title=" " alt="" coords="536,157,687,184"/>
+<area shape="rect" id="node1" href="$classpuzzle_1_1simulator_1_1planner_1_1bcolors.html" title=" " alt="" coords="5,5,75,32"/>
 </map>

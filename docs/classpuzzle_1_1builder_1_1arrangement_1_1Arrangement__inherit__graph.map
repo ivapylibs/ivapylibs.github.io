@@ -1,8 +1,9 @@
 <map id="Arrangement" name="Arrangement">
-<area shape="rect" id="node1" title="A puzzle that simply needs to arrange pieces on a workspace." alt="" coords="51,80,147,107"/>
-<area shape="rect" id="node3" href="$classpuzzle_1_1builder_1_1adjacent_1_1Adjacent.html" title="Puzzle whose pieces will be touching as part of the solution." alt="" coords="63,155,136,181"/>
-<area shape="rect" id="node2" href="$classpuzzle_1_1board_1_1Board.html" title="Class description for a board, which is a locality sensitive bag." alt="" coords="71,5,127,32"/>
-<area shape="rect" id="node4" href="$classpuzzle_1_1builder_1_1interlocking_1_1Interlocking.html" title="Puzzle with interlocking pieces." alt="" coords="5,229,95,256"/>
-<area shape="rect" id="node6" href="$classpuzzle_1_1builder_1_1matrix_1_1Matrix.html" title="Puzzle type that is a set of adjacent, rectangular puzzle pieces that get put together in a matrix/2D..." alt="" coords="119,229,178,256"/>
-<area shape="rect" id="node5" href="$classpuzzle_1_1builder_1_1gridded_1_1Gridded.html" title="Puzzle type that is a set of interlocking puzzle pieces that get put together in a grid structure...." alt="" coords="17,304,83,331"/>
+<area shape="rect" id="node1" title="A puzzle that simply needs to arrange pieces on a workspace." alt="" coords="53,80,160,107"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1builder_1_1adjacent_1_1Adjacent.html" title="Puzzle whose pieces will be touching as part of the solution." alt="" coords="67,155,146,181"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1board_1_1Board.html" title="Class description for a board, which is a locality sensitive bag." alt="" coords="77,5,137,32"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1builder_1_1interlocking_1_1Interlocking.html" title="Puzzle with interlocking pieces." alt="" coords="5,229,104,256"/>
+<area shape="rect" id="node6" href="$classpuzzle_1_1builder_1_1matrix_1_1Matrix.html" title="Puzzle type that is a set of adjacent, rectangular puzzle pieces that get put together in a matrix/2D..." alt="" coords="131,229,195,256"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1builder_1_1gridded_1_1Gridded.html" title="Puzzle type that is a set of interlocking puzzle pieces that get put together in a grid structure...." alt="" coords="14,304,87,331"/>
+<area shape="rect" id="node7" href="$classsuperviseit_1_1defects_1_1MatrixDefect.html" title="Instance of Matrix that can also generate defective puzzles by introducing erroenous puzzle pieces ba..." alt="" coords="112,304,219,331"/>
 </map>

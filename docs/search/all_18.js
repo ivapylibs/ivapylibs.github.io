@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['z_1591',['z',['../classbyRegion_1_1imageRegions.html#a25ed1bcb423b0b7200f485fc5ff71c8e',1,'byRegion.imageRegions.z()'],['../classbyRegion_1_1imageOccupancy.html#a25ed1bcb423b0b7200f485fc5ff71c8e',1,'byRegion.imageOccupancy.z()'],['../classdetector_1_1fromState_1_1fromState.html#a25ed1bcb423b0b7200f485fc5ff71c8e',1,'detector.fromState.fromState.z()'],['../namespacebyMotion.html#a25ed1bcb423b0b7200f485fc5ff71c8e',1,'byMotion.z()']]]
+  ['y_1306',['y',['../classpuzzle_1_1piece_1_1Template.html#a2fb1c5cf58867b5bbc9a1b145a86f3a0',1,'puzzle::piece::Template']]],
+  ['ycoords_1307',['ycoords',['../classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a9b3ca2845bd75fcb9a68a964472bc874',1,'puzzle::builder::matrix::Matrix']]]
 ];

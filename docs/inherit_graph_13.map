@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,95,32"/>
-<area shape="rect" id="node2" href="$classcamera_1_1cv2cam_1_1CfgColor.html" title="Configuration setting specifier for OpenCV2 camera interface." alt="" coords="143,5,217,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,61,32"/>
+<area shape="rect" id="node2" href="$classcamera_1_1cv2cam_1_1Color.html" title="OpenCV based camera interface." alt="" coords="109,5,165,32"/>
 </map>

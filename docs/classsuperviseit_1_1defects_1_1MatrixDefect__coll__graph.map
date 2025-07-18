@@ -1,0 +1,7 @@
+<map id="MatrixDefect" name="MatrixDefect">
+<area shape="rect" id="node1" title="Instance of Matrix that can also generate defective puzzles by introducing erroenous puzzle pieces ba..." alt="" coords="5,304,112,331"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1builder_1_1matrix_1_1Matrix.html" title="Puzzle type that is a set of adjacent, rectangular puzzle pieces that get put together in a matrix/2D..." alt="" coords="27,229,91,256"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1builder_1_1adjacent_1_1Adjacent.html" title="Puzzle whose pieces will be touching as part of the solution." alt="" coords="19,155,98,181"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1builder_1_1arrangement_1_1Arrangement.html" title="A puzzle that simply needs to arrange pieces on a workspace." alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1board_1_1Board.html" title="Class description for a board, which is a locality sensitive bag." alt="" coords="29,5,89,32"/>
+</map>

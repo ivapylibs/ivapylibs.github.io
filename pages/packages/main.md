@@ -10,3 +10,10 @@ oriented as opposed to specifications oriented.
 
 Additional Pages:
   -  [Design](\ref design)
+
+
+Investigations:
+  -  [Supervise It : Placement](\ref superviseit_placement)
+  -  [Supervise It : Sorting](\ref superviseit_sorting)
+  -  [Supervise It : Puzzles](\ref superviseit_puzzles)
+  -  [Supervise It : Quality Control](\ref superviseit_qualitycontrol)

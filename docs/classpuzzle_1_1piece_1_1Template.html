@@ -90,9 +90,9 @@ Inheritance diagram for Template:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1bc9b23bc2c71231546d8d7423c2824a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a1bc9b23bc2c71231546d8d7423c2824a">__init__</a> (self, <a class="el" href="classpuzzle_1_1piece_1_1PuzzleTemplate.html">PuzzleTemplate</a> <a class="el" href="classpuzzle_1_1piece_1_1Template.html#a2fb1c5cf58867b5bbc9a1b145a86f3a0">y</a>=None, r=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#acf2488b95c97e0378c9bf49de3b50f28">id</a>=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#aebf487f5d315cb61f0bd86455edff1fd">theta</a>=0, pieceStatus=<a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a3a3f7f05081d274ef83ed669efc1c328">PieceStatus.UNKNOWN</a>)</td></tr>
-<tr class="memdesc:a1bc9b23bc2c71231546d8d7423c2824a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for template class.  <a href="classpuzzle_1_1piece_1_1Template.html#a1bc9b23bc2c71231546d8d7423c2824a">More...</a><br /></td></tr>
-<tr class="separator:a1bc9b23bc2c71231546d8d7423c2824a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8d0a079c9c098315b926e13c599377"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#adf8d0a079c9c098315b926e13c599377">__init__</a> (self, <a class="el" href="classpuzzle_1_1piece_1_1PuzzleTemplate.html">PuzzleTemplate</a> <a class="el" href="classpuzzle_1_1piece_1_1Template.html#a2fb1c5cf58867b5bbc9a1b145a86f3a0">y</a>=None, r=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#a8fe5a3f9899ff6f8bbbd9a8b53f67d61">centroidLoc</a>=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#acf2488b95c97e0378c9bf49de3b50f28">id</a>=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#aebf487f5d315cb61f0bd86455edff1fd">theta</a>=0, pieceStatus=<a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a3a3f7f05081d274ef83ed669efc1c328">PieceStatus.UNKNOWN</a>)</td></tr>
+<tr class="memdesc:adf8d0a079c9c098315b926e13c599377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for template class.  <a href="classpuzzle_1_1piece_1_1Template.html#adf8d0a079c9c098315b926e13c599377">More...</a><br /></td></tr>
+<tr class="separator:adf8d0a079c9c098315b926e13c599377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac330b1b558ff1f0831a657b3d2680d09"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#ac330b1b558ff1f0831a657b3d2680d09">deepcopy</a> (self)</td></tr>
 <tr class="separator:ac330b1b558ff1f0831a657b3d2680d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dcd9bcafa6f1daa814aae4742e8ddcc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a7dcd9bcafa6f1daa814aae4742e8ddcc">displace</a> (self, dr)</td></tr>
@@ -106,6 +106,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a85d25cc3b54deceae7aa48ca4152ffa4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a85d25cc3b54deceae7aa48ca4152ffa4">getFeature</a> (self, theMatcher=None)</td></tr>
 <tr class="memdesc:a85d25cc3b54deceae7aa48ca4152ffa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the feature vector of the puzzle piece.  <a href="classpuzzle_1_1piece_1_1Template.html#a85d25cc3b54deceae7aa48ca4152ffa4">More...</a><br /></td></tr>
 <tr class="separator:a85d25cc3b54deceae7aa48ca4152ffa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac00728100a748c3f1e363f0c43d162c0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#ac00728100a748c3f1e363f0c43d162c0">getGraspLoc</a> (self, kernel_size=10)</td></tr>
+<tr class="memdesc:ac00728100a748c3f1e363f0c43d162c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the location in pixel coordinates to send the suction cup gripper to grasp the piece.  <a href="classpuzzle_1_1piece_1_1Template.html#ac00728100a748c3f1e363f0c43d162c0">More...</a><br /></td></tr>
+<tr class="separator:ac00728100a748c3f1e363f0c43d162c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1d6f60502cfe53549dc10ce09145b93"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#ac1d6f60502cfe53549dc10ce09145b93">getMask</a> (self, theMask, offset=[0, 0])</td></tr>
 <tr class="memdesc:ac1d6f60502cfe53549dc10ce09145b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an updated mask of the target.  <a href="classpuzzle_1_1piece_1_1Template.html#ac1d6f60502cfe53549dc10ce09145b93">More...</a><br /></td></tr>
 <tr class="separator:ac1d6f60502cfe53549dc10ce09145b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,9 +147,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae7ae93e7ef03b726cb49a0fc16860d2f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#ae7ae93e7ef03b726cb49a0fc16860d2f">buildFromFullMaskAndImage</a> (theMask, theImage, cLoc=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#a9dc2abe0bfe8497046692cdb09143d70">rLoc</a>=None, pieceStatus=<a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a1f3ff7b7c822ee18e3c9018b93766e5a">PieceStatus.MEASURED</a>)</td></tr>
 <tr class="memdesc:ae7ae93e7ef03b726cb49a0fc16860d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a mask and an image of same base dimensions, use to instantiate a puzzle piece template.  <a href="classpuzzle_1_1piece_1_1Template.html#ae7ae93e7ef03b726cb49a0fc16860d2f">More...</a><br /></td></tr>
 <tr class="separator:ae7ae93e7ef03b726cb49a0fc16860d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affd9df85ce55a368225f6562198e6249"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#affd9df85ce55a368225f6562198e6249">buildFromMaskAndImage</a> (theMask, theImage, cLoc=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#a9dc2abe0bfe8497046692cdb09143d70">rLoc</a>=None, pieceStatus=<a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a1f3ff7b7c822ee18e3c9018b93766e5a">PieceStatus.MEASURED</a>)</td></tr>
-<tr class="memdesc:affd9df85ce55a368225f6562198e6249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a mask (individual) and an image of same base dimensions, use to instantiate a puzzle piece template.  <a href="classpuzzle_1_1piece_1_1Template.html#affd9df85ce55a368225f6562198e6249">More...</a><br /></td></tr>
-<tr class="separator:affd9df85ce55a368225f6562198e6249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e16ef078a4c7c7169bbd67c0db7e4ed"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a0e16ef078a4c7c7169bbd67c0db7e4ed">buildFromMaskAndImage</a> (theMask, theImage, cLoc=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#a9dc2abe0bfe8497046692cdb09143d70">rLoc</a>=None, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#a8fe5a3f9899ff6f8bbbd9a8b53f67d61">centroidLoc</a>=None, pieceStatus=<a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a1f3ff7b7c822ee18e3c9018b93766e5a">PieceStatus.MEASURED</a>)</td></tr>
+<tr class="memdesc:a0e16ef078a4c7c7169bbd67c0db7e4ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a mask (individual) and an image of same base dimensions, use to instantiate a puzzle piece template.  <a href="classpuzzle_1_1piece_1_1Template.html#a0e16ef078a4c7c7169bbd67c0db7e4ed">More...</a><br /></td></tr>
+<tr class="separator:a0e16ef078a4c7c7169bbd67c0db7e4ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7add1ee8c9b2504451399792bd931846"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a7add1ee8c9b2504451399792bd931846">buildSphere</a> (radius, color, <a class="el" href="classpuzzle_1_1piece_1_1Template.html#a9dc2abe0bfe8497046692cdb09143d70">rLoc</a>=[0, 0])</td></tr>
 <tr class="memdesc:a7add1ee8c9b2504451399792bd931846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build a sphere piece.  <a href="classpuzzle_1_1piece_1_1Template.html#a7add1ee8c9b2504451399792bd931846">More...</a><br /></td></tr>
 <tr class="separator:a7add1ee8c9b2504451399792bd931846"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,8 +162,12 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a8fe5a3f9899ff6f8bbbd9a8b53f67d61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a8fe5a3f9899ff6f8bbbd9a8b53f67d61">centroidLoc</a></td></tr>
+<tr class="separator:a8fe5a3f9899ff6f8bbbd9a8b53f67d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0913a29cbdcb3f4881c6ccd812b48e5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a0913a29cbdcb3f4881c6ccd812b48e5e">featVec</a></td></tr>
 <tr class="separator:a0913a29cbdcb3f4881c6ccd812b48e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae338e86b540fdbca97163fe258de8d2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#ae338e86b540fdbca97163fe258de8d2c">gLoc</a></td></tr>
+<tr class="separator:ae338e86b540fdbca97163fe258de8d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf2488b95c97e0378c9bf49de3b50f28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#acf2488b95c97e0378c9bf49de3b50f28">id</a></td></tr>
 <tr class="separator:acf2488b95c97e0378c9bf49de3b50f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a784fcaa5842051207864afbc7f3ecb8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1piece_1_1Template.html#a784fcaa5842051207864afbc7f3ecb8d">lifespan</a></td></tr>
@@ -178,8 +185,8 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>Stores and encapsulates a template instance of a visual puzzle piece. </p>
 <p>The language here is general, but the fact that it lives in the <a class="el" href="namespacepuzzle_1_1piece.html" title="Classes for puzzle piece specification or description encapsulation.">puzzle.piece</a> namespace indicates that this class is strictly associated to puzzle pieces. As the base class, it probably implements the simplest, no frills version of a template puzzle piece. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a1bc9b23bc2c71231546d8d7423c2824a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bc9b23bc2c71231546d8d7423c2824a">&#9670;&nbsp;</a></span>__init__()</h2>
+<a id="adf8d0a079c9c098315b926e13c599377"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf8d0a079c9c098315b926e13c599377">&#9670;&nbsp;</a></span>__init__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,6 +208,12 @@ Public Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>r</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>centroidLoc</em> = <code>None</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -230,8 +243,6 @@ Public Attributes</h2></td></tr>
 
 <p>Constructor for template class. </p>
 <p>Args: y: The puzzle piece template source data, if given. It is a class instance, see puzzleTemplate. r: The puzzle piece location in the whole image. id: The puzzle piece id in the measured board. Be set up by the board. theta: The puzzle piece aligned angle. pieceStatus: The status of the puzzle pieces, including UNKNOWN, MEASURED, TRACKED, and INHAND. </p>
-
-<p>Reimplemented in <a class="el" href="classpuzzle_1_1piece_1_1Regular.html#ae9247c1ed56e1db05ca3b0e01966fac2">Regular</a>.</p>
 
 </div>
 </div>
@@ -307,8 +318,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="affd9df85ce55a368225f6562198e6249"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affd9df85ce55a368225f6562198e6249">&#9670;&nbsp;</a></span>buildFromMaskAndImage()</h2>
+<a id="a0e16ef078a4c7c7169bbd67c0db7e4ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e16ef078a4c7c7169bbd67c0db7e4ed">&#9670;&nbsp;</a></span>buildFromMaskAndImage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,6 +355,12 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>centroidLoc</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
           <td class="paramname"><em>pieceStatus</em> = <code><a class="el" href="classpuzzle_1_1piece_1_1PieceStatus.html#a1f3ff7b7c822ee18e3c9018b93766e5a">PieceStatus.MEASURED</a></code>&#160;</td>
         </tr>
         <tr>
@@ -368,14 +385,13 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">theImage</td><td>Source image with puzzle piece. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">cLoc</td><td>Corner location of puzzle piece [optional: None]. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">rLoc</td><td>Alternative puzzle piece location [optional: None]. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">centroidLoc</td><td>Centroid location of piece </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">pieceStatus</td><td>Status of the puzzle piece [optional, def:MEASURED]</td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">thePiece</td><td>Puzzle piece instance.</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Include option to have cropped mask but full image and use cLoc. </dd></dl>
-
-<p>Reimplemented in <a class="el" href="classpuzzle_1_1piece_1_1Regular.html#a093d817147278d440b80cf331713b75e">Regular</a>.</p>
 
 </div>
 </div>
@@ -658,6 +674,43 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ac00728100a748c3f1e363f0c43d162c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac00728100a748c3f1e363f0c43d162c0">&#9670;&nbsp;</a></span>getGraspLoc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def getGraspLoc </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>kernel_size</em> = <code>10</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the location in pixel coordinates to send the suction cup gripper to grasp the piece. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">kernel_size</td><td>Size of square kernel used in convolution.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Returns: loc: [x, y] coordinates in image to send suction cup </p>
 
 </div>
 </div>
@@ -1087,6 +1140,20 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8fe5a3f9899ff6f8bbbd9a8b53f67d61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fe5a3f9899ff6f8bbbd9a8b53f67d61">&#9670;&nbsp;</a></span>centroidLoc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">centroidLoc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0913a29cbdcb3f4881c6ccd812b48e5e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0913a29cbdcb3f4881c6ccd812b48e5e">&#9670;&nbsp;</a></span>featVec</h2>
 
@@ -1095,6 +1162,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">featVec</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae338e86b540fdbca97163fe258de8d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae338e86b540fdbca97163fe258de8d2c">&#9670;&nbsp;</a></span>gLoc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gLoc</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1186,7 +1267,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/pvela/python/puzzle_solver/puzzle/<a class="el" href="piece_8py.html">piece.py</a></li>
+<li>/home/mary/python/puzzle_solver/puzzle/<a class="el" href="piece_8py.html">piece.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
