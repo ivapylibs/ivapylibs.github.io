@@ -1,12 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node1" title=" " alt="" coords="5,107,119,133"/>
-<area shape="rect" id="node2" href="$classSurveillance_1_1layers_1_1Glove_1_1Detector.html" title=" " alt="" coords="185,5,264,32"/>
-<area shape="rect" id="node4" href="$classSurveillance_1_1layers_1_1HoveringGlove_1_1Detector.html" title=" " alt="" coords="185,56,264,83"/>
-<area shape="rect" id="node6" href="$classSurveillance_1_1layers_1_1HoveringHand_1_1Detector.html" title=" " alt="" coords="185,107,264,133"/>
-<area shape="rect" id="node8" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1Detectors.html" title="Detector for layered puzzle scene: glove and puzzle pieces." alt="" coords="182,157,267,184"/>
-<area shape="rect" id="node10" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1GloveByDepth.html" title="Detector based on depth only, no glove appearance model." alt="" coords="167,208,283,235"/>
-<area shape="rect" id="node3" href="$classSurveillance_1_1layers_1_1Glove_1_1Calibrator.html" title=" " alt="" coords="331,5,417,32"/>
-<area shape="rect" id="node5" href="$classSurveillance_1_1layers_1_1HoveringGlove_1_1Calibrator.html" title=" " alt="" coords="331,56,417,83"/>
-<area shape="rect" id="node7" href="$classSurveillance_1_1layers_1_1HoveringHand_1_1Calibrator.html" title=" " alt="" coords="331,107,417,133"/>
-<area shape="rect" id="node9" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1Calibrator.html" title="Detection calibrator: Possible that not used due to static calibration methods in the Detector classe..." alt="" coords="331,157,417,184"/>
+<area shape="rect" id="node2" href="$classSurveillance_1_1layers_1_1Glove_1_1Detector.html" title=" " alt="" coords="183,5,262,32"/>
+<area shape="rect" id="node4" href="$classSurveillance_1_1layers_1_1HoveringGlove_1_1Detector.html" title=" " alt="" coords="183,56,262,83"/>
+<area shape="rect" id="node6" href="$classSurveillance_1_1layers_1_1HoveringHand_1_1Detector.html" title=" " alt="" coords="183,107,262,133"/>
+<area shape="rect" id="node8" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1Detectors.html" title="Detector for layered puzzle scene: glove and puzzle pieces." alt="" coords="180,157,265,184"/>
+<area shape="rect" id="node10" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html" title="Detector based on depth only, no glove appearance model." alt="" coords="167,208,279,235"/>
+<area shape="rect" id="node3" href="$classSurveillance_1_1layers_1_1Glove_1_1Calibrator.html" title=" " alt="" coords="327,5,413,32"/>
+<area shape="rect" id="node5" href="$classSurveillance_1_1layers_1_1HoveringGlove_1_1Calibrator.html" title=" " alt="" coords="327,56,413,83"/>
+<area shape="rect" id="node7" href="$classSurveillance_1_1layers_1_1HoveringHand_1_1Calibrator.html" title=" " alt="" coords="327,107,413,133"/>
+<area shape="rect" id="node9" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1Calibrator.html" title="Detection calibrator: Possible that not used due to static calibration methods in the Detector classe..." alt="" coords="327,157,413,184"/>
 </map>
