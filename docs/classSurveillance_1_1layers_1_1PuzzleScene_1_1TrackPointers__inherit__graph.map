@@ -1,4 +1,4 @@
 <map id="TrackPointers" name="TrackPointers">
-<area shape="rect" id="node1" title="Layered track pointer part of puzzle scene perceiver grouping." alt="" coords="5,80,108,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="28,5,85,32"/>
+<area shape="rect" id="node1" title="Track pointers for the glove/hand and the puzzle pieces." alt="" coords="5,80,116,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="29,5,92,32"/>
 </map>

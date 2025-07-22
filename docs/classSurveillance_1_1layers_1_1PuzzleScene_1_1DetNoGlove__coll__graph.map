@@ -1,0 +1,4 @@
+<map id="DetNoGlove" name="DetNoGlove">
+<area shape="rect" id="node1" title="Detector based on depth only, no glove appearance model." alt="" coords="11,80,113,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,119,32"/>
+</map>

@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['gmmdebug_1419',['GMMdebug',['../classdetector_1_1bgmodel_1_1GMM_1_1GMMdebug.html',1,'detector::bgmodel::GMM']]],
-  ['gmmstate_1420',['GMMstate',['../classdetector_1_1bgmodel_1_1GMM_1_1GMMstate.html',1,'detector::bgmodel::GMM']]],
-  ['grayscale_1421',['Grayscale',['../classcamera_1_1base_1_1Grayscale.html',1,'camera::base']]],
-  ['gridded_1422',['Gridded',['../classpuzzle_1_1builder_1_1gridded_1_1Gridded.html',1,'puzzle::builder::gridded']]]
+  ['glovebycolor_1782',['GloveByColor',['../classSurveillance_1_1layers_1_1GloveByColor_1_1GloveByColor.html',1,'Surveillance::layers::GloveByColor']]],
+  ['glovebydepth_1783',['GloveByDepth',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1GloveByDepth.html',1,'Surveillance::layers::PuzzleScene']]],
+  ['glovebydepthstate_1784',['GloveByDepthState',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1GloveByDepthState.html',1,'Surveillance::layers::PuzzleScene']]],
+  ['glovepointer_1785',['GlovePointer',['../classSurveillance_1_1layers_1_1GloveByColor_1_1GlovePointer.html',1,'Surveillance::layers::GloveByColor']]],
+  ['gmmdebug_1786',['GMMdebug',['../classdetector_1_1bgmodel_1_1GMM_1_1GMMdebug.html',1,'detector::bgmodel::GMM']]],
+  ['gmmstate_1787',['GMMstate',['../classdetector_1_1bgmodel_1_1GMM_1_1GMMstate.html',1,'detector::bgmodel::GMM']]],
+  ['grayscale_1788',['Grayscale',['../classcamera_1_1base_1_1Grayscale.html',1,'camera::base']]],
+  ['gridded_1789',['Gridded',['../classpuzzle_1_1builder_1_1gridded_1_1Gridded.html',1,'puzzle::builder::gridded']]]
 ];

@@ -1,3 +1,3 @@
 <map id="Perceiver" name="Perceiver">
-<area shape="rect" id="node1" title="Layered perceiver part of puzzle scene perceiver grouping. for puzzle surveillance system." alt="" coords="5,5,83,32"/>
+<area shape="rect" id="node1" title="Perceiver based on glove and work scene/mat detection models." alt="" coords="5,5,88,32"/>
 </map>

@@ -75,15 +75,15 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Layered track pointer part of puzzle scene perceiver grouping.  
+<p>Track pointers for the glove/hand and the puzzle pieces.  
  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for TrackPointers:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers__inherit__graph.png" border="0" usemap="#TrackPointers_inherit__map" alt="Inheritance graph"/></div>
 <map name="TrackPointers_inherit__map" id="TrackPointers_inherit__map">
-<area shape="rect" title="Layered track pointer part of puzzle scene perceiver grouping." alt="" coords="5,80,108,107"/>
-<area shape="rect" title=" " alt="" coords="28,5,85,32"/>
+<area shape="rect" title="Track pointers for the glove/hand and the puzzle pieces." alt="" coords="5,80,116,107"/>
+<area shape="rect" title=" " alt="" coords="29,5,92,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -91,8 +91,8 @@ Collaboration diagram for TrackPointers:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers__coll__graph.png" border="0" usemap="#TrackPointers_coll__map" alt="Collaboration graph"/></div>
 <map name="TrackPointers_coll__map" id="TrackPointers_coll__map">
-<area shape="rect" title="Layered track pointer part of puzzle scene perceiver grouping." alt="" coords="5,80,108,107"/>
-<area shape="rect" title=" " alt="" coords="28,5,85,32"/>
+<area shape="rect" title="Track pointers for the glove/hand and the puzzle pieces." alt="" coords="5,80,116,107"/>
+<area shape="rect" title=" " alt="" coords="29,5,92,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -107,8 +107,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1017975e2cf3f6aad2eb699e576acfb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html#ad1017975e2cf3f6aad2eb699e576acfb">correct</a> (self)</td></tr>
 <tr class="memdesc:ad1017975e2cf3f6aad2eb699e576acfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply correction process to the individual detectors.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html#ad1017975e2cf3f6aad2eb699e576acfb">More...</a><br /></td></tr>
 <tr class="separator:ad1017975e2cf3f6aad2eb699e576acfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75845c24a43617eadc8749a68100a0b4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html#a75845c24a43617eadc8749a68100a0b4">display_cv</a> (self, I, ratio=None, window_name=&quot;trackpoints&quot;)</td></tr>
-<tr class="separator:a75845c24a43617eadc8749a68100a0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d1ea9753ec31f8ed2f0f7e6786a3b9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html#a94d1ea9753ec31f8ed2f0f7e6786a3b9">display_cv</a> (self, I, ratio=None, window_name=&quot;trackpoints&quot;, doRotate=False)</td></tr>
+<tr class="separator:a94d1ea9753ec31f8ed2f0f7e6786a3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae41cd8a9eb2f382e6706d5418bee3c83"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html#ae41cd8a9eb2f382e6706d5418bee3c83">emptyDebug</a> (self)</td></tr>
 <tr class="separator:ae41cd8a9eb2f382e6706d5418bee3c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee90969e62195d66d515fcdaf56bf6a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html#a9ee90969e62195d66d515fcdaf56bf6a">emptyState</a> (self)</td></tr>
@@ -139,8 +139,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a21ddfcf7ee9df16a820d99deb4fda263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Layered track pointer part of puzzle scene perceiver grouping. </p>
-<p>Layered trackpointers based on layered detector output. One for glove and one for pieces. The arm is not tracked since there should be no need to do so as its status is known from forward kinematics on joint measurements. </p>
+<div class="textblock"><p>Track pointers for the glove/hand and the puzzle pieces. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae91dc874e20b1447436644d006da91e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae91dc874e20b1447436644d006da91e9">&#9670;&nbsp;</a></span>__init__()</h2>
@@ -229,8 +228,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a75845c24a43617eadc8749a68100a0b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75845c24a43617eadc8749a68100a0b4">&#9670;&nbsp;</a></span>display_cv()</h2>
+<a id="a94d1ea9753ec31f8ed2f0f7e6786a3b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94d1ea9753ec31f8ed2f0f7e6786a3b9">&#9670;&nbsp;</a></span>display_cv()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -257,7 +256,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>window_name</em> = <code>&quot;trackpoints&quot;</code>&#160;</td>
+          <td class="paramname"><em>window_name</em> = <code>&quot;trackpoints&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>doRotate</em> = <code>False</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -498,7 +503,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/pvela/python/surveillance/Surveillance/layers/<a class="el" href="PuzzleScene_8py.html">PuzzleScene.py</a></li>
+<li>/home/mary/python/Surveillance/Surveillance/layers/<a class="el" href="PuzzleScene_8py.html">PuzzleScene.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
