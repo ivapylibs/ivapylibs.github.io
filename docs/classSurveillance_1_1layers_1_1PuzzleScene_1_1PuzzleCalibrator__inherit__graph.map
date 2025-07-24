@@ -1,0 +1,5 @@
+<map id="PuzzleCalibrator" name="PuzzleCalibrator">
+<area shape="rect" id="node1" title="Detection calibrator: Possible that not used due to static calibration methods in the Detector classe..." alt="" coords="5,155,133,181"/>
+<area shape="rect" id="node2" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1PuzzleDetectors.html" title="Detector for layered puzzle scene: glove and puzzle pieces." alt="" coords="6,80,133,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="13,5,126,32"/>
+</map>

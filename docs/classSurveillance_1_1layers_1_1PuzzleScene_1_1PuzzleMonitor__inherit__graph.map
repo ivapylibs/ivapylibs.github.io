@@ -1,0 +1,5 @@
+<map id="PuzzleMonitor" name="PuzzleMonitor">
+<area shape="rect" id="node1" title="Puzzle monitor that examines hand/glove state and puzzle state, or equivalent information as measured..." alt="" coords="5,155,120,181"/>
+<area shape="rect" id="node2" href="$classperceiver_1_1monitor_1_1Monitor.html" title="A simple interface class for monitoring the outcomes of a perceived scene." alt="" coords="27,80,99,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="31,5,94,32"/>
+</map>

@@ -112,11 +112,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4b9eb4438bf990362c9afce4a00562e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply predict, measure, correct process to source image.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a4b9eb4438bf990362c9afce4a00562e3">More...</a><br /></td></tr>
 <tr class="separator:a4b9eb4438bf990362c9afce4a00562e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae41cd8a9eb2f382e6706d5418bee3c83"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#ae41cd8a9eb2f382e6706d5418bee3c83">emptyDebug</a> (self)</td></tr>
+<tr class="memdesc:ae41cd8a9eb2f382e6706d5418bee3c83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get empty puzzle scene detector debug state.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#ae41cd8a9eb2f382e6706d5418bee3c83">More...</a><br /></td></tr>
 <tr class="separator:ae41cd8a9eb2f382e6706d5418bee3c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee90969e62195d66d515fcdaf56bf6a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a9ee90969e62195d66d515fcdaf56bf6a">emptyState</a> (self)</td></tr>
-<tr class="memdesc:a9ee90969e62195d66d515fcdaf56bf6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get and empty state to recover its basic structure.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a9ee90969e62195d66d515fcdaf56bf6a">More...</a><br /></td></tr>
+<tr class="memdesc:a9ee90969e62195d66d515fcdaf56bf6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get empty puzzle scene detector state to recover its basic structure.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a9ee90969e62195d66d515fcdaf56bf6a">More...</a><br /></td></tr>
 <tr class="separator:a9ee90969e62195d66d515fcdaf56bf6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86e33c39d3c54a6ebba54b5a0ebf9787"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a86e33c39d3c54a6ebba54b5a0ebf9787">getDebug</a> (self)</td></tr>
+<tr class="memdesc:a86e33c39d3c54a6ebba54b5a0ebf9787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get debug information if available.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a86e33c39d3c54a6ebba54b5a0ebf9787">More...</a><br /></td></tr>
 <tr class="separator:a86e33c39d3c54a6ebba54b5a0ebf9787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18bb39f68bce281f0f163fd96bb09a8c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a18bb39f68bce281f0f163fd96bb09a8c">getState</a> (self)</td></tr>
 <tr class="memdesc:a18bb39f68bce281f0f163fd96bb09a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the complete detector state, which involves the states of the individual layer detectors.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a18bb39f68bce281f0f163fd96bb09a8c">More...</a><br /></td></tr>
@@ -384,6 +386,8 @@ How can we generalize this so that a general robot can use it and even employ tr
       </table>
 </div><div class="memdoc">
 
+<p>Get empty puzzle scene detector debug state. </p>
+
 </div>
 </div>
 <a id="a9ee90969e62195d66d515fcdaf56bf6a"></a>
@@ -402,7 +406,8 @@ How can we generalize this so that a general robot can use it and even employ tr
       </table>
 </div><div class="memdoc">
 
-<p>Get and empty state to recover its basic structure. </p>
+<p>Get empty puzzle scene detector state to recover its basic structure. </p>
+<p>Translated from Matlab, which required access to this in advance to manage streaming data storage. Python isn't as strongly typed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">estate</td><td>The empty state. </td></tr>
@@ -427,6 +432,9 @@ How can we generalize this so that a general robot can use it and even employ tr
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get debug information if available. </p>
+<p>Status: Not available. </p>
 
 </div>
 </div>

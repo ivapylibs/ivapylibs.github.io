@@ -1,0 +1,5 @@
+<map id="PuzzlePerceiver" name="PuzzlePerceiver">
+<area shape="rect" id="node1" title="Perceiver based on glove and work scene/mat detection models." alt="" coords="5,155,131,181"/>
+<area shape="rect" id="node2" href="$classperceiver_1_1perceiver_1_1Perceiver.html" title="Basic implementation of a perceiver class." alt="" coords="27,80,109,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="37,5,99,32"/>
+</map>

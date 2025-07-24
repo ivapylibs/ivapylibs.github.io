@@ -10,7 +10,7 @@ var searchData=
   ['info_1803',['Info',['../classperceiver_1_1perceiver_1_1Info.html',1,'perceiver::perceiver']]],
   ['inimage_1804',['inImage',['../classdetector_1_1inImage_1_1inImage.html',1,'detector::inImage']]],
   ['inimagergbd_1805',['inImageRGBD',['../classdetector_1_1inImageRGBD_1_1inImageRGBD.html',1,'detector::inImageRGBD']]],
-  ['instdetector_1806',['InstDetector',['../classSurveillance_1_1layers_1_1HoveringGlove_1_1InstDetector.html',1,'InstDetector'],['../classSurveillance_1_1layers_1_1HoveringHand_1_1InstDetector.html',1,'InstDetector']]],
+  ['instdetector_1806',['InstDetector',['../classSurveillance_1_1layers_1_1HoveringHand_1_1InstDetector.html',1,'InstDetector'],['../classSurveillance_1_1layers_1_1HoveringGlove_1_1InstDetector.html',1,'InstDetector']]],
   ['instglovedetector_1807',['InstGloveDetector',['../classSurveillance_1_1layers_1_1GloveByColor_1_1InstGloveDetector.html',1,'InstGloveDetector'],['../classSurveillance_1_1layers_1_1Glove_1_1InstGloveDetector.html',1,'InstGloveDetector']]],
   ['instgloveperceiver_1808',['InstGlovePerceiver',['../classSurveillance_1_1layers_1_1GloveByColor_1_1InstGlovePerceiver.html',1,'InstGlovePerceiver'],['../classSurveillance_1_1layers_1_1Glove_1_1InstGlovePerceiver.html',1,'InstGlovePerceiver']]],
   ['instperceiver_1809',['InstPerceiver',['../classSurveillance_1_1layers_1_1HoveringGlove_1_1InstPerceiver.html',1,'InstPerceiver'],['../classSurveillance_1_1layers_1_1HoveringHand_1_1InstPerceiver.html',1,'InstPerceiver']]],
