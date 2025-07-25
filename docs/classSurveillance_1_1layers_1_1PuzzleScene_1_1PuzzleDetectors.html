@@ -165,6 +165,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aaaa7b7bb05fd17f2488dbaa7663ecb11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d76cc2129e79ba1941d2cc2f53b9e8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1PuzzleDetectors.html#a5d76cc2129e79ba1941d2cc2f53b9e8e">mask</a></td></tr>
 <tr class="separator:a5d76cc2129e79ba1941d2cc2f53b9e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41000f175dc0115080e2a682cc06dbe9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1PuzzleDetectors.html#a41000f175dc0115080e2a682cc06dbe9">params</a></td></tr>
+<tr class="separator:a41000f175dc0115080e2a682cc06dbe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c23786b0c27aa484eabaa2977a62abb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1PuzzleDetectors.html#a9c23786b0c27aa484eabaa2977a62abb">workspace</a></td></tr>
 <tr class="separator:a9c23786b0c27aa484eabaa2977a62abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -213,7 +215,7 @@ Public Attributes</h2></td></tr>
 <p>Constructor for layered puzzle scene detector. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">detCfg</td><td>Detector configuration. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">detCfg</td><td>Detector configuration (from <a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1CfgPuzzleScene.html" title="Configuration instance for Puzzle Scene perceiver. Designed to work for processing subsets (detect,...">CfgPuzzleScene</a>). </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">processors</td><td>Image processors for the different layers. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">detInst</td><td>Detection instances for the different layers. </td></tr>
   </table>
@@ -716,7 +718,7 @@ Public Attributes</h2></td></tr>
 
 <p>First, perform any specified pre-processing. </p>
 <dl class="section note"><dt>Note</dt><dd>Not dealing with pre-processor, but it might be important. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000038">Todo:</a></b></dt><dd>Figure out how to use the improcessor. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000041">Todo:</a></b></dt><dd>Figure out how to use the improcessor. </dd></dl>
 <p>Second, invoke the layer detectors and post-processor to differentiate the actual semantic layers of the scene. The layer detectors should be considered as raw detectors that need further polishing to extract the desired semantic layer information. These layers are further processed by customized track pointers and filters. The post processing here is hard-coded rather than a private member function invocation. <br  />
 </p>
 <p>Shrink region associated to the surface just to clean up potential sources of confusion and promote recovery of puzzle pieces that are fully captured. </p>
@@ -762,6 +764,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">mask</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41000f175dc0115080e2a682cc06dbe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41000f175dc0115080e2a682cc06dbe9">&#9670;&nbsp;</a></span>params</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">params</td>
         </tr>
       </table>
 </div><div class="memdoc">

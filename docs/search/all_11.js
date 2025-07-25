@@ -64,7 +64,7 @@ var searchData=
   ['rgb_5fnp_1225',['RGB_np',['../classSurveillance_1_1deployment_1_1ROS_1_1rosbag__runner_1_1ImageListener.html#abda7fd1b45d2e657c53d5a7dc5245f95',1,'Surveillance::deployment::ROS::rosbag_runner::ImageListener']]],
   ['rgb_5fpath_1226',['rgb_path',['../classcamera_1_1utils_1_1writer_1_1frameWriter.html#aebdbed1dbba8fa2294c059f621fcc39b',1,'camera::utils::writer::frameWriter']]],
   ['rgb_5ftopic_1227',['rgb_topic',['../classcamera_1_1utils_1_1writer__ros_1_1vidWriter__ROS.html#a4816551e28e566c3e55bbab1ed9eb3df',1,'camera::utils::writer_ros::vidWriter_ROS']]],
-  ['rgbd_1228',['RGBD',['../classcamera_1_1d435new_1_1RGBD.html',1,'RGBD'],['../classcamera_1_1rostopic_1_1RGBD.html',1,'RGBD']]],
+  ['rgbd_1228',['RGBD',['../classcamera_1_1rostopic_1_1RGBD.html',1,'RGBD'],['../classcamera_1_1d435new_1_1RGBD.html',1,'RGBD']]],
   ['rgbd_5faligned_1229',['RGBD_Aligned',['../classcamera_1_1d435new_1_1RGBD__Aligned.html',1,'camera::d435new']]],
   ['rgbd_5fwait_5ffor_5fconfirm_1230',['rgbd_wait_for_confirm',['../group__Display__CV.html#ga02e26b2fc7e1a849c698aa97f1ba33cd',1,'ivapy::display_cv']]],
   ['rho_1231',['rho',['../classsuperviseit_1_1defects_1_1CfgMatrixDefect.html#ab8ec92cc3ea8422c9349409bae98d2a0',1,'superviseit::defects::CfgMatrixDefect']]],

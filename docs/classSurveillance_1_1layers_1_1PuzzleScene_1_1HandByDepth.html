@@ -164,6 +164,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aaaa7b7bb05fd17f2488dbaa7663ecb11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d76cc2129e79ba1941d2cc2f53b9e8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a5d76cc2129e79ba1941d2cc2f53b9e8e">mask</a></td></tr>
 <tr class="separator:a5d76cc2129e79ba1941d2cc2f53b9e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41000f175dc0115080e2a682cc06dbe9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a41000f175dc0115080e2a682cc06dbe9">params</a></td></tr>
+<tr class="separator:a41000f175dc0115080e2a682cc06dbe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c23786b0c27aa484eabaa2977a62abb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#a9c23786b0c27aa484eabaa2977a62abb">workspace</a></td></tr>
 <tr class="separator:a9c23786b0c27aa484eabaa2977a62abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -685,7 +687,7 @@ How can we generalize this so that a general robot can use it and even employ tr
 
 <p>First, perform any specified pre-processing. </p>
 <dl class="section note"><dt>Note</dt><dd>Not dealing with pre-processor, but it might be important. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000039">Todo:</a></b></dt><dd>Figure out how to use the improcessor. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000042">Todo:</a></b></dt><dd>Figure out how to use the improcessor. </dd></dl>
 <p>Second, invoke the layer detectors and post-processor to differentiate the actual semantic layers of the scene. The layer detectors should be considered as raw detectors that need further polishing to extract the desired semantic layer information. These layers are further processed by customized track pointers and filters. The post processing here is hard-coded rather than a private member function invocation. <br  />
 </p>
 <p>The hand regions above the surface get recovered here. Unfortunately, the Realsense is not the best depth detector and fails to capture regions near the work surface. The best thing to do is to expand the too high regions, to excise nearby areas from workmat detection region.</p>
@@ -732,6 +734,20 @@ How can we generalize this so that a general robot can use it and even employ tr
       <table class="memname">
         <tr>
           <td class="memname">mask</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41000f175dc0115080e2a682cc06dbe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41000f175dc0115080e2a682cc06dbe9">&#9670;&nbsp;</a></span>params</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">params</td>
         </tr>
       </table>
 </div><div class="memdoc">

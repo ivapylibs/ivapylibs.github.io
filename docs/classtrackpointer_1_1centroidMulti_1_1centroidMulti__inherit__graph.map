@@ -1,7 +1,7 @@
 <map id="centroidMulti" name="centroidMulti">
-<area shape="rect" id="node1" title=" " alt="" coords="58,155,154,181"/>
-<area shape="rect" id="node4" href="$classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html" title="A basic detector class that processes a layered image (or mask and image) detection output...." alt="" coords="5,229,89,256"/>
-<area shape="rect" id="node5" href="$classpuzzle_1_1parser_1_1boardMeasure.html" title="Puzzle piece board measurement class, based on puzzle piece layer parsing." alt="" coords="114,229,218,256"/>
-<area shape="rect" id="node2" href="$classtrackpointer_1_1centroid_1_1centroid.html" title=" " alt="" coords="72,80,140,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="77,5,135,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="59,155,167,181"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1parse_1_1fromLayer_1_1FromLayer.html" title="A basic detector class that processes a layered image (or mask and image) detection output...." alt="" coords="5,229,96,256"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1parser_1_1boardMeasure.html" title="Puzzle piece board measurement class, based on puzzle piece layer parsing." alt="" coords="120,229,235,256"/>
+<area shape="rect" id="node2" href="$classtrackpointer_1_1centroid_1_1centroid.html" title="Used to track the centroid of a target object." alt="" coords="76,80,151,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="82,5,145,32"/>
 </map>

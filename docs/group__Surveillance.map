@@ -1,0 +1,4 @@
+<map id="Surveillance and Monitoring" name="Surveillance and Monitoring">
+<area shape="rect" id="node1" title="Specialized routines for performing surveillance type processing." alt="" coords="5,5,209,31"/>
+<area shape="rect" id="node2" href="$group__Surveillance__Layers.html" title="When there are multiple (depth&#45;ordered) layers to keep track of. Detector, track pointer,..." alt="" coords="257,5,416,31"/>
+</map>

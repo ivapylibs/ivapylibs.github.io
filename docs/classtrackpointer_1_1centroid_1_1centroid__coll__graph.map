@@ -1,4 +1,4 @@
 <map id="centroid" name="centroid">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,73,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="11,5,68,32"/>
+<area shape="rect" id="node1" title="Used to track the centroid of a target object." alt="" coords="5,80,80,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="11,5,74,32"/>
 </map>

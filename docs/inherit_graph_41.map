@@ -19,7 +19,7 @@
 <area shape="rect" id="node50" href="$classSurveillance_1_1layers_1_1HoveringGlove_1_1TrackPointer.html" title=" " alt="" coords="131,892,234,919"/>
 <area shape="rect" id="node51" href="$classSurveillance_1_1layers_1_1HoveringHand_1_1TrackPointer.html" title=" " alt="" coords="131,943,234,969"/>
 <area shape="rect" id="node52" href="$classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html" title="Track pointers for the glove/hand and the puzzle pieces." alt="" coords="127,993,238,1020"/>
-<area shape="rect" id="node53" href="$classtrackpointer_1_1centroid_1_1centroid.html" title=" " alt="" coords="145,1044,220,1071"/>
+<area shape="rect" id="node53" href="$classtrackpointer_1_1centroid_1_1centroid.html" title="Used to track the centroid of a target object." alt="" coords="145,1044,220,1071"/>
 <area shape="rect" id="node57" href="$classtrackpointer_1_1toplines_1_1Params.html" title="Parameters for the toplines tracker." alt="" coords="147,1095,218,1121"/>
 <area shape="rect" id="node58" href="$classtrackpointer_1_1utils_1_1fakeTriangle_1_1fakeTriangle.html" title=" " alt="" coords="131,1145,234,1172"/>
 <area shape="rect" id="node6" href="$classdetector_1_1fromState_1_1fromState.html" title="Basic detector from state vector input. Should be overloaded, but simple detectors can be created wit..." alt="" coords="317,81,403,108"/>

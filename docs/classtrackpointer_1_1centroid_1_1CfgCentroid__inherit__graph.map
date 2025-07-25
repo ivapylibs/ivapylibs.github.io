@@ -1,5 +1,5 @@
 <map id="CfgCentroid" name="CfgCentroid">
-<area shape="rect" id="node1" title=" " alt="" coords="81,155,179,181"/>
+<area shape="rect" id="node1" title="Configuration setting specifier for centroidMulti." alt="" coords="81,155,179,181"/>
 <area shape="rect" id="node4" href="$classtrackpointer_1_1centroidMulti_1_1CfgCentMulti.html" title="Configuration setting specifier for centroidMulti." alt="" coords="77,229,183,256"/>
 <area shape="rect" id="node2" href="$classdetector_1_1Configuration_1_1AlgConfig.html" title=" " alt="" coords="87,80,173,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="91,5,169,32"/>
