@@ -72,6 +72,9 @@ $(function() {
 <div class="title">Surveillance.layers.GloveByColor Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Detector, track pointer, and perceiver classes for glove tracking.  
+<a href="namespaceSurveillance_1_1layers_1_1GloveByColor.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -83,21 +86,33 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1GloveByColor_1_1DetectorState.html">DetectorState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1GloveByColor_1_1GloveByColor.html">GloveByColor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceSurveillance_1_1layers_1_1Glove.html">Glove</a> detector by color only.  <a href="classSurveillance_1_1layers_1_1GloveByColor_1_1GloveByColor.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceSurveillance_1_1layers_1_1Glove.html" title="Detector, track pointer, and perceiver classes for glove tracking.">Glove</a> detector by color only.  <a href="classSurveillance_1_1layers_1_1GloveByColor_1_1GloveByColor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1GloveByColor_1_1GlovePointer.html">GlovePointer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1GloveByColor_1_1InstGloveDetector.html">InstGloveDetector</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for collecting visual processing methods needed by the <a class="el" href="namespaceSurveillance_1_1layers_1_1PuzzleScene.html">PuzzleScene</a> scene interpreter.  <a href="classSurveillance_1_1layers_1_1GloveByColor_1_1InstGloveDetector.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for collecting visual processing methods needed by the <a class="el" href="namespaceSurveillance_1_1layers_1_1PuzzleScene.html" title="Layered detector, track pointer, and perceiver classes for puzzle surveillance system.">PuzzleScene</a> scene interpreter.  <a href="classSurveillance_1_1layers_1_1GloveByColor_1_1InstGloveDetector.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1GloveByColor_1_1InstGlovePerceiver.html">InstGlovePerceiver</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for collecting visual processing methods needed by the <a class="el" href="namespaceSurveillance_1_1layers_1_1PuzzleScene.html">PuzzleScene</a> perceiver.  <a href="classSurveillance_1_1layers_1_1GloveByColor_1_1InstGlovePerceiver.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for collecting visual processing methods needed by the <a class="el" href="namespaceSurveillance_1_1layers_1_1PuzzleScene.html" title="Layered detector, track pointer, and perceiver classes for puzzle surveillance system.">PuzzleScene</a> perceiver.  <a href="classSurveillance_1_1layers_1_1GloveByColor_1_1InstGlovePerceiver.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1GloveByColor_1_1PerceiveGloveBC.html">PerceiveGloveBC</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perceiver based on detecting glove by color.  <a href="classSurveillance_1_1layers_1_1GloveByColor_1_1PerceiveGloveBC.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Detector, track pointer, and perceiver classes for glove tracking. </p>
+<p>Follows the structure of the Puzzle Scene perceiver, which packages everything into one file since python has individual import facilities, and placing in one uniform location simplifies things. <br  />
+</p>
+<p>Code here is copied from the Puzzle Scene glove tracker classes. The reason that they were all mashed together in Puzzle Scene is to take advantage of common image processing and not separate things such that efforts to reduce repeated computation make the data passing too complex. Changes should be mirrored across these two files.</p>
+<p>What should be contained in this file would be:</p><ol type="1">
+<li><a class="el" href="namespaceSurveillance_1_1layers_1_1Glove.html" title="Detector, track pointer, and perceiver classes for glove tracking.">Glove</a> layer detector from RGBD input.</li>
+<li><a class="el" href="namespaceSurveillance_1_1layers_1_1Glove.html" title="Detector, track pointer, and perceiver classes for glove tracking.">Glove</a> trackpointer based on layered detector output.</li>
+<li>Perceiver that combines detector + trackpointer.</li>
+<li>A calibration scheme for the entire process with saving to YAML and HDF5 files.</li>
+</ol>
+<p>This single file replaces/supercedes the existing <a class="el" href="namespaceSurveillance_1_1layers_1_1human__seg.html" title="OBSOLETE. The human-segmentor for the layered approach.">human_seg</a> file in this directory (and by extension possibly others, like <a class="el" href="namespaceSurveillance_1_1layers_1_1base__fg.html" title="OBSOLETE. The base class for the foreground layer segmentor via foreground modeling in the layered pe...">base_fg</a>). </p>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

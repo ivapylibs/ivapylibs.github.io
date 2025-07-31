@@ -171,7 +171,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Detector based on depth only, no glove appearance model. </p>
-<dl class="section note"><dt>Note</dt><dd>We still call it a glove to maintain compatibility with the glove-based model. In principle, we should call it <a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html" title="Detector based on depth only, no glove appearance model.">HandByDepth</a>. Will have to figure that out eventually. Do we rigidly stick to <a class="el" href="namespaceSurveillance_1_1layers_1_1Glove.html">Glove</a> or do we move to Hand and then augment with glove capabilities? Or, do we modify internal member variables to refer to hand so that it make sense whether or not there is a glove on the hand? Need to resolve. 2025/07/22 PAV.</dd>
+<dl class="section note"><dt>Note</dt><dd>We still call it a glove to maintain compatibility with the glove-based model. In principle, we should call it <a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html" title="Detector based on depth only, no glove appearance model.">HandByDepth</a>. Will have to figure that out eventually. Do we rigidly stick to <a class="el" href="namespaceSurveillance_1_1layers_1_1Glove.html" title="Detector, track pointer, and perceiver classes for glove tracking.">Glove</a> or do we move to Hand and then augment with glove capabilities? Or, do we modify internal member variables to refer to hand so that it make sense whether or not there is a glove on the hand? Need to resolve. 2025/07/22 PAV.</dd>
 <dd>
 Changing to <a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html" title="Detector based on depth only, no glove appearance model.">HandByDepth</a> and committing to eventually aligning member variables with this change. Right now, need to recall how everything was implemented and do better job at documenting things for easier development in the future. 2027/07/22 PAV.</dd>
 <dd>
@@ -687,7 +687,7 @@ How can we generalize this so that a general robot can use it and even employ tr
 
 <p>First, perform any specified pre-processing. </p>
 <dl class="section note"><dt>Note</dt><dd>Not dealing with pre-processor, but it might be important. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000042">Todo:</a></b></dt><dd>Figure out how to use the improcessor. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000044">Todo:</a></b></dt><dd>Figure out how to use the improcessor. </dd></dl>
 <p>Second, invoke the layer detectors and post-processor to differentiate the actual semantic layers of the scene. The layer detectors should be considered as raw detectors that need further polishing to extract the desired semantic layer information. These layers are further processed by customized track pointers and filters. The post processing here is hard-coded rather than a private member function invocation. <br  />
 </p>
 <p>The hand regions above the surface get recovered here. Unfortunately, the Realsense is not the best depth detector and fails to capture regions near the work surface. The best thing to do is to expand the too high regions, to excise nearby areas from workmat detection region.</p>

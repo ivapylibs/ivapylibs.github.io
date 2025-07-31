@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classSurveillance_1_1utils_1_1region__grow_1_1RG__Params.html" title=" " alt="" coords="5,5,103,32"/>
+<area shape="rect" id="node1" href="$classperceiver_1_1reporting_1_1Reporter.html" title="Base/abstract reporter class." alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node2" href="$classperceiver_1_1reporting_1_1BeatReporter.html" title="Specialized reporter class that works with an editor." alt="" coords="132,5,240,32"/>
 </map>

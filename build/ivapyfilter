@@ -1,1 +1,1 @@
-cat $1 | build/parsequit.pl 
+cat $1 | sed -f build/ivapyrules | build/parsequit.pl 

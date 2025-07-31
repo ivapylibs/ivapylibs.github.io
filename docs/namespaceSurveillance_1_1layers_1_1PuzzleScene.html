@@ -69,9 +69,12 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">Surveillance.layers.PuzzleScene Namespace Reference</div>  </div>
+<div class="title">Surveillance.layers.PuzzleScene Namespace Reference<div class="ingroups"><a class="el" href="group__Surveillance.html">Surveillance and Monitoring</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Layered detector, track pointer, and perceiver classes for puzzle surveillance system.  
+<a href="namespaceSurveillance_1_1layers_1_1PuzzleScene.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -82,7 +85,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detector based on depth only, no glove appearance model.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1HandByDepth.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1InstPuzzlePerceiver.html">InstPuzzlePerceiver</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for collecting visual processing methods needed by the <a class="el" href="namespaceSurveillance_1_1layers_1_1PuzzleScene.html">PuzzleScene</a> perceiver.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1InstPuzzlePerceiver.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for collecting visual processing methods needed by the <a class="el" href="namespaceSurveillance_1_1layers_1_1PuzzleScene.html" title="Layered detector, track pointer, and perceiver classes for puzzle surveillance system.">PuzzleScene</a> perceiver.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1InstPuzzlePerceiver.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1InstPuzzleScene.html">InstPuzzleScene</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for collecting visual processing methods needed by the puzzle scene interpreter.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1InstPuzzleScene.html#details">More...</a><br /></td></tr>
@@ -117,8 +120,22 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html">TrackPointers</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track pointers for the glove/hand and the puzzle pieces.  <a href="classSurveillance_1_1layers_1_1PuzzleScene_1_1TrackPointers.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSurveillance_1_1layers_1_1PuzzleScene_1_1ZoneCounter.html">ZoneCounter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Layered detector, track pointer, and perceiver classes for puzzle surveillance system. </p>
+<p>Given how python works regarding code import, it seems like the best would be to simply put all of the code into this one file. That will make it rather long, but with a consistent coding interface. If done properly, the individual classes will lean heavily on other code libraries and be relatively compact.</p>
+<p>What should be contained in this file would be:</p><ol type="1">
+<li>Layered detector from RGBD input.</li>
+<li>Layered trackpointers based on layered detector output.</li>
+<li>Layered perceiver that combine detector + trackpointers.</li>
+<li>A calibration scheme for the entire process with saving to YAML and HDF5 files.</li>
+</ol>
+<p>This single file replaces/supercedes the existing files in this directory (<a class="el" href="namespaceSurveillance_1_1layers_1_1human__seg.html" title="OBSOLETE. The human-segmentor for the layered approach.">human_seg</a>, <a class="el" href="namespaceSurveillance_1_1layers_1_1robot__seg.html" title="OBSOLETE. The robot segmenters that aims to obtain the robot layer mask and state.">robot_seg</a>, <a class="el" href="namespaceSurveillance_1_1layers_1_1tabletop__seg.html" title="OBSOLETE. The tabletop segmenters that aims to extract the tabletop layer as the background.">tabletop_seg</a>, <a class="el" href="namespaceSurveillance_1_1layers_1_1puzzle__seg.html" title="OBSOLETE. The puzzle segmenters that aims to extract the puzzle layer.">puzzle_seg</a>, <a class="el" href="namespaceSurveillance_1_1layers_1_1base__bg.html" title="OBSOLETE. The base class for the foreground layer segmentor via background modeling in the layered pe...">base_bg</a>, <a class="el" href="namespaceSurveillance_1_1layers_1_1base__fg.html" title="OBSOLETE. The base class for the foreground layer segmentor via foreground modeling in the layered pe...">base_fg</a>, base).</p>
+<dl class="section author"><dt>Author</dt><dd>Patricio A. Vela, <a href="#" onclick="location.href='mai'+'lto:'+'pve'+'la'+'@ga'+'te'+'ch.'+'ed'+'u'; return false;">pvela<span style="display: none;">.nosp@m.</span>@gat<span style="display: none;">.nosp@m.</span>ech.e<span style="display: none;">.nosp@m.</span>du</a> </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2023/06/29 </dd></dl>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

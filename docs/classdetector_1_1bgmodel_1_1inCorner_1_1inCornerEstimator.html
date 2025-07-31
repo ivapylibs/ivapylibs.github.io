@@ -200,7 +200,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8e608171e40235a6edb8492c9687523f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a8e608171e40235a6edb8492c9687523f">buildAndCalibrateFromConfig</a> (theConfig, theStream, incVis=False)</td></tr>
-<tr class="memdesc:a8e608171e40235a6edb8492c9687523f"><td class="mdescLeft">&#160;</td><td class="mdescRight">============================== saveCfg ==============================  <a href="classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a8e608171e40235a6edb8492c9687523f">More...</a><br /></td></tr>
+<tr class="memdesc:a8e608171e40235a6edb8492c9687523f"><td class="mdescLeft">&#160;</td><td class="mdescRight">def saveCfG(self, outFile): # Save to YAML file.  <a href="classdetector_1_1bgmodel_1_1inCorner_1_1inCornerEstimator.html#a8e608171e40235a6edb8492c9687523f">More...</a><br /></td></tr>
 <tr class="separator:a8e608171e40235a6edb8492c9687523f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classdetector_1_1bgmodel_1_1inCorner_1_1inCorner"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classdetector_1_1bgmodel_1_1inCorner_1_1inCorner')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html">inCorner</a></td></tr>
 <tr class="memitem:af407690a9becfab03837ff18e19a2cfe inherit pub_static_methods_classdetector_1_1bgmodel_1_1inCorner_1_1inCorner"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdetector_1_1bgmodel_1_1inCorner_1_1inCorner.html#af407690a9becfab03837ff18e19a2cfe">build_model_blackBG</a> (dist, tau, isVectorized=True)</td></tr>
@@ -379,9 +379,9 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>============================== saveCfg ============================== </p>
-<p>def saveCfG(self, outFile): # Save to YAML file. '''!</p>
-<p>Save current instance to a configuration file. ''' with open(outFile,'w') as file: file.write(self.config.dump()) <a class="el" href="group__Display__CV.html#gac41a8ffe38e7266cbe1627824060ccf5" title="Close a given window by name.">file.close()</a> </p>
+<p>def saveCfG(self, outFile): # Save to YAML file. </p>
+<p>'''!</p>
+<p>Save current instance to a configuration file. ''' with open(outFile,'w') as file: file.write(<a class="el" href="namespacedetector_1_1Configuration.html#aa6fcd1e92af0728565d4f9977c8bca4f">self.config.dump()</a>) <a class="el" href="group__Display__CV.html#gac41a8ffe38e7266cbe1627824060ccf5" title="Close a given window by name.">file.close()</a> </p>
 
 </div>
 </div>

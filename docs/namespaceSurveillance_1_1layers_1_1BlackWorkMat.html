@@ -73,6 +73,9 @@ $(function() {
 <div class="title">Surveillance.layers.BlackWorkMat Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="classSurveillance_1_1layers_1_1BlackWorkMat_1_1Detector.html">Detector</a> for the black mat (planar) workspace.  
+<a href="namespaceSurveillance_1_1layers_1_1BlackWorkMat.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -100,7 +103,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a1e2e6c1b636fa324e02e78f91acaac1f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSurveillance_1_1layers_1_1BlackWorkMat.html#a1e2e6c1b636fa324e02e78f91acaac1f">defaultBuildCfg_DetectorLoad</a> (detfile)</td></tr>
 <tr class="separator:a1e2e6c1b636fa324e02e78f91acaac1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="classSurveillance_1_1layers_1_1BlackWorkMat_1_1Detector.html">Detector</a> for the black mat (planar) workspace. </p>
+<p>Follows the structure of the Puzzle Scene perceiver, which packages everything into one file since python has individual import facilities, and placing in one uniform location simplifies things. However, the black mat layer part is much simpler as it only performs the color segmentation and does not include depth information. The depth information usually gets coupled with the black mat and the red glove to differentiate the two, and the robot arm. This height based depth check is integrated with the Puzzle Scene perceiver.</p>
+<p>Code here is copied from the Puzzle Scene background detection class. The reason that they were all mashed together in Puzzle Scene is to take advantage of common image processing and the depth layer information, and to not separate things such that efforts to reduce repeated computation make the data passing too complex. <br  />
+ Changes should be mirrored across these two files.</p>
+<p>If other visual distractors can be in the scene, then this should be run or used only when those distractors are absent. In a sense, the black mat processing only occurs when there is nothing but the black mat in the scene.</p>
+<p>What should be contained in this file:</p><ol type="1">
+<li>Black mat layer detector from RGBD input.</li>
+<li>Multi-centroid track pointer for visualizing objects on mat.</li>
+<li>A calibration scheme for the entire process with saving to YAML and HDF5 files.</li>
+</ol>
+<p>This single file replaces/supercedes the existing <a class="el" href="namespaceSurveillance_1_1layers_1_1base__bg.html" title="OBSOLETE. The base class for the foreground layer segmentor via background modeling in the layered pe...">base_bg</a> file in this directory (and by extension possibly others, like <a class="el" href="namespaceSurveillance_1_1layers_1_1tabletop__seg.html" title="OBSOLETE. The tabletop segmenters that aims to extract the tabletop layer as the background.">tabletop_seg</a> since that only appears to use the OpenCV GMM method). <br  />
+</p>
+<dl class="section note"><dt>Note</dt><dd>Would be interesting to compare the SGM and GMM approaches. Maybe try later. </dd></dl>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a7eee1bb683b87840d3f08d0d9862bd9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7eee1bb683b87840d3f08d0d9862bd9b">&#9670;&nbsp;</a></span>defaultBuildCfg()</h2>
 

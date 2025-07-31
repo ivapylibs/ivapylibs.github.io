@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['whenclose_1920',['whenClose',['../classtriggers_1_1whenClose.html',1,'triggers']]],
-  ['whendiffers_1921',['whenDiffers',['../classtriggers_1_1whenDiffers.html',1,'triggers']]],
-  ['whenfar_1922',['whenFar',['../classtriggers_1_1whenFar.html',1,'triggers']]],
-  ['whensimilar_1923',['whenSimilar',['../classtriggers_1_1whenSimilar.html',1,'triggers']]]
+  ['vidwriter_1983',['vidWriter',['../classcamera_1_1utils_1_1writer_1_1vidWriter.html',1,'camera::utils::writer']]],
+  ['vidwriter_5fros_1984',['vidWriter_ROS',['../classcamera_1_1utils_1_1writer__ros_1_1vidWriter__ROS.html',1,'camera::utils::writer_ros']]]
 ];

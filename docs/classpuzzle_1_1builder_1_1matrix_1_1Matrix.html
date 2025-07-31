@@ -70,6 +70,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classpuzzle_1_1builder_1_1matrix_1_1Matrix-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Matrix Class Reference<div class="ingroups"><a class="el" href="group__PuzzleSolver.html">Puzzle Solver</a> &raquo; <a class="el" href="group__Puzzle__Types.html">Puzzle Types</a></div></div>  </div>
@@ -107,7 +108,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa28eeaba7aebf2d8217927c20f0dbb8b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aa28eeaba7aebf2d8217927c20f0dbb8b">__init__</a> (self, theBoard=[], theParams=<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1CfgMatrix.html">CfgMatrix</a>)</td></tr>
 <tr class="memdesc:aa28eeaba7aebf2d8217927c20f0dbb8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for the <a class="el" href="namespacepuzzle_1_1builder_1_1adjacent.html" title="This type of puzzle is simply a set of shapes arranged at specific locations with adjacency permitted...">puzzle.builder.adjacent</a> class.  <a href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aa28eeaba7aebf2d8217927c20f0dbb8b">More...</a><br /></td></tr>
 <tr class="separator:aa28eeaba7aebf2d8217927c20f0dbb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30a7af845fe4cf3487691dd7cf865643"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a30a7af845fe4cf3487691dd7cf865643">buildFrom_ImageAndRegions</a> (theImage, theRegions, theParams=<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1CfgMatrix.html">CfgMatrix</a>())</td></tr>
+<tr class="memitem:a30a7af845fe4cf3487691dd7cf865643"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a30a7af845fe4cf3487691dd7cf865643">buildFrom_ImageAndRegions</a> (<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab84b9f87bcbb591685cab8162e29685e">theImage</a>, theRegions, theParams=<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1CfgMatrix.html">CfgMatrix</a>())</td></tr>
 <tr class="separator:a30a7af845fe4cf3487691dd7cf865643"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae6d86d4d7e606f77e7c4d02a1e55524"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aae6d86d4d7e606f77e7c4d02a1e55524">coord2ind</a> (self, theCoords)</td></tr>
 <tr class="memdesc:aae6d86d4d7e606f77e7c4d02a1e55524"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses puzzle shape to convert puzzle piece coordinate to linear index/key.  <a href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aae6d86d4d7e606f77e7c4d02a1e55524">More...</a><br /></td></tr>
@@ -211,15 +212,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aea26cf7f34d514ec7bf2c1a43813bbe9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aea26cf7f34d514ec7bf2c1a43813bbe9">buildFrom_ImageAndMask</a> (theImage, theMask, theParams=<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1CfgMatrix.html">CfgMatrix</a>(), show_grid=False)</td></tr>
+<tr class="memitem:aea26cf7f34d514ec7bf2c1a43813bbe9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aea26cf7f34d514ec7bf2c1a43813bbe9">buildFrom_ImageAndMask</a> (<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab84b9f87bcbb591685cab8162e29685e">theImage</a>, <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a68f17b25867dd027148c04f68f7cc7ef">theMask</a>, theParams=<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1CfgMatrix.html">CfgMatrix</a>(), show_grid=False)</td></tr>
 <tr class="memdesc:aea26cf7f34d514ec7bf2c1a43813bbe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given an image and an image mask, parse both to recover the puzzle calibration/solution.  <a href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aea26cf7f34d514ec7bf2c1a43813bbe9">More...</a><br /></td></tr>
 <tr class="separator:aea26cf7f34d514ec7bf2c1a43813bbe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a563b9f4899978eccbfbc67df44e1be53"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a563b9f4899978eccbfbc67df44e1be53">buildFrom_ImageAndSpecs</a> (theImage, theParams)</td></tr>
+<tr class="memitem:a563b9f4899978eccbfbc67df44e1be53"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a563b9f4899978eccbfbc67df44e1be53">buildFrom_ImageAndSpecs</a> (<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab84b9f87bcbb591685cab8162e29685e">theImage</a>, theParams)</td></tr>
 <tr class="memdesc:a563b9f4899978eccbfbc67df44e1be53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a fully specific <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html" title="Puzzle type that is a set of adjacent, rectangular puzzle pieces that get put together in a matrix/2D...">Matrix</a> puzzle and an image, instantiate a <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html" title="Puzzle type that is a set of adjacent, rectangular puzzle pieces that get put together in a matrix/2D...">Matrix</a> puzzle.  <a href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a563b9f4899978eccbfbc67df44e1be53">More...</a><br /></td></tr>
 <tr class="separator:a563b9f4899978eccbfbc67df44e1be53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc5838fd745811d801a6b5a7b6a230df"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#adc5838fd745811d801a6b5a7b6a230df">buildFrom_ImageProcessing</a> (theImage, theProcessor=None, theDetector=None, theParams=None)</td></tr>
+<tr class="memitem:adc5838fd745811d801a6b5a7b6a230df"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#adc5838fd745811d801a6b5a7b6a230df">buildFrom_ImageProcessing</a> (<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab84b9f87bcbb591685cab8162e29685e">theImage</a>, theProcessor=None, theDetector=None, theParams=None)</td></tr>
 <tr class="separator:adc5838fd745811d801a6b5a7b6a230df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a453b1916e9e176841e6ff087b90fa3c0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a453b1916e9e176841e6ff087b90fa3c0">buildFrom_Sketch</a> (theImage, theMask, theProcessor=None, theDetector=None, theParams=None)</td></tr>
+<tr class="memitem:a453b1916e9e176841e6ff087b90fa3c0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a453b1916e9e176841e6ff087b90fa3c0">buildFrom_Sketch</a> (<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab84b9f87bcbb591685cab8162e29685e">theImage</a>, <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a68f17b25867dd027148c04f68f7cc7ef">theMask</a>, theProcessor=None, theDetector=None, theParams=None)</td></tr>
 <tr class="separator:a453b1916e9e176841e6ff087b90fa3c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed35d4479db6b7728642a0fcde86067d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aed35d4479db6b7728642a0fcde86067d">buildFromFile_ImageAndMask</a> (fileName, theParams=None)</td></tr>
 <tr class="memdesc:aed35d4479db6b7728642a0fcde86067d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a saved arrangement calibration/solution stored as an image and a mask.  <a href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aed35d4479db6b7728642a0fcde86067d">More...</a><br /></td></tr>
@@ -239,12 +240,6 @@ Static Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a4ba1825606cdadc883059651caa3ff4b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a4ba1825606cdadc883059651caa3ff4b">gc</a></td></tr>
 <tr class="separator:a4ba1825606cdadc883059651caa3ff4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45cde9abb508c62d67c3bb2b9bf566a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a45cde9abb508c62d67c3bb2b9bf566a5">shape</a></td></tr>
-<tr class="separator:a45cde9abb508c62d67c3bb2b9bf566a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c04201094c438399cb4ef7400448f2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a3c04201094c438399cb4ef7400448f2c">xcoords</a></td></tr>
-<tr class="separator:a3c04201094c438399cb4ef7400448f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b3ca2845bd75fcb9a68a964472bc874"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a9b3ca2845bd75fcb9a68a964472bc874">ycoords</a></td></tr>
-<tr class="separator:a9b3ca2845bd75fcb9a68a964472bc874"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classpuzzle_1_1builder_1_1adjacent_1_1Adjacent"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classpuzzle_1_1builder_1_1adjacent_1_1Adjacent')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classpuzzle_1_1builder_1_1adjacent_1_1Adjacent.html">Adjacent</a></td></tr>
 <tr class="memitem:a36fb9e2f41b90386b06c22779f628279 inherit pub_attribs_classpuzzle_1_1builder_1_1adjacent_1_1Adjacent"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1adjacent_1_1Adjacent.html#a36fb9e2f41b90386b06c22779f628279">adjMat</a></td></tr>
 <tr class="separator:a36fb9e2f41b90386b06c22779f628279 inherit pub_attribs_classpuzzle_1_1builder_1_1adjacent_1_1Adjacent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -256,6 +251,61 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a48452c4a0df1424e4061b1ff09201621 inherit pub_attribs_classpuzzle_1_1board_1_1Board"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21ddfcf7ee9df16a820d99deb4fda263 inherit pub_attribs_classpuzzle_1_1board_1_1Board"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1board_1_1Board.html#a21ddfcf7ee9df16a820d99deb4fda263">pieces</a></td></tr>
 <tr class="separator:a21ddfcf7ee9df16a820d99deb4fda263 inherit pub_attribs_classpuzzle_1_1board_1_1Board"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a06ea24674b6232a860a765248d652464"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a06ea24674b6232a860a765248d652464">colTarg</a> = int((<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a>*theParams.isize[0])/<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab977b5d342827dd4f1acdda2ef8d9ffc">imrows</a>)</td></tr>
+<tr class="separator:a06ea24674b6232a860a765248d652464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3483536bd238101ca69fc2c7aefbbf96"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a3483536bd238101ca69fc2c7aefbbf96">dc</a> = int(<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a94dfab099c809de54fd8e9072cc96f72">imsize</a>[1] / theParams.psize[0])</td></tr>
+<tr class="separator:a3483536bd238101ca69fc2c7aefbbf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb2e4722cf192db3523c59eff43b6450"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#acb2e4722cf192db3523c59eff43b6450">dr</a> = int(<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a94dfab099c809de54fd8e9072cc96f72">imsize</a>[0] / theParams.psize[1])</td></tr>
+<tr class="separator:acb2e4722cf192db3523c59eff43b6450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23a00c4c4837f18b0decb421d75daaa7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a> = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a94dfab099c809de54fd8e9072cc96f72">imsize</a>[0]</td></tr>
+<tr class="separator:a23a00c4c4837f18b0decb421d75daaa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40b6a76e7373e09511f8692ba58dee48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a40b6a76e7373e09511f8692ba58dee48">imFact</a> = theParams.isize[0] / <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a></td></tr>
+<tr class="separator:a40b6a76e7373e09511f8692ba58dee48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e666be40356836f8db496cc9eacda91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a7e666be40356836f8db496cc9eacda91">imRatio</a> = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a> / <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab977b5d342827dd4f1acdda2ef8d9ffc">imrows</a></td></tr>
+<tr class="separator:a7e666be40356836f8db496cc9eacda91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab977b5d342827dd4f1acdda2ef8d9ffc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab977b5d342827dd4f1acdda2ef8d9ffc">imrows</a> = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a94dfab099c809de54fd8e9072cc96f72">imsize</a>[1]</td></tr>
+<tr class="separator:ab977b5d342827dd4f1acdda2ef8d9ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94dfab099c809de54fd8e9072cc96f72"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a94dfab099c809de54fd8e9072cc96f72">imsize</a> = theImage.shape</td></tr>
+<tr class="separator:a94dfab099c809de54fd8e9072cc96f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff0e76c87016aed880e113ba6b23fffb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aff0e76c87016aed880e113ba6b23fffb">isize</a></td></tr>
+<tr class="separator:aff0e76c87016aed880e113ba6b23fffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f4e8630516f3da89537313b4c828759"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a9f4e8630516f3da89537313b4c828759">order</a></td></tr>
+<tr class="separator:a9f4e8630516f3da89537313b4c828759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad023e47218eccfa5d8758311948ab089"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ad023e47218eccfa5d8758311948ab089">partition_num</a></td></tr>
+<tr class="separator:ad023e47218eccfa5d8758311948ab089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cccb363fd4cc23fb0f3ad8be4b742d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a2cccb363fd4cc23fb0f3ad8be4b742d2">rowTarg</a> = int((<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab977b5d342827dd4f1acdda2ef8d9ffc">imrows</a>*theParams.isize[1])/<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a>)</td></tr>
+<tr class="separator:a2cccb363fd4cc23fb0f3ad8be4b742d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45cde9abb508c62d67c3bb2b9bf566a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a45cde9abb508c62d67c3bb2b9bf566a5">shape</a></td></tr>
+<tr class="separator:a45cde9abb508c62d67c3bb2b9bf566a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab84b9f87bcbb591685cab8162e29685e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab84b9f87bcbb591685cab8162e29685e">theImage</a> = cv2.resize(theImage, None, fx=<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a40b6a76e7373e09511f8692ba58dee48">imFact</a>, fy=<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a40b6a76e7373e09511f8692ba58dee48">imFact</a>)</td></tr>
+<tr class="separator:ab84b9f87bcbb591685cab8162e29685e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f17b25867dd027148c04f68f7cc7ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a68f17b25867dd027148c04f68f7cc7ef">theMask</a> = np.ones([<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab977b5d342827dd4f1acdda2ef8d9ffc">imrows</a>, <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a>])</td></tr>
+<tr class="separator:a68f17b25867dd027148c04f68f7cc7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae478e86e855d44c1a1a385128031df44"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ae478e86e855d44c1a1a385128031df44">thePuzzle</a> = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aea26cf7f34d514ec7bf2c1a43813bbe9">Matrix.buildFrom_ImageAndMask</a>(<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab84b9f87bcbb591685cab8162e29685e">theImage</a>, <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a68f17b25867dd027148c04f68f7cc7ef">theMask</a>, theParams)</td></tr>
+<tr class="separator:ae478e86e855d44c1a1a385128031df44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334ed3e81fb1182339565776d99a9a53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a334ed3e81fb1182339565776d99a9a53">ticols</a> = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a3483536bd238101ca69fc2c7aefbbf96">dc</a> * theParams.psize[0]</td></tr>
+<tr class="separator:a334ed3e81fb1182339565776d99a9a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed15fc9a63a8ff9679a8e816169df76b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aed15fc9a63a8ff9679a8e816169df76b">tirows</a> = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#acb2e4722cf192db3523c59eff43b6450">dr</a> * theParams.psize[1]</td></tr>
+<tr class="separator:aed15fc9a63a8ff9679a8e816169df76b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9964f9fdee579637c287f3bb1d00eb2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a9964f9fdee579637c287f3bb1d00eb2c">x_labels</a></td></tr>
+<tr class="separator:a9964f9fdee579637c287f3bb1d00eb2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a032ea392580771661c2e87ddf37551aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a032ea392580771661c2e87ddf37551aa">x_list</a></td></tr>
+<tr class="separator:a032ea392580771661c2e87ddf37551aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae818ae1a45c2ad1fe9b860719d74c313"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ae818ae1a45c2ad1fe9b860719d74c313">x_parts</a></td></tr>
+<tr class="separator:ae818ae1a45c2ad1fe9b860719d74c313"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c04201094c438399cb4ef7400448f2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a3c04201094c438399cb4ef7400448f2c">xcoords</a></td></tr>
+<tr class="separator:a3c04201094c438399cb4ef7400448f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2555a4cef7b5e06e43aef66379cba05a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a2555a4cef7b5e06e43aef66379cba05a">y_labels</a></td></tr>
+<tr class="separator:a2555a4cef7b5e06e43aef66379cba05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb0d1e9d7fcd9b95ed08b2a57e5725e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aefb0d1e9d7fcd9b95ed08b2a57e5725e">y_list</a></td></tr>
+<tr class="separator:aefb0d1e9d7fcd9b95ed08b2a57e5725e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eaf123e17f981538384d33003f4c536"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a9eaf123e17f981538384d33003f4c536">y_parts</a></td></tr>
+<tr class="separator:a9eaf123e17f981538384d33003f4c536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b3ca2845bd75fcb9a68a964472bc874"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a9b3ca2845bd75fcb9a68a964472bc874">ycoords</a></td></tr>
+<tr class="separator:a9b3ca2845bd75fcb9a68a964472bc874"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Puzzle type that is a set of adjacent, rectangular puzzle pieces that get put together in a matrix/2D array shape. All rows/columns have same number of pieces. </p>
@@ -1107,6 +1157,72 @@ puzzle board instance. That instance is the calibration/solution.
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a06ea24674b6232a860a765248d652464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06ea24674b6232a860a765248d652464">&#9670;&nbsp;</a></span>colTarg</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">colTarg = int((<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a>*theParams.isize[0])/<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab977b5d342827dd4f1acdda2ef8d9ffc">imrows</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3483536bd238101ca69fc2c7aefbbf96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3483536bd238101ca69fc2c7aefbbf96">&#9670;&nbsp;</a></span>dc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">dc = int(<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a94dfab099c809de54fd8e9072cc96f72">imsize</a>[1] / theParams.psize[0])</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb2e4722cf192db3523c59eff43b6450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb2e4722cf192db3523c59eff43b6450">&#9670;&nbsp;</a></span>dr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">dr = int(<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a94dfab099c809de54fd8e9072cc96f72">imsize</a>[0] / theParams.psize[1])</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4ba1825606cdadc883059651caa3ff4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ba1825606cdadc883059651caa3ff4b">&#9670;&nbsp;</a></span>gc</h2>
 
@@ -1121,16 +1237,398 @@ puzzle board instance. That instance is the calibration/solution.
 
 </div>
 </div>
+<a id="a23a00c4c4837f18b0decb421d75daaa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23a00c4c4837f18b0decb421d75daaa7">&#9670;&nbsp;</a></span>imcols</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">imcols = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a94dfab099c809de54fd8e9072cc96f72">imsize</a>[0]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40b6a76e7373e09511f8692ba58dee48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40b6a76e7373e09511f8692ba58dee48">&#9670;&nbsp;</a></span>imFact</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">imFact = theParams.isize[0] / <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e666be40356836f8db496cc9eacda91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e666be40356836f8db496cc9eacda91">&#9670;&nbsp;</a></span>imRatio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">imRatio = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a> / <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab977b5d342827dd4f1acdda2ef8d9ffc">imrows</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab977b5d342827dd4f1acdda2ef8d9ffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab977b5d342827dd4f1acdda2ef8d9ffc">&#9670;&nbsp;</a></span>imrows</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">imrows = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a94dfab099c809de54fd8e9072cc96f72">imsize</a>[1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94dfab099c809de54fd8e9072cc96f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94dfab099c809de54fd8e9072cc96f72">&#9670;&nbsp;</a></span>imsize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">imsize = theImage.shape</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff0e76c87016aed880e113ba6b23fffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff0e76c87016aed880e113ba6b23fffb">&#9670;&nbsp;</a></span>isize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">isize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f4e8630516f3da89537313b4c828759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f4e8630516f3da89537313b4c828759">&#9670;&nbsp;</a></span>order</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">order</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad023e47218eccfa5d8758311948ab089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad023e47218eccfa5d8758311948ab089">&#9670;&nbsp;</a></span>partition_num</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">partition_num</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2cccb363fd4cc23fb0f3ad8be4b742d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cccb363fd4cc23fb0f3ad8be4b742d2">&#9670;&nbsp;</a></span>rowTarg</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">rowTarg = int((<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab977b5d342827dd4f1acdda2ef8d9ffc">imrows</a>*theParams.isize[1])/<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a45cde9abb508c62d67c3bb2b9bf566a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45cde9abb508c62d67c3bb2b9bf566a5">&#9670;&nbsp;</a></span>shape</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">shape</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab84b9f87bcbb591685cab8162e29685e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab84b9f87bcbb591685cab8162e29685e">&#9670;&nbsp;</a></span>theImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">theImage = cv2.resize(theImage, None, fx=<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a40b6a76e7373e09511f8692ba58dee48">imFact</a>, fy=<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a40b6a76e7373e09511f8692ba58dee48">imFact</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68f17b25867dd027148c04f68f7cc7ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f17b25867dd027148c04f68f7cc7ef">&#9670;&nbsp;</a></span>theMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">theMask = np.ones([<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab977b5d342827dd4f1acdda2ef8d9ffc">imrows</a>, <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a23a00c4c4837f18b0decb421d75daaa7">imcols</a>])</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae478e86e855d44c1a1a385128031df44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae478e86e855d44c1a1a385128031df44">&#9670;&nbsp;</a></span>thePuzzle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">thePuzzle = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#aea26cf7f34d514ec7bf2c1a43813bbe9">Matrix.buildFrom_ImageAndMask</a>(<a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#ab84b9f87bcbb591685cab8162e29685e">theImage</a>, <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a68f17b25867dd027148c04f68f7cc7ef">theMask</a>, theParams)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a334ed3e81fb1182339565776d99a9a53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a334ed3e81fb1182339565776d99a9a53">&#9670;&nbsp;</a></span>ticols</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ticols = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#a3483536bd238101ca69fc2c7aefbbf96">dc</a> * theParams.psize[0]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed15fc9a63a8ff9679a8e816169df76b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed15fc9a63a8ff9679a8e816169df76b">&#9670;&nbsp;</a></span>tirows</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tirows = <a class="el" href="classpuzzle_1_1builder_1_1matrix_1_1Matrix.html#acb2e4722cf192db3523c59eff43b6450">dr</a> * theParams.psize[1]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9964f9fdee579637c287f3bb1d00eb2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9964f9fdee579637c287f3bb1d00eb2c">&#9670;&nbsp;</a></span>x_labels</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">x_labels</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a032ea392580771661c2e87ddf37551aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a032ea392580771661c2e87ddf37551aa">&#9670;&nbsp;</a></span>x_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">x_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae818ae1a45c2ad1fe9b860719d74c313"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae818ae1a45c2ad1fe9b860719d74c313">&#9670;&nbsp;</a></span>x_parts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">x_parts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1140,11 +1638,85 @@ puzzle board instance. That instance is the calibration/solution.
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">xcoords</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2555a4cef7b5e06e43aef66379cba05a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2555a4cef7b5e06e43aef66379cba05a">&#9670;&nbsp;</a></span>y_labels</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">y_labels</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefb0d1e9d7fcd9b95ed08b2a57e5725e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefb0d1e9d7fcd9b95ed08b2a57e5725e">&#9670;&nbsp;</a></span>y_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">y_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9eaf123e17f981538384d33003f4c536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eaf123e17f981538384d33003f4c536">&#9670;&nbsp;</a></span>y_parts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">y_parts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1154,11 +1726,19 @@ puzzle board instance. That instance is the calibration/solution.
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">ycoords</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
