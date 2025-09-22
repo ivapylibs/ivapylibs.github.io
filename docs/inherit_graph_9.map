@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classpuzzle_1_1simulator_1_1planner_1_1bcolors.html" title=" " alt="" coords="5,5,75,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,80,83"/>
+<area shape="rect" id="node2" href="$classdetector_1_1bgmodel_1_1bgmodelGMM_1_1bgmodelGMM.html" title=" " alt="" coords="139,5,252,32"/>
+<area shape="rect" id="node3" href="$classdetector_1_1bgmodel_1_1bgmodelGMM_1_1bgmodelGMM__cv.html" title=" " alt="" coords="128,56,263,83"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1parse_1_1fromSketch_1_1FromSketch.html" title="What is FromSketch??" alt="" coords="146,107,245,133"/>
 </map>

@@ -1,5 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,80,57"/>
-<area shape="rect" id="node2" href="$classtrackpointer_1_1toplines_1_1fromBottom.html" title=" " alt="" coords="128,5,229,32"/>
-<area shape="rect" id="node3" href="$classtrackpointer_1_1toplines_1_1fromTop.html" title=" " alt="" coords="141,56,216,83"/>
+<area shape="rect" id="node1" href="$classpuzzle_1_1pieces_1_1matcher_1_1Matcher.html" title="Generic puzzle piece matching class." alt="" coords="5,208,80,235"/>
+<area shape="rect" id="node2" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchDifferent.html" title="The puzzle piece matching scores are based on differences." alt="" coords="128,132,247,159"/>
+<area shape="rect" id="node8" href="$classpuzzle_1_1pieces_1_1matcher_1_1MatchSimilar.html" title="Similarity matching." alt="" coords="133,259,241,285"/>
+<area shape="rect" id="node3" href="$classpuzzle_1_1pieces_1_1edge_1_1Edge.html" title="Puzzle piece edge based comparison." alt="" coords="321,5,376,32"/>
+<area shape="rect" id="node4" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Distance.html" title="Distance&#45;based puzzle piece matching." alt="" coords="309,56,388,83"/>
+<area shape="rect" id="node5" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1HistogramCV.html" title="OpenCV Histogram puzzle comparator class." alt="" coords="295,107,403,133"/>
+<area shape="rect" id="node6" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1Moments.html" title="Uses shape moments to establish similarity." alt="" coords="307,157,390,184"/>
+<area shape="rect" id="node7" href="$classpuzzle_1_1pieces_1_1matchDifferent_1_1PCA.html" title="Uses pca to calculate rotation." alt="" coords="325,208,373,235"/>
+<area shape="rect" id="node9" href="$classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html" title="Uses sift features to establish similarity." alt="" coords="315,259,382,285"/>
+<area shape="rect" id="node10" href="$classpuzzle_1_1pieces_1_1sift_1_1Sift.html" title=" " alt="" coords="327,309,370,336"/>
 </map>

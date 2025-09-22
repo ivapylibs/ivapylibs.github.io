@@ -1,21 +1,12 @@
 var searchData=
 [
-  ['sceneinterpreterv1_1948',['SceneInterpreterV1',['../classSurveillance_1_1layers_1_1scene_1_1SceneInterpreterV1.html',1,'Surveillance::layers::scene']]],
-  ['sgmdebug_1949',['SGMdebug',['../classdetector_1_1fgmodel_1_1Gaussian_1_1SGMdebug.html',1,'SGMdebug'],['../classdetector_1_1bgmodel_1_1Gaussian_1_1SGMdebug.html',1,'SGMdebug']]],
-  ['sgmstate_1950',['SGMstate',['../classdetector_1_1fgmodel_1_1Gaussian_1_1SGMstate.html',1,'SGMstate'],['../classdetector_1_1bgmodel_1_1Gaussian_1_1SGMstate.html',1,'SGMstate']]],
-  ['sift_1951',['Sift',['../classpuzzle_1_1pieces_1_1sift_1_1Sift.html',1,'puzzle::pieces::sift']]],
-  ['siftcv_1952',['SIFTCV',['../classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html',1,'puzzle::pieces::matchSimilar']]],
-  ['simple_1953',['Simple',['../classpuzzle_1_1solver_1_1simple_1_1Simple.html',1,'Simple'],['../classpuzzle_1_1parse_1_1simple_1_1Simple.html',1,'Simple']]],
-  ['simtime_1954',['SimTime',['../classpuzzle_1_1simulator_1_1simTime_1_1SimTime.html',1,'puzzle::simulator::simTime']]],
-  ['simtimeless_1955',['SimTimeLess',['../classpuzzle_1_1simulator_1_1simTimeless_1_1SimTimeLess.html',1,'puzzle::simulator::simTimeless']]],
-  ['specifications_1956',['specifications',['../classSurveillance_1_1utils_1_1specifications_1_1specifications.html',1,'Surveillance::utils::specifications']]],
-  ['sphericalmodel_1957',['SphericalModel',['../classdetector_1_1bgmodel_1_1inCorner_1_1SphericalModel.html',1,'detector::bgmodel::inCorner']]],
-  ['statedetectors_1958',['StateDetectors',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1StateDetectors.html',1,'Surveillance::layers::PuzzleScene']]],
-  ['stateestimator_1959',['StateEstimator',['../classSurveillance_1_1activity_1_1state_1_1StateEstimator.html',1,'Surveillance::activity::state']]],
-  ['statepuzzleactivity_1960',['StatePuzzleActivity',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1StatePuzzleActivity.html',1,'Surveillance::layers::PuzzleScene']]],
-  ['statepuzzlescene_1961',['StatePuzzleScene',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1StatePuzzleScene.html',1,'Surveillance::layers::PuzzleScene']]],
-  ['statepuzzletracks_1962',['StatePuzzleTracks',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1StatePuzzleTracks.html',1,'Surveillance::layers::PuzzleScene']]],
-  ['steplines_1963',['StepLines',['../classpaths_1_1StepLines.html',1,'paths']]],
-  ['stgqualitycontrol_1964',['StgQualityControl',['../classsuperviseit_1_1studies_1_1StgQualityControl.html',1,'superviseit::studies']]],
-  ['surfacecutmodel_1965',['SurfaceCutModel',['../classdetector_1_1bgmodel_1_1inCorner_1_1SurfaceCutModel.html',1,'detector::bgmodel::inCorner']]]
+  ['sceneinterpreterv1_1547',['SceneInterpreterV1',['../classscene_1_1SceneInterpreterV1.html',1,'scene']]],
+  ['sift_1548',['Sift',['../classpuzzle_1_1pieces_1_1sift_1_1Sift.html',1,'puzzle::pieces::sift']]],
+  ['siftcv_1549',['SIFTCV',['../classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html',1,'puzzle::pieces::matchSimilar']]],
+  ['simple_1550',['Simple',['../classpuzzle_1_1parse_1_1simple_1_1Simple.html',1,'Simple'],['../classpuzzle_1_1solver_1_1simple_1_1Simple.html',1,'Simple']]],
+  ['simtime_1551',['SimTime',['../classpuzzle_1_1simulator_1_1simTime_1_1SimTime.html',1,'puzzle::simulator::simTime']]],
+  ['simtimeless_1552',['SimTimeLess',['../classpuzzle_1_1simulator_1_1simTimeless_1_1SimTimeLess.html',1,'puzzle::simulator::simTimeless']]],
+  ['state_1553',['State',['../classtrackpointer_1_1centroid_1_1State.html',1,'trackpointer::centroid']]],
+  ['stateestimator_1554',['StateEstimator',['../classstate_1_1StateEstimator.html',1,'state']]],
+  ['stgqualitycontrol_1555',['StgQualityControl',['../classsuperviseit_1_1studies_1_1StgQualityControl.html',1,'superviseit::studies']]]
 ];

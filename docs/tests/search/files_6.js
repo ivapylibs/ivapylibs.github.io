@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['hand01calibrate_2epy_193',['hand01calibrate.py',['../hand01calibrate_8py.html',1,'']]],
-  ['hand02perceive_2epy_194',['hand02perceive.py',['../hand02perceive_8py.html',1,'']]],
-  ['height01_2epy_195',['height01.py',['../height01_8py.html',1,'']]],
-  ['height02_2epy_196',['height02.py',['../height02_8py.html',1,'']]],
-  ['humansg01_2epy_197',['humanSG01.py',['../humanSG01_8py.html',1,'']]],
-  ['humansg02_2epy_198',['humanSG02.py',['../humanSG02_8py.html',1,'']]],
-  ['humansg03_2epy_199',['humanSG03.py',['../humanSG03_8py.html',1,'']]],
-  ['humansg04_2epy_200',['humanSG04.py',['../humanSG04_8py.html',1,'']]],
-  ['humansg05imgdiff_2epy_201',['humanSG05imgDiff.py',['../humanSG05imgDiff_8py.html',1,'']]]
+  ['score01_5fsimbycolor_2epy_125',['score01_simByColor.py',['../score01__simByColor_8py.html',1,'']]],
+  ['score02_5frosbycolor_2epy_126',['score02_rosByColor.py',['../score02__rosByColor_8py.html',1,'']]],
+  ['simple01graybox_2epy_127',['simple01graybox.py',['../simple01graybox_8py.html',1,'']]],
+  ['simple02magentadot_2epy_128',['simple02magentadot.py',['../simple02magentadot_8py.html',1,'']]],
+  ['simple03magentabag_2epy_129',['simple03magentabag.py',['../simple03magentabag_8py.html',1,'']]]
 ];

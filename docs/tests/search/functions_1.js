@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['run_240',['run',['../classsurvRunner_1_1SurvRunner.html#ad22709b2e67308af35f55680d5a026e0',1,'survRunner::SurvRunner']]]
+  ['metric_131',['metric',['../classbg01__Eva_1_1BgEva.html#a71601d12171025fbe66614470bfc4e1e',1,'bg01_Eva::BgEva']]]
 ];
