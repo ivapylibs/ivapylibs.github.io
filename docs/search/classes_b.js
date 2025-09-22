@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['onchange_1506',['onChange',['../classtriggers_1_1onChange.html',1,'triggers']]],
-  ['onmatch_1507',['onMatch',['../classtriggers_1_1onMatch.html',1,'triggers']]]
+  ['onchange_1960',['onChange',['../classtriggers_1_1onChange.html',1,'triggers']]],
+  ['onmatch_1961',['onMatch',['../classtriggers_1_1onMatch.html',1,'triggers']]],
+  ['onworkspace_1962',['onWorkspace',['../classdetector_1_1bgmodel_1_1onWorkspace_1_1onWorkspace.html',1,'detector::bgmodel::onWorkspace']]]
 ];

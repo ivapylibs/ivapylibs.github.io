@@ -80,7 +80,7 @@ $(function() {
 <p>The ROS output consists of a score topic (float) and a cluster information topic (JSON). The output can probably be done differently (as matrix/list) to avoid JSON serialization and deserialization. After all ROS already has tools to do that if the topic type is known. This test script will remain this way, but a later one will use the reporting scheme to output the score and assignments using a cleaner pipeline (needing less prep-work). For now, this one is good.</p>
 <p>The test script is important because the robot (Mary) will know what the cluster assignments are from a previous calibration process. Knowing the assignment will provide Mary with the information needed to assist with the clustering process.</p>
 <p>For full listing of source puzzle options and other settings use the <code>--help</code> flag.</p>
-<h3><a class="anchor" id="autotoc_md3"></a>
+<h3><a class="anchor" id="autotoc_md11"></a>
 Outcome</h3>
 <p>Upon execution, the solution clustering is provided by overlaying a labeling of the puzzle solution over the gridded image. The randomly placed and exploded pieces are displayed in another figure. From there, the system starts to cluster them and output the clustering core against the ground truth for each cycle.</p>
 <p>At the end the score should be 1 (indicating perfect match against ground truth clusters). </p>

@@ -1,12 +1,21 @@
 var searchData=
 [
-  ['sceneinterpreterv1_1547',['SceneInterpreterV1',['../classscene_1_1SceneInterpreterV1.html',1,'scene']]],
-  ['sift_1548',['Sift',['../classpuzzle_1_1pieces_1_1sift_1_1Sift.html',1,'puzzle::pieces::sift']]],
-  ['siftcv_1549',['SIFTCV',['../classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html',1,'puzzle::pieces::matchSimilar']]],
-  ['simple_1550',['Simple',['../classpuzzle_1_1parse_1_1simple_1_1Simple.html',1,'Simple'],['../classpuzzle_1_1solver_1_1simple_1_1Simple.html',1,'Simple']]],
-  ['simtime_1551',['SimTime',['../classpuzzle_1_1simulator_1_1simTime_1_1SimTime.html',1,'puzzle::simulator::simTime']]],
-  ['simtimeless_1552',['SimTimeLess',['../classpuzzle_1_1simulator_1_1simTimeless_1_1SimTimeLess.html',1,'puzzle::simulator::simTimeless']]],
-  ['state_1553',['State',['../classtrackpointer_1_1centroid_1_1State.html',1,'trackpointer::centroid']]],
-  ['stateestimator_1554',['StateEstimator',['../classstate_1_1StateEstimator.html',1,'state']]],
-  ['stgqualitycontrol_1555',['StgQualityControl',['../classsuperviseit_1_1studies_1_1StgQualityControl.html',1,'superviseit::studies']]]
+  ['sceneinterpreterv1_2016',['SceneInterpreterV1',['../classSurveillance_1_1layers_1_1scene_1_1SceneInterpreterV1.html',1,'Surveillance::layers::scene']]],
+  ['sgmdebug_2017',['SGMdebug',['../classdetector_1_1bgmodel_1_1Gaussian_1_1SGMdebug.html',1,'SGMdebug'],['../classdetector_1_1fgmodel_1_1Gaussian_1_1SGMdebug.html',1,'SGMdebug']]],
+  ['sgmstate_2018',['SGMstate',['../classdetector_1_1bgmodel_1_1Gaussian_1_1SGMstate.html',1,'SGMstate'],['../classdetector_1_1fgmodel_1_1Gaussian_1_1SGMstate.html',1,'SGMstate']]],
+  ['sift_2019',['Sift',['../classpuzzle_1_1pieces_1_1sift_1_1Sift.html',1,'puzzle::pieces::sift']]],
+  ['siftcv_2020',['SIFTCV',['../classpuzzle_1_1pieces_1_1matchSimilar_1_1SIFTCV.html',1,'puzzle::pieces::matchSimilar']]],
+  ['simple_2021',['Simple',['../classpuzzle_1_1parse_1_1simple_1_1Simple.html',1,'Simple'],['../classpuzzle_1_1solver_1_1simple_1_1Simple.html',1,'Simple']]],
+  ['simtime_2022',['SimTime',['../classpuzzle_1_1simulator_1_1simTime_1_1SimTime.html',1,'puzzle::simulator::simTime']]],
+  ['simtimeless_2023',['SimTimeLess',['../classpuzzle_1_1simulator_1_1simTimeless_1_1SimTimeLess.html',1,'puzzle::simulator::simTimeless']]],
+  ['specifications_2024',['specifications',['../classSurveillance_1_1utils_1_1specifications_1_1specifications.html',1,'Surveillance::utils::specifications']]],
+  ['sphericalmodel_2025',['SphericalModel',['../classdetector_1_1bgmodel_1_1inCorner_1_1SphericalModel.html',1,'detector::bgmodel::inCorner']]],
+  ['statedetectors_2026',['StateDetectors',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1StateDetectors.html',1,'Surveillance::layers::PuzzleScene']]],
+  ['stateestimator_2027',['StateEstimator',['../classSurveillance_1_1activity_1_1state_1_1StateEstimator.html',1,'Surveillance::activity::state']]],
+  ['statepuzzleactivity_2028',['StatePuzzleActivity',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1StatePuzzleActivity.html',1,'Surveillance::layers::PuzzleScene']]],
+  ['statepuzzlescene_2029',['StatePuzzleScene',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1StatePuzzleScene.html',1,'Surveillance::layers::PuzzleScene']]],
+  ['statepuzzletracks_2030',['StatePuzzleTracks',['../classSurveillance_1_1layers_1_1PuzzleScene_1_1StatePuzzleTracks.html',1,'Surveillance::layers::PuzzleScene']]],
+  ['steplines_2031',['StepLines',['../classpaths_1_1StepLines.html',1,'paths']]],
+  ['stgqualitycontrol_2032',['StgQualityControl',['../classsuperviseit_1_1studies_1_1StgQualityControl.html',1,'superviseit::studies']]],
+  ['surfacecutmodel_2033',['SurfaceCutModel',['../classdetector_1_1bgmodel_1_1inCorner_1_1SurfaceCutModel.html',1,'detector::bgmodel::inCorner']]]
 ];

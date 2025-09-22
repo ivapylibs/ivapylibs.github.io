@@ -67,31 +67,30 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Encaspulation of typical camera functionality.</p>
-<h1><a class="anchor" id="autotoc_md14"></a>
+<h1><a class="anchor" id="autotoc_md12"></a>
 Install</h1>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 Dependencies</h2>
 <p>Install the following dependencies from the source, where the installation guide is provided in their respective repository.</p>
 <ul>
 <li><a href="https://github.com/ivapylibs/improcessor">improcessor</a></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md16"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 Install</h2>
 <div class="fragment"><div class="line">git clone https://github.com/ivapylibs/camera.git</div>
-<div class="line">pip3 install -e camera/</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md17"></a>
+<div class="line">pip3 install -e camera[viz]</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md15"></a>
 Note:</h1>
 <ol type="1">
-<li><p class="startli"><code>testing/d435_tabletop_plane.py</code> dependency only available on Python 3.7.</p>
-<p class="startli">This testing file uses a 3d visualization package <code>pptk</code> that is only available for the python 3.7, which is for helping some undergrads understand the algorithm in a course. If you use the python 3.7 environment and want to run this file, please install the dependency first:</p>
+<li><p class="startli"><code>python -m camera.d435.testing.tabletop_plane</code></p>
+<p class="startli">This testing file uses a 3d visualization package <code>mayavi</code>, which is for helping some undergrads understand the algorithm in a course. If you use the python 3.7 environment and want to run this file, please install the dependency first:</p>
 </li>
 </ol>
-<div class="fragment"><div class="line">pip install pptk</div>
-</div><!-- fragment --><p>The test file visualize the extracted tabletop plane point cloud in the camera frame, which is a necessary step for the height estimation. You can skip that testing file and run the <code>testing/d435_height.py</code> directly.</p>
-<p>Or you can install the python 3.7 following the setups below and then install the <code>pptk</code> to run the plane visualization.</p>
-<h1><a class="anchor" id="autotoc_md18"></a>
+<div class="fragment"><div class="line">pip install -e .[viz]</div>
+</div><!-- fragment --><p>The test file visualize the extracted tabletop plane point cloud in the camera frame, which is a necessary step for the height estimation. You can skip that testing file and run <code>python -m camera.d435.testing.height</code> directly.</p>
+<h1><a class="anchor" id="autotoc_md16"></a>
 Ubuntu Python Environment Setup</h1>
-<p>The suggested python version is python 3.7, because one of the package (<code>pptk</code>) used in the test script is only supported by the python 3.7. The remaining will use the python 3.7 as an example. Any other version is similar.</p>
+<p>Use the default python for your system. Here we go through an installation for Python 3.7.</p>
 <ol type="1">
 <li>Install the Python 3.7</li>
 </ol>

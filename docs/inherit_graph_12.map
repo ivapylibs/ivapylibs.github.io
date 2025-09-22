@@ -1,10 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,112,57"/>
-<area shape="rect" id="node2" href="$classpuzzle_1_1parser_1_1CfgBoardMeasure.html" title="Configuration setting specifier for centroidMulti." alt="" coords="160,31,299,57"/>
-<area shape="rect" id="node3" href="$classpuzzle_1_1builder_1_1arrangement_1_1CfgArrangement.html" title="Configuration setting specifier for centroidMulti." alt="" coords="347,31,476,57"/>
-<area shape="rect" id="node4" href="$classpuzzle_1_1builder_1_1adjacent_1_1CfgAdjacent.html" title="Configuration setting specifier for Arrangement." alt="" coords="524,31,625,57"/>
-<area shape="rect" id="node5" href="$classpuzzle_1_1builder_1_1interlocking_1_1CfgInterlocking.html" title="Configuration setting specifier for centroidMulti." alt="" coords="673,5,795,32"/>
-<area shape="rect" id="node7" href="$classpuzzle_1_1builder_1_1matrix_1_1CfgMatrix.html" title="Configuration setting specifier for gridded puzzle." alt="" coords="691,56,777,83"/>
-<area shape="rect" id="node6" href="$classpuzzle_1_1builder_1_1gridded_1_1CfgGridded.html" title="Configuration setting specifier for gridded puzzle." alt="" coords="860,5,955,32"/>
-<area shape="rect" id="node8" href="$classsuperviseit_1_1defects_1_1CfgMatrixDefect.html" title="Configuration setting specifier for matrix puzzle with defects." alt="" coords="843,56,972,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node2" href="$classSurveillance_1_1layers_1_1BlackWorkMat_1_1Calibrator.html" title=" " alt="" coords="193,5,280,32"/>
 </map>

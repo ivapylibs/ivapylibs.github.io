@@ -77,6 +77,9 @@ Variables</h2></td></tr>
 <tr class="memitem:aa02662873c54a81aed17103507c04cd6"><td class="memItemLeft" align="right" valign="top"><a id="aa02662873c54a81aed17103507c04cd6"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>bg_extractor</b> = BG.bgmodelGMM_cv(params=bg_params)</td></tr>
 <tr class="separator:aa02662873c54a81aed17103507c04cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70c2c2b2186dc52d50d65120b78e7e0a"><td class="memItemLeft" align="right" valign="top"><a id="a70c2c2b2186dc52d50d65120b78e7e0a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>bg_img</b> = bg_extractor.getBackgroundImg()</td></tr>
+<tr class="separator:a70c2c2b2186dc52d50d65120b78e7e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c475be1321e2811b0c1c9e073770ea3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><b>bg_params</b></td></tr>
 <tr class="separator:a8c475be1321e2811b0c1c9e073770ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d8f58e414eb87e1261fdf0dbfa13b12"><td class="memItemLeft" align="right" valign="top"><a id="a8d8f58e414eb87e1261fdf0dbfa13b12"></a>
@@ -126,13 +129,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>ret</b> = True</td></
 <tr class="separator:ae4b730ab9861297ea5797e20f87113b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><pre class="fragment">    @brief:         Experiment with the Opencv GMM-based background substraction methods.
-                    It tests the Opencv's Shadow detection algorithm trained on 
-                    training frames with the shadow
+<div class="textblock"><pre class="fragment">@file       bg03_cvGMM.py
+@brief      Experiment with the Opencv GMM-based background substraction methods.
+            It tests the Opencv's Shadow detection algorithm trained on 
+            training frames with the shadow
 
-    @author:    Yiye        yychen2019@gatech.edu
-    @date:      07/23/2021
-</pre> </div><h2 class="groupheader">Variable Documentation</h2>
+@author:    Yiye        yychen2019@gatech.edu
+@date:      07/23/2021
+@ingroup    TestDetector</pre> </div><h2 class="groupheader">Variable Documentation</h2>
 <a id="a8c475be1321e2811b0c1c9e073770ea3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c475be1321e2811b0c1c9e073770ea3">&#9670;&nbsp;</a></span>bg_params</h2>
 
